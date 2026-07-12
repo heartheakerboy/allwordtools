@@ -123,6 +123,69 @@ import { localePath } from "@/i18n/paths";
 import { DEFAULT_LOCALE } from "@/i18n/locales";
 import { mergeToolContent, type LocalizedToolContent } from "@/i18n/content";
 
+function renderParagraphWithLinks(text: string) {
+  const regex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  const parts: any[] = [];
+  let lastIndex = 0;
+  let match;
+
+  while ((match = regex.exec(text)) !== null) {
+    const anchor = match[1];
+    const target = match[2];
+    const matchIndex = match.index;
+
+    if (matchIndex > lastIndex) {
+      parts.push(text.substring(lastIndex, matchIndex));
+    }
+
+    const isExternal = target.startsWith("http://") || target.startsWith("https://");
+    const isAbsolute = target.startsWith("/");
+
+    if (isExternal) {
+      parts.push(
+        <a
+          key={matchIndex}
+          href={target}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-honey hover:underline font-semibold"
+        >
+          {anchor}
+        </a>
+      );
+    } else if (isAbsolute) {
+      parts.push(
+        <Link
+          key={matchIndex}
+          to={target as any}
+          className="text-honey hover:underline font-semibold"
+        >
+          {anchor}
+        </Link>
+      );
+    } else {
+      parts.push(
+        <Link
+          key={matchIndex}
+          to="/tool/$tool"
+          params={{ tool: target }}
+          className="text-honey hover:underline font-semibold"
+        >
+          {anchor}
+        </Link>
+      );
+    }
+
+    lastIndex = regex.lastIndex;
+  }
+
+  if (lastIndex < text.length) {
+    parts.push(text.substring(lastIndex));
+  }
+
+  return parts.length > 0 ? parts : text;
+}
+
 const SITE = "AllWordTools.com";
 
 function getTool(slug: string): Tool | undefined {
@@ -554,7 +617,7 @@ export function ToolPageView({
               <div className="mt-5 space-y-4">
                 {content.intro.map((p, i) => (
                   <p key={i} className="text-base leading-relaxed text-muted-foreground">
-                    {p}
+                    {renderParagraphWithLinks(p)}
                   </p>
                 ))}
               </div>
@@ -578,7 +641,7 @@ export function ToolPageView({
                       <div>
                         <h3 className="font-display text-lg font-semibold">{step.title}</h3>
                         <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
-                          {step.detail}
+                          {renderParagraphWithLinks(step.detail)}
                         </p>
                       </div>
                     </li>
@@ -598,7 +661,7 @@ export function ToolPageView({
                     <div className="mt-3 space-y-4">
                       {s.paragraphs.map((p, i) => (
                         <p key={i} className="text-base leading-relaxed text-muted-foreground">
-                          {p}
+                          {renderParagraphWithLinks(p)}
                         </p>
                       ))}
                     </div>
@@ -670,7 +733,7 @@ export function ToolPageView({
                       {faq.question}
                     </AccordionTrigger>
                     <AccordionContent className="text-sm leading-relaxed text-muted-foreground">
-                      {faq.answer}
+                      {renderParagraphWithLinks(faq.answer)}
                     </AccordionContent>
                   </AccordionItem>
                 ))}

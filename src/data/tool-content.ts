@@ -7289,4 +7289,109 @@ export const toolContent: Record<string, ToolContent> = {
       "Editorial illustration of quotation marks framing common phrases, cream background, honey-amber and ink-navy palette.",
     ],
   },
+  "robot-name-generator": {
+    slug: "robot-name-generator",
+    metaTitle: "Robot Name Generator — Cool Sci-Fi & Android Names | AllWordTools.com",
+    metaDescription:
+      "Generate unique robot names, android designations, and sci-fi mech identifiers. Choose your count and theme to find the perfect name for stories and games.",
+    eyebrow: "Name Generators",
+    heading: "Robot Name Generator",
+    subheading:
+      "Generate cool robot and android names with model designations or unique AI-powered themes for your sci-fi characters, stories, and games.",
+    updated: "July 12, 2026",
+    readingMinutes: 6,
+    intro: [
+      "In science fiction and creative writing, a robot's name is far more than a label; it is a direct reflection of its purpose, origin, and personality. Whether you are crafting a cold, utilitarian military drone or an advanced AI companion with human-like quirks, finding the right name is essential for building an immersive world. A good name tells the audience who built the machine, what its core functions are, and how it fits into the broader society.",
+      "The Robot Name Generator on AllWordTools.com offers two distinct ways to find the perfect mechanical identity. You can use our instant local generator, which draws from classic sci-fi naming patterns, or use our smart AI-powered engine to generate highly specific names based on custom themes. This flexibility makes it easy to find names that fit any universe, from gritty cyberpunk alleys to grand space operas.",
+      "If you are developing a larger cast of characters, you can easily pair your mechanical creations with human counterparts using our [Character Name Generator](character-name-generator). If your stories involve otherworldly creatures, try our [Alien Name Generator](alien-name-generator) to populate new planets. Once you have chosen a name, you can even jumpstart your creative writing by using our [AI Story Generator](ai-story-generator) to craft custom background lore in seconds."
+    ],
+    howToTitle: "How to use the Robot Name Generator",
+    howToSteps: [
+      {
+        title: "Choose the name count",
+        detail: "Specify the number of names you want to generate (between 1 and 50) in the input field."
+      },
+      {
+        title: "Generate standard robot names",
+        detail: "Click the 'Generate robot names' button to instantly create classic sci-fi names using model codes and suffixes."
+      },
+      {
+        title: "Provide a custom AI theme (optional)",
+        detail: "Type a descriptive theme (such as 'vintage steampunk butler' or 'dystopian assassin drone') to guide the AI name generator."
+      },
+      {
+        title: "Copy individual or all names",
+        detail: "Tap on any individual generated name card to copy it to your clipboard, or click 'Copy all' to save the entire list."
+      }
+    ],
+    sections: [
+      {
+        heading: "The Art of Sci-Fi Naming: Model Codes vs. Humanoid Names",
+        paragraphs: [
+          "When naming robots in fiction, writers generally follow two main approaches. The first is the industrial model code, which combines letters, numbers, and technical terms (e.g., 'AX-42 Sentinel' or 'ZR-88 Vector'). These designations are ideal for assembly-line robots, defense systems, and massive industrial mechs. They highlight a manufacturing origin where the machine is treated as property or military equipment rather than an individual.",
+          "The second approach is the personified name, typically given to advanced AI units or androids that have integrated into human communities. Names like 'Sprocket', 'Servo', or 'Nova' sound approachable and friendly. Often, these names are combined with a model series (like 'Nexus Prime' or 'Cobalt Mk II') to blend their technical heritage with their individual identity. Selecting the right convention helps you instantly establish the robot's role in your world."
+        ]
+      },
+      {
+        heading: "Unlocking Creative Possibilities with AI Naming Themes",
+        paragraphs: [
+          "While the local generator provides excellent classic designations, our built-in AI mode lets you explore specific sub-genres and character roles. By entering a theme in the AI prompt box, you can dictate the exact tone and style of the generated results. This is incredibly helpful when working within specialized sci-fi settings that have their own unique aesthetic rules.",
+          "For example, a theme like 'rusty garbage-collector bot' will yield quirky, functional names that feel weathered and charming. On the other hand, a theme like 'sleek corporate synth' will produce minimalist, elegant names suited for high-tech boardrooms. You can experiment with steampunk, solarpunk, or retro-futurism to match the exact tone of your creative projects."
+        ]
+      },
+      {
+        heading: "Integrating Robot Names into Fictional Universes",
+        paragraphs: [
+          "A great name is the starting point for deep character development. Once you have generated the perfect name, consider how it influences the robot's backstory and programming. Why was it built? Does it have a designation prefix that matches a specific mega-corporation or planetary government? Knowing these details will make your storytelling much more engaging.",
+          "For tabletop RPGs, you can easily create complex social structures. Pair your robotic companions with medieval and fantasy characters using our [Knight Name Generator](knight-name-generator) or [Witch Name Generator](witch-name-generator) for creative cross-genre campaigns. If you need inspiration to write their adventures, you can feed these names into the [AI Story Generator](ai-story-generator) or the [AI Poem Generator](ai-poem-generator) to watch your characters come to life."
+        ]
+      }
+    ],
+    examples: [
+      {
+        input: "5 names (Local)",
+        output: "AX-42 Sentinel, Nexus Prime, ZR-88 Vector, Cobalt Mk II, XSentinel",
+        note: "Generated using standard local formulas."
+      },
+      {
+        input: "Theme: Friendly Companion",
+        output: "Aura-7, Buddy-Bot, Sparky Mk I, Helper-42, Pax",
+        note: "Approachable and personified robot names."
+      },
+      {
+        input: "Theme: Heavy Mech",
+        output: "Ironclad-X, Dredger-9000, Crusher-V2, Giga-Volt, Forge-01",
+        note: "Strong, industrial-sounding robot designations."
+      }
+    ],
+    tips: [
+      "Use prefix-number codes like ZR-88 for military or security robots to emphasize their utilitarian nature.",
+      "Experiment with creative AI themes like '1950s atomic-age robot' or 'post-apocalyptic scavenger' for unique name ideas.",
+      "Combine robot names with regular surnames from the [Character Name Generator](character-name-generator) to simulate human adoption.",
+      "Use the 'Copy all' button to quickly export your lists to external writing tools or character sheets."
+    ],
+    faqs: [
+      {
+        question: "What is the difference between local and AI name generation?",
+        answer: "Local generation runs entirely in your browser and instantly creates classic sci-fi names using prefix, core, and suffix lists. AI generation uses a language model to generate names based on a custom theme you describe."
+      },
+      {
+        question: "Can I use the generated robot names in my commercial projects?",
+        answer: "Yes. All names generated by this tool are free to use in your books, games, movies, screenplays, or any other commercial or personal work."
+      },
+      {
+        question: "How do I generate names for a specific sci-fi genre?",
+        answer: "Use the AI option and specify your genre as the theme, such as 'steampunk', 'solarpunk', 'cyberpunk', or 'space opera'."
+      },
+      {
+        question: "Are there other sci-fi and fantasy generators on the site?",
+        answer: "Yes, you can check out the [Alien Name Generator](alien-name-generator) for space beings, [Vampire Name Generator](vampire-name-generator) for gothic settings, [Demon Name Generator](demon-name-generator) for dark fantasy, or [Character Name Generator](character-name-generator) for human cast members."
+      }
+    ],
+    related: ["alien-name-generator", "character-name-generator", "ai-story-generator", "random-word-generator"],
+    imagePrompts: [
+      "Futuristic editorial illustration of a sleek metallic android, glowing blue circuitry, cream background, honey-amber and ink-navy color palette."
+    ]
+  }
 };
+
