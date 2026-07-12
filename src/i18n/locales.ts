@@ -176,16 +176,7 @@ export const LOCALES: LocaleConfig[] = [
     ogLocale: "tr_TR",
     enabled: false,
   },
-  {
-    code: "ru",
-    name: "Russian",
-    nativeName: "Русский",
-    dir: "ltr",
-    flag: "🇷🇺",
-    intl: "ru-RU",
-    ogLocale: "ru_RU",
-    enabled: false,
-  },
+
   {
     code: "bn",
     name: "Bengali",

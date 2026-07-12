@@ -5,7 +5,7 @@ import { enabledLocales, getLocale } from "@/i18n/locales";
 import { localePath } from "@/i18n/paths";
 
 // TODO: replace with your project URL once a project name or custom domain is set.
-const BASE_URL = "";
+const BASE_URL = "https://allwordtools.com";
 
 interface Entry {
   path: string;

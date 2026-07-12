@@ -7,12 +7,13 @@
 //    plus x-default -> English,
 //  • og:locale / html lang reflect the active language.
 //
-// Paths are relative (no project URL yet) so crawlers resolve them against the
-// live host at request time — correct once a domain is attached.
+// Paths are absolute and prefixed with the production domain.
 // ============================================================================
 
 import { DEFAULT_LOCALE, enabledLocales, getLocale } from "./locales";
 import { localePath } from "./paths";
+
+const BASE_URL = "https://allwordtools.com";
 
 export interface LocaleHeadInput {
   /** Locale-agnostic app path, e.g. "/tool/word-unscrambler" or "/". */
@@ -45,9 +46,9 @@ export function hreflangLinks(path: string): HeadLink[] {
   const links: HeadLink[] = enabledLocales().map((l) => ({
     rel: "alternate",
     hrefLang: l.code,
-    href: localePath(l.code, path),
+    href: `${BASE_URL}${localePath(l.code, path)}`,
   }));
-  links.push({ rel: "alternate", hrefLang: "x-default", href: localePath(DEFAULT_LOCALE, path) });
+  links.push({ rel: "alternate", hrefLang: "x-default", href: `${BASE_URL}${localePath(DEFAULT_LOCALE, path)}` });
   return links;
 }
 
@@ -56,7 +57,7 @@ export function buildLocaleHead(input: LocaleHeadInput): {
   links: HeadLink[];
 } {
   const cfg = getLocale(input.locale) ?? getLocale(DEFAULT_LOCALE)!;
-  const url = localePath(cfg.code, input.path);
+  const url = `${BASE_URL}${localePath(cfg.code, input.path)}`;
 
   const meta: HeadMeta[] = [
     { title: input.title },
