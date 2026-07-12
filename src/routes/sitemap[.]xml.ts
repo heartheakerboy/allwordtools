@@ -15,7 +15,7 @@ export const Route = createFileRoute("/sitemap.xml")({
           .map((l) =>
             [
               `  <sitemap>`,
-              `    <loc>${BASE_URL}/sitemap/${l.code}</loc>`,
+              `    <loc>${BASE_URL}/sitemap/${l.code}.xml</loc>`,
               `    <lastmod>${lastmod}</lastmod>`,
               `  </sitemap>`,
             ].join("\n"),

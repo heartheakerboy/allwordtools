@@ -46,7 +46,8 @@ export const Route = createFileRoute("/sitemap/$locale")({
   server: {
     handlers: {
       GET: async ({ params }) => {
-        const cfg = getLocale(params.locale);
+        const localeCode = params.locale.replace(/\.xml$/, "");
+        const cfg = getLocale(localeCode);
         if (!cfg || !cfg.enabled) {
           return new Response("Not found", { status: 404 });
         }
