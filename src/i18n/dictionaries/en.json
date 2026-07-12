@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "home": "Home",
+    "tools": "Tools",
+    "categories": "Categories",
+    "aiTools": "AI Tools",
+    "learn": "Learn",
+    "blog": "Blog",
+    "login": "Login",
+    "search": "Search tools",
+    "mostPopular": "Most popular",
+    "popularTools": "Popular Tools",
+    "viewAll": "View all {count} tools →",
+    "exploreAiTools": "Explore AI Tools →",
+    "toggleMenu": "Toggle menu"
+  },
+  "hero": {
+    "badge": "300+ free word tools in one place",
+    "title1": "Solve any word game.",
+    "title2": "Master the language.",
+    "subtitle": "Unscramble letters, crack anagrams, beat Wordle and Scrabble, and sharpen your writing — all with fast, free and beautifully simple word tools.",
+    "searchLabel": "Search word tools",
+    "searchPlaceholder": "Enter letters, a word or a tool…",
+    "searchButton": "Search",
+    "popular": "Popular:"
+  },
+  "footer": {
+    "brandBlurb": "Hundreds of free word game solvers and English language tools to help you play, learn and write with confidence.",
+    "company": "Company",
+    "about": "About",
+    "blog": "Blog",
+    "learn": "Learn",
+    "contact": "Contact",
+    "popularTools": "Popular Tools",
+    "viewAllTools": "View all tools →",
+    "categories": "Categories",
+    "resources": "Resources",
+    "allTools": "All Tools",
+    "aiTools": "AI Tools",
+    "wordOfDay": "Word of the Day",
+    "learningHub": "Learning Hub",
+    "sitemap": "Sitemap",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "cookiePolicy": "Cookie Policy",
+    "disclaimer": "Disclaimer",
+    "dmca": "DMCA",
+    "cookieSettings": "Cookie Settings",
+    "rights": "© {year} AllWordTools.com. All rights reserved.",
+    "madeFor": "Made for word lovers, players and writers everywhere."
+  },
+  "switcher": {
+    "label": "Language",
+    "choose": "Choose language",
+    "searchPlaceholder": "Search languages…",
+    "pinned": "Pinned",
+    "recent": "Recently used",
+    "all": "All languages",
+    "empty": "No languages found",
+    "current": "Current"
+  }
+}

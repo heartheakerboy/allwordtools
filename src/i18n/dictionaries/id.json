@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "tools": "Alat",
+    "categories": "Kategori",
+    "aiTools": "Alat AI",
+    "learn": "Belajar",
+    "blog": "Blog",
+    "login": "Masuk",
+    "search": "Cari alat",
+    "mostPopular": "Paling populer",
+    "popularTools": "Alat Populer",
+    "viewAll": "Lihat semua {count} alat →",
+    "exploreAiTools": "Jelajahi Alat AI →",
+    "toggleMenu": "Alihkan menu"
+  },
+  "hero": {
+    "badge": "300+ alat kata gratis dalam satu tempat",
+    "title1": "Selesaikan permainan kata apa pun.",
+    "title2": "Kuasai bahasa.",
+    "subtitle": "Bongkar huruf, pecahkan anagram, menangkan Wordle dan Scrabble, dan asah tulisanmu — semuanya dengan alat kata yang cepat, gratis, dan sederhana.",
+    "searchLabel": "Cari alat kata",
+    "searchPlaceholder": "Masukkan huruf, kata, atau alat…",
+    "searchButton": "Cari",
+    "popular": "Populer:"
+  },
+  "footer": {
+    "brandBlurb": "Ratusan pemecah permainan kata dan alat bahasa untuk membantu Anda bermain, belajar, dan menulis dengan percaya diri.",
+    "company": "Perusahaan",
+    "about": "Tentang",
+    "blog": "Blog",
+    "learn": "Belajar",
+    "contact": "Kontak",
+    "popularTools": "Alat Populer",
+    "viewAllTools": "Lihat semua alat →",
+    "categories": "Kategori",
+    "resources": "Sumber daya",
+    "allTools": "Semua Alat",
+    "aiTools": "Alat AI",
+    "wordOfDay": "Kata Hari Ini",
+    "learningHub": "Pusat Belajar",
+    "sitemap": "Peta Situs",
+    "legal": "Hukum",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Syarat & Ketentuan",
+    "cookiePolicy": "Kebijakan Cookie",
+    "disclaimer": "Penafian",
+    "dmca": "DMCA",
+    "cookieSettings": "Pengaturan Cookie",
+    "rights": "© {year} AllWordTools.com. Hak cipta dilindungi.",
+    "madeFor": "Dibuat untuk pencinta kata, pemain, dan penulis di mana saja."
+  },
+  "switcher": {
+    "label": "Bahasa",
+    "choose": "Pilih bahasa",
+    "searchPlaceholder": "Cari bahasa…",
+    "pinned": "Disematkan",
+    "recent": "Baru digunakan",
+    "all": "Semua bahasa",
+    "empty": "Tidak ada bahasa ditemukan",
+    "current": "Saat ini"
+  }
+}

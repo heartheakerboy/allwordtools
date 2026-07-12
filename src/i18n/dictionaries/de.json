@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "tools": "Werkzeuge",
+    "categories": "Kategorien",
+    "aiTools": "KI-Werkzeuge",
+    "learn": "Lernen",
+    "blog": "Blog",
+    "login": "Anmelden",
+    "search": "Werkzeuge suchen",
+    "mostPopular": "Am beliebtesten",
+    "popularTools": "Beliebte Werkzeuge",
+    "viewAll": "Alle {count} Werkzeuge ansehen →",
+    "exploreAiTools": "KI-Werkzeuge entdecken →",
+    "toggleMenu": "Menü umschalten"
+  },
+  "hero": {
+    "badge": "Über 300 kostenlose Wort-Werkzeuge an einem Ort",
+    "title1": "Löse jedes Wortspiel.",
+    "title2": "Meistere die Sprache.",
+    "subtitle": "Entwirre Buchstaben, knacke Anagramme, gewinne bei Wordle und Scrabble und verbessere dein Schreiben – alles mit schnellen, kostenlosen und wunderbar einfachen Wort-Werkzeugen.",
+    "searchLabel": "Wort-Werkzeuge suchen",
+    "searchPlaceholder": "Buchstaben, ein Wort oder ein Werkzeug eingeben…",
+    "searchButton": "Suchen",
+    "popular": "Beliebt:"
+  },
+  "footer": {
+    "brandBlurb": "Hunderte kostenlose Wortspiel-Löser und Sprachwerkzeuge, mit denen du selbstbewusst spielst, lernst und schreibst.",
+    "company": "Unternehmen",
+    "about": "Über uns",
+    "blog": "Blog",
+    "learn": "Lernen",
+    "contact": "Kontakt",
+    "popularTools": "Beliebte Werkzeuge",
+    "viewAllTools": "Alle Werkzeuge ansehen →",
+    "categories": "Kategorien",
+    "resources": "Ressourcen",
+    "allTools": "Alle Werkzeuge",
+    "aiTools": "KI-Werkzeuge",
+    "wordOfDay": "Wort des Tages",
+    "learningHub": "Lernzentrum",
+    "sitemap": "Sitemap",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutz",
+    "terms": "Allgemeine Geschäftsbedingungen",
+    "cookiePolicy": "Cookie-Richtlinie",
+    "disclaimer": "Haftungsausschluss",
+    "dmca": "DMCA",
+    "cookieSettings": "Cookie-Einstellungen",
+    "rights": "© {year} AllWordTools.com. Alle Rechte vorbehalten.",
+    "madeFor": "Gemacht für Wortliebhaber, Spieler und Autoren überall."
+  },
+  "switcher": {
+    "label": "Sprache",
+    "choose": "Sprache wählen",
+    "searchPlaceholder": "Sprachen suchen…",
+    "pinned": "Angeheftet",
+    "recent": "Zuletzt verwendet",
+    "all": "Alle Sprachen",
+    "empty": "Keine Sprachen gefunden",
+    "current": "Aktuell"
+  }
+}

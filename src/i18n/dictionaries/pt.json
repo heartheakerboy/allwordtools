@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "home": "Início",
+    "tools": "Ferramentas",
+    "categories": "Categorias",
+    "aiTools": "Ferramentas de IA",
+    "learn": "Aprender",
+    "blog": "Blog",
+    "login": "Entrar",
+    "search": "Pesquisar ferramentas",
+    "mostPopular": "Mais populares",
+    "popularTools": "Ferramentas populares",
+    "viewAll": "Ver todas as {count} ferramentas →",
+    "exploreAiTools": "Explorar ferramentas de IA →",
+    "toggleMenu": "Alternar menu"
+  },
+  "hero": {
+    "badge": "Mais de 300 ferramentas de palavras gratuitas em um só lugar",
+    "title1": "Resolva qualquer jogo de palavras.",
+    "title2": "Domine o idioma.",
+    "subtitle": "Desembaralhe letras, resolva anagramas, vença no Wordle e no Scrabble e aprimore sua escrita — tudo com ferramentas de palavras rápidas, gratuitas e simples.",
+    "searchLabel": "Pesquisar ferramentas de palavras",
+    "searchPlaceholder": "Digite letras, uma palavra ou uma ferramenta…",
+    "searchButton": "Pesquisar",
+    "popular": "Popular:"
+  },
+  "footer": {
+    "brandBlurb": "Centenas de solucionadores de jogos de palavras e ferramentas de idioma para você jogar, aprender e escrever com confiança.",
+    "company": "Empresa",
+    "about": "Sobre",
+    "blog": "Blog",
+    "learn": "Aprender",
+    "contact": "Contato",
+    "popularTools": "Ferramentas populares",
+    "viewAllTools": "Ver todas as ferramentas →",
+    "categories": "Categorias",
+    "resources": "Recursos",
+    "allTools": "Todas as ferramentas",
+    "aiTools": "Ferramentas de IA",
+    "wordOfDay": "Palavra do dia",
+    "learningHub": "Centro de aprendizagem",
+    "sitemap": "Mapa do site",
+    "legal": "Jurídico",
+    "privacy": "Política de privacidade",
+    "terms": "Termos e condições",
+    "cookiePolicy": "Política de cookies",
+    "disclaimer": "Aviso legal",
+    "dmca": "DMCA",
+    "cookieSettings": "Configurações de cookies",
+    "rights": "© {year} AllWordTools.com. Todos os direitos reservados.",
+    "madeFor": "Feito para amantes de palavras, jogadores e escritores de todo o mundo."
+  },
+  "switcher": {
+    "label": "Idioma",
+    "choose": "Escolher idioma",
+    "searchPlaceholder": "Pesquisar idiomas…",
+    "pinned": "Fixados",
+    "recent": "Usados recentemente",
+    "all": "Todos os idiomas",
+    "empty": "Nenhum idioma encontrado",
+    "current": "Atual"
+  }
+}
