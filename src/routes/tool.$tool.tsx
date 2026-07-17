@@ -65,6 +65,7 @@ import { PunctuationChecker } from "@/components/tools/PunctuationChecker";
 import { WordCookiesSolver } from "@/components/tools/WordCookiesSolver";
 import { WordscapesSolver } from "@/components/tools/WordscapesSolver";
 import { CodyCrossSolver } from "@/components/tools/CodyCrossSolver";
+import { CodyCrossAnswers } from "@/components/tools/CodyCrossAnswers";
 import { SevenLittleWordsSolver } from "@/components/tools/SevenLittleWordsSolver";
 import { WheelOfFortuneSolver } from "@/components/tools/WheelOfFortuneSolver";
 import { RandomLetterGenerator } from "@/components/tools/RandomLetterGenerator";
@@ -496,6 +497,8 @@ export function ToolPageView({
                 <WordscapesSolver />
               ) : slug === "codycross-solver" ? (
                 <CodyCrossSolver />
+              ) : slug === "codycross-answers" ? (
+                <CodyCrossAnswers />
               ) : slug === "seven-little-words-solver" ? (
                 <SevenLittleWordsSolver />
               ) : slug === "wheel-of-fortune-solver" ? (

@@ -540,6 +540,13 @@ export const categories: Category[] = [
         isNew: true,
       },
       {
+        slug: "codycross-answers",
+        name: "CodyCross Answers",
+        description: "Search our comprehensive CodyCross database to find clues, answers, and solutions for every group, pack, and world.",
+        category: "puzzle-solvers",
+        isNew: true,
+      },
+      {
         slug: "seven-little-words-solver",
         name: "7 Little Words Solver",
         description: "Use the answer length and known tiles to find the exact word fast.",
@@ -913,6 +920,7 @@ export const toolIcons: Record<string, LucideIcon> = {
   "word-cookies-solver": Cookie,
   "wordscapes-solver": Layers,
   "codycross-solver": Grid2x2,
+  "codycross-answers": Grid2x2,
   "seven-little-words-solver": ListOrdered,
   "wheel-of-fortune-solver": Disc3,
   "random-letter-generator": CaseUpper,
@@ -968,6 +976,7 @@ export const popularTools = [
 ];
 
 export const latestTools = [
+  "codycross-answers",
   "ai-word-explainer",
   "ai-story-generator",
   "ai-quiz-generator",
@@ -979,6 +988,7 @@ export const latestTools = [
 ];
 
 export const trendingSearches = [
+  "codycross answers",
   "unscramble words",
   "5 letter words",
   "words with q no u",
