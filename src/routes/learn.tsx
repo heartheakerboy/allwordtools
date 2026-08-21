@@ -2,6 +2,8 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import { PageLayout } from "@/components/site/PageLayout";
 import { categories, toolIcons, toolsFromSlugs } from "@/data/tools";
+import { buildLocaleHead } from "@/i18n/seo";
+import { DEFAULT_LOCALE } from "@/i18n/locales";
 
 const SITE = "AllWordTools.com";
 export const TITLE = `Learn — Word Games, Vocabulary & English Guides — ${SITE}`;
@@ -28,22 +30,13 @@ const learnCategories = categories.filter((c) =>
 );
 
 export const Route = createFileRoute("/learn")({
-  head: () => ({
-    meta: [
-      { title: TITLE },
-      { name: "description", content: DESCRIPTION },
-      { name: "robots", content: "index, follow" },
-      { property: "og:title", content: TITLE },
-      { property: "og:description", content: DESCRIPTION },
-      { property: "og:type", content: "website" },
-      { property: "og:url", content: "/learn" },
-      { property: "og:site_name", content: SITE },
-      { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: TITLE },
-      { name: "twitter:description", content: DESCRIPTION },
-    ],
-    links: [{ rel: "canonical", href: "/learn" }],
-  }),
+  head: () =>
+    buildLocaleHead({
+      path: "/learn",
+      locale: DEFAULT_LOCALE,
+      title: TITLE,
+      description: DESCRIPTION,
+    }),
   component: LearnPage,
 });
 

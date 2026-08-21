@@ -13,7 +13,13 @@
 import { DEFAULT_LOCALE, enabledLocales, getLocale } from "./locales";
 import { localePath } from "./paths";
 
-const BASE_URL = "https://allwordtools.com";
+export const BASE_URL = "https://www.allwordtools.com";
+
+/** Centralized canonical URL builder ensuring www production domain and normalized path. */
+export function getCanonicalUrl(path: string, locale: string = DEFAULT_LOCALE): string {
+  const cfg = getLocale(locale) ?? getLocale(DEFAULT_LOCALE)!;
+  return `${BASE_URL}${localePath(cfg.code, path)}`;
+}
 
 export interface LocaleHeadInput {
   /** Locale-agnostic app path, e.g. "/tool/word-unscrambler" or "/". */

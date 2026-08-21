@@ -1,6 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, CalendarDays } from "lucide-react";
 import { PageLayout } from "@/components/site/PageLayout";
+import { buildLocaleHead } from "@/i18n/seo";
+import { DEFAULT_LOCALE } from "@/i18n/locales";
 
 const SITE = "AllWordTools.com";
 export const TITLE = `Blog — Word Game Tips, Vocabulary & Writing Guides — ${SITE}`;
@@ -58,22 +60,13 @@ const posts: Post[] = [
 ];
 
 export const Route = createFileRoute("/blog")({
-  head: () => ({
-    meta: [
-      { title: TITLE },
-      { name: "description", content: DESCRIPTION },
-      { name: "robots", content: "index, follow" },
-      { property: "og:title", content: TITLE },
-      { property: "og:description", content: DESCRIPTION },
-      { property: "og:type", content: "website" },
-      { property: "og:url", content: "/blog" },
-      { property: "og:site_name", content: SITE },
-      { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: TITLE },
-      { name: "twitter:description", content: DESCRIPTION },
-    ],
-    links: [{ rel: "canonical", href: "/blog" }],
-  }),
+  head: () =>
+    buildLocaleHead({
+      path: "/blog",
+      locale: DEFAULT_LOCALE,
+      title: TITLE,
+      description: DESCRIPTION,
+    }),
   component: BlogPage,
 });
 

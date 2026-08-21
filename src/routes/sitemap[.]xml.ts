@@ -1,9 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import type {} from "@tanstack/react-start";
 import { enabledLocales } from "@/i18n/locales";
-
-// TODO: replace with your project URL once a project name or custom domain is set.
-const BASE_URL = "https://allwordtools.com";
+import { BASE_URL } from "@/i18n/seo";
 
 // Sitemap index: one child sitemap per enabled language.
 export const Route = createFileRoute("/sitemap.xml")({

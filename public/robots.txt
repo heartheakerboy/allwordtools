@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://allwordtools.com/sitemap.xml
+Sitemap: https://www.allwordtools.com/sitemap.xml

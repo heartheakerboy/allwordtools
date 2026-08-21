@@ -3,9 +3,7 @@ import type {} from "@tanstack/react-start";
 import { categories, allTools } from "@/data/tools";
 import { enabledLocales, getLocale } from "@/i18n/locales";
 import { localePath } from "@/i18n/paths";
-
-// TODO: replace with your project URL once a project name or custom domain is set.
-const BASE_URL = "https://allwordtools.com";
+import { BASE_URL } from "@/i18n/seo";
 
 interface Entry {
   path: string;

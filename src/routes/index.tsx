@@ -10,7 +10,8 @@ import { SeoContent } from "@/components/home/SeoContent";
 import { Faq } from "@/components/home/Faq";
 import { faqs } from "@/data/faqs";
 import { categories } from "@/data/tools";
-import { hreflangLinks } from "@/i18n/seo";
+import { buildLocaleHead } from "@/i18n/seo";
+import { DEFAULT_LOCALE } from "@/i18n/locales";
 
 const SITE_NAME = "AllWordTools.com";
 const TITLE = "AllWordTools.com — Free Word Game Solvers & English Word Tools";
@@ -66,31 +67,24 @@ const jsonLd = [
 ];
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: TITLE },
-      { name: "description", content: DESCRIPTION },
-      { name: "robots", content: "index, follow" },
-      {
-        name: "keywords",
-        content:
-          "word unscrambler, anagram solver, word finder, wordle solver, scrabble helper, crossword solver, rhyming words, synonyms, word games, word tools",
-      },
-      { property: "og:title", content: TITLE },
-      { property: "og:description", content: DESCRIPTION },
-      { property: "og:type", content: "website" },
-      { property: "og:url", content: "/" },
-      { property: "og:site_name", content: SITE_NAME },
-      { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: TITLE },
-      { name: "twitter:description", content: DESCRIPTION },
-    ],
-    links: [{ rel: "canonical", href: "/" }, ...hreflangLinks("/")],
-    scripts: jsonLd.map((data) => ({
-      type: "application/ld+json",
-      children: JSON.stringify(data),
-    })),
-  }),
+  head: () => {
+    const { meta, links } = buildLocaleHead({
+      path: "/",
+      locale: DEFAULT_LOCALE,
+      title: TITLE,
+      description: DESCRIPTION,
+      keywords:
+        "word unscrambler, anagram solver, word finder, wordle solver, scrabble helper, crossword solver, rhyming words, synonyms, word games, word tools",
+    });
+    return {
+      meta,
+      links,
+      scripts: jsonLd.map((data) => ({
+        type: "application/ld+json",
+        children: JSON.stringify(data),
+      })),
+    };
+  },
   component: Index,
 });
 

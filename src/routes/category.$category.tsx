@@ -16,7 +16,7 @@ import { Button } from "@/components/ui/button";
 import { categories, type Tool } from "@/data/tools";
 import { categoryContent } from "@/data/category-content";
 import { getCategoryReferences } from "@/lib/external-links";
-import { buildLocaleHead, inLanguage } from "@/i18n/seo";
+import { buildLocaleHead, inLanguage, BASE_URL } from "@/i18n/seo";
 import { localePath } from "@/i18n/paths";
 import { DEFAULT_LOCALE } from "@/i18n/locales";
 import { useI18n } from "@/i18n/I18nProvider";
@@ -38,8 +38,8 @@ export function categoryHead(slug: string, locale: string) {
   const title = content?.metaTitle ?? `${category.title} — ${SITE}`;
   const description = content?.metaDescription ?? category.description;
   const path = `/category/${slug}`;
-  const url = localePath(locale, path);
-  const home = localePath(locale, "/");
+  const url = `${BASE_URL}${localePath(locale, path)}`;
+  const home = `${BASE_URL}${localePath(locale, "/")}`;
   const { meta, links } = buildLocaleHead({ path, locale, title, description });
   return {
     meta,
@@ -53,7 +53,12 @@ export function categoryHead(slug: string, locale: string) {
           inLanguage: inLanguage(locale),
           itemListElement: [
             { "@type": "ListItem", position: 1, name: "Home", item: home },
-            { "@type": "ListItem", position: 2, name: category.title, item: url },
+            {
+              "@type": "ListItem",
+              position: 2,
+              name: category.title,
+              item: url,
+            },
           ],
         }),
       },
@@ -73,7 +78,7 @@ export function categoryHead(slug: string, locale: string) {
               "@type": "ListItem",
               position: i + 1,
               name: t.name,
-              url: localePath(locale, `/tool/${t.slug}`),
+              url: `${BASE_URL}${localePath(locale, `/tool/${t.slug}`)}`,
             })),
           },
         }),

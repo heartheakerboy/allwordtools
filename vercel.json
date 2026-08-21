@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "allwordtools.com"
+        }
+      ],
+      "destination": "https://www.allwordtools.com/:path*",
+      "permanent": true
+    }
+  ]
+}

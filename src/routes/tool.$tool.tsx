@@ -120,8 +120,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { allTools, categories, toolIcons, type Tool } from "@/data/tools";
 import { toolContent } from "@/data/tool-content";
-import { getToolReferences } from "@/lib/external-links";
-import { buildLocaleHead, inLanguage } from "@/i18n/seo";
+import { buildLocaleHead, inLanguage, BASE_URL } from "@/i18n/seo";
 import { localePath } from "@/i18n/paths";
 import { mergeToolContent, type LocalizedToolContent } from "@/i18n/content";
 
@@ -245,8 +244,8 @@ export function toolHead(slug: string, locale: string, override?: LocalizedToolC
   const title = content?.metaTitle ?? `${tool.name} — ${SITE}`;
   const description = content?.metaDescription ?? tool.description;
   const path = `/tool/${slug}`;
-  const url = localePath(locale, path);
-  const home = localePath(locale, "/");
+  const url = `${BASE_URL}${localePath(locale, path)}`;
+  const home = `${BASE_URL}${localePath(locale, "/")}`;
   const category = getCategory(tool.category);
   const { meta, links } = buildLocaleHead({ path, locale, title, description });
 
@@ -268,7 +267,7 @@ export function toolHead(slug: string, locale: string, override?: LocalizedToolC
                     "@type": "ListItem",
                     position: 2,
                     name: category.title,
-                    item: localePath(locale, `/category/${category.slug}`),
+                    item: `${BASE_URL}${localePath(locale, `/category/${category.slug}`)}`,
                   },
                 ]
               : []),
@@ -308,7 +307,7 @@ export function toolHead(slug: string, locale: string, override?: LocalizedToolC
               "@type": "ListItem",
               position: i + 1,
               name: t.name,
-              url: localePath(locale, `/tool/${t.slug}`),
+              url: `${BASE_URL}${localePath(locale, `/tool/${t.slug}`)}`,
             })),
         }),
       },

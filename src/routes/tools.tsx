@@ -7,6 +7,8 @@ import { ToolCard } from "@/components/site/ToolCard";
 import { KeywordClusters, BottomCta } from "@/components/site/LinkSections";
 import { Button } from "@/components/ui/button";
 import { allTools, categories } from "@/data/tools";
+import { buildLocaleHead, BASE_URL } from "@/i18n/seo";
+import { DEFAULT_LOCALE } from "@/i18n/locales";
 
 const SITE = "AllWordTools.com";
 export const TITLE = `All Word Tools — Browse Every Tool by Category — ${SITE}`;
@@ -18,7 +20,7 @@ const jsonLd = {
   "@type": "CollectionPage",
   name: "All Word Tools",
   description: DESCRIPTION,
-  url: "/tools",
+  url: `${BASE_URL}/tools`,
   mainEntity: {
     "@type": "ItemList",
     numberOfItems: allTools.length,
@@ -26,29 +28,25 @@ const jsonLd = {
       "@type": "ListItem",
       position: i + 1,
       name: t.name,
-      url: `/tool/${t.slug}`,
+      url: `${BASE_URL}/tool/${t.slug}`,
     })),
   },
 };
 
 export const Route = createFileRoute("/tools")({
-  head: () => ({
-    meta: [
-      { title: TITLE },
-      { name: "description", content: DESCRIPTION },
-      { name: "robots", content: "index, follow" },
-      { property: "og:title", content: TITLE },
-      { property: "og:description", content: DESCRIPTION },
-      { property: "og:type", content: "website" },
-      { property: "og:url", content: "/tools" },
-      { property: "og:site_name", content: SITE },
-      { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: TITLE },
-      { name: "twitter:description", content: DESCRIPTION },
-    ],
-    links: [{ rel: "canonical", href: "/tools" }],
-    scripts: [{ type: "application/ld+json", children: JSON.stringify(jsonLd) }],
-  }),
+  head: () => {
+    const { meta, links } = buildLocaleHead({
+      path: "/tools",
+      locale: DEFAULT_LOCALE,
+      title: TITLE,
+      description: DESCRIPTION,
+    });
+    return {
+      meta,
+      links,
+      scripts: [{ type: "application/ld+json", children: JSON.stringify(jsonLd) }],
+    };
+  },
   component: ToolsPage,
 });
 

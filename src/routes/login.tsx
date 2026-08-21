@@ -4,6 +4,8 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 
+import { BASE_URL } from "@/i18n/seo";
+
 const SITE = "AllWordTools.com";
 const TITLE = `Login — ${SITE}`;
 const DESCRIPTION =
@@ -18,10 +20,10 @@ export const Route = createFileRoute("/login")({
       { property: "og:title", content: TITLE },
       { property: "og:description", content: DESCRIPTION },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "/login" },
+      { property: "og:url", content: `${BASE_URL}/login` },
       { property: "og:site_name", content: SITE },
     ],
-    links: [{ rel: "canonical", href: "/login" }],
+    links: [{ rel: "canonical", href: `${BASE_URL}/login` }],
   }),
   component: LoginPage,
 });
