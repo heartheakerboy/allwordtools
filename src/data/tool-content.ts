@@ -2567,9 +2567,9 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "missing-letters-finder": {
     slug: "missing-letters-finder",
-    metaTitle: "Missing Letters Finder — Fill in the Blanks in Any Word | AllWordTools.com",
+    metaTitle: "Missing Letters Finder — Fill in Blanks & Incomplete Words | AllWordTools.com",
     metaDescription:
-      "Free Missing Letters Finder that fills in the blanks and reveals every word that fits. Enter known letters and gaps to complete words for puzzles, crosswords and games.",
+      "Solve words with missing letters and blank tiles. Enter known letters and use ? for unknowns to instantly complete crosswords and puzzle words.",
     eyebrow: "Advanced Solvers",
     heading: "Missing Letters Finder",
     subheading:
@@ -2668,9 +2668,9 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "letter-rearranger": {
     slug: "letter-rearranger",
-    metaTitle: "Letter Rearranger — Rearrange Letters into Every Word | AllWordTools.com",
+    metaTitle: "Letter Rearranger — Rearrange, Sort & Unscramble Letters | AllWordTools.com",
     metaDescription:
-      "Free Letter Rearranger that turns your letters into every valid word, long and short. Rearrange letters for anagrams, Scrabble, Words With Friends and puzzles instantly.",
+      "Rearrange any set of letters to find all possible words. Instant letter sorter and scrambler for word games, anagrams, and vocabulary puzzles.",
     eyebrow: "Advanced Solvers",
     heading: "Letter Rearranger",
     subheading:
@@ -4710,9 +4710,9 @@ export const toolContent: Record<string, ToolContent> = {
 ,
   "ai-word-explainer": {
     slug: "ai-word-explainer",
-    metaTitle: "AI Word Explainer — Comprehensive Word Meanings, Etymology & Context | AllWordTools.com",
+    metaTitle: "AI Word Explainer — Meanings, Context, Etymology & Synonyms | AllWordTools.com",
     metaDescription:
-      "Free AI Word Explainer powered by Gemini. Get clear definitions, etymology, phonetic pronunciation, register nuances, and natural usage examples for any English word.",
+      "Understand any word deeply with instant AI explanations. Get clear definitions, real-world context examples, etymology, nuances, and pronunciation.",
     eyebrow: "AI Tools",
     heading: "AI Word Explainer",
     subheading:
@@ -5939,9 +5939,9 @@ export const toolContent: Record<string, ToolContent> = {
 
   "codycross-solver": {
     slug: "codycross-solver",
-    metaTitle: "CodyCross Solver — Instant Answers, Clues & Solutions | AllWordTools.com",
+    metaTitle: "CodyCross Solver — Clue Answers, Planet Puzzles & Solutions | AllWordTools.com",
     metaDescription:
-      "Free CodyCross Solver and answer finder. Solve tricky crossword clues, planet puzzles, and adventure group levels instantly with verified solutions.",
+      "Instant CodyCross clue solver and answer finder. Search by clue keywords, letter length, or known patterns to solve any planet or group level.",
     eyebrow: "Puzzle Solvers",
     heading: "CodyCross Solver & Answer Finder",
     subheading:
@@ -6087,9 +6087,9 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "assonance-finder": {
     slug: "assonance-finder",
-    metaTitle: "Assonance Finder & Generator — Detect Vowel Rhymes & Cadence | AllWordTools.com",
+    metaTitle: "Assonance Finder — Find Matching Vowel Rhymes & Poetic Cadence | AllWordTools.com",
     metaDescription:
-      "Free Assonance Finder & Generator. Discover vowel sound harmonies, near-rhymes, and poetic cadence for lyrics, poems, speeches, and creative writing.",
+      "Discover harmonious vowel sounds and slant rhymes for poetry, lyrics, and creative writing. Search by phonetic vowel sound and syllable count.",
     eyebrow: "Literary & Rhyme Tools",
     heading: "Assonance Finder & Generator",
     subheading:
@@ -6238,9 +6238,9 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "phrases-dictionary": {
     slug: "phrases-dictionary",
-    metaTitle: "Phrases Dictionary — Idioms, Collocations & Common Sayings | AllWordTools.com",
+    metaTitle: "Phrases & Idioms Dictionary — Meanings, Origins & Examples | AllWordTools.com",
     metaDescription:
-      "Free Phrases Dictionary. Search thousands of English idioms, common expressions, figurative phrases, and collocations with clear meanings and origins.",
+      "Search thousands of English idioms, common expressions, and figurative phrases. Discover clear definitions, historical origins, and sample dialogues.",
     eyebrow: "Dictionary & Meanings",
     heading: "Phrases & Idioms Dictionary",
     subheading:
@@ -6389,9 +6389,9 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "wordscapes-solver": {
     slug: "wordscapes-solver",
-    metaTitle: "Wordscapes Solver — Unscramble Letters & Find All Grid Words | AllWordTools.com",
+    metaTitle: "Wordscapes Solver — Unscramble Letter Wheels & Find Bonus Words | AllWordTools.com",
     metaDescription:
-      "Free Wordscapes Solver and anagram cheat. Unscramble circular letter wheels, find bonus words, and solve any Wordscapes level in seconds.",
+      "Crack any Wordscapes level instantly. Unscramble circular letter wheels, organize words by length (3 to 7 letters), and reveal hidden bonus coins.",
     eyebrow: "Puzzle Solvers",
     heading: "Wordscapes Solver & Letter Unscrambler",
     subheading:
@@ -6539,7 +6539,7 @@ export const toolContent: Record<string, ToolContent> = {
     slug: "pronunciation",
     metaTitle: "Word Pronunciation — Audio & Phonetic Pronunciation Guide | AllWordTools.com",
     metaDescription:
-      "Free online Word Pronunciation tool with natural audio and IPA phonetic transcriptions across American and British English accents.",
+      "Hear natural audio pronunciations in American and British English. View clear IPA transcriptions and syllable stress guides for any English word.",
     eyebrow: "Dictionary & Meanings",
     heading: "Word Pronunciation & Audio Guide",
     subheading:
@@ -6843,9 +6843,9 @@ export const toolContent: Record<string, ToolContent> = {
 
   "vocabulary-quiz": {
     slug: "vocabulary-quiz",
-    metaTitle: "Vocabulary Quiz — Free Multiple Choice Word Meaning Tests | AllWordTools.com",
+    metaTitle: "Interactive Vocabulary Quiz — Multiple Choice Word Meaning Tests | AllWordTools.com",
     metaDescription:
-      "Free Vocabulary Quiz with multiple-choice questions, definitions, synonyms, and difficulty levels for GRE, SAT, IELTS, TOEFL, and ESL students.",
+      "Test your word power with free multiple-choice vocabulary quizzes. Practice beginner, intermediate, advanced, and GRE/SAT word definitions with explanations.",
     eyebrow: "Word Quizzes",
     heading: "Interactive Vocabulary Quiz",
     subheading:
