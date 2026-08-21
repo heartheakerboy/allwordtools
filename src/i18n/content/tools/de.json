@@ -4143,5 +4143,91 @@
         "answer": "Ja. Wörter und Antwortmöglichkeiten werden bei jedem Versuch neu gemischt."
       }
     ]
+  },
+  "codycross-answers": {
+    "metaTitle": "CodyCross Antworten — Lösungen, Rätselhilfe & Tipps | AllWordTools.com",
+    "metaDescription": "Finde alle CodyCross Antworten und Lösungen für jede Welt, Gruppe und Phase. Durchsuche unsere Datenbank nach CodyCross Hinweisen, um jedes Level sofort zu lösen. Schnell und kostenlos.",
+    "heading": "CodyCross Antworten & Rätsel-Datenbank",
+    "subheading": "Erhalte sofortige Lösungen für CodyCross-Rätsel. Durchsuche unsere Datenbank nach Hinweisen und kreuzenden Buchstaben, um jedes Level zu lösen und in den Welten voranzukommen.",
+    "intro": [
+      "CodyCross ist ein äußerst beliebtes mobiles Kreuzworträtselspiel, das von Fanatee entwickelt wurde und von Millionen Spielern weltweit für seine wunderschönen Themenwelten, farbenfrohen Grafiken und den freundlichen außerirdischen Protagonisten Cody geliebt wird. Das Spiel verbindet klassische Kreuzworträtsel-Mechaniken mit einem modernen Twist: Die Spieler müssen ein Gitter aus sich kreuzenden Wörtern basierend auf thematischen Hinweisen ausfüllen. Wenn du Hinweise löst, werden bestimmte Buchstaben in anderen Wörtern des Gitters enthüllt, was dir hilft, die verbleibenden Hinweise zu entschlüsseln. Doch je weiter du in Welten wie Tiefsee, Zirkus oder Weltraum vordringst, desto höher wird der Schwierigkeitsgrad und die Hinweise werden zunehmend kryptischer.",
+      "Hier kommt unsere CodyCross-Antworten-Datenbank ins Spiel. Diese erstklassige, kostenlose Suchhilfe soll dir helfen, genau die Antwort zu finden, die du benötigst, egal ob du bei einem einzigen schwierigen Hinweis feststeckst oder deine Vermutungen überprüfen möchtest. Durch die Eingabe bekannter Hinweise, Schlüsselwörter oder bereits vorhandener Buchstaben kannst du Lösungen sofort nachschlagen. Unsere Plattform läuft blitzschnell im Browser ohne Verzögerung – so bleibt deine Rätsel-Strähne erhalten, ganz ohne Paywalls, Registrierungen oder störende Werbung.",
+      "Dieses Tool ist nicht nur eine Spickzettel-Sammlung; es ist eine Lernhilfe. Es hilft dir, Verbindungen zwischen Wörtern zu verstehen, neue Definitionen zu entdecken und deinen deutschen Wortschatz spielerisch zu erweitern. Lies weiter, um CodyCross zu meistern, fortgeschrittene Lösungsstrategien zu erlernen und häufige Fehler zu vermeiden."
+    ],
+    "howToTitle": "So findest du CodyCross Antworten",
+    "howToSteps": [
+      {
+        "title": "Hinweis oder Schlüsselwort eingeben",
+        "detail": "Tippe den Hinweis, bei dem du feststeckst, in das Suchfeld ein. Du kannst den exakten Wortlaut des Hinweises eingeben oder ein Schlüsselwort (z. B. 'Hauptstadt von Frankreich' oder 'süßer Bienenstoff')."
+      },
+      {
+        "title": "Bekannte Buchstaben angeben (optional)",
+        "detail": "Wenn du bereits einige Buchstaben im Gitter freigeschaltet hast, verwende unseren [CodyCross Löser](codycross-solver), um bekannte Buchstaben und Fragezeichen für Lücken einzugeben (z. B. '?a?e??')."
+      },
+      {
+        "title": "Passende Antworten anzeigen",
+        "detail": "Klicke auf Suchen oder wähle einen der beliebten Vorschläge. Die Datenbank durchsucht Tausende von Rätsel-Lösungen und zeigt dir sofort die Treffer, sortiert nach Relevanz und Wortlänge."
+      },
+      {
+        "title": "Antwort eintragen",
+        "detail": "Vergleiche das vorgeschlagene Wort mit der Länge deines Gitters, trage es im Spiel ein und nutze die neuen Kreuzungsbuchstaben, um die restlichen Rätsel zu lösen."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Was ist CodyCross und wie funktioniert es?",
+        "paragraphs": [
+          "CodyCross: Kreuzworträtsel ist ein von Fanatee entwickeltes Rätselspiel, das die Geschichte eines neugierigen Aliens namens Cody erzählt, der auf der Erde abgestürzt ist. Um ihm zu helfen, etwas über unseren Planeten zu lernen, lösen die Spieler thematische Worträtsel. Das Spiel ist in 'Welten' unterteilt (wie Erde, Abenteuer, Unterwasserwelt, Erfindungen und Kulinarik), die jeweils mehrere 'Gruppen' mit je 5 Phasen (Kreuzworträtseln) enthalten.",
+          "Jede Phase besteht aus einem Gitter horizontaler Wörter. Wenn du einen Hinweis löst, wird das Wort eingetragen. Die Besonderheit ist das farblich hervorgehobene vertikale Geheimwort. Wenn du horizontale Wörter löst, werden zudem bestimmte Buchstaben auf andere Zeilen kopiert. Das macht das Lösen der verbleibenden Hinweise deutlich einfacher."
+        ]
+      },
+      {
+        "heading": "Strategien und Tipps für den Erfolg bei CodyCross",
+        "paragraphs": [
+          "Um ein CodyCross-Meister zu werden, solltest du immer mit den einfachsten Hinweisen beginnen. Verschwende keine Zeit mit schwierigen Fragen; das Lösen der einfachen Wörter schaltet Kreuzungsbuchstaben frei, die dir den Weg für die schwierigen Wörter ebnen.",
+          "Achte auf das vertikale Geheimwort. Wenn du dieses Wort frühzeitig errätst, kannst du es ausfüllen und erhältst sofort einen kostenlosen Buchstaben für jede horizontale Reihe des Gitters. Achte auch auf grammatikalische Hinweise wie Pluralformen oder Zeitformen, um Buchstaben vorherzusagen."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "Hinweis: 'Ein beliebtes Urlaubsziel in Italien'",
+        "output": "ROM",
+        "note": "Eine 3-buchstabige Antwort in der Welt Planeten Erde."
+      },
+      {
+        "input": "Hinweis: 'Hauptstadt von Frankreich'",
+        "output": "PARIS",
+        "note": "Eine 5-buchstabige Antwort in der Welt Abenteuer."
+      }
+    ],
+    "tips": [
+      "Achte auf die genaue Wortlänge, um unpassende Antworten sofort auszuschließen.",
+      "Der Name der Welt liefert den thematischen Kontext für die Hinweise.",
+      "Löse die einfachen Wörter zuerst, um Buchstaben im Gitter freizuschalten.",
+      "Bei mehreren Möglichkeiten kombiniere die Buchstaben mit unserem [CodyCross Löser](codycross-solver)."
+    ],
+    "faqs": [
+      {
+        "question": "Ist die CodyCross-Antworten-Datenbank kostenlos?",
+        "answer": "Ja, unsere Datenbank ist 100% kostenlos und kann unbegrenzt genutzt werden."
+      },
+      {
+        "question": "Wie suche ich nach einem Hinweis?",
+        "answer": "Gib einfach den Hinweis-Text oder ein Schlüsselwort in das Suchfeld oben ein, um alle passenden Lösungen zu finden."
+      },
+      {
+        "question": "Kann ich nach bekannten Buchstaben suchen?",
+        "answer": "Ja, für Mustersuchen mit Platzhaltern kannst du unseren [CodyCross Löser](codycross-solver) nutzen."
+      },
+      {
+        "question": "Was sind Welten und Gruppen im Spiel?",
+        "answer": "Das Spiel besteht aus Themenwelten, die Gruppen von Kreuzworträtseln enthalten. Jede Gruppe umfasst 5 einzelne Phasen."
+      },
+      {
+        "question": "Kann ich CodyCross offline spielen?",
+        "answer": "Ja, das Spiel funktioniert offline, aber du hast keinen Zugriff auf tägliche Challenges oder Online-Datenbanken wie unsere. Spare deine In-Game-Token für Offline-Zeiten."
+      }
+    ]
   }
 }

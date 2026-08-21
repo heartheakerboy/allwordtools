@@ -4198,5 +4198,111 @@
         "answer": "No, nuestro test de ortografía en inglés es una herramienta web. Puedes acceder a él directamente desde tu navegador, ya sea en un computador, tablet o teléfono móvil, sin necesidad de descargas ni instalaciones."
       }
     ]
+  },
+  "codycross-answers": {
+    "metaTitle": "Respuestas de CodyCross — Soluciones, Respuestas y Claves del Juego | AllWordTools.com",
+    "metaDescription": "Encuentra todas las respuestas y soluciones de CodyCross para cada mundo, grupo y fase. Busca en nuestra base de datos para resolver cualquier nivel al instante. Rápido y gratis.",
+    "heading": "Respuestas de CodyCross y Base de Datos de Pistas",
+    "subheading": "Obtén soluciones al instante para CodyCross. Busca en nuestra base de datos de pistas y letras cruzadas para superar cualquier nivel y avanzar por los mundos.",
+    "intro": [
+      "CodyCross es un juego móvil de crucigramas sumamente popular desarrollado por Fanatee, querido por millones de jugadores en todo el mundo por sus hermosos mundos temáticos, gráficos coloridos y su simpático protagonista alienígena, Cody. El juego combina la mecánica clásica de los crucigramas con un toque moderno: debes rellenar una cuadrícula de palabras cruzadas a partir de pistas temáticas. A medida que resuelves pistas, se revelan letras en otras palabras del panel, ayudándote a descifrar las restantes. Sin embargo, a medida que avanzas a mundos avanzados como Deep Sea, Circus o Space, la dificultad aumenta y las pistas se vuelven más crípticas.",
+      "Ahí es donde entra nuestra base de datos de respuestas de CodyCross. Esta herramienta de búsqueda premium y gratuita está diseñada para ayudarte a encontrar la respuesta exacta que necesitas, ya sea que estés atascado en una sola pista difícil o quieras verificar tus respuestas. Al ingresar pistas, palabras clave o las letras que ya tienes, puedes buscar soluciones al instante. Nuestra plataforma se ejecuta rápidamente en tu navegador sin retrasos, ayudándote a mantener tu racha de juego sin muros de pago, registros ni anuncios invasivos.",
+      "Esta herramienta no es solo una hoja de trucos; es un recurso de aprendizaje. Te ayuda a comprender las conexiones de las palabras, descubrir nuevas definiciones y ampliar tu vocabulario en español mientras juegas. Sigue leyendo para dominar CodyCross, conocer estrategias avanzadas y evitar errores comunes."
+    ],
+    "howToTitle": "Cómo encontrar respuestas de CodyCross",
+    "howToSteps": [
+      {
+        "title": "Ingresa la pista o palabra clave",
+        "detail": "Escribe la pista con la que te has atascado en el cuadro de búsqueda. Puedes ingresar la pista completa tal como aparece, o escribir una frase clave (como 'río más largo' o 'capital de Francia')."
+      },
+      {
+        "title": "Especifica letras conocidas (opcional)",
+        "detail": "Si ya has revelado algunas letras en tu panel, utiliza nuestro [CodyCross Solver](codycross-solver) para ingresar las letras conocidas y signos de interrogación para las casillas vacías (ej. '?a?e??')."
+      },
+      {
+        "title": "Ver respuestas coincidentes",
+        "detail": "Presiona buscar o haz clic en las sugerencias populares. La base de datos consultará miles de soluciones y te mostrará los resultados ordenados por relevancia y longitud de palabra."
+      },
+      {
+        "title": "Aplica la solución",
+        "detail": "Compara la palabra sugerida con la longitud de tu cuadrícula, escríbela en el juego y observa cómo las letras reveladas te ayudan a solucionar las pistas restantes."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "¿Qué es CodyCross y cómo funciona?",
+        "paragraphs": [
+          "CodyCross: Crucigramas es un juego de ingenio desarrollado por Fanatee que narra la historia de un curioso alienígena llamado Cody que se estrelló en la Tierra. Para ayudarle a aprender sobre nuestro planeta, los jugadores resuelven crucigramas temáticos. El juego se estructura en 'Mundos' (como Tierra, Aventura, Fondo del Mar, Invenciones y Cine), cada uno con varios 'Grupos' y cada grupo con 5 rompecabezas (fases).",
+          "Cada fase consta de una cuadrícula de palabras horizontales. Al resolver una pista, se ingresa la palabra. El aspecto más característico es que al completar las palabras, se revela una palabra secreta vertical destacada en color. Además, algunas letras correctas se copian automáticamente a otras celdas del panel con una animación brillante. Esto facilita el resto del juego a medida que avanzas."
+        ]
+      },
+      {
+        "heading": "Estrategias y consejos para superar los niveles",
+        "paragraphs": [
+          "Para ser un maestro de CodyCross, te recomendamos empezar siempre por resolver las pistas más sencillas. No pierdas tiempo en una palabra difícil; al completar las fáciles, sus letras se cruzarán en las difíciles y te darán la clave para resolverlas.",
+          "Presta atención a la palabra secreta vertical. A menudo, deducir la palabra secreta te dará una letra gratis para cada fila horizontal del crucigrama. Además, fíjate en las conjugaciones y el género gramatical (plurales, femeninos/masculinos o verbos en pasado) para predecir letras clave."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "Pista: 'Destino turístico principal en Italia'",
+        "output": "ROMA",
+        "note": "Una respuesta de 4 letras del Mundo Planeta Tierra."
+      },
+      {
+        "input": "Pista: 'Capital de Francia'",
+        "output": "PARIS",
+        "note": "Una respuesta de 5 letras del Mundo Aventura."
+      }
+    ],
+    "tips": [
+      "Fíjate en la longitud requerida de la palabra para descartar opciones al instante.",
+      "El nombre del Mundo te da el contexto temático de la pista y sus significados ocultos.",
+      "Resuelve primero las palabras fáciles para rellenar letras cruzadas en las difíciles.",
+      "Si tienes dudas con varias opciones, combínalas con nuestro [CodyCross Solver](codycross-solver)."
+    ],
+    "faqs": [
+      {
+        "question": "¿La base de datos de CodyCross es gratuita?",
+        "answer": "Sí, es 100% gratuita y de acceso ilimitado para todos los usuarios."
+      },
+      {
+        "question": "¿Cómo busco pistas en la base de datos?",
+        "answer": "Solo tienes que escribir el texto de la pista o palabras clave en el buscador superior para obtener todas las respuestas coincidentes."
+      },
+      {
+        "question": "¿Puedo buscar usando letras que ya conozco?",
+        "answer": "Sí, para búsquedas basadas en letras conocidas y espacios en blanco, te recomendamos usar nuestro [CodyCross Solver](codycross-solver)."
+      },
+      {
+        "question": "¿Qué son los mundos y grupos en el juego?",
+        "answer": "El juego está dividido en mundos temáticos. Cada mundo contiene grupos de crucigramas y cada grupo consta de 5 fases individuales."
+      },
+      {
+        "question": "¿Cómo funciona la palabra secreta vertical?",
+        "answer": "Es una palabra destacada verticalmente que se revela conforme completas las palabras horizontales. Si la deduces antes, puedes rellenar letras cruzadas en el panel."
+      },
+      {
+        "question": "¿Puedo jugar a CodyCross sin conexión a Internet?",
+        "answer": "Sí, el juego funciona sin conexión, pero no podrás acceder a las pistas diarias ni usar nuestra base de datos. Recomendamos guardar tus fichas del juego para cuando juegues sin internet."
+      },
+      {
+        "question": "¿Quién es Cody en el juego?",
+        "answer": "Cody es el simpático alienígena verde que viaja por la Tierra aprendiendo sobre nuestra historia y cultura a través de los crucigramas que tú resuelves."
+      },
+      {
+        "question": "¿Qué mundos temáticos existen en CodyCross?",
+        "answer": "Algunos de los mundos más populares incluyen Planeta Tierra, Bajo el Mar, Invenciones, Circo, Estaciones del Año y Arte Culinario."
+      },
+      {
+        "question": "¿El sitio ofrece soluciones para los desafíos diarios?",
+        "answer": "Sí, indexamos y actualizamos periódicamente las respuestas para los desafíos y eventos diarios del juego."
+      },
+      {
+        "question": "¿Cómo puedo reportar un error o una pista faltante?",
+        "answer": "Puedes escribirnos a través de nuestra [página de contacto](contact) si encuentras algún error o quieres sugerir una actualización en la base de datos."
+      }
+    ]
   }
 }

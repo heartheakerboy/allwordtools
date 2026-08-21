@@ -4216,5 +4216,91 @@
         "answer": "Ya, tools ini didesain responsif sehingga nyaman diakses dan digunakan dari berbagai perangkat, termasuk smartphone dan tablet Anda."
       }
     ]
+  },
+  "codycross-answers": {
+    "metaTitle": "Jawaban CodyCross — Solusi, Petunjuk & Kunci Jawaban Level | AllWordTools.com",
+    "metaDescription": "Temukan semua jawaban dan solusi CodyCross untuk setiap dunia, grup, dan teka-teki. Cari database petunjuk CodyCross kami untuk menyelesaikan level mana pun secara instan. Cepat dan gratis.",
+    "heading": "Jawaban CodyCross & Database Petunjuk",
+    "subheading": "Dapatkan solusi instan untuk teka-teki CodyCross. Cari database kami untuk petunjuk dan huruf silang guna melewati level apa pun dan menjelajahi dunia baru.",
+    "intro": [
+      "CodyCross adalah game teka-teki silang mobile yang sangat populer yang dikembangkan oleh Fanatee, disukai oleh jutaan pemain di seluruh dunia karena dunia tematiknya yang indah, grafis warna-warni, dan protagonis alien yang ramah, Cody. Game ini memadukan mekanisme teka-teki silang klasik dengan sentuhan modern: pemain harus mengisi kotak kata-kata yang saling bersilangan berdasarkan petunjuk tematik. Saat Anda memecahkan petunjuk, huruf-huruf tertentu akan terungkap di kata-kata lain dalam kotak, membantu Anda memecahkan petunjuk yang tersisa. Namun, saat Anda maju to dunia yang lebih maju seperti Laut Dalam, Sirkus, atau Luar Angkasa, tingkat kesulitan akan meningkat dan petunjuk menjadi semakin samar dan menantang.",
+      "Di situlah database Jawaban CodyCross kami berperan. Alat pencarian gratis ini dirancang to membantu Anda menemukan jawaban tepat yang Anda butuhkan, baik saat Anda terjebak pada satu petunjuk sulit atau ingin memverifikasi tebakan Anda sebelum menuliskannya. Dengan memasukkan petunjuk, kata kunci, atau huruf yang sudah Anda miliki, Anda dapat mencari solusi secara instan. Platform kami berjalan sangat cepat di browser Anda tanpa lag, membantu Anda mempertahankan kemenangan Anda tanpa paywall, pendaftaran, o iklan yang mengganggu.",
+      "Alat ini bukan hanya lembar contekan; ini adalah sumber belajar. Ini membantu Anda memahami hubungan antar kata, menemukan definisi baru, dan memperluas kosakata Anda dalam bahasa Indonesia sambil bermain. Baca terus to menguasai CodyCross, mempelajari strategi pemecahan masalah tingkat lanjut, dan menghindari kesalahan umum."
+    ],
+    "howToTitle": "Cara menemukan jawaban CodyCross",
+    "howToSteps": [
+      {
+        "title": "Masukkan petunjuk atau kata kunci",
+        "detail": "Ketik petunjuk yang membuat Anda terjebak ke dalam kotak pencarian. Anda dapat memasukkan teks petunjuk persis seperti yang tertulis, atau mengetik frasa kunci (misalnya, 'ibu kota Prancis' o 'cairan manis dari lebah')."
+      },
+      {
+        "title": "Tentukan huruf yang diketahui (opsional)",
+        "detail": "Jika Anda telah membuka beberapa huruf di papan, gunakan [CodyCross Solver](codycross-solver) kami to memasukkan huruf yang diketahui dan tanda tanya to bagian yang kosong (misalnya, '?a?e??')."
+      },
+      {
+        "title": "Lihat jawaban yang cocok",
+        "detail": "Klik cari atau pilih salah satu chip saran populer. Database akan mencari solusi di ribuan level dan menampilkan hasil yang cocok secara instan, diurutkan berdasarkan panjang kata dan relevansi."
+      },
+      {
+        "title": "Terapkan solusinya",
+        "detail": "Bandingkan kata yang disarankan dengan panjang kotak game Anda, ketik di game, dan manfaatkan huruf baru yang terungkap to menyelesaikan petunjuk yang tersisa."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Apa itu CodyCross dan bagaimana cara kerjanya?",
+        "paragraphs": [
+          "CodyCross: Teka Teki Silang adalah game mobile dari Fanatee yang menceritakan kisah alien hijau yang ramah bernama Cody yang jatuh di Bumi. Untuk membantunya belajar tentang planet kita, pemain memecahkan teka-teki kata tematik. Game ini dibagi menjadi 'Dunia' tematik (seperti Bumi, Bawah Laut, Penemuan, Sirkus, dan Kuliner), yang masing-masing berisi beberapa 'Grup', dan masing-masing grup terdiri dari 5 fase (teka-teki silang individu).",
+          "Setiap fase memiliki kotak kata-kata horizontal. Setelah memecahkan petunjuk, kata tersebut diisi. Fitur khas game ini adalah kata rahasia vertikal yang disorot dengan warna berbeda. Saat Anda menyelesaikan baris horizontal, huruf-huruf yang benar akan disalin ke baris lain dalam kotak dengan animasi yang indah. Ini membuat pemecahan sisa teka-teki menjadi jauh lebih mudah."
+        ]
+      },
+      {
+        "heading": "Strategi dan tips sukses di CodyCross",
+        "paragraphs": [
+          "Untuk menjadi master game ini, mulailah dengan memecahkan petunjuk yang paling mudah terlebih dahulu. Jangan buang waktu pada kata-kata sulit sejak awal; dengan menjawab yang mudah, huruf yang saling bersilangan akan mengisi ruang pada yang sulit, sehingga lebih mudah dipecahkan.",
+          "Pantau kata rahasia vertikal. Menebak kata vertikal sejak awal memungkinkan Anda mengisi huruf-huruf horizontal secara gratis. Perhatikan juga petunjuk tata bahasa (jamak atau jenis kelamin) to memprediksi huruf."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "Petunjuk: 'Tujuan wisata populer di Italia'",
+        "output": "ROMA",
+        "note": "Jawaban 4 huruf di dunia Planet Bumi."
+      },
+      {
+        "input": "Petunjuk: 'Ibu kota Prancis'",
+        "output": "PARIS",
+        "note": "Jawaban 5 huruf di dunia Petualangan."
+      }
+    ],
+    "tips": [
+      "Periksa jumlah huruf kata secara tepat to menyaring hasil yang tidak diinginkan.",
+      "Tema dunia memberikan konteks penting tentang makna ganda petunjuk.",
+      "Pecahkan kata-kata mudah terlebih dahulu to mendapatkan huruf silang gratis pada kata sulit.",
+      "Jika ragu di antara beberapa pilihan, gunakan huruf di [CodyCross Solver](codycross-solver) kami."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah database jawaban CodyCross gratis?",
+        "answer": "Ya, ini 100% gratis dan tanpa batasan pencarian atau pendaftaran."
+      },
+      {
+        "question": "Bagaimana cara mencari petunjuk di pencarian?",
+        "answer": "Cukup ketik teks pertanyaan atau kata kunci di kolom atas dan klik cari to melihat hasil yang cocok."
+      },
+      {
+        "question": "Bisakah saya mencari dengan huruf yang diketahui?",
+        "answer": "Ya, jika Anda memiliki huruf yang diketahui dan ingin mencari kata berdasarkan pola silang, gunakan [CodyCross Solver](codycross-solver) kami."
+      },
+      {
+        "question": "Apa itu Dunia dan Grup di CodyCross?",
+        "answer": "CodyCross dibagi menjadi Dunia tematik (misalnya Invensi, Sirkus). Setiap dunia memiliki beberapa Grup, dan setiap grup terdiri dari 5 fase."
+      },
+      {
+        "question": "Dapatkah saya bermain CodyCross tanpa internet?",
+        "answer": "Ya, game ini bisa dimainkan offline, tetapi tantangan harian dan database eksternal seperti milik kami tidak akan tersedia. Simpan token petunjuk game Anda to saat-saat offline."
+      }
+    ]
   }
 }

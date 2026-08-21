@@ -2,13 +2,18 @@ import { Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import { toolIcons, type Tool } from "@/data/tools";
 import { Badge } from "@/components/ui/badge";
+import { useI18n } from "@/i18n/I18nProvider";
+import { DEFAULT_LOCALE } from "@/i18n/locales";
 
 export function ToolCard({ tool }: { tool: Tool }) {
+  const { locale } = useI18n();
   const Icon = toolIcons[tool.slug];
+  const isDefault = locale === DEFAULT_LOCALE;
+
   return (
     <Link
-      to="/tool/$tool"
-      params={{ tool: tool.slug }}
+      to={isDefault ? "/tool/$tool" : "/$locale/tool/$tool"}
+      params={isDefault ? { tool: tool.slug } : { locale, tool: tool.slug }}
       className="group relative flex flex-col rounded-2xl border border-border/70 bg-card p-5 shadow-soft transition-all duration-300 hover:-translate-y-1 hover:border-honey/50 hover:shadow-lift"
     >
       <div className="flex items-center justify-between">

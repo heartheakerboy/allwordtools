@@ -1,4 +1,6 @@
 import { createFileRoute, Link, notFound, useRouter } from "@tanstack/react-router";
+import { useI18n } from "@/i18n/I18nProvider";
+import { DEFAULT_LOCALE } from "@/i18n/locales";
 import {
   CalendarClock,
   CheckCircle2,
@@ -121,14 +123,14 @@ import { toolContent } from "@/data/tool-content";
 import { getToolReferences } from "@/lib/external-links";
 import { buildLocaleHead, inLanguage } from "@/i18n/seo";
 import { localePath } from "@/i18n/paths";
-import { DEFAULT_LOCALE } from "@/i18n/locales";
 import { mergeToolContent, type LocalizedToolContent } from "@/i18n/content";
 
-function renderParagraphWithLinks(text: string) {
+function renderParagraphWithLinks(text: string, locale: string) {
   const regex = /\[([^\]]+)\]\(([^)]+)\)/g;
   const parts: any[] = [];
   let lastIndex = 0;
   let match;
+  const isDefault = locale === DEFAULT_LOCALE;
 
   while ((match = regex.exec(text)) !== null) {
     const anchor = match[1];
@@ -155,21 +157,57 @@ function renderParagraphWithLinks(text: string) {
         </a>
       );
     } else if (isAbsolute) {
-      parts.push(
-        <Link
-          key={matchIndex}
-          to={target as any}
-          className="text-honey hover:underline font-semibold"
-        >
-          {anchor}
-        </Link>
-      );
+      if (target.startsWith("/category/")) {
+        const cat = target.substring("/category/".length);
+        parts.push(
+          <Link
+            key={matchIndex}
+            to={isDefault ? "/category/$category" : "/$locale/category/$category"}
+            params={isDefault ? { category: cat } : { locale, category: cat }}
+            className="text-honey hover:underline font-semibold"
+          >
+            {anchor}
+          </Link>
+        );
+      } else if (target === "/tools") {
+        parts.push(
+          <Link
+            key={matchIndex}
+            to={isDefault ? "/tools" : "/$locale/tools"}
+            params={isDefault ? {} : { locale }}
+            className="text-honey hover:underline font-semibold"
+          >
+            {anchor}
+          </Link>
+        );
+      } else if (target === "/") {
+        parts.push(
+          <Link
+            key={matchIndex}
+            to={isDefault ? "/" : "/$locale/"}
+            params={isDefault ? {} : { locale }}
+            className="text-honey hover:underline font-semibold"
+          >
+            {anchor}
+          </Link>
+        );
+      } else {
+        parts.push(
+          <Link
+            key={matchIndex}
+            to={target as any}
+            className="text-honey hover:underline font-semibold"
+          >
+            {anchor}
+          </Link>
+        );
+      }
     } else {
       parts.push(
         <Link
           key={matchIndex}
-          to="/tool/$tool"
-          params={{ tool: target }}
+          to={isDefault ? "/tool/$tool" : "/$locale/tool/$tool"}
+          params={isDefault ? { tool: target } : { locale, tool: target }}
           className="text-honey hover:underline font-semibold"
         >
           {anchor}
@@ -319,10 +357,226 @@ export const Route = createFileRoute("/tool/$tool")({
   errorComponent: ToolError,
 });
 
-function RootToolPage() {
-  const { slug } = Route.useLoaderData();
-  return <ToolPageView slug={slug} />;
-}
+const UI_LOCALIZATION: Record<
+  string,
+  {
+    about: string;
+    examples: string;
+    input: string;
+    output: string;
+    tips: string;
+    faq: string;
+    faqsTitle: string;
+    team: string;
+    teamDesc: string;
+    share: string;
+    comingSoon: string;
+    comingSoonDesc: string;
+    openUnscrambler: string;
+    notFound: string;
+    notFoundDesc: string;
+    backHome: string;
+    errorTitle: string;
+    errorDesc: string;
+    tryAgain: string;
+    home: string;
+    updated: string;
+    readingTime: string;
+  }
+> = {
+  en: {
+    about: "About the",
+    examples: "Examples",
+    input: "Input",
+    output: "Sample output",
+    tips: "Pro tips",
+    faq: "Questions & answers",
+    faqsTitle: "FAQs",
+    team: "The AllWordTools.com Team",
+    teamDesc: "Word-game specialists and language enthusiasts building fast, accurate tools that help millions of players find the right word. Last reviewed",
+    share: "Share",
+    comingSoon: "Tool coming soon",
+    comingSoonDesc: "We're putting the finishing touches on the {name}. In the meantime, try our Word Unscrambler.",
+    openUnscrambler: "Open Word Unscrambler",
+    notFound: "Tool not found",
+    notFoundDesc: "We couldn't find that tool. Explore all of our word tools instead.",
+    backHome: "Back to home",
+    errorTitle: "This page didn't load",
+    errorDesc: "Something went wrong. Please try again.",
+    tryAgain: "Try again",
+    home: "Home",
+    updated: "Updated",
+    readingTime: "min read",
+  },
+  es: {
+    about: "Acerca de",
+    examples: "Ejemplos",
+    input: "Entrada",
+    output: "Resultado de muestra",
+    tips: "Consejos profesionales",
+    faq: "Preguntas y respuestas",
+    faqsTitle: "Preguntas frecuentes",
+    team: "El equipo de AllWordTools.com",
+    teamDesc: "Especialistas en juegos de palabras y entusiastas de los idiomas que crean herramientas rápidas y precisas que ayudan a millones de jugadores a encontrar la palabra correcta. Última revisión",
+    share: "Compartir",
+    comingSoon: "Herramienta próximamente",
+    comingSoonDesc: "Estamos dando los últimos toques a {name}. Mientras tanto, prueba nuestro Descodificador de Palabras.",
+    openUnscrambler: "Abrir Descodificador de Palabras",
+    notFound: "Herramienta no encontrada",
+    notFoundDesc: "No pudimos encontrar esa herramienta. Explora todas nuestras herramientas de palabras en su lugar.",
+    backHome: "Volver al inicio",
+    errorTitle: "Esta página no cargó",
+    errorDesc: "Algo salió mal. Por favor intenta de nuevo.",
+    tryAgain: "Intentar de nuevo",
+    home: "Inicio",
+    updated: "Actualizado",
+    readingTime: "min de lectura",
+  },
+  de: {
+    about: "Über",
+    examples: "Beispiele",
+    input: "Eingabe",
+    output: "Beispielhafte Ausgabe",
+    tips: "Profi-Tipps",
+    faq: "Fragen & Antworten",
+    faqsTitle: "Häufig gestellte Fragen",
+    team: "Das AllWordTools.com Team",
+    teamDesc: "Wortspiel-Spezialisten und Sprachbegeisterte, die schnelle, genaue Werkzeuge entwickeln, die Millionen von Spielern helfen, das richtige Wort zu finden. Zuletzt überprüft",
+    share: "Teilen",
+    comingSoon: "Werkzeug kommt bald",
+    comingSoonDesc: "Wir legen letzte Hand an {name}. In der Zwischenzeit kannst du unseren Wort-Entschlüssler ausprobieren.",
+    openUnscrambler: "Wort-Entschlüssler öffnen",
+    notFound: "Werkzeug nicht gefunden",
+    notFoundDesc: "Wir konnten dieses Werkzeug nicht finden. Erkunde stattdessen alle unsere Wortwerkzeuge.",
+    backHome: "Zurück zur Startseite",
+    errorTitle: "Diese Seite konnte nicht geladen werden",
+    errorDesc: "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
+    tryAgain: "Erneut versuchen",
+    home: "Startseite",
+    updated: "Aktualisiert",
+    readingTime: "Min. Lesedauer",
+  },
+  pt: {
+    about: "Sobre",
+    examples: "Exemplos",
+    input: "Entrada",
+    output: "Saída de amostra",
+    tips: "Dicas profissionais",
+    faq: "Perguntas e respostas",
+    faqsTitle: "Perguntas frequentes",
+    team: "A equipe do AllWordTools.com",
+    teamDesc: "Especialistas em jogos de palavras e entusiastas de idiomas que criam ferramentas rápidas e precisas que ajudam milhões de jogadores a encontrar a palavra certa. Última revisão",
+    share: "Compartilhar",
+    comingSoon: "Ferramenta em breve",
+    comingSoonDesc: "Estamos dando os últimos retoques em {name}. Enquanto isso, experimente nosso Desembaralhador de Palavras.",
+    openUnscrambler: "Abrir Desembaralhador de Palavras",
+    notFound: "Ferramenta não encontrada",
+    notFoundDesc: "Não conseguimos encontrar essa ferramenta. Explore todas as nossas ferramentas de palavras.",
+    backHome: "Voltar para o início",
+    errorTitle: "Esta página não carregou",
+    errorDesc: "Algo deu errado. Por favor, tente novamente.",
+    tryAgain: "Tente novamente",
+    home: "Início",
+    updated: "Atualizado",
+    readingTime: "min de leitura",
+  },
+  ru: {
+    about: "О программе",
+    examples: "Примеры",
+    input: "Ввод",
+    output: "Пример вывода",
+    tips: "Советы профессионалов",
+    faq: "Вопросы и ответы",
+    faqsTitle: "Часто задаваемые вопросы",
+    team: "Команда AllWordTools.com",
+    teamDesc: "Специалисты по словесным играм и языковые энтузиасты, создающие быстрые и точные инструменты, помогающие миллионам игроков находить нужные слова. Последний раз проверено",
+    share: "Поделиться",
+    comingSoon: "Инструмент скоро появится",
+    comingSoonDesc: "Мы наносим последние штрихи на {name}. А пока попробуйте наш Дешифратор слов.",
+    openUnscrambler: "Открыть Дешифратор слов",
+    notFound: "Инструмент не найден",
+    notFoundDesc: "Мы не смогли найти этот инструмент. Попробуйте изучить все наши словесные инструменты.",
+    backHome: "Назад на главную",
+    errorTitle: "Эта страница не загрузилась",
+    errorDesc: "Что-то пошло не так. Пожалуйста, попробуйте еще раз.",
+    tryAgain: "Попробовать еще раз",
+    home: "Главная",
+    updated: "Обновлено",
+    readingTime: "мин чтения",
+  },
+  id: {
+    about: "Tentang",
+    examples: "Contoh",
+    input: "Input",
+    output: "Sampel output",
+    tips: "Tips profesional",
+    faq: "Pertanyaan & jawaban",
+    faqsTitle: "Pertanyaan Sering Diajukan",
+    team: "Tim AllWordTools.com",
+    teamDesc: "Spesialis game kata dan antusias bahasa yang membangun alat cepat dan akurat yang membantu jutaan pemain menemukan kata yang tepat. Terakhir ditinjau",
+    share: "Bagikan",
+    comingSoon: "Alat segera hadir",
+    comingSoonDesc: "Kami sedang menyelesaikan {name}. Sementara itu, coba Pengurai Kata kami.",
+    openUnscrambler: "Buka Pengurai Kata",
+    notFound: "Alat tidak ditemukan",
+    notFoundDesc: "Kami tidak dapat menemukan alat tersebut. Silakan jelajahi semua alat kata kami.",
+    backHome: "Kembali ke beranda",
+    errorTitle: "Halaman ini tidak dapat dimuat",
+    errorDesc: "Terjadi kesalahan. Silakan coba lagi.",
+    tryAgain: "Coba lagi",
+    home: "Beranda",
+    updated: "Diperbarui",
+    readingTime: "menit baca",
+  },
+  ar: {
+    about: "حول",
+    examples: "أمثلة",
+    input: "مدخلات",
+    output: "مخرجات عينة",
+    tips: "نصائح للمحترفين",
+    faq: "أسئلة وأجوبة",
+    faqsTitle: "الأسئلة الشائعة",
+    team: "فريق AllWordTools.com",
+    teamDesc: "أخصائيو ألعاب الكلمات وعشاق اللغة الذين يبنون أدوات سريعة ودقيقة تساعد ملايين اللاعبين في العثور على الكلمة الصحيحة. آخر مراجعة",
+    share: "مشاركة",
+    comingSoon: "الأداة قريباً",
+    comingSoonDesc: "نضع اللمسات الأخيرة على {name}. في غضون ذلك، جرب أداة كشف الكلمات لدينا.",
+    openUnscrambler: "فتح أداة كشف الكلمات",
+    notFound: "لم يتم العثور على الأداة",
+    notFoundDesc: "لم نتمكن من العثور على تلك الأداة. استكشف جميع أدوات الكلمات لدينا بدلاً من ذلك.",
+    backHome: "العودة للرئيسية",
+    errorTitle: "لم يتم تحميل هذه الصفحة",
+    errorDesc: "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
+    tryAgain: "إعادة المحاولة",
+    home: "الرئيسية",
+    updated: "تم التحديث",
+    readingTime: "دقائق قراءة",
+  },
+  hi: {
+    about: "के बारे में",
+    examples: "उदाहरण",
+    input: "इनपुट",
+    output: "नमूना आउटपुट",
+    tips: "प्रो सुझाव",
+    faq: "प्रश्न और उत्तर",
+    faqsTitle: "अक्सर पूछे जाने वाले प्रश्न",
+    team: "AllWordTools.com टीम",
+    teamDesc: "शब्द-खेल विशेषज्ञ और भाषा प्रेमी जो तेज़, सटीक टूल बनाते हैं जो लाखों खिलाड़ियों को सही शब्द खोजने में मदद करते हैं। अंतिम समीक्षा की गई",
+    share: "साझा करें",
+    comingSoon: "टूल जल्द ही आ रहा है",
+    comingSoonDesc: "हम {name} पर अंतिम रूप दे रहे हैं। इस बीच, हमारे वर्ड अनस्क्रैम्बलर को आज़माएं।",
+    openUnscrambler: "वर्ड अनस्क्रैम्बलर खोलें",
+    notFound: "टूल नहीं मिला",
+    notFoundDesc: "हमें वह टूल नहीं मिला. इसके बजाय हमारे सभी शब्द टूल खोजें।",
+    backHome: "होमपेज पर वापस",
+    errorTitle: "यह पेज लोड नहीं हुआ",
+    errorDesc: "कुछ गलत हो गया. कृपया पुन: प्रयास करें।",
+    tryAgain: "पुनः प्रयास करें",
+    home: "होम",
+    updated: "अपडेट किया गया",
+    readingTime: "मिनट पठन",
+  },
+};
 
 export function ToolPageView({
   slug,
@@ -331,11 +585,17 @@ export function ToolPageView({
   slug: string;
   contentOverride?: LocalizedToolContent | null;
 }) {
+  const { locale } = useI18n();
+  const isDefault = locale === DEFAULT_LOCALE;
   const tool = getTool(slug)!;
   const content = mergeToolContent(toolContent[slug], contentOverride);
   const category = getCategory(tool.category);
   const Icon = toolIcons[slug] ?? Sparkles;
   const references = getToolReferences(slug);
+
+  const t = (key: keyof typeof UI_LOCALIZATION.en) => {
+    return UI_LOCALIZATION[locale]?.[key] ?? UI_LOCALIZATION.en[key];
+  };
 
   return (
     <div className="min-h-screen bg-background">
@@ -347,8 +607,12 @@ export function ToolPageView({
             <nav aria-label="Breadcrumb" className="mb-7">
               <ol className="flex flex-wrap items-center gap-1.5 text-sm text-muted-foreground">
                 <li>
-                  <Link to="/" className="inline-flex items-center gap-1 hover:text-foreground">
-                    <Home className="h-3.5 w-3.5" /> Home
+                  <Link
+                    to={isDefault ? "/" : "/$locale/"}
+                    params={isDefault ? {} : { locale }}
+                    className="inline-flex items-center gap-1 hover:text-foreground"
+                  >
+                    <Home className="h-3.5 w-3.5" /> {t("home")}
                   </Link>
                 </li>
                 {category && (
@@ -356,8 +620,8 @@ export function ToolPageView({
                     <ChevronRight className="h-3.5 w-3.5" />
                     <li>
                       <Link
-                        to="/category/$category"
-                        params={{ category: category.slug }}
+                        to={isDefault ? "/category/$category" : "/$locale/category/$category"}
+                        params={isDefault ? { category: category.slug } : { locale, category: category.slug }}
                         className="hover:text-foreground"
                       >
                         {category.title}
@@ -389,10 +653,10 @@ export function ToolPageView({
               {content && (
                 <>
                   <span className="inline-flex items-center gap-1.5">
-                    <CalendarClock className="h-3.5 w-3.5" /> Updated {content.updated}
+                    <CalendarClock className="h-3.5 w-3.5" /> {t("updated")} {content.updated}
                   </span>
                   <span className="inline-flex items-center gap-1.5">
-                    <Clock className="h-3.5 w-3.5" /> {content.readingMinutes} min read
+                    <Clock className="h-3.5 w-3.5" /> {content.readingMinutes} {t("readingTime")}
                   </span>
                 </>
               )}
@@ -588,14 +852,16 @@ export function ToolPageView({
               ) : (
                 <div className="rounded-3xl border border-dashed border-border/70 bg-card p-8 text-center">
                   <Sparkles className="mx-auto h-8 w-8 text-honey" />
-                  <h2 className="mt-3 font-display text-xl font-semibold">Tool coming soon</h2>
+                  <h2 className="mt-3 font-display text-xl font-semibold">{t("comingSoon")}</h2>
                   <p className="mx-auto mt-2 max-w-md text-sm text-muted-foreground">
-                    We're putting the finishing touches on the {tool.name}. In the meantime, try our
-                    Word Unscrambler.
+                    {t("comingSoonDesc").replace("{name}", tool.name)}
                   </p>
                   <Button asChild className="mt-5 rounded-full">
-                    <Link to="/tool/$tool" params={{ tool: "word-unscrambler" }}>
-                      Open Word Unscrambler
+                    <Link 
+                      to={isDefault ? "/tool/$tool" : "/$locale/tool/$tool"}
+                      params={isDefault ? { tool: "word-unscrambler" } : { locale, tool: "word-unscrambler" }}
+                    >
+                      {t("openUnscrambler")}
                     </Link>
                   </Button>
                 </div>
@@ -615,12 +881,12 @@ export function ToolPageView({
                 id="about"
                 className="font-display text-2xl font-semibold tracking-tight sm:text-3xl"
               >
-                About the {tool.name}
+                {t("about")} {tool.name}
               </h2>
               <div className="mt-5 space-y-4">
                 {content.intro.map((p, i) => (
                   <p key={i} className="text-base leading-relaxed text-muted-foreground">
-                    {renderParagraphWithLinks(p)}
+                    {renderParagraphWithLinks(p, locale)}
                   </p>
                 ))}
               </div>
@@ -644,7 +910,7 @@ export function ToolPageView({
                       <div>
                         <h3 className="font-display text-lg font-semibold">{step.title}</h3>
                         <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
-                          {renderParagraphWithLinks(step.detail)}
+                          {renderParagraphWithLinks(step.detail, locale)}
                         </p>
                       </div>
                     </li>
@@ -664,7 +930,7 @@ export function ToolPageView({
                     <div className="mt-3 space-y-4">
                       {s.paragraphs.map((p, i) => (
                         <p key={i} className="text-base leading-relaxed text-muted-foreground">
-                          {renderParagraphWithLinks(p)}
+                          {renderParagraphWithLinks(p, locale)}
                         </p>
                       ))}
                     </div>
@@ -674,7 +940,7 @@ export function ToolPageView({
 
               {/* Examples */}
               <div className="mt-12">
-                <h2 className="font-display text-2xl font-semibold tracking-tight">Examples</h2>
+                <h2 className="font-display text-2xl font-semibold tracking-tight">{t("examples")}</h2>
                 <div className="mt-5 grid gap-4 sm:grid-cols-3">
                   {content.examples.map((ex, i) => (
                     <div
@@ -682,13 +948,13 @@ export function ToolPageView({
                       className="rounded-2xl border border-border/70 bg-card p-5 shadow-soft"
                     >
                       <span className="text-xs font-semibold uppercase tracking-wider text-honey">
-                        Input
+                        {t("input")}
                       </span>
                       <p className="mt-1 font-display text-lg font-semibold tracking-wide">
                         {ex.input}
                       </p>
                       <span className="mt-3 block text-xs font-semibold uppercase tracking-wider text-muted-foreground">
-                        Sample output
+                        {t("output")}
                       </span>
                       <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
                         {ex.output}
@@ -702,7 +968,7 @@ export function ToolPageView({
               {/* Tips */}
               <div className="mt-12 rounded-3xl border border-border/70 bg-card p-7 shadow-soft">
                 <h2 className="flex items-center gap-2 font-display text-xl font-semibold">
-                  <Lightbulb className="h-5 w-5 text-honey" /> Pro tips
+                  <Lightbulb className="h-5 w-5 text-honey" /> {t("tips")}
                 </h2>
                 <ul className="mt-4 space-y-3">
                   {content.tips.map((tip, i) => (
@@ -721,13 +987,13 @@ export function ToolPageView({
             {/* FAQ */}
             <section className="mx-auto max-w-3xl px-4 pb-4 sm:px-6 lg:px-8" aria-labelledby="faq">
               <span className="text-sm font-semibold uppercase tracking-wider text-honey">
-                Questions & answers
+                {t("faq")}
               </span>
               <h2
                 id="faq"
                 className="mt-2 font-display text-2xl font-semibold tracking-tight sm:text-3xl"
               >
-                {tool.name} FAQs
+                {tool.name} {t("faqsTitle")}
               </h2>
               <Accordion type="single" collapsible className="mt-6 w-full">
                 {content.faqs.map((faq, i) => (
@@ -736,7 +1002,7 @@ export function ToolPageView({
                       {faq.question}
                     </AccordionTrigger>
                     <AccordionContent className="text-sm leading-relaxed text-muted-foreground">
-                      {renderParagraphWithLinks(faq.answer)}
+                      {renderParagraphWithLinks(faq.answer, locale)}
                     </AccordionContent>
                   </AccordionItem>
                 ))}
@@ -750,11 +1016,9 @@ export function ToolPageView({
                   <User className="h-6 w-6" />
                 </span>
                 <div>
-                  <p className="font-display text-sm font-semibold">The AllWordTools.com Team</p>
+                  <p className="font-display text-sm font-semibold">{t("team")}</p>
                   <p className="mt-0.5 text-xs leading-relaxed text-muted-foreground">
-                    Word-game specialists and language enthusiasts building fast, accurate tools
-                    that help millions of players find the right word. Last reviewed{" "}
-                    {content.updated}.
+                    {t("teamDesc")} {content.updated}.
                   </p>
                 </div>
               </div>
@@ -783,6 +1047,10 @@ export function ToolPageView({
 }
 
 function ShareButton({ title }: { title: string }) {
+  const { locale } = useI18n();
+  const t = (key: keyof typeof UI_LOCALIZATION.en) => {
+    return UI_LOCALIZATION[locale]?.[key] ?? UI_LOCALIZATION.en[key];
+  };
   const share = () => {
     const url = typeof window !== "undefined" ? window.location.href : "";
     if (navigator.share) {
@@ -796,22 +1064,30 @@ function ShareButton({ title }: { title: string }) {
       onClick={share}
       className="inline-flex items-center gap-1.5 rounded-full border border-border/60 bg-card/70 px-3 py-1 font-medium text-foreground transition-colors hover:border-honey/60"
     >
-      <Share2 className="h-3.5 w-3.5" /> Share
+      <Share2 className="h-3.5 w-3.5" /> {t("share")}
     </button>
   );
 }
 
 export function ToolNotFound() {
+  const { locale } = useI18n();
+  const isDefault = locale === DEFAULT_LOCALE;
+  const t = (key: keyof typeof UI_LOCALIZATION.en) => {
+    return UI_LOCALIZATION[locale]?.[key] ?? UI_LOCALIZATION.en[key];
+  };
   return (
     <div className="min-h-screen bg-background">
       <Header />
       <div className="mx-auto flex max-w-md flex-col items-center px-4 py-24 text-center">
-        <h1 className="font-display text-3xl font-semibold">Tool not found</h1>
-        <p className="mt-3 text-muted-foreground">
-          We couldn't find that tool. Explore all of our word tools instead.
-        </p>
+        <h1 className="font-display text-3xl font-semibold">{t("notFound")}</h1>
+        <p className="mt-3 text-muted-foreground">{t("notFoundDesc")}</p>
         <Button asChild className="mt-6 rounded-full">
-          <Link to="/">Back to home</Link>
+          <Link
+            to={isDefault ? "/" : "/$locale/"}
+            params={isDefault ? {} : { locale }}
+          >
+            {t("backHome")}
+          </Link>
         </Button>
       </div>
       <Footer />
@@ -821,12 +1097,16 @@ export function ToolNotFound() {
 
 export function ToolError({ reset }: { error: Error; reset: () => void }) {
   const router = useRouter();
+  const { locale } = useI18n();
+  const t = (key: keyof typeof UI_LOCALIZATION.en) => {
+    return UI_LOCALIZATION[locale]?.[key] ?? UI_LOCALIZATION.en[key];
+  };
   return (
     <div className="min-h-screen bg-background">
       <Header />
       <div className="mx-auto flex max-w-md flex-col items-center px-4 py-24 text-center">
-        <h1 className="font-display text-2xl font-semibold">This page didn't load</h1>
-        <p className="mt-3 text-muted-foreground">Something went wrong. Please try again.</p>
+        <h1 className="font-display text-2xl font-semibold">{t("errorTitle")}</h1>
+        <p className="mt-3 text-muted-foreground">{t("errorDesc")}</p>
         <Button
           className="mt-6 rounded-full"
           onClick={() => {
@@ -834,7 +1114,7 @@ export function ToolError({ reset }: { error: Error; reset: () => void }) {
             reset();
           }}
         >
-          Try again
+          {t("tryAgain")}
         </Button>
       </div>
       <Footer />

@@ -8,6 +8,8 @@ import {
   topSearchLinks,
   categories,
 } from "@/lib/internal-links";
+import { useI18n } from "@/i18n/I18nProvider";
+import { DEFAULT_LOCALE } from "@/i18n/locales";
 
 interface ColDef {
   title: string;
@@ -23,6 +25,8 @@ interface ColDef {
  * no tool page is ever an orphan.
  */
 export function DiscoverMore({ excludeSlug }: { excludeSlug?: string }) {
+  const { locale } = useI18n();
+  const isDefault = locale === DEFAULT_LOCALE;
   const isCodyCrossAnswers = excludeSlug === "codycross-answers";
 
   const popularHelpers = categories.find((c) => c.slug === "game-helpers")?.tools.slice(0, 5) ?? [];
@@ -125,7 +129,11 @@ export function DiscoverMore({ excludeSlug }: { excludeSlug?: string }) {
                 {col.type === "tools" &&
                   col.items.map((t: any) => (
                     <li key={t.slug}>
-                      <Link to="/tool/$tool" params={{ tool: t.slug }} className={linkCls}>
+                      <Link
+                        to={isDefault ? "/tool/$tool" : "/$locale/tool/$tool"}
+                        params={isDefault ? { tool: t.slug } : { locale, tool: t.slug }}
+                        className={linkCls}
+                      >
                         {t.name}
                       </Link>
                     </li>
@@ -135,8 +143,8 @@ export function DiscoverMore({ excludeSlug }: { excludeSlug?: string }) {
                     {col.items.map((c: any) => (
                       <li key={c.slug}>
                         <Link
-                          to="/category/$category"
-                          params={{ category: c.slug }}
+                          to={isDefault ? "/category/$category" : "/$locale/category/$category"}
+                          params={isDefault ? { category: c.slug } : { locale, category: c.slug }}
                           className={linkCls}
                         >
                           {c.title}
@@ -144,7 +152,11 @@ export function DiscoverMore({ excludeSlug }: { excludeSlug?: string }) {
                       </li>
                     ))}
                     <li>
-                      <Link to="/tools" className="text-sm font-semibold text-honey hover:underline">
+                      <Link
+                        to={isDefault ? "/tools" : "/$locale/tools"}
+                        params={isDefault ? {} : { locale }}
+                        className="text-sm font-semibold text-honey hover:underline"
+                      >
                         View all tools →
                       </Link>
                     </li>
@@ -154,14 +166,18 @@ export function DiscoverMore({ excludeSlug }: { excludeSlug?: string }) {
                   col.items.map((k: any) => (
                     <li key={k.label}>
                       {k.kind === "tool" ? (
-                        <Link to="/tool/$tool" params={{ tool: k.slug }} className={linkCls}>
+                        <Link
+                          to={isDefault ? "/tool/$tool" : "/$locale/tool/$tool"}
+                          params={isDefault ? { tool: k.slug } : { locale, tool: k.slug }}
+                          className={linkCls}
+                        >
                           <ArrowRight className="h-3.5 w-3.5 shrink-0 text-honey/60" />
                           {k.label}
                         </Link>
                       ) : (
                         <Link
-                          to="/category/$category"
-                          params={{ category: k.slug }}
+                          to={isDefault ? "/category/$category" : "/$locale/category/$category"}
+                          params={isDefault ? { category: k.slug } : { locale, category: k.slug }}
                           className={linkCls}
                         >
                           <ArrowRight className="h-3.5 w-3.5 shrink-0 text-honey/60" />

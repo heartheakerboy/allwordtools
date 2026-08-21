@@ -37,15 +37,23 @@ const linkClass =
 const triggerClass =
   "inline-flex items-center gap-1 rounded-full px-3.5 py-2 text-sm font-medium text-muted-foreground outline-none transition-colors hover:bg-secondary hover:text-foreground data-[state=open]:bg-secondary data-[state=open]:text-foreground";
 
+import { DEFAULT_LOCALE } from "@/i18n/locales";
+
 export function Header() {
-  const { t } = useI18n();
+  const { locale, t } = useI18n();
   const [open, setOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
+  const isDefault = locale === DEFAULT_LOCALE;
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/80 backdrop-blur-lg">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-3 px-4 sm:px-6 lg:px-8">
-        <Link to="/" className="flex shrink-0 items-center gap-2.5" aria-label="AllWordTools home">
+        <Link
+          to={isDefault ? "/" : "/$locale/"}
+          params={isDefault ? {} : { locale }}
+          className="flex shrink-0 items-center gap-2.5"
+          aria-label="AllWordTools home"
+        >
           <span className="flex h-9 w-9 items-center justify-center rounded-xl gradient-ink text-primary-foreground shadow-soft">
             <SpellCheck2 className="h-5 w-5" />
           </span>
@@ -57,7 +65,8 @@ export function Header() {
         {/* Desktop nav */}
         <nav className="hidden items-center gap-0.5 lg:flex" aria-label="Primary">
           <Link
-            to="/"
+            to={isDefault ? "/" : "/$locale/"}
+            params={isDefault ? {} : { locale }}
             className={linkClass}
             activeProps={{ className: "text-foreground" }}
             activeOptions={{ exact: true }}
@@ -78,7 +87,11 @@ export function Header() {
                 const Icon = toolIcons[tool.slug];
                 return (
                   <DropdownMenuItem key={tool.slug} asChild>
-                    <Link to="/tool/$tool" params={{ tool: tool.slug }} className="cursor-pointer">
+                    <Link
+                      to={isDefault ? "/tool/$tool" : "/$locale/tool/$tool"}
+                      params={isDefault ? { tool: tool.slug } : { locale, tool: tool.slug }}
+                      className="cursor-pointer"
+                    >
                       {Icon ? <Icon className="mr-2 h-4 w-4 text-honey" /> : null}
                       {tool.name}
                     </Link>
@@ -87,7 +100,11 @@ export function Header() {
               })}
               <DropdownMenuSeparator />
               <DropdownMenuItem asChild>
-                <Link to="/tools" className="cursor-pointer font-semibold text-honey">
+                <Link
+                  to={isDefault ? "/tools" : "/$locale/tools"}
+                  params={isDefault ? {} : { locale }}
+                  className="cursor-pointer font-semibold text-honey"
+                >
                   {t("nav.viewAll", { count: totalToolCount })}
                 </Link>
               </DropdownMenuItem>
@@ -105,8 +122,8 @@ export function Header() {
                 return (
                   <DropdownMenuItem key={cat.slug} asChild>
                     <Link
-                      to="/category/$category"
-                      params={{ category: cat.slug }}
+                      to={isDefault ? "/category/$category" : "/$locale/category/$category"}
+                      params={isDefault ? { category: cat.slug } : { locale, category: cat.slug }}
                       className="cursor-pointer"
                     >
                       <Icon className="mr-2 h-4 w-4 text-honey" />
@@ -131,8 +148,8 @@ export function Header() {
                   return (
                     <DropdownMenuItem key={tool.slug} asChild>
                       <Link
-                        to="/tool/$tool"
-                        params={{ tool: tool.slug }}
+                        to={isDefault ? "/tool/$tool" : "/$locale/tool/$tool"}
+                        params={isDefault ? { tool: tool.slug } : { locale, tool: tool.slug }}
                         className="cursor-pointer"
                       >
                         {Icon ? <Icon className="mr-2 h-4 w-4 text-honey" /> : null}
@@ -144,8 +161,8 @@ export function Header() {
                 <DropdownMenuSeparator />
                 <DropdownMenuItem asChild>
                   <Link
-                    to="/category/$category"
-                    params={{ category: "ai-tools" }}
+                    to={isDefault ? "/category/$category" : "/$locale/category/$category"}
+                    params={isDefault ? { category: "ai-tools" } : { locale, category: "ai-tools" }}
                     className="cursor-pointer font-semibold text-honey"
                   >
                     {t("nav.exploreAiTools")}
@@ -155,10 +172,20 @@ export function Header() {
             </DropdownMenu>
           )}
 
-          <Link to="/learn" className={linkClass} activeProps={{ className: "text-foreground" }}>
+          <Link
+            to={isDefault ? "/learn" : "/$locale/learn"}
+            params={isDefault ? {} : { locale }}
+            className={linkClass}
+            activeProps={{ className: "text-foreground" }}
+          >
             {t("nav.learn")}
           </Link>
-          <Link to="/blog" className={linkClass} activeProps={{ className: "text-foreground" }}>
+          <Link
+            to={isDefault ? "/blog" : "/$locale/blog"}
+            params={isDefault ? {} : { locale }}
+            className={linkClass}
+            activeProps={{ className: "text-foreground" }}
+          >
             {t("nav.blog")}
           </Link>
         </nav>
@@ -206,7 +233,8 @@ export function Header() {
           aria-label="Mobile"
         >
           <Link
-            to="/"
+            to={isDefault ? "/" : "/$locale/"}
+            params={isDefault ? {} : { locale }}
             onClick={() => setOpen(false)}
             className="block rounded-lg px-3 py-2.5 text-sm font-medium text-muted-foreground hover:bg-secondary hover:text-foreground"
           >
@@ -222,8 +250,8 @@ export function Header() {
                 {topTools.map((tool) => (
                   <Link
                     key={tool.slug}
-                    to="/tool/$tool"
-                    params={{ tool: tool.slug }}
+                    to={isDefault ? "/tool/$tool" : "/$locale/tool/$tool"}
+                    params={isDefault ? { tool: tool.slug } : { locale, tool: tool.slug }}
                     onClick={() => setOpen(false)}
                     className="block rounded-lg px-3 py-2 text-sm text-muted-foreground hover:bg-secondary hover:text-foreground"
                   >
@@ -231,7 +259,8 @@ export function Header() {
                   </Link>
                 ))}
                 <Link
-                  to="/tools"
+                  to={isDefault ? "/tools" : "/$locale/tools"}
+                  params={isDefault ? {} : { locale }}
                   onClick={() => setOpen(false)}
                   className="block rounded-lg px-3 py-2 text-sm font-semibold text-honey"
                 >
@@ -248,8 +277,8 @@ export function Header() {
                 {categories.map((cat) => (
                   <Link
                     key={cat.slug}
-                    to="/category/$category"
-                    params={{ category: cat.slug }}
+                    to={isDefault ? "/category/$category" : "/$locale/category/$category"}
+                    params={isDefault ? { category: cat.slug } : { locale, category: cat.slug }}
                     onClick={() => setOpen(false)}
                     className="block rounded-lg px-3 py-2 text-sm text-muted-foreground hover:bg-secondary hover:text-foreground"
                   >
@@ -261,14 +290,16 @@ export function Header() {
           </Accordion>
 
           <Link
-            to="/learn"
+            to={isDefault ? "/learn" : "/$locale/learn"}
+            params={isDefault ? {} : { locale }}
             onClick={() => setOpen(false)}
             className="block rounded-lg px-3 py-2.5 text-sm font-medium text-muted-foreground hover:bg-secondary hover:text-foreground"
           >
             {t("nav.learn")}
           </Link>
           <Link
-            to="/blog"
+            to={isDefault ? "/blog" : "/$locale/blog"}
+            params={isDefault ? {} : { locale }}
             onClick={() => setOpen(false)}
             className="block rounded-lg px-3 py-2.5 text-sm font-medium text-muted-foreground hover:bg-secondary hover:text-foreground"
           >

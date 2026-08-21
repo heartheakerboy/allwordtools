@@ -4200,5 +4200,91 @@
         "answer": "Além do nosso quiz, explore outros recursos como dicionários online, aplicativos de vocabulário, e-books e filmes com legendas em inglês para expandir ainda mais seu aprendizado. A prática constante é a chave!"
       }
     ]
+  },
+  "codycross-answers": {
+    "metaTitle": "Respostas CodyCross — Soluções, Dicas e Respostas dos Níveis | AllWordTools.com",
+    "metaDescription": "Encontre todas as respostas e soluções do CodyCross para cada mundo, grupo e fase. Pesquise no nosso banco de dados de pistas para resolver qualquer nível instantaneamente. Rápido e gratuito.",
+    "heading": "Respostas do CodyCross e Banco de Dados de Pistas",
+    "subheading": "Obtenha soluções instantâneas para as pistas do CodyCross. Pesquise no nosso banco de dados por pistas e letras cruzadas para superar qualquer nível e avançar pelos mundos.",
+    "intro": [
+      "CodyCross é um jogo de palavras cruzadas para celular incrivelmente popular desenvolvido pela Fanatee, amado por milhões de jogadores em todo o mundo por seus belos mundos temáticos, gráficos coloridos e o simpático alienígena Cody. O jogo mistura a mecânica clássica de palavras cruzadas com um toque moderno: os jogadores devem preencher uma grade de palavras que se cruzam com base em pistas temáticas. Conforme você resolve as pistas, certas letras são reveladas em outras palavras da grade, ajudando a decifrar as demais. Porém, à medida que você avança para mundos como Fundo do Mar, Circo ou Espaço, o nível de dificuldade aumenta e as pistas se tornam muito desafiadoras.",
+      "É aí que entra o nosso banco de dados de respostas do CodyCross. Esta ferramenta de busca gratuita foi criada para ajudar você a encontrar a resposta exata que precisa, quer esteja travado em uma única pista difícil ou queira validar seus palpites. Ao digitar pistas, palavras-chave ou letras que você já tem, você pode encontrar soluções na hora. Nossa plataforma roda direto no seu navegador sem travamentos, ajudando a manter sua sequência de vitórias sem cobranças, cadastros ou anúncios invasivos.",
+      "Esta ferramenta não é apenas um guia de respostas; ela funciona como um recurso de aprendizado. Ela ajuda você a entender as conexões das palavras, descobrir novas definições e expandir seu vocabulário em português de forma divertida. Continue lendo para dominar o jogo, aprender estratégias de resolução e evitar erros comuns."
+    ],
+    "howToTitle": "Como encontrar respostas do CodyCross",
+    "howToSteps": [
+      {
+        "title": "Insira a pista ou palavra-chave",
+        "detail": "Digite a pista em que você travou no campo de busca. Você pode digitar a frase exata ou usar termos-chave (como 'capital da França' ou 'substância doce das abelhas')."
+      },
+      {
+        "title": "Especifique letras conhecidas (opcional)",
+        "detail": "Se você já abriu algumas letras na grade, use o nosso [CodyCross Solver](codycross-solver) para digitar as letras conhecidas e pontos de interrogação nas posições vazias (ex. '?a?e??')."
+      },
+      {
+        "title": "Veja as respostas correspondentes",
+        "detail": "Clique em pesquisar ou escolha uma das sugestões populares. O banco de dados buscará soluções em milhares de fases e exibirá os resultados na hora, ordenados por tamanho e relevância."
+      },
+      {
+        "title": "Preencha o jogo",
+        "detail": "Compare a palavra sugerida com o número de letras da sua grade, digite no jogo e aproveite as novas letras reveladas para solucionar as pistas restantes."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "O que é o CodyCross e como ele funciona?",
+        "paragraphs": [
+          "CodyCross: Palavras Cruzadas é um jogo desenvolvido pela Fanatee que conta a história de Cody, um simpático alienígena verde que caiu na Terra. Para ajudá-lo a aprender sobre o nosso planeta, os jogadores resolvem crucigramas temáticos. El juego está dividido en Mundos temáticos (ex: Invenções, Circo). Cada mundo tem vários Grupos, e cada grupo é composto por 5 fases.",
+          "Cada fase possui uma grade de palavras horizontais. Ao resolver uma pista, as letras são escritas. A marca registrada do jogo é a palavra secreta vertical destacada. Conforme você soluciona as linhas, letras corretas são copiadas para outras linhas da grade com uma bela animação. Isso torna a resolução do restante do painel muito mais simples."
+        ]
+      },
+      {
+        "heading": "Estratégias e dicas para passar de fase no CodyCross",
+        "paragraphs": [
+          "Para se tornar um mestre no jogo, comece sempre resolvendo as pistas mais simples. Não perca tempo nas palavras difíceis de cara; ao responder as fáceis, as letras que se cruzam preencherão espaços nas difíceis, revelando as dicas que você precisava.",
+          "Monitore a palavra secreta vertical. Adivinhar a palavra vertical logo no início permite preencher as letras correspondentes nas linhas horizontais de graça. Também preste atenção nas dicas gramaticais (plurais ou gêneros) para deduzir letras."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "Pista: 'Um grande destino turístico na Itália'",
+        "output": "ROMA",
+        "note": "Uma resposta de 4 letras no Mundo Planeta Terra."
+      },
+      {
+        "input": "Pista: 'Capital da França'",
+        "output": "PARIS",
+        "note": "Uma resposta de 5 letras no Mundo Aventura."
+      }
+    ],
+    "tips": [
+      "Verifique a contagem de letras exata da palavra para filtrar resultados indesejados.",
+      "O tema do Mundo dá um contexto essencial sobre o duplo sentido das pistas.",
+      "Resolva as palavras fáceis primeiro para abrir letras cruzadas gratuitas nas difíceis.",
+      "Na dúvida entre várias opções, use as letras no nosso [CodyCross Solver](codycross-solver)."
+    ],
+    "faqs": [
+      {
+        "question": "O banco de dados de respostas do CodyCross é gratuito?",
+        "answer": "Sim, é 100% gratuito e sem qualquer limite de pesquisas ou cadastros."
+      },
+      {
+        "question": "Como pesquiso uma pista no buscador?",
+        "answer": "Basta digitar o texto da pergunta ou uma palavra-chave no campo superior e clicar em buscar para ver as opções correspondentes."
+      },
+      {
+        "question": "Posso buscar usando letras conhecidas e espaços em branco?",
+        "answer": "Sim, se você tiver letras conhecidas e quiser descobrir palavras pelo padrão de cruzamento, use o nosso [CodyCross Solver](codycross-solver)."
+      },
+      {
+        "question": "O que são Mundos e Grupos no CodyCross?",
+        "answer": "CodyCross é dividido em Mundos temáticos (ex: Invenções, Circo). Cada mundo tem vários Grupos, e cada grupo é composto por 5 fases."
+      },
+      {
+        "question": "Consigo jogar CodyCross sem internet?",
+        "answer": "Sim, é possível jogar offline, mas desafios diários e banco de dados externos como o nosso não estarão disponíveis. Economize suas fichas de dicas do jogo para quando estiver sem internet."
+      }
+    ]
   }
 }

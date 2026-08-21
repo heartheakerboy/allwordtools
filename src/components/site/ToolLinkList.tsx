@@ -1,6 +1,8 @@
 import { Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import { toolIcons, type Tool } from "@/data/tools";
+import { useI18n } from "@/i18n/I18nProvider";
+import { DEFAULT_LOCALE } from "@/i18n/locales";
 
 /**
  * Compact, titled list of internal tool links with descriptive anchors.
@@ -16,6 +18,9 @@ export function ToolLinkList({
   tools: Tool[];
   columns?: 1 | 2 | 3;
 }) {
+  const { locale } = useI18n();
+  const isDefault = locale === DEFAULT_LOCALE;
+
   if (tools.length === 0) return null;
   const grid = columns === 3 ? "sm:grid-cols-3" : columns === 2 ? "sm:grid-cols-2" : "";
   return (
@@ -27,8 +32,8 @@ export function ToolLinkList({
           return (
             <li key={tool.slug}>
               <Link
-                to="/tool/$tool"
-                params={{ tool: tool.slug }}
+                to={isDefault ? "/tool/$tool" : "/$locale/tool/$tool"}
+                params={isDefault ? { tool: tool.slug } : { locale, tool: tool.slug }}
                 className="inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-honey"
               >
                 {Icon ? (
