@@ -357,6 +357,12 @@ export const Route = createFileRoute("/tool/$tool")({
   errorComponent: ToolError,
 });
 
+function RootToolPage() {
+  const { slug } = Route.useLoaderData();
+  return <ToolPageView slug={slug} />;
+}
+
+
 const UI_LOCALIZATION: Record<
   string,
   {

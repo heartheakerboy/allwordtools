@@ -7222,28 +7222,17 @@ export const toolContent: Record<string, ToolContent> = {
     examples: [
       {
         input: "Form: Haiku | Theme: 'First Snowfall in the Forest'",
-        output: "Silent whispers fall,
-White lace blankets sleeping pines,
-Winter breathes anew.",
+        output: "Silent whispers fall, / White lace blankets sleeping pines, / Winter breathes anew.",
         note: "Follows strict 5-7-5 syllable structure with vivid seasonal nature imagery."
       },
       {
         input: "Form: Limerick | Theme: 'A Bookworm named Ned'",
-        output: "There once was a scholar named Ned,
-Who read every book in his bed.
-With towers of prose,
-Balanced right on his nose,
-'I'll sleep when I'm finished!' he said.",
+        output: "There once was a scholar named Ned, / Who read every book in his bed. / With towers of prose, / Balanced right on his nose, / 'I\'ll sleep when I\'m finished!' he said.",
         note: "Demonstrates classic AABBA rhyme scheme, bouncy anapestic rhythm, and humorous twist."
       },
       {
         input: "Form: Shakespearean Sonnet | Theme: 'The Passage of Time and Enduring Love'",
-        output: "When golden leaves from autumn branches fall,
-And shadows lengthen in the fading light,
-I hear the whispering winds of winter call,
-Yet in thy gentle gaze my world stays bright...
-(14 lines culminating in a rhyming couplet: 'For time may conquer mountains, stars, and sea,
-Yet leaves untouched the love I bear for thee.')",
+        output: "When golden leaves from autumn branches fall, / And shadows lengthen in the fading light, / I hear the whispering winds of winter call, / Yet in thy gentle gaze my world stays bright... / (14 lines culminating in a rhyming couplet: 'For time may conquer mountains, stars, and sea, / Yet leaves untouched the love I bear for thee.')",
         note: "Maintains iambic pentameter, ABAB CDCD EFEF GG rhyme scheme, and emotional volta."
       }
     ],
@@ -7388,23 +7377,17 @@ Yet leaves untouched the love I bear for thee.')",
     examples: [
       {
         input: "Topic: 'GRE Advanced Vocabulary' | Focus: 'Words related to Speech & Silence'",
-        output: "1. Laconic (adj.) - Using very few words; concise. | Collocation: 'laconic reply' | Example: 'His laconic summary captured the essence of the 50-page report.'
-2. Garrulous (adj.) - Excessively talkative, especially on trivial matters. | Collocation: 'garrulous neighbor'
-3. Reticent (adj.) - Not revealing one's thoughts readily; reserved.",
+        output: "1. Laconic (adj.) - Using very few words; concise. | Collocation: 'laconic reply' | Example: 'His laconic summary captured the essence of the 50-page report.' | 2. Garrulous (adj.) - Excessively talkative. | 3. Reticent (adj.) - Reserved.",
         note: "Provides high-yield exam words grouped by contrasting semantic themes with collocations."
       },
       {
         input: "Topic: 'Sustainable Energy & Environment' | Level: 'C1 Advanced'",
-        output: "1. Decarbonization (n.) - The reduction of carbon dioxide emissions into the atmosphere.
-2. Anthropogenic (adj.) - Originating in human activity (especially environmental pollution).
-3. Intermittency (n.) - The quality of stopping and starting at intervals (e.g., solar/wind power generation).",
+        output: "1. Decarbonization (n.) - Reduction of carbon dioxide emissions. | 2. Anthropogenic (adj.) - Originating in human activity. | 3. Intermittency (n.) - Stopping and starting at intervals.",
         note: "Features contemporary academic and scientific terminology for essays and research."
       },
       {
         input: "Topic: 'Creative Writing: Mood & Atmosphere' | Level: 'Intermediate'",
-        output: "1. Somber (adj.) - Dark or dull in color or tone; gloomy.
-2. Luminous (adj.) - Full of or shedding light; bright or shining.
-3. Eerie (adj.) - Strange and frightening; inspiring unexplained fear.",
+        output: "1. Somber (adj.) - Dark or gloomy. | 2. Luminous (adj.) - Full of or shedding light. | 3. Eerie (adj.) - Strange and frightening.",
         note: "Curates sensory descriptive adjectives for novel and short story writing."
       }
     ],
@@ -7546,38 +7529,17 @@ Yet leaves untouched the love I bear for thee.')",
     examples: [
       {
         input: "Topic: 'English Grammar — Subject-Verb Agreement' | Format: 'Multiple Choice'",
-        output: "Question: Which of the following sentences demonstrates correct subject-verb agreement?
-A) The committee meets every Tuesday to review proposals.
-B) The committee meet every Tuesday to review proposals.
-C) Neither the teacher nor the students was present.
-D) A bouquet of yellow roses were delivered.
-
-Correct Answer: A
-Explanation: In American English, collective nouns like 'committee' take a singular verb ('meets') when acting as a single unit. In option C, 'students' is closer to the verb so it requires 'were'. In option D, the subject is 'bouquet' (singular), which requires 'was delivered'.",
+        output: "Question: Which sentence demonstrates correct subject-verb agreement? A) The committee meets every Tuesday. B) The committee meet every Tuesday. Correct: A. Explanation: Collective nouns acting as a single unit take singular verbs.",
         note: "Demonstrates high-quality grammar assessment with clear explanations for all options."
       },
       {
-        input: "Topic: 'Reading Comprehension' | Source: 'Pasted passage on Photosynthesis'",
-        output: "Question: What is the primary role of chlorophyll during the light-dependent reactions of photosynthesis?
-A) To absorb light energy and excite electrons
-B) To convert glucose into ATP
-C) To release carbon dioxide into the atmosphere
-D) To break down water into nitrogen
-
-Correct Answer: A
-Explanation: Chlorophyll pigments absorb solar photons, which energize electrons to initiate the photosynthetic electron transport chain.",
+        input: "Topic: 'Reading Comprehension' | Source: 'Passage on Photosynthesis'",
+        output: "Question: What is the primary role of chlorophyll? A) To absorb light energy and excite electrons B) To convert glucose into ATP. Correct: A. Explanation: Chlorophyll absorbs solar photons to energize electrons.",
         note: "Highlights passage-based reading comprehension and scientific accuracy."
       },
       {
         input: "Topic: 'Literary Devices' | Format: 'Identify the Device'",
-        output: "Question: 'The wind whispered through the dark, lonely pines.' What literary device is used here?
-A) Personification
-B) Hyperbole
-C) Oxymoron
-D) Onomatopoeia
-
-Correct Answer: A
-Explanation: Giving human qualities (whispering) to non-human elements (the wind) is personification.",
+        output: "Question: 'The wind whispered through the pines.' What device is used? A) Personification B) Hyperbole. Correct: A. Explanation: Attributing human actions to nature is personification.",
         note: "Tests core literary analysis skills with classic distractor options."
       }
     ],
@@ -7721,33 +7683,17 @@ Explanation: Giving human qualities (whispering) to non-human elements (the wind
     examples: [
       {
         input: "Subject: 'GRE Vocabulary' | Term: 'Ephemeral'",
-        output: "FRONT: Ephemeral (adjective)
-
-BACK:
-• Definition: Lasting for a very short time; transitory; fleeting.
-• Synonyms: Transient, evanescent, fleeting, momentary.
-• Example: 'The beauty of the cherry blossoms was ephemeral, lasting only a few days before the spring winds scattered the petals.'
-• Mnemonic: Ephemeral sounds like 'e-funeral' — life is short!",
+        output: "FRONT: Ephemeral (adj.) | BACK: • Definition: Lasting for a short time; fleeting. • Synonyms: Transient, evanescent. • Example: 'The cherry blossoms were ephemeral.' • Mnemonic: Sounds like 'e-funeral' — life is short!",
         note: "Provides definition, synonyms, contextual sentence, and a memorable mnemonic device."
       },
       {
         input: "Subject: 'US History' | Topic: 'Constitutional Amendments'",
-        output: "FRONT: What rights are protected under the Fourth Amendment of the US Constitution?
-
-BACK:
-• Protection against unreasonable searches and seizures by the government.
-• Requirement for search warrants based on probable cause supported by oath or affirmation.
-• Key Case: Mapp v. Ohio (1961) — established the exclusionary rule.",
+        output: "FRONT: Fourth Amendment rights? | BACK: • Protection against unreasonable searches and seizures. • Warrant requirement based on probable cause. • Key Case: Mapp v. Ohio (1961).",
         note: "Structures key constitutional provisions alongside landmark legal precedent."
       },
       {
-        input: "Subject: 'Spanish Language' | Focus: 'Subjunctive Trigger Phrases'",
-        output: "FRONT: Es necesario que... (When do you use this phrase?)
-
-BACK:
-• Meaning: 'It is necessary that...'
-• Grammar Rule: Triggers the subjunctive mood in the dependent clause because it expresses necessity/impersonal opinion.
-• Example: 'Es necesario que estudies para el examen.' (It is necessary that you study for the exam.)",
+        input: "Subject: 'Spanish Language' | Focus: 'Subjunctive Trigger'",
+        output: "FRONT: Es necesario que... | BACK: • Meaning: 'It is necessary that...' • Rule: Triggers subjunctive mood. • Example: 'Es necesario que estudies para el examen.'",
         note: "Clarifies grammar rules, trigger phrases, and natural bilingual examples."
       }
     ],
