@@ -4360,7 +4360,7 @@ export const toolContent: Record<string, ToolContent> = {
       },
       {
         question: "How accurate is the AI Grammar Checker for academic and formal writing?",
-        answer: "Powered by Gemini AI, the tool provides institutional-grade accuracy suitable for academic papers, peer-reviewed articles, business proposals, and legal documentation."
+        answer: "Powered by Gemini AI, the tool provides reliable grammatical guidance suitable for academic papers, peer-reviewed articles, business proposals, and legal documentation."
       },
       {
         question: "Does the tool support British, American, Canadian, and Australian English?",
@@ -4821,7 +4821,7 @@ export const toolContent: Record<string, ToolContent> = {
       },
       {
         question: "Is this tool suitable for competitive exam preparation like GRE, SAT, TOEFL, or IELTS?",
-        answer: "Definitely. Millions of students use it to master high-frequency academic vocabulary. Seeing words explained in context with nuanced synonyms, collocations, and tone indicators dramatically accelerates reading comprehension and verbal reasoning scores."
+        answer: "Definitely. Students frequently use it to master high-frequency academic vocabulary. Seeing words explained in context with nuanced synonyms, collocations, and tone indicators dramatically accelerates reading comprehension and verbal reasoning scores."
       },
       {
         question: "Can it explain how a word's meaning changes across different professional industries?",
@@ -5983,7 +5983,7 @@ export const toolContent: Record<string, ToolContent> = {
       {
         heading: "Multilingual clue support: English, Spanish, Portuguese, Indonesian",
         paragraphs: [
-          "CodyCross has millions of dedicated players globally. Our solver supports international search queries, including Indonesian queries ('jawaban codycross', 'kunci jawaban codycross'), Spanish searches ('respuestas codycross'), Portuguese ('respostas codycross'), and German ('codycross lösungen').",
+          "CodyCross has many dedicated players globally. Our solver supports international search queries, including Indonesian queries ('jawaban codycross', 'kunci jawaban codycross'), Spanish searches ('respuestas codycross'), Portuguese ('respostas codycross'), and German ('codycross lösungen').",
           "By entering clues in your native language, you receive culturally localized trivia answers matched to your regional app edition."
         ]
       },
@@ -6498,7 +6498,7 @@ export const toolContent: Record<string, ToolContent> = {
       },
       {
         question: "Is using a Wordscapes solver allowed?",
-        answer: "Yes, millions of players use solvers to learn new vocabulary, overcome difficult puzzles, and practice anagram recognition skills."
+        answer: "Yes, players use solvers to learn new vocabulary, overcome difficult puzzles, and practice anagram recognition skills."
       },
       {
         question: "How many letters can I enter into the solver?",
