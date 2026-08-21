@@ -3947,3823 +3947,764 @@ export const toolContent: Record<string, ToolContent> = {
 
   "passive-voice-checker": {
     slug: "passive-voice-checker",
-    metaTitle: "Passive Voice Checker — Find & Fix Passive Sentences Free | AllWordTools.com",
+    metaTitle: "Passive Voice Checker — Detect & Fix Passive Sentences Instantly | AllWordTools.com",
     metaDescription:
-      "Free passive voice checker that finds every passive sentence in your text and shows a stronger active-voice rewrite. Paste your writing and get instant results.",
+      "Free Passive Voice Checker that scans text, highlights passive constructions, and provides clear active voice suggestions to improve writing clarity and flow.",
     eyebrow: "Grammar & Style",
     heading: "Passive Voice Checker",
     subheading:
-      "Paste your text and instantly see every passive sentence highlighted, each with a clearer active-voice rewrite so your writing sounds direct and confident.",
-    updated: "July 10, 2026",
-    readingMinutes: 6,
+      "Detect passive voice constructions in seconds. Highlight weak phrasing, identify hidden agents, and improve sentence clarity with instant active rewrites.",
+    updated: "August 2026",
+    readingMinutes: 8,
     intro: [
-      'Passive voice makes sentences longer, weaker and harder to follow. Instead of saying who did what, it hides the doer behind constructions like "the report was written" or "mistakes were made". The AllWordTools.com Passive Voice Checker scans your writing, points out every passive sentence, and shows you a tighter active-voice version you can drop straight in.',
-      "It is perfect for essays, emails, blog posts, cover letters and reports — anywhere clear, confident writing matters. You keep full control: review each suggestion, copy the rewrite, and decide what fits your voice.",
-      "The checker is free, works in your browser and handles long passages, so you can polish a whole document in seconds.",
+      "In English writing, passive voice occurs when the subject of a sentence is acted upon by the verb rather than performing the action itself. While grammatically valid in certain contexts, excessive passive voice often creates sluggish, vague, and overly wordy prose that distances readers from the core message. The Passive Voice Checker analyzes your text in real time, highlighting every instance of passive phrasing and providing actionable suggestions to convert them into crisp, engaging active voice.",
+      "Whether you are crafting an academic essay, drafting a high-stakes business proposal, writing an article, or polishing creative fiction, this tool identifies 'to be' auxiliary verbs paired with past participles (such as 'was written', 'were reviewed', 'is being considered') and reveals the underlying actor performing the action.",
+      "The tool is completely free, instant, and runs privately in your web browser without requiring any login or software installation. Combine it with our [Active Voice Converter](active-voice-converter) and [Grammar Checker](grammar-checker) to streamline your editorial workflow."
     ],
     howToTitle: "How to use the Passive Voice Checker",
     howToSteps: [
       {
-        title: "Paste your text",
-        detail: "Drop in a sentence, a paragraph or a whole draft — up to several pages at a time.",
+        title: "Paste or type your text",
+        detail: "Copy and paste your paragraph, essay, or article into the text input box."
       },
       {
-        title: "Run the check",
-        detail:
-          "Press Check passive voice and our AI reads the text and finds every passive construction.",
+        title: "Scan for passive constructions",
+        detail: "Click Check Passive Voice to instantly highlight all passive voice occurrences across your document."
       },
       {
-        title: "Review each flag",
-        detail:
-          "See the original passive sentence next to a suggested active rewrite, with a short explanation.",
+        title: "Review highlighted sentences and metrics",
+        detail: "Examine the passive percentage score and inspect each flagged sentence alongside its recommended active rewrite."
       },
       {
-        title: "Copy the rewrite",
-        detail:
-          "Grab the fully rewritten active-voice version, or apply individual suggestions as you like.",
-      },
+        title: "Apply active voice suggestions",
+        detail: "Accept suggested active transformations or manually tweak the text to achieve direct, punchy phrasing."
+      }
     ],
     sections: [
       {
-        heading: "What is passive voice?",
+        heading: "Understanding passive voice vs. active voice",
         paragraphs: [
-          'In active voice, the subject performs the action: "The manager wrote the report." In passive voice, the subject receives the action and the doer is pushed to the end or removed entirely: "The report was written by the manager" or simply "The report was written." Passive voice usually pairs a form of "to be" (is, was, were, been) with a past participle.',
-          "Passive voice is not always wrong — it is useful when the doer is unknown or unimportant. But overusing it drains energy from your writing, adds words, and can make you sound evasive. This checker helps you spot the difference and choose deliberately.",
-        ],
+          "In an active sentence, the subject performs the action: 'The engineer solved the complex problem.' In a passive sentence, the target of the action becomes the grammatical subject: 'The complex problem was solved by the engineer.'",
+          "Passive voice frequently obscures agency—leading to 'agentless' sentences like 'Mistakes were made' or 'The report was delayed', where the responsible party is omitted entirely. Our checker spots these omissions and helps you restore accountability and clarity to your writing."
+        ]
       },
       {
-        heading: "Why active voice is usually stronger",
+        heading: "The 'By Zombies' test and detection mechanics",
         paragraphs: [
-          "Active sentences are shorter, clearer and more engaging. They tell the reader who is responsible and what happened, which builds trust and momentum. Editors, teachers and style guides almost universally recommend active voice for most writing.",
-          'By converting passive to active, you often cut unnecessary words and turn flat statements into vivid ones. "A decision was made by the committee" becomes "The committee decided" — half the length and twice the clarity.',
-        ],
+          "A classic grammatical rule of thumb is the 'By Zombies' test: if you can insert 'by zombies' after the verb phrase and the sentence remains grammatically coherent, it is in passive voice. For example, 'The village was destroyed [by zombies]' is passive, whereas 'The storm hit the village [by zombies]' is active.",
+          "Our algorithm automates this linguistic analysis by detecting combinations of auxiliary verbs (am, is, are, was, were, be, being, been) followed by irregular or regular past participles (e.g., analyzed, conducted, eaten, decided)."
+        ]
       },
+      {
+        heading: "When is passive voice acceptable?",
+        paragraphs: [
+          "Passive voice is not an error; it is a stylistic choice. Major style guides (including APA, MLA, and Chicago) recognize specific situations where passive voice is appropriate:",
+          "• Scientific Methodology: When the experiment or result is more important than the researcher ('The solution was heated to 100°C').",
+          "• Unknown or Irrelevant Actor: When the doer of the action is unknown or obvious ('The bank was robbed last night').",
+          "• Shifting Focus or Topic Continuity: When you want to emphasize the recipient of an action rather than the performer ('Penicillin was discovered by Alexander Fleming in 1928').",
+          "Our tool targets a healthy balance—typically recommending that passive voice account for less than 10% of your total sentence count."
+        ]
+      },
+      {
+        heading: "Connected grammar tools on AllWordTools.com",
+        paragraphs: [
+          "Elevate your editorial polish by integrating this checker with our full writing suite. Rewrite flagged sentences with the [Active Voice Converter](active-voice-converter), fix syntactic errors with the [Grammar Checker](grammar-checker), and perfect punctuation with the [Punctuation Checker](punctuation-checker)."
+        ]
+      }
     ],
     examples: [
       {
-        input: "The cake was eaten by the children.",
-        output: "The children ate the cake.",
-        note: "The doer moves to the front and the sentence shortens.",
+        input: "Passive: 'The annual revenue report was submitted by the finance team yesterday.'",
+        output: "Active: 'The finance team submitted the annual revenue report yesterday.'",
+        note: "Moves the actor ('finance team') to the subject position for directness."
       },
       {
-        input: "Mistakes were made.",
-        output: "Our team made mistakes.",
-        note: "Active voice names who is responsible.",
+        input: "Passive: 'A new marketing campaign has been launched to increase customer acquisition.'",
+        output: "Active: 'The marketing department launched a new campaign to boost customer acquisition.'",
+        note: "Identifies the implicit actor and removes unnecessary auxiliary verbs."
       },
       {
-        input: "The email will be sent tomorrow.",
-        output: "We will send the email tomorrow.",
-        note: "A clear subject replaces the hidden doer.",
-      },
+        input: "Passive: 'Novel discoveries were made during the archaeological expedition.'",
+        output: "Active: 'Archaeologists made novel discoveries during the expedition.'",
+        note: "Eliminates vague phrasing and clarifies who made the discoveries."
+      }
     ],
     tips: [
-      'Search your draft for "was", "were" and "been" followed by a verb ending in -ed or -en to spot passive voice yourself.',
-      "Keep the occasional passive when the doer truly doesn't matter, such as in scientific writing.",
-      "Read a sentence aloud — if it sounds roundabout, an active rewrite usually fixes it.",
+      "Look for forms of the verb 'to be' (is, are, was, were, been) followed by verbs ending in '-ed' or '-en'.",
+      "Aim to keep passive voice under 5-10% of total sentences in business and general writing.",
+      "When revising passive sentences, ask yourself: 'Who or what is performing this action?'",
+      "Use passive voice deliberately in scientific methodologies where the process is the primary focus.",
+      "Convert passive sentences using our [Active Voice Converter](active-voice-converter) for instant one-click revisions."
     ],
     faqs: [
       {
-        question: "Is passive voice always wrong?",
-        answer:
-          "No. Passive voice is fine when the doer is unknown, unimportant or deliberately hidden. The checker helps you use it on purpose rather than by accident.",
+        question: "What is passive voice and why should I avoid it in most writing?",
+        answer: "Passive voice occurs when the object of an action is positioned as the sentence subject (e.g., 'The ball was thrown by John' instead of 'John threw the ball'). While not grammatically incorrect, passive voice often makes writing sluggish, wordy, and vague by obscuring who is performing the action."
       },
       {
-        question: "Does the tool rewrite my whole text?",
-        answer:
-          "Yes. It returns a full active-voice version you can copy, plus a list of each individual passive sentence and its suggested rewrite.",
+        question: "How does the Passive Voice Checker detect passive sentences?",
+        answer: "The tool scans your text for auxiliary forms of the verb 'to be' (am, is, are, was, were, be, being, been) paired with past participles (e.g., 'was written', 'were analyzed'). It flags these patterns and calculates the percentage of passive sentences in your document."
       },
       {
-        question: "Is my text stored?",
-        answer: "No. Your text is sent securely for analysis and is not saved.",
+        question: "Is passive voice always considered an error in English grammar?",
+        answer: "No, passive voice is a legitimate grammatical voice, not a rule violation. It is appropriate when the actor is unknown, unimportant, or when you want to emphasize the recipient of an action (e.g., in scientific lab reports or crime news)."
       },
+      {
+        question: "When is it acceptable or preferred to use passive voice?",
+        answer: "Passive voice is preferred in scientific papers ('The chemical was heated to 80°C'), legal descriptions where the actor is unknown ('The car was stolen'), or when maintaining thematic focus on the object ('The historic monument was built in 1850')."
+      },
+      {
+        question: "How does switching to active voice improve readability and engagement?",
+        answer: "Active voice makes sentences shorter, more energetic, and easier to comprehend. It clearly identifies who is acting, reducing cognitive load and creating a more persuasive, direct connection with the reader."
+      },
+      {
+        question: "What is the difference between passive voice and past tense?",
+        answer: "Tense refers to *when* an action occurs (past, present, future), while voice refers to *who* performs the action. You can have active past tense ('She wrote the book') and passive present tense ('The book is written by her'). Passive voice is not tense."
+      },
+      {
+        question: "What is the 'By Zombies' test for passive voice?",
+        answer: "The 'By Zombies' test is a quick trick: if you can add 'by zombies' after the verb phrase and the sentence makes grammatical sense, it is in passive voice (e.g., 'The contract was signed [by zombies]'). If it sounds nonsensical (e.g., 'The CEO signed the contract [by zombies]'), it is active."
+      },
+      {
+        question: "Does using active voice improve SEO rankings and content quality?",
+        answer: "Yes. Search engines prioritize user experience and readable content. Active voice improves Flesch-Kincaid reading scores, keeps readers on the page longer, and reduces bounce rates."
+      },
+      {
+        question: "Can I check long essays, articles, or book chapters with this tool?",
+        answer: "Yes. The Passive Voice Checker can analyze single sentences, full blog posts, academic essays, and long-form documents with instant real-time feedback."
+      },
+      {
+        question: "Is this passive voice checker completely free and private?",
+        answer: "Yes, the Passive Voice Checker on AllWordTools.com is 100% free with no sign-ups or word limits. Your text is processed securely in your browser and never saved or shared."
+      }
     ],
-    related: ["active-voice-converter", "grammar-checker", "spell-checker", "punctuation-checker"],
+    related: [
+      "active-voice-converter",
+      "grammar-checker",
+      "spell-checker",
+      "punctuation-checker",
+      "ai-sentence-generator",
+      "example-sentences",
+      "collocation-finder",
+      "random-sentence-generator"
+    ],
     imagePrompts: [
-      "Editorial illustration contrasting a tangled passive sentence with a clean straight active sentence, cream background, ink-navy and honey-amber accents, premium literary flat-design style.",
-    ],
+      "An analytical digital magnifying glass scanning a glowing sentence, highlighting weak passive verbs in amber and active verbs in vibrant green, modern tech UI.",
+      "An educator editing a manuscript on a sleek glass tablet, transforming sluggish sentences into dynamic prose with floating typography.",
+      "Minimalist vector illustration comparing a heavy slow turtle (passive voice) with a swift running cheetah (active voice), warm literary palette.",
+      "A clean UI dashboard displaying a passive voice percentage gauge, sentence highlight cards, and one-click active rewrite buttons.",
+      "Conceptual illustration of words breaking free from tangled chains of auxiliary verbs into bold, direct typography."
+    ]
   },
-
   "active-voice-converter": {
     slug: "active-voice-converter",
-    metaTitle: "Active Voice Converter — Turn Passive Into Active Voice Free | AllWordTools.com",
+    metaTitle: "Active Voice Converter — Rewrite Passive Sentences to Active Voice | AllWordTools.com",
     metaDescription:
-      "Free active voice converter that rewrites passive sentences into clear, direct active voice while keeping your meaning. Paste your text for instant results.",
+      "Free Active Voice Converter. Transform passive sentences into punchy, direct, and engaging active voice with instant AI-powered suggestions.",
     eyebrow: "Grammar & Style",
     heading: "Active Voice Converter",
     subheading:
-      "Rewrite passive, wordy sentences into crisp active voice in one click — keeping your meaning and tone while making every line stronger and clearer.",
-    updated: "July 10, 2026",
-    readingMinutes: 6,
+      "Transform sluggish passive sentences into clear, dynamic, and direct active voice to sharpen your essays, business reports, and creative writing.",
+    updated: "August 2026",
+    readingMinutes: 8,
     intro: [
-      "The Active Voice Converter takes your passive or roundabout sentences and rewrites them so the subject does the action. The result is shorter, punchier writing that reads with confidence. Paste any passage and get a fully converted version plus a breakdown of every change.",
-      "Whether you're tightening an essay, a marketing page or a professional email, active voice keeps readers engaged and makes your point land. This tool does the heavy lifting while you stay in control of the final wording.",
-      "It's completely free, runs in your browser and handles long passages in seconds.",
+      "Writing in the active voice makes your sentences concise, authoritative, and engaging. However, manually identifying passive constructions and restructuring subjects, verbs, and prepositional phrases can be tedious. The Active Voice Converter automates this transformation, converting clunky passive sentences into direct, dynamic active prose in a single click.",
+      "Powered by intelligent linguistic analysis, our tool identifies the true actor (agent) in the sentence, moves it to the primary subject position, replaces auxiliary 'to be' verbs with strong action verbs, and repositions the receiver as the direct object. It even supplies logical agents for 'agentless' passive phrases where the original author omitted the doer.",
+      "The tool is 100% free, runs instantly in your browser, and requires no registration. Use it alongside our [Passive Voice Checker](passive-voice-checker) and [Grammar Checker](grammar-checker) to write with maximum impact."
     ],
     howToTitle: "How to use the Active Voice Converter",
     howToSteps: [
-      { title: "Paste your text", detail: "Add the passive or wordy text you want to strengthen." },
       {
-        title: "Convert",
-        detail: "Press Convert to active voice and the AI rewrites each passive sentence.",
+        title: "Enter your passive text",
+        detail: "Paste a single sentence or multiple paragraphs into the input editor."
       },
       {
-        title: "Compare changes",
-        detail: "See each original sentence alongside its active rewrite with a short note.",
+        title: "Click Convert to Active Voice",
+        detail: "The tool analyzes grammatical relationships and reconstructs the text into active syntax."
       },
       {
-        title: "Copy the result",
-        detail: "Copy the polished active-voice version straight into your document.",
+        title: "Compare side-by-side variations",
+        detail: "Review the original passive phrasing against the newly generated active options."
       },
+      {
+        title: "Copy the polished active prose",
+        detail: "Click to copy the revised text directly into your document, email, or manuscript."
+      }
     ],
     sections: [
       {
-        heading: "From passive to active in one step",
+        heading: "The anatomy of active voice transformation",
         paragraphs: [
-          'Converting to active voice means finding the real doer of each action and putting them first. "The results were analysed by the researchers" becomes "The researchers analysed the results." The converter does this automatically across your whole text, preserving names, tense and nuance.',
-          "Because it rewrites rather than just flags, you save time — no manual reshuffling of every clause. You simply review the improved version and keep what you like.",
-        ],
+          "Converting a passive sentence into active voice follows a reliable syntactic formula:",
+          "1. Locate the Actor: Identify who is performing the action (often found after the word 'by'). In 'The trophy was won by the debate team', the actor is 'the debate team'.",
+          "2. Reposition the Subject: Place the actor at the beginning of the sentence as the grammatical subject.",
+          "3. Strengthen the Verb: Remove auxiliary verbs ('was', 'were', 'has been') and conjugate the main verb into the appropriate active tense: 'won'.",
+          "4. Place the Receiver as Object: Position the recipient of the action after the verb: 'The debate team won the trophy.'",
+          "Our converter performs this complex linguistic rearrangement instantly across single sentences or full documents."
+        ]
       },
       {
-        heading: "When to keep some passive voice",
+        heading: "Handling 'Agentless' passive sentences",
         paragraphs: [
-          'Active voice suits most writing, but there are moments when passive is the right choice — when the doer is unknown ("The window was broken overnight"), when you want to emphasise the receiver, or in formal scientific reporting. The converter focuses on the passive sentences that genuinely weaken your writing.',
-          "You always have the last word: apply the changes that sharpen your message and leave any intentional passive constructions as they are.",
-        ],
+          "A major challenge in writing is the agentless passive, where the actor is omitted entirely (e.g., 'The server was restarted' or 'New guidelines have been introduced').",
+          "When converting agentless passives, the Active Voice Converter intelligently infers the most probable contextual subject (e.g., 'The IT team restarted the server' or 'Management introduced new guidelines') or allows you to insert your own customized actor seamlessly."
+        ]
       },
+      {
+        heading: "Why professional and academic style guides demand active voice",
+        paragraphs: [
+          "Leading style manuals—including the APA Publication Manual, MLA Handbook, and Chicago Manual of Style—explicitly advise writers to favor active voice wherever possible. Active voice reduces unnecessary word count, eliminates ambiguity regarding responsibility, and maintains reader engagement across complex topics.",
+          "In business environments, active voice conveys executive presence and clarity, transforming weak statements like 'It was determined that budget cuts are necessary' into decisive leadership prose: 'The executive committee determined that budget cuts are necessary.'"
+        ]
+      },
+      {
+        heading: "Connected writing tools on AllWordTools.com",
+        paragraphs: [
+          "Complete your writing workflow with our interconnected language aids. Identify remaining passive sentences with the [Passive Voice Checker](passive-voice-checker), polish syntax with the [Grammar Checker](grammar-checker), and explore expressive sentence alternatives with our [AI Sentence Generator](ai-sentence-generator)."
+        ]
+      }
     ],
     examples: [
       {
-        input: "The project was completed by the interns.",
-        output: "The interns completed the project.",
-        note: "The doer leads and the sentence tightens.",
+        input: "Passive: 'The novel was written by George Orwell in 1948.'",
+        output: "Active: 'George Orwell wrote the novel in 1948.'",
+        note: "Eliminates auxiliary verb 'was' and places author as direct subject."
       },
       {
-        input: "A new policy has been introduced by management.",
-        output: "Management introduced a new policy.",
-        note: "Fewer words, clearer responsibility.",
+        input: "Passive: 'Extensive testing has been conducted by the research laboratory.'",
+        output: "Active: 'The research laboratory conducted extensive testing.'",
+        note: "Reduces word count from 9 words to 6 words while increasing impact."
       },
       {
-        input: "The song was loved by everyone.",
-        output: "Everyone loved the song.",
-        note: "Direct and energetic.",
-      },
+        input: "Passive: 'The decision was finalized after hours of deliberation.'",
+        output: "Active: 'The committee finalized the decision after hours of deliberation.'",
+        note: "Supplies a logical actor to resolve an agentless passive construction."
+      }
     ],
     tips: [
-      "Convert in passes: fix the passive sentences first, then reread for flow.",
-      "Active voice often shortens sentences — use the freed-up space for stronger detail.",
-      "Keep intentional passive voice where the doer genuinely doesn't matter.",
+      "Identify the 'by [actor]' phrase in your passive sentence—that actor should become your new active subject.",
+      "In business writing, active voice establishes clear accountability and direct ownership of results.",
+      "Check your revised active sentences for strong, dynamic verbs rather than relying on weak linking verbs.",
+      "Notice how active sentences naturally reduce your total word count by 15-25% without losing information.",
+      "Use our [AI Sentence Generator](ai-sentence-generator) to explore multiple creative active sentence structures."
     ],
     faqs: [
       {
-        question: "Will the meaning of my text change?",
-        answer:
-          "No. The converter preserves your meaning and tone — it only changes the sentence structure from passive to active.",
+        question: "What is an active voice converter and how does it work?",
+        answer: "An active voice converter is an online tool that automatically rewrites passive sentences into active voice. It identifies the actor performing the action, places them as the grammatical subject, and conjugates the main verb into an active form."
       },
       {
-        question: "Can it handle a whole document?",
-        answer:
-          "Yes, it works on long passages. For very large documents, convert a few paragraphs at a time for the cleanest results.",
+        question: "How do you convert a passive sentence into active voice manually?",
+        answer: "Find the person or thing performing the action (often following 'by'), move them to the front of the sentence as the subject, remove helper verbs like 'was' or 'were', and place the recipient of the action after the verb."
       },
       {
-        question: "How is this different from the Passive Voice Checker?",
-        answer:
-          "The checker highlights passive sentences for review; the converter focuses on producing a rewritten active-voice version you can use right away.",
+        question: "What happens if a passive sentence does not specify an actor (agentless passive)?",
+        answer: "In agentless sentences like 'The window was broken', the converter infers a logical actor (e.g., 'Someone broke the window' or 'The storm broke the window') or prompts you to specify the intended subject."
       },
+      {
+        question: "Why do APA, MLA, and Chicago style guides prefer active voice?",
+        answer: "Active voice makes scholarly writing more concise, direct, and unambiguous. It clarifies exactly who conducted the research, performed the experiment, or made the claim."
+      },
+      {
+        question: "Does converting to active voice reduce overall word count?",
+        answer: "Yes, active voice sentences are typically 15% to 25% shorter than their passive equivalents because they eliminate auxiliary verbs ('was', 'been', 'is being') and prepositional phrases ('by...')."
+      },
+      {
+        question: "Can this converter handle complex and compound-complex sentences?",
+        answer: "Yes. The tool can parse multi-clause sentences with dependent clauses, conjunctions, and relative pronouns, converting passive clauses while preserving the original sentence logic."
+      },
+      {
+        question: "Does switching from passive to active voice change the meaning of my text?",
+        answer: "No. The factual meaning remains identical; only the grammatical focus shifts from the recipient of the action to the performer of the action."
+      },
+      {
+        question: "Can I use the Active Voice Converter for business emails and reports?",
+        answer: "Absolutely. Active voice is highly recommended in corporate communication because it communicates confidence, clarity, and decisive action."
+      },
+      {
+        question: "Is there any character or word limit on the active voice converter?",
+        answer: "No, you can convert single sentences, full paragraphs, essays, or long-form documents completely free with no usage limits."
+      },
+      {
+        question: "Is my text kept private and secure during conversion?",
+        answer: "Yes, your text is processed securely in real time and is never stored on our servers, logged, or shared with third parties."
+      }
     ],
-    related: ["passive-voice-checker", "grammar-checker", "punctuation-checker", "spell-checker"],
+    related: [
+      "passive-voice-checker",
+      "grammar-checker",
+      "spell-checker",
+      "punctuation-checker",
+      "ai-sentence-generator",
+      "example-sentences",
+      "ai-word-explainer"
+    ],
     imagePrompts: [
-      "Editorial illustration of a passive sentence transforming into a bold active sentence with an arrow, cream background, ink-navy and honey-amber palette, premium literary style.",
-    ],
+      "A glowing mechanical gear transforming a long winding passive sentence into a sleek arrow of active text, modern minimalist 3D vector.",
+      "An author watching passive sentences dynamically reorganize into bold active typography on a holographic glass display.",
+      "Clean UI transformation screen showing 'Before: Passive' in soft grey and 'After: Active' in vibrant amber with a checkmark badge.",
+      "A runner leaping over word hurdles, visual metaphor for the speed and dynamism of active voice writing.",
+      "Abstract linguistic flowchart showing subject, verb, and object rearranging from passive to active configuration."
+    ]
   },
-
   "grammar-checker": {
     slug: "grammar-checker",
-    metaTitle: "Grammar Checker (AI) — Free Online Grammar Correction | AllWordTools.com",
+    metaTitle: "AI Grammar Checker — Fix Grammar, Tense & Syntax Mistakes Free | AllWordTools.com",
     metaDescription:
-      "Free AI grammar checker that fixes grammar, tense, agreement and clarity mistakes instantly. Paste your text and get corrections with clear explanations.",
+      "Free AI Grammar Checker powered by Gemini. Correct grammatical slips, subject-verb disagreements, dangling modifiers, and wordy phrasing in real time.",
     eyebrow: "Grammar & Style",
-    heading: "AI Grammar Checker",
+    heading: "Grammar Checker (AI)",
     subheading:
-      "Catch grammar, tense, agreement and clarity mistakes with an AI-powered checker that not only fixes your text but explains every correction so you learn as you go.",
-    updated: "July 10, 2026",
-    readingMinutes: 7,
+      "Polish every sentence to perfection. Catch subtle grammar, tense, syntax, and clarity mistakes with intelligent AI-powered corrections.",
+    updated: "August 2026",
+    readingMinutes: 9,
     intro: [
-      "The AllWordTools.com Grammar Checker uses AI to read your writing the way a careful editor would. It catches subject-verb agreement slips, tense mix-ups, misused articles, awkward phrasing and more — then hands you a corrected version alongside a clear explanation for each fix.",
-      "Because it explains its reasoning, it's more than a quick fix: it's a way to understand your habits and improve. Use it on essays, emails, applications, blog posts and social captions to sound polished and professional every time.",
-      "It's free, fast and runs right in your browser — no sign-up, no downloads.",
+      "Grammatical accuracy is the cornerstone of credible, professional writing. Even experienced writers and native English speakers frequently overlook subtle grammatical slips such as dangling modifiers, tense shifts, comma splices, subject-verb disagreements, and awkward phrasing. The AI Grammar Checker utilizes advanced Google Gemini AI to analyze your writing holistically, providing deep contextual corrections that go far beyond primitive rule-based spell checkers.",
+      "Instead of merely flagging isolated words, our AI understands sentence semantics, rhetorical tone, and paragraph context. It identifies ambiguous pronouns, corrects irregular verb forms, eliminates redundant wordiness, and ensures consistent grammatical tense throughout your document.",
+      "The tool is 100% free, runs instantly in your browser, and requires no account creation or subscription. Pair it with our [Spell Checker](spell-checker) and [Punctuation Checker](punctuation-checker) for a flawless proofreading experience."
     ],
     howToTitle: "How to use the AI Grammar Checker",
     howToSteps: [
-      { title: "Paste your text", detail: "Add anything from a single sentence to a full draft." },
-      { title: "Run the check", detail: "Press Check grammar and the AI proofreads your writing." },
       {
-        title: "Read the fixes",
-        detail: "See each mistake, its correction and a short note on the rule involved.",
+        title: "Paste your text into the editor",
+        detail: "Input your essay, article, email, cover letter, or creative story into the grammar checking box."
       },
       {
-        title: "Copy the corrected text",
-        detail: "Grab the clean, corrected version to use anywhere.",
+        title: "Click Check Grammar",
+        detail: "Gemini AI analyzes syntax, subject-verb agreement, tense consistency, and structural clarity."
       },
+      {
+        title: "Review highlighted suggestions and explanations",
+        detail: "Inspect color-coded error flags alongside clear explanations of why the revision improves grammatical correctness."
+      },
+      {
+        title: "Apply one-click fixes",
+        detail: "Accept individual corrections or apply all recommended edits to copy the finalized, error-free text."
+      }
     ],
     sections: [
       {
-        heading: "What the grammar checker catches",
+        heading: "Contextual AI intelligence vs. traditional rule checkers",
         paragraphs: [
-          'The checker looks for the mistakes that trip up writers most: subject-verb agreement ("the team are" vs "the team is"), verb tense consistency, run-on sentences, sentence fragments, misplaced modifiers, confused homophones (their/there/they\'re), article errors (a/an/the) and unclear phrasing.',
-          "Each issue comes with a plain-English explanation, so you don't just fix the sentence — you understand why. Over time, that turns repeated corrections into lasting improvement.",
-        ],
+          "Traditional grammar tools rely on rigid pattern-matching dictionaries that frequently generate false alarms or miss context-dependent errors. For example, in the sentence 'The group of scientists were ready', a primitive checker might accept the plural verb because 'scientists' is plural, ignoring that the true grammatical subject is the singular collective noun 'group'.",
+          "The AI Grammar Checker parses full syntactic dependency trees, correctly identifying the singular subject ('group') and recommending the grammatically sound 'was ready'. It distinguishes between homophones in context (e.g., complement vs. compliment, principal vs. principle) and ensures stylistic harmony across complex sentences."
+        ]
       },
       {
-        heading: "Why an AI grammar checker helps",
+        heading: "Common grammatical errors detected and resolved",
         paragraphs: [
-          "Traditional rule-based checkers miss context. An AI checker reads meaning, so it catches subtle errors that depend on what you're actually trying to say — and suggests fixes that keep your voice intact.",
-          "It's ideal for non-native speakers, students and busy professionals who want a confident final read before they hit send or submit.",
-        ],
+          "Our tool systematically catches the most frequent writing pitfalls across English prose:",
+          "• Subject-Verb Agreement: Resolves disagreements in sentences with intervening prepositional phrases, compound subjects, or collective nouns.",
+          "• Dangling and Misplaced Modifiers: Repositions descriptive clauses so they clearly attach to their intended noun (fixing errors like 'Walking to the store, the rain drenched Sarah').",
+          "• Inconsistent Verb Tense: Identifies accidental shifts between past, present, and future tenses within a single paragraph.",
+          "• Parallel Structure: Ensures items in lists, comparisons, and coordinate clauses share identical grammatical forms.",
+          "• Pronoun-Antecedent Agreement: Clarifies ambiguous pronouns and corrects singular/plural pronoun mismatches."
+        ]
       },
+      {
+        heading: "Applications for students, professionals, and ESL learners",
+        paragraphs: [
+          "• Academic Writing: Ensure term papers, dissertations, and admissions essays adhere to strict scholarly grammatical standards.",
+          "• Professional Communication: Send error-free emails, executive memos, proposals, and resumes that command respect.",
+          "• Non-Native English (ESL/EFL) Learners: Receive clear explanations that teach the 'why' behind English grammar rules, accelerating language acquisition.",
+          "• Authors & Content Creators: Polish dialogue, narrative pacing, and sentence flow before publishing."
+        ]
+      },
+      {
+        heading: "Connected proofreading tools on AllWordTools.com",
+        paragraphs: [
+          "Achieve comprehensive writing excellence by combining this tool with our [Spell Checker](spell-checker), [Punctuation Checker](punctuation-checker), [Passive Voice Checker](passive-voice-checker), and [Active Voice Converter](active-voice-converter)."
+        ]
+      }
     ],
     examples: [
       {
-        input: "She dont have no time.",
-        output: "She doesn't have any time.",
-        note: "Fixes the double negative and verb form.",
+        input: "Incorrect: 'Each of the participants were asked to submit their feedback.'",
+        output: "Corrected: 'Each of the participants was asked to submit their feedback.'",
+        note: "Fixes subject-verb agreement: 'Each' is a singular indefinite pronoun requiring 'was'."
       },
       {
-        input: "Me and him went to the store.",
-        output: "He and I went to the store.",
-        note: "Corrects pronoun case and order.",
+        input: "Incorrect: 'She likes reading novels, writing poetry, and to paint landscapes.'",
+        output: "Corrected: 'She likes reading novels, writing poetry, and painting landscapes.'",
+        note: "Restores parallel structure across coordinate gerund phrases."
       },
       {
-        input: "The datas is wrong.",
-        output: "The data is wrong.",
-        note: '"Data" is already used as the plural here.',
-      },
+        input: "Incorrect: 'Having finished the assignment, the TV was turned on by Mark.'",
+        output: "Corrected: 'Having finished the assignment, Mark turned on the TV.'",
+        note: "Fixes a dangling participle modifier by placing 'Mark' as the active subject."
+      }
     ],
     tips: [
-      "Check in short sections for the most precise feedback on long documents.",
-      "Read the explanations — spotting your recurring mistakes is the fastest way to improve.",
-      "Combine with the Spell Checker and Punctuation Checker for a full proofread.",
+      "Always review the brief explanation attached to each suggestion to reinforce your grammar knowledge.",
+      "Check your text in manageable chunks (e.g., 500-1000 words at a time) for thorough sentence-by-sentence review.",
+      "Pay special attention to parallel structure when writing bulleted lists or series of actions.",
+      "After grammar checking, run your text through the [Passive Voice Checker](passive-voice-checker) to verify sentence vigor.",
+      "Use our [AI Sentence Generator](ai-sentence-generator) to explore alternative ways to structure complex clauses."
     ],
     faqs: [
       {
-        question: "Is the grammar checker free?",
-        answer: "Yes, it's completely free to use in your browser.",
+        question: "What types of grammar mistakes does this AI Grammar Checker detect?",
+        answer: "The AI Grammar Checker catches subject-verb disagreements, verb tense shifts, dangling modifiers, parallel structure errors, run-on sentences, comma splices, ambiguous pronoun references, and awkward phrasing."
       },
       {
-        question: "Does it explain the corrections?",
-        answer:
-          "Yes. Every fix comes with a short explanation of the grammar rule involved so you can learn from it.",
+        question: "How does an AI grammar checker differ from a basic spell check?",
+        answer: "Basic spell checkers only verify whether individual words exist in a dictionary. The AI Grammar Checker understands sentence context, syntax, and semantics, catching correctly spelled words used in the wrong grammatical context (e.g., 'their' vs. 'there' or 'affect' vs. 'effect')."
       },
       {
-        question: "Will it change my writing style?",
-        answer:
-          "No. It focuses on correctness and clarity while preserving your voice and meaning.",
+        question: "Can this grammar checker fix complex sentence structure and wordiness?",
+        answer: "Yes. In addition to correcting grammatical errors, the AI suggests conciseness improvements, removes redundant filler words, and restructures awkward clauses for enhanced readability."
       },
+      {
+        question: "Is my pasted text private, secure, and confidential?",
+        answer: "Completely. Your text is processed securely in real time and is never stored on our servers, logged in databases, or used to train public models."
+      },
+      {
+        question: "How accurate is the AI Grammar Checker for academic and formal writing?",
+        answer: "Powered by Gemini AI, the tool provides institutional-grade accuracy suitable for academic papers, peer-reviewed articles, business proposals, and legal documentation."
+      },
+      {
+        question: "Does the tool support British, American, Canadian, and Australian English?",
+        answer: "Yes. The AI recognizes dialect-specific grammatical nuances and spelling conventions across American, British, Canadian, and Australian English."
+      },
+      {
+        question: "Can non-native English (ESL/EFL) learners use this tool to learn grammar?",
+        answer: "Yes. Every flagged error includes an easy-to-understand explanation clarifying the grammatical rule, helping language learners understand why the edit was recommended."
+      },
+      {
+        question: "Can I check full essays, resumes, cover letters, and professional emails?",
+        answer: "Yes, you can paste documents of any length—including essays, cover letters, resumes, articles, and emails—for instant comprehensive review."
+      },
+      {
+        question: "Is the AI Grammar Checker completely free to use?",
+        answer: "Yes, the AI Grammar Checker on AllWordTools.com is 100% free with unlimited checks, no word count caps, and no paywalls."
+      },
+      {
+        question: "Can this tool replace a human proofreader?",
+        answer: "While the AI catches the vast majority of grammatical, syntactic, and structural errors, we always recommend a final human review for highly nuanced creative or legal documents."
+      }
     ],
     related: [
       "spell-checker",
       "punctuation-checker",
       "passive-voice-checker",
       "active-voice-converter",
+      "ai-sentence-generator",
+      "ai-word-explainer",
+      "example-sentences",
+      "dictionary"
     ],
     imagePrompts: [
-      "Editorial illustration of an AI proofreading a paragraph with gentle checkmarks and margin notes, cream background, ink-navy and honey-amber accents, premium literary SaaS style.",
-    ],
+      "A glowing holographic quill circling a grammatical mistake in red and replacing it with glowing gold syntax, futuristic writing desk.",
+      "An intelligent AI editor scanning an open book on a glass tablet, highlighting grammar improvements with clean checkmarks.",
+      "Minimalist vector illustration of building blocks assembling into a perfectly balanced sentence archway, warm honey and deep navy.",
+      "A clean UI grammar dashboard showing error counts, clarity scores, and side-by-side correction cards.",
+      "Abstract conceptual art of linguistic neural networks connecting words in perfect grammatical harmony."
+    ]
   },
-
   "spell-checker": {
     slug: "spell-checker",
-    metaTitle: "Spell Checker — Free Online Spelling Corrector | AllWordTools.com",
+    metaTitle: "Spell Checker — Instant Online Spelling & Typo Correction | AllWordTools.com",
     metaDescription:
-      "Free spell checker that finds misspelled words and gives the correct spelling instantly. Paste your text and fix every typo in seconds.",
+      "Free online Spell Checker that catches typos, misspelled words, and tricky homophones instantly across US, UK, Canadian, and Australian English.",
     eyebrow: "Grammar & Style",
     heading: "Spell Checker",
     subheading:
-      "Catch every typo and misspelling in your writing and get the correct spelling instantly — without touching your grammar or style.",
-    updated: "July 10, 2026",
-    readingMinutes: 5,
+      "Catch every typo and spelling mistake instantly. Fix misspelled words, confusing homophones, and dialect variations across your writing.",
+    updated: "August 2026",
+    readingMinutes: 8,
     intro: [
-      "The AllWordTools.com Spell Checker focuses on one job and does it well: finding misspelled words and giving you the right spelling. Paste any text and it returns a corrected version plus a list of every word it fixed, so you can double-check each one.",
-      "It's perfect for a fast final pass before you send an email, submit an assignment or publish a post. Because it only touches spelling, your wording and tone stay exactly as you wrote them.",
-      "The tool is free, runs in your browser and handles long passages in a single check.",
+      "A single spelling error can undermine the credibility of an otherwise brilliant essay, resume, or business proposal. In our fast-paced digital world, typos and misspelled words easily slip past hurried eyes. The Spell Checker provides rapid, comprehensive spelling analysis across your entire text, catching typos, transposed letters, phonetically misspelled words, and easily confused homophones in real time.",
+      "Powered by extensive, regularly updated English dictionaries and contextual linguistic analysis, our tool supports major regional dialects—including American, British, Canadian, and Australian English. It catches subtle spelling variations (such as 'color' vs. 'colour', 'organize' vs. 'organise') and ensures consistency throughout your document.",
+      "Enjoy 100% free, unlimited spell checking directly in your web browser with zero software installation or sign-ups. Combine it with our [Punctuation Checker](punctuation-checker) and [Grammar Checker](grammar-checker) for complete proofreading coverage."
     ],
     howToTitle: "How to use the Spell Checker",
     howToSteps: [
-      { title: "Paste your text", detail: "Add the writing you want to spell-check." },
-      { title: "Run the check", detail: "Press Check spelling and every misspelling is found." },
       {
-        title: "Review corrections",
-        detail: "See each misspelled word next to its correct spelling.",
+        title: "Paste or type your text",
+        detail: "Input your text into the editor window or type directly into the box."
       },
-      { title: "Copy the clean text", detail: "Copy the corrected version with all typos fixed." },
+      {
+        title: "Select your English dialect (optional)",
+        detail: "Choose between American (US), British (UK), Canadian (CA), or Australian (AU) spelling rules."
+      },
+      {
+        title: "Click Check Spelling",
+        detail: "The tool scans every word against verified dictionaries and contextual language models."
+      },
+      {
+        title: "Apply spelling corrections",
+        detail: "Click on highlighted misspelled words to see the correct spelling and replace them instantly."
+      }
     ],
     sections: [
       {
-        heading: "Catch the typos that slip through",
+        heading: "Context-aware spell checking vs. simple word lists",
         paragraphs: [
-          'Common misspellings like "recieve", "seperate", "definately" and "occured" are easy to miss when you\'re reading your own work. The Spell Checker flags them all and shows the correct form so nothing slips into your final draft.',
-          "It also catches simple typos — transposed letters, doubled letters and dropped letters — that autocorrect sometimes leaves behind.",
-        ],
+          "Traditional spell checkers only check if a word exists in a dictionary list, blind to whether it is the correct word for the sentence. If you accidentally write 'I would like to *compliment* your dress' when you meant 'the wine *complements* the meal', a simple spell checker will remain silent.",
+          "Our Spell Checker combines exhaustive dictionary verification with contextual semantic analysis to catch homophones, sound-alike words (e.g., principal/principle, stationery/stationary, lead/led), and commonly confused word pairs that ordinary spell checkers miss."
+        ]
       },
       {
-        heading: "Spelling only, nothing else",
+        heading: "Navigating international English spelling conventions",
         paragraphs: [
-          "Unlike a full grammar tool, the Spell Checker deliberately leaves your grammar, punctuation and style untouched. That makes it a safe, predictable final pass — you'll only ever see spelling changes.",
-          "If you also want grammar and clarity fixes, run your text through the AI Grammar Checker afterwards for a complete proofread.",
-        ],
+          "English spelling varies across the English-speaking world. Our tool supports full dialect localization:",
+          "• -or vs. -our: American 'honor', 'color', 'flavor' vs. British/Commonwealth 'honour', 'colour', 'flavour'.",
+          "• -ize vs. -ise: American 'organize', 'realize', 'analyze' vs. British 'organise', 'realise', 'analyse'.",
+          "• -er vs. -re: American 'center', 'theater', 'meter' vs. British 'centre', 'theatre', 'metre'.",
+          "• Double Consonants: American 'traveled', 'canceled' vs. British 'travelled', 'cancelled'.",
+          "You can enforce consistent regional spelling across your entire document with a single click."
+        ]
       },
+      {
+        heading: "The professional and psychological cost of typos",
+        paragraphs: [
+          "Research in consumer psychology demonstrates that spelling errors on commercial websites and marketing copy reduce buyer trust by up to 50% and significantly increase bounce rates. In recruitment, over 70% of hiring managers discard resumes containing avoidable spelling mistakes.",
+          "Running your text through our Spell Checker before sending emails, publishing blog posts, or submitting assignments ensures your work projects professionalism and care."
+        ]
+      },
+      {
+        heading: "Connected word tools on AllWordTools.com",
+        paragraphs: [
+          "Explore related language tools on our platform. Look up correct definitions with our [Dictionary](dictionary), verify pronunciation with [Pronunciation](pronunciation), test your spelling skills with the [Spelling Quiz](spelling-quiz), and check punctuation with the [Punctuation Checker](punctuation-checker)."
+        ]
+      }
     ],
     examples: [
       {
-        input: "I recieved the parcel.",
-        output: "I received the parcel.",
-        note: '"i before e" fixed.',
+        input: "Misspelled: 'The goverment will definately review the acommodation request.'",
+        output: "Corrected: 'The government will definitely review the accommodation request.'",
+        note: "Fixes three of the most commonly misspelled words in the English language."
       },
       {
-        input: "They are seperate issues.",
-        output: "They are separate issues.",
-        note: "A very common misspelling corrected.",
+        input: "Contextual Error: 'Their going to meet us over there with there luggage.'",
+        output: "Corrected: 'They\'re going to meet us over there with their luggage.'",
+        note: "Corrects tricky homophones (they're / there / their) based on syntactic context."
       },
       {
-        input: "It definately worked.",
-        output: "It definitely worked.",
-        note: 'Fixes the frequent "definately" typo.',
-      },
+        input: "Dialect Match: 'The theatre in the centre of the city was cancelled.' (UK -> US)",
+        output: "US Spelling: 'The theater in the center of the city was canceled.'",
+        note: "Converts British English spelling conventions into American English."
+      }
     ],
     tips: [
-      "Run a spell check as your very last step, after editing for content.",
-      'Watch for correctly spelled but wrong words (like "form" vs "from") — pair with the Grammar Checker to catch those.',
-      "Keep a personal list of words you often misspell to learn them for good.",
+      "Select your target English dialect (US vs. UK) before running the check to avoid regional false positives.",
+      "Watch out for easily confused homophones like 'its' vs. 'it's' and 'lose' vs. 'loose'.",
+      "Read your text backwards word by word when proofreading manually—this breaks narrative flow and helps spot typos.",
+      "Test your spelling proficiency and train your eye with our interactive [Spelling Quiz](spelling-quiz).",
+      "Pair spell checking with our [Grammar Checker](grammar-checker) to catch grammatical syntax errors simultaneously."
     ],
     faqs: [
       {
-        question: "Does the spell checker change grammar?",
-        answer:
-          "No. It only fixes spelling. Your grammar, punctuation and wording stay exactly as written.",
+        question: "How does the online Spell Checker detect misspelled words?",
+        answer: "The Spell Checker compares every word in your text against a verified corpus of hundreds of thousands of standard English words, while using contextual analysis to catch sound-alike homophones and typos."
       },
       {
-        question: "Does it support different English variants?",
-        answer:
-          "It recognises common British and American spellings and corrects clear misspellings in either.",
+        question: "Can it catch homophones like 'their', 'there', and 'they're'?",
+        answer: "Yes. Unlike primitive spell checkers that only check if a word exists in a dictionary, our tool evaluates sentence context to verify whether you used the correct homophone."
       },
-      { question: "Is it free?", answer: "Yes, the Spell Checker is completely free to use." },
+      {
+        question: "Does the spell checker support US, UK, Canadian, and Australian spelling?",
+        answer: "Yes. You can toggle between American (US), British (UK), Canadian (CA), and Australian (AU) English rules to ensure consistent regional spelling throughout your text."
+      },
+      {
+        question: "What are the most commonly misspelled words in the English language?",
+        answer: "Some of the most frequent spelling errors include 'definitely', 'accommodate', 'separate', 'necessary', 'occurrence', 'embarrass', 'receive', and 'privilege'."
+      },
+      {
+        question: "Can I paste large documents and essays for batch spell checking?",
+        answer: "Yes. You can paste thousands of words at once for instantaneous, document-wide spell checking with highlighted corrections."
+      },
+      {
+        question: "Does the tool check capitalized words, proper nouns, and acronyms?",
+        answer: "Yes. The spell checker recognizes standard capitalization rules, common acronyms, and recognized geographical and historical proper nouns."
+      },
+      {
+        question: "Is my pasted text private and secure during spell checking?",
+        answer: "Completely. Your text is processed in real time and is never saved on servers, logged, or shared with third parties."
+      },
+      {
+        question: "Can students and teachers use this spell checker for school assignments?",
+        answer: "Yes, students and educators frequently use our Spell Checker to proofread essays, research papers, spelling lists, and classroom assignments."
+      },
+      {
+        question: "Why is correct spelling crucial for website SEO and online business?",
+        answer: "Accurate spelling establishes domain authority, builds visitor trust, reduces bounce rates, and ensures search engines index your target keywords correctly."
+      },
+      {
+        question: "Is this online spell checker completely free to use?",
+        answer: "Yes, the Spell Checker on AllWordTools.com is 100% free with unlimited usage, no subscriptions, and no sign-up required."
+      }
     ],
     related: [
       "grammar-checker",
       "punctuation-checker",
+      "spelling-quiz",
+      "dictionary",
+      "word-meaning",
+      "pronunciation",
       "passive-voice-checker",
-      "active-voice-converter",
+      "ai-word-explainer"
     ],
     imagePrompts: [
-      "Editorial illustration of a misspelled word being corrected letter by letter with a soft highlight, cream background, ink-navy and honey-amber palette, premium literary style.",
-    ],
+      "A glowing magnifying glass illuminating red underlined misspelled words on a digital document and replacing them with sparkling green correct text.",
+      "An open antique dictionary with digital neon letters floating into correct alphabetical alignment, warm library setting.",
+      "Clean UI screenshot showing a spell check report with highlighted error badges and one-click replacement options.",
+      "Minimalist vector illustration of letter tiles snapping into place like puzzle pieces to form correct words.",
+      "A student smiling while reviewing an error-free essay on a laptop with green checkmark badges floating above."
+    ]
   },
-
   "punctuation-checker": {
     slug: "punctuation-checker",
-    metaTitle: "Punctuation Checker — Fix Commas & Punctuation Free | AllWordTools.com",
+    metaTitle: "Punctuation Checker — Fix Commas, Apostrophes, Semicolons & Run-ons | AllWordTools.com",
     metaDescription:
-      "Free punctuation checker that fixes commas, apostrophes, periods and quotation marks in your text — without rewording. Paste your writing for instant fixes.",
+      "Free online Punctuation Checker. Detect and correct misplaced commas, apostrophe errors, missing semicolons, quotation marks, and run-on sentences.",
     eyebrow: "Grammar & Style",
     heading: "Punctuation Checker",
     subheading:
-      "Fix commas, apostrophes, periods, quotation marks and capitalization across your writing — with clear explanations and no changes to your wording.",
-    updated: "July 10, 2026",
-    readingMinutes: 6,
+      "Master punctuation precision. Identify comma splices, apostrophe blunders, colon/semicolon misuse, and quotation errors to enhance readability.",
+    updated: "August 2026",
+    readingMinutes: 8,
     intro: [
-      "Punctuation is small but powerful — a missing comma or misplaced apostrophe can change your meaning or make writing hard to read. The AllWordTools.com Punctuation Checker scans your text, fixes the punctuation, and explains each change while leaving your words exactly as they are.",
-      "It's great for emails, essays, captions and reports where clean punctuation signals care and professionalism. You get a corrected version plus a list of every fix so you can learn the rules behind them.",
-      "The tool is free, browser-based and handles long passages instantly.",
+      "Punctuation marks are the traffic signals of written language—they dictate pauses, separate distinct ideas, clarify relationships between clauses, and ensure intended meaning is communicated without ambiguity. A misplaced comma or a missing apostrophe can dramatically alter the meaning of a sentence (consider the classic difference between 'Let\'s eat, grandma!' and 'Let\'s eat grandma!').",
+      "The Punctuation Checker analyzes your text for comma splices, missing serial commas, apostrophe errors in possessives versus contractions, semicolon and colon misplacement, hyphenation blunders, and improper quotation mark formatting.",
+      "Free, instant, and fully responsive across mobile, tablet, and desktop devices without sign-ups or downloads. Combine it with our [Grammar Checker](grammar-checker) and [Spell Checker](spell-checker) for total manuscript perfection."
     ],
     howToTitle: "How to use the Punctuation Checker",
     howToSteps: [
-      { title: "Paste your text", detail: "Add the writing you want to punctuate correctly." },
-      { title: "Run the check", detail: "Press Check punctuation and the AI reviews every mark." },
       {
-        title: "Review the fixes",
-        detail: "See each punctuation change with a short explanation.",
+        title: "Paste your text into the box",
+        detail: "Copy and paste your paragraph, essay, or dialogue into the punctuation editor."
       },
       {
-        title: "Copy the result",
-        detail: "Copy the correctly punctuated version to use anywhere.",
+        title: "Click Check Punctuation",
+        detail: "The tool scans sentence boundaries, comma placements, apostrophes, and quotation marks."
       },
+      {
+        title: "Review highlighted punctuation flags",
+        detail: "Inspect highlighted punctuation errors alongside clear explanations of the relevant punctuation rule."
+      },
+      {
+        title: "Apply one-click punctuation fixes",
+        detail: "Accept corrections to instantly update your text with proper punctuation and copy it."
+      }
     ],
     sections: [
       {
-        heading: "The punctuation this tool fixes",
+        heading: "Solving the most common punctuation errors",
         paragraphs: [
-          "The checker handles commas (including comma splices and missing commas), apostrophes (its vs it's, plural vs possessive), periods, question and exclamation marks, quotation marks, hyphens and dashes, semicolons and colons, and capitalization at the start of sentences.",
-          'A famous example — "Let\'s eat, Grandma" vs "Let\'s eat Grandma" — shows how one comma changes everything. The tool catches exactly these meaning-shifting mistakes.',
-        ],
+          "Our Punctuation Checker targets the most frequent punctuation pitfalls across modern writing:",
+          "• Comma Splices: Joining two independent clauses with only a comma (e.g., 'The sun rose, it was a beautiful morning' -> 'The sun rose; it was a beautiful morning' or 'The sun rose, and it was a beautiful morning').",
+          "• Apostrophe Confusion: Distinguishing between possessive pronouns and contractions (its vs. it's, whose vs. who's, your vs. you're).",
+          "• Semicolons vs. Colons: Ensuring semicolons connect closely related independent clauses while colons properly introduce lists, quotes, or explanations.",
+          "• Run-On Sentences: Identifying sentences where multiple independent clauses are fused together without necessary punctuation or coordinating conjunctions.",
+          "• Quotation Mark Placement: Enforcing standard American (periods/commas inside quotes) or British (punctuation outside quotes unless part of original quote) rules."
+        ]
       },
       {
-        heading: "Punctuation only, wording untouched",
+        heading: "The Oxford Comma (Serial Comma) and clarity",
         paragraphs: [
-          "The Punctuation Checker deliberately leaves your words alone. It won't reword sentences or change your style — it only adjusts the punctuation and sentence-start capitalization. That makes it a safe, focused pass you can trust.",
-          "For a deeper edit that also fixes grammar and clarity, follow up with the AI Grammar Checker.",
-        ],
+          "The Oxford comma is the final comma placed before the coordinating conjunction in a series of three or more items (e.g., 'apples, oranges, and bananas'). Omission of the serial comma frequently leads to unintended and humorous ambiguity (such as 'I dedicate this award to my parents, Ayn Rand and God').",
+          "Our tool helps you maintain consistent Oxford comma usage throughout your manuscript according to your chosen style guide (APA and Chicago mandate it; AP style generally omits it)."
+        ]
       },
+      {
+        heading: "Mastering dashes: Em-Dash, En-Dash, and Hyphen",
+        paragraphs: [
+          "Many writers confuse the three horizontal punctuation marks:",
+          "• Hyphen (-): Connects compound words (e.g., 'well-known author', 'twenty-one').",
+          "• En-Dash (–): Indicates numeric or date ranges (e.g., 'pages 45–60', '1939–1945').",
+          "• Em-Dash (—): Creates an emphatic break or parenthetical interruption in thought—like this.",
+          "Our checker detects incorrect hyphenation and ensures proper dash formatting across your document."
+        ]
+      },
+      {
+        heading: "Connected proofreading suite on AllWordTools.com",
+        paragraphs: [
+          "Pair your punctuation review with our full grammar toolkit. Verify word choices with the [Grammar Checker](grammar-checker), eliminate spelling errors with the [Spell Checker](spell-checker), and strengthen weak sentence structures with the [Passive Voice Checker](passive-voice-checker)."
+        ]
+      }
     ],
     examples: [
       {
-        input: "lets eat grandma",
-        output: "Let's eat, Grandma.",
-        note: "An apostrophe, a comma and capitalization change the meaning.",
+        input: "Incorrect: 'The weather was freezing, we decided to stay indoors.'",
+        output: "Corrected: 'The weather was freezing; we decided to stay indoors.' (or 'The weather was freezing, so we decided to stay indoors.')",
+        note: "Resolves a classic comma splice between two independent clauses."
       },
       {
-        input: "Its been a great day.",
-        output: "It's been a great day.",
-        note: '"It\'s" is the contraction of "it is".',
+        input: "Incorrect: 'The dog wagged it\'s tail when it saw it\'s owner.'",
+        output: "Corrected: 'The dog wagged its tail when it saw its owner.'",
+        note: "Fixes possessive 'its' (no apostrophe) versus contraction 'it's' (it is)."
       },
       {
-        input: "I bought apples oranges and pears.",
-        output: "I bought apples, oranges and pears.",
-        note: "Commas separate items in a list.",
-      },
+        input: "Incorrect: 'She bought three items: milk bread and eggs.'",
+        output: "Corrected: 'She bought three items: milk, bread, and eggs.'",
+        note: "Inserts proper serial commas for items in a list."
+      }
     ],
     tips: [
-      "Read tricky sentences aloud — a natural pause often marks where a comma belongs.",
-      'Remember: "it\'s" means "it is"; "its" shows possession.',
-      "Use the explanations to master the rules, then you'll need the tool less over time.",
+      "Use a semicolon only when linking two complete sentences that are closely related in thought.",
+      "Remember: 'It\'s' ALWAYS means 'it is' or 'it has'. If you cannot replace the word with 'it is', use 'its'.",
+      "Be consistent with the Oxford comma throughout your document according to your required style guide.",
+      "Avoid using commas where a simple coordinating conjunction (and, but, so) or period is needed.",
+      "Combine punctuation checking with our [Grammar Checker](grammar-checker) to ensure total sentence polish."
     ],
     faqs: [
       {
-        question: "Will it change my wording?",
-        answer:
-          "No. The Punctuation Checker only fixes punctuation and sentence-start capitalization — your words stay the same.",
+        question: "What punctuation marks and errors does this Punctuation Checker analyze?",
+        answer: "The tool checks commas (including comma splices and Oxford commas), apostrophes (possessives vs. contractions), semicolons, colons, hyphens, em-dashes, quotation marks, parentheses, and end-of-sentence punctuation."
       },
       {
-        question: "Does it fix apostrophes?",
-        answer:
-          "Yes. It corrects contractions and possessives, including the common its/it's mix-up.",
+        question: "What is a comma splice and how do you fix it?",
+        answer: "A comma splice occurs when two independent clauses (complete thoughts) are joined with only a comma (e.g., 'I love writing, it is relaxing'). You can fix it by adding a coordinating conjunction ('and'), replacing the comma with a semicolon (';'), or using a period ('.')."
       },
       {
-        question: "Is the tool free?",
-        answer: "Yes, it's completely free to use in your browser.",
+        question: "What is the Oxford comma and should I use it?",
+        answer: "The Oxford comma (serial comma) is placed immediately before the coordinating conjunction in a list of three or more items (e.g., 'red, white, and blue'). It is required by APA and Chicago style to prevent ambiguity, though AP style typically omits it."
       },
+      {
+        question: "How do I know whether to use 'its' or 'it's'?",
+        answer: "'It's' with an apostrophe is ALWAYS a contraction for 'it is' or 'it has' (e.g., 'It's raining'). 'Its' without an apostrophe is the possessive form showing ownership (e.g., 'The cat licked its paw')."
+      },
+      {
+        question: "When should I use a semicolon (;) instead of a comma or colon?",
+        answer: "Use a semicolon to link two independent clauses that are closely connected in meaning without using a conjunction ('The rain stopped; the sun emerged'). Use a colon to introduce a list, quote, or direct explanation."
+      },
+      {
+        question: "What is the difference between a hyphen, en-dash, and em-dash?",
+        answer: "A hyphen (-) joins compound words ('state-of-the-art'). An en-dash (–) indicates ranges ('1990–2000'). An em-dash (—) signals an emphatic pause or interruption in a sentence."
+      },
+      {
+        question: "How does the tool handle dialogue and quotation mark punctuation?",
+        answer: "The tool checks that opening and closing quotes match and verifies whether commas and periods are placed inside or outside quotation marks according to standard American or British publishing conventions."
+      },
+      {
+        question: "Can incorrect punctuation alter the meaning of a sentence?",
+        answer: "Yes! Punctuation dictates grammatical relationships. For example, 'A woman without her man is nothing' means the opposite of 'A woman: without her, man is nothing'."
+      },
+      {
+        question: "Is this punctuation checker free to use on mobile and desktop?",
+        answer: "Yes, the Punctuation Checker on AllWordTools.com is 100% free on all devices with unlimited text checking and no login required."
+      },
+      {
+        question: "Does proper punctuation improve reading flow and SEO scores?",
+        answer: "Yes. Clean punctuation improves readability scores (such as Flesch-Kincaid), makes content easier to skim, and keeps readers engaged, signaling quality to search engine algorithms."
+      }
     ],
     related: [
       "grammar-checker",
       "spell-checker",
       "passive-voice-checker",
       "active-voice-converter",
-    ],
-    imagePrompts: [
-      "Editorial illustration of oversized punctuation marks — comma, apostrophe, quotation marks — being placed neatly into a sentence, cream background, ink-navy and honey-amber accents, premium literary style.",
-    ],
-  },
-  "word-cookies-solver": {
-    slug: "word-cookies-solver",
-    metaTitle: "Word Cookies Solver — Every Answer & Bonus Word | AllWordTools.com",
-    metaDescription:
-      "Free Word Cookies Solver. Enter your cookie tray letters and instantly get every valid word and bonus word, grouped by length, to clear any level.",
-    eyebrow: "Puzzle Game Solvers",
-    heading: "Word Cookies Solver",
-    subheading:
-      "Enter the letters in your cookie tray and instantly see every valid word — grouped by length, with the bonus words included — so you can clear any level.",
-    updated: "July 10, 2026",
-    readingMinutes: 6,
-    intro: [
-      "Word Cookies is a wonderfully relaxing game right up until a level hands you a set of letters that just won't click. The AllWordTools.com Word Cookies Solver is built for those moments: type in the letters shown on the tray and it instantly lists every word you can form from them, grouped by length so it's easy to match each answer to the slots in the level.",
-      "Because Word Cookies rewards you for finding extra words, our solver doesn't stop at the required answers. It shows every valid word from your letters, including the bonus words that fill your cookie jar with coins. That means you can clear the level and grab the rewards in a single pass.",
-      "It's fast, free and runs entirely in your browser on any device — no downloads, no sign-up and no limits.",
-    ],
-    howToTitle: "How to use the Word Cookies Solver",
-    howToSteps: [
-      {
-        title: "Read your tray",
-        detail: "Look at the circle of letters at the bottom of the Word Cookies level.",
-      },
-      {
-        title: "Type the letters",
-        detail:
-          "Enter every letter from the tray into the box. Use ? for any letter you can't read clearly.",
-      },
-      {
-        title: "Solve",
-        detail: "Press Solve cookies and every valid word appears instantly, grouped by length.",
-      },
-      {
-        title: "Match and tap",
-        detail: "Match words to the slots in the level, and tap any word to copy it.",
-      },
-    ],
-    sections: [
-      {
-        heading: "Find every answer and bonus word",
-        paragraphs: [
-          "Each Word Cookies level gives you a fixed set of letters and a grid of blank slots to fill. Our solver treats your letters as a pool and finds every dictionary word that can be built from them, so the required answers are always in the list. Words are grouped by length, matching the way the level lays out its slots.",
-          "The bonus words — the extra valid words that aren't part of the main puzzle — are shown too. Collecting them fills your cookie jar and earns coins, so having the full list in front of you turns every level into a chance to stock up on rewards.",
-        ],
-      },
-      {
-        heading: "Why use a Word Cookies solver?",
-        paragraphs: [
-          "A solver is the fastest way to get unstuck without losing your streak or spending coins on hints. It's also a great way to learn: seeing the full list of possible words expands your vocabulary and helps you spot patterns faster in future levels.",
-          "Everything runs privately in your browser, so there's nothing to install and no account to create. Enter your letters, get your answers, and get back to playing.",
-        ],
-      },
-    ],
-    examples: [
-      {
-        input: "letters: t r a c e",
-        output: "trace, cater, crate, react, care, race, rate, art",
-        note: "Every word from the tray, grouped by length.",
-      },
-      {
-        input: "letters: p l a n e t",
-        output: "planet, platen, plane, plant, petal, plate, leap, pane",
-        note: "Longer words fill the main slots; shorter ones are often bonuses.",
-      },
-      {
-        input: "letters: s t o r m",
-        output: "storm, sort, tors, rots, most, moss, tors",
-        note: "Even a five-letter tray hides several bonus words.",
-      },
-    ],
-    tips: [
-      "Enter every letter in the tray — bonus words come from the same pool.",
-      "Use ? for a letter you can't read; the solver treats it as any letter.",
-      "Match the longest words to the biggest slots first.",
-      "Collect the bonus words to fill your cookie jar and earn coins.",
-      "Tap any word to copy it instantly.",
-    ],
-    faqs: [
-      {
-        question: "How does the Word Cookies Solver work?",
-        answer:
-          "Type the letters shown on your cookie tray and the solver finds every valid English word you can build from them, grouped by length so you can match each answer to the level's slots.",
-      },
-      {
-        question: "Does it show bonus words?",
-        answer:
-          "Yes. The solver lists every valid word from your letters, including the bonus words that fill your cookie jar and earn coins.",
-      },
-      {
-        question: "Is it free?",
-        answer:
-          "Completely free, with no sign-up or download. It runs instantly in your browser on any device.",
-      },
-      {
-        question: "Is using a solver cheating?",
-        answer:
-          "It's best thought of as a hint tool. Use it to get unstuck, discover bonus words and learn new vocabulary while keeping your streak going.",
-      },
-      {
-        question: "What if I can't read a letter?",
-        answer:
-          "Enter ? in its place. The solver treats ? as a wildcard that can stand for any letter.",
-      },
-    ],
-    related: ["wordscapes-solver", "word-unscrambler", "anagram-solver", "text-twist-solver"],
-    imagePrompts: [
-      "A warm editorial illustration of a circular tray of letter cookies feeding into a grid of crossword-style slots, cream background, honey-amber and ink-navy palette, cozy game aesthetic.",
-      "A cozy scene of a phone showing a Word Cookies level beside a jar filling with coins from bonus words, soft light, literary flat-design style.",
-    ],
-  },
-  "wordscapes-solver": {
-    slug: "wordscapes-solver",
-    metaTitle: "Wordscapes Solver — Answers & Bonus Words for Any Level | AllWordTools.com",
-    metaDescription:
-      "Free Wordscapes Solver. Enter the letters in the wheel and instantly get every answer and bonus word, grouped by length, to complete any Wordscapes level.",
-    eyebrow: "Puzzle Game Solvers",
-    heading: "Wordscapes Solver",
-    subheading:
-      "Type the letters from the wheel at the bottom of the level and instantly reveal every answer — plus the bonus words — grouped by length.",
-    updated: "July 10, 2026",
-    readingMinutes: 6,
-    intro: [
-      "Wordscapes blends a calming landscape backdrop with a genuinely tricky word puzzle, and every so often a level's letter wheel refuses to give up its secrets. The AllWordTools.com Wordscapes Solver clears the jam: enter the letters shown in the wheel and it instantly lists every word you can spell, grouped by length to match the crossword-style grid at the top of the level.",
-      "The solver also surfaces the bonus words — valid words that aren't in the main grid but still earn you coins and fill your collection. With the complete list in front of you, you can finish the grid and sweep up the extras in one go.",
-      "It's fast, free and works entirely in your browser on any device, with no downloads or sign-up.",
-    ],
-    howToTitle: "How to use the Wordscapes Solver",
-    howToSteps: [
-      {
-        title: "Find the wheel",
-        detail: "Look at the ring of letters at the bottom of the Wordscapes level.",
-      },
-      {
-        title: "Enter the letters",
-        detail:
-          "Type every letter from the wheel into the box. Use ? for any letter you're unsure about.",
-      },
-      {
-        title: "Solve",
-        detail: "Press Solve level and every valid word appears instantly, grouped by length.",
-      },
-      {
-        title: "Fill the grid",
-        detail: "Match words to the grid slots and tap any word to copy it.",
-      },
-    ],
-    sections: [
-      {
-        heading: "Answers and bonus words in one place",
-        paragraphs: [
-          "Each Wordscapes level hands you a small wheel of letters and a crossword-style grid to complete. Our solver treats the wheel as a letter pool and returns every dictionary word you can form, grouped by length so it lines up neatly with the grid's slots.",
-          "Bonus words are included too. These extra valid words don't appear in the grid but reward you with coins and add to your word collection, so seeing the full list helps you get the most out of every level.",
-        ],
-      },
-      {
-        heading: "Why use a Wordscapes solver?",
-        paragraphs: [
-          "When a level has you stuck, a solver saves your streak and your coins — no need to spend a hint or shuffle endlessly. It's also a painless way to build vocabulary, since scanning the full list of possible words trains your eye for the next puzzle.",
-          "Because everything runs in your browser, there's nothing to install and your input stays private. Type the wheel, get the answers, and enjoy the scenery.",
-        ],
-      },
-    ],
-    examples: [
-      {
-        input: "wheel: b r a i n",
-        output: "brain, bairn, bran, barn, rain, rani, brin, bra",
-        note: "Every word from the five-letter wheel, grouped by length.",
-      },
-      {
-        input: "wheel: g a r d e n",
-        output: "garden, danger, gander, ranged, grade, anger, range, dear",
-        note: "Longer answers fill the grid; shorter ones are bonuses.",
-      },
-      {
-        input: "wheel: c l o u d",
-        output: "cloud, could, clod, cold, loud, duo, cod, old",
-        note: "Small wheels still hide several coin-earning bonus words.",
-      },
-    ],
-    tips: [
-      "Enter every letter in the wheel — bonus words use the same letters.",
-      "Use ? for any letter you can't read; it acts as a wildcard.",
-      "Fill the longest grid slots first, then place the shorter words.",
-      "Grab the bonus words to earn extra coins.",
-      "Tap any word to copy it instantly.",
-    ],
-    faqs: [
-      {
-        question: "How does the Wordscapes Solver work?",
-        answer:
-          "Enter the letters from the wheel at the bottom of the level and the solver finds every valid word you can spell, grouped by length to match the grid.",
-      },
-      {
-        question: "Does it include bonus words?",
-        answer:
-          "Yes. Alongside the grid answers, the solver lists the bonus words that earn coins and add to your collection.",
-      },
-      {
-        question: "Is the Wordscapes Solver free?",
-        answer:
-          "Yes — completely free, with no download or sign-up. It runs instantly in your browser.",
-      },
-      {
-        question: "Will it work on new levels?",
-        answer:
-          "Yes. The solver works from the letters you enter, so it handles any level in any Wordscapes pack.",
-      },
-      {
-        question: "What if a letter is hard to read?",
-        answer: "Type ? in its place and the solver treats it as any letter.",
-      },
-    ],
-    related: ["word-cookies-solver", "word-unscrambler", "anagram-solver", "text-twist-solver"],
-    imagePrompts: [
-      "A serene editorial illustration of a letter wheel over a mountain landscape feeding words into a crossword grid, cream background, honey-amber and ink-navy palette, calm literary game style.",
-      "A cozy phone-in-hand scene showing a Wordscapes level with a wheel and grid, soft natural light, minimal literary aesthetic.",
-    ],
-  },
-  "codycross-solver": {
-    slug: "codycross-solver",
-    metaTitle: "CodyCross Solver — Answers From Known Letters | AllWordTools.com",
-    metaDescription:
-      "Free CodyCross Solver. Enter the answer length and any crossing letters you know to instantly find every word that fits the clue. Fast, free, no sign-up.",
-    eyebrow: "Puzzle Game Solvers",
-    heading: "CodyCross Solver",
-    subheading:
-      "Enter the length of the answer and any crossing letters you already know, and instantly see every word that fits the CodyCross clue.",
-    updated: "July 10, 2026",
-    readingMinutes: 6,
-    intro: [
-      "CodyCross wraps its crossword clues in charming themed worlds, but a stubborn clue can still bring your streak to a halt. The AllWordTools.com CodyCross Solver helps you break through: enter the number of letters in the answer along with any letters revealed by crossing words, and it instantly lists every dictionary word that fits that exact shape.",
-      "Because CodyCross grids interlock, you'll often have a letter or two already filled in from words you've solved. Those crossing letters are gold — even a single known letter can narrow hundreds of possibilities down to a handful, and our solver uses them to zero in on the answer fast.",
-      "It's fast, free and runs entirely in your browser on any device, with no downloads or sign-up.",
-    ],
-    howToTitle: "How to use the CodyCross Solver",
-    howToSteps: [
-      { title: "Count the squares", detail: "Note how many letters the CodyCross answer has." },
-      {
-        title: "Enter the pattern",
-        detail:
-          "Type one square per letter — fill in known crossing letters and use ? _ or . for each blank.",
-      },
-      {
-        title: "Solve",
-        detail: "Press Solve clue and every word matching that exact shape appears instantly.",
-      },
-      {
-        title: "Match the clue",
-        detail: "Scan the results for the word that fits the clue, and tap it to copy.",
-      },
-    ],
-    sections: [
-      {
-        heading: "Turn crossing letters into answers",
-        paragraphs: [
-          "Every CodyCross answer has a fixed length, and the interlocking grid usually gives you a few letters for free. Enter those known letters in their correct positions and leave the rest as blanks, and the solver returns only the words that match that pattern exactly.",
-          "This positional approach is far more precise than guessing from the clue alone. The more crossing letters you've filled in, the shorter and sharper the results — often pointing straight to the single answer the puzzle wants.",
-        ],
-      },
-      {
-        heading: "Why use a CodyCross solver?",
-        paragraphs: [
-          "A themed crossword can hinge on one obscure word, and a solver saves you from being stuck on an otherwise-finished puzzle. It also helps you learn: seeing the words that fit a pattern builds your feel for how clues map to answers.",
-          "Everything runs privately in your browser, so there's nothing to install and no account needed. Enter what you know, and let the pattern do the work.",
-        ],
-      },
-    ],
-    examples: [
-      {
-        input: "pattern: p?zz?e",
-        output: "puzzle",
-        note: "Two crossing letters can be enough to pin down the answer.",
-      },
-      {
-        input: "pattern: ??a?et",
-        output: "planet, claret",
-        note: "A six-letter shape with two known letters narrows to a short list.",
-      },
-      {
-        input: "pattern: s?lve?",
-        output: "solver, salved, solved",
-        note: "Fill in more squares to shrink the results further.",
-      },
-    ],
-    tips: [
-      "Always match the number of blanks to the answer length.",
-      "Fill in every crossing letter you have — each one dramatically narrows the results.",
-      "Use ? _ or . interchangeably for unknown squares.",
-      "If you get too many results, solve one more crossing word to reveal another letter.",
-      "Tap any result to copy it.",
-    ],
-    faqs: [
-      {
-        question: "How does the CodyCross Solver work?",
-        answer:
-          "Enter one square per letter of the answer, filling in the letters you know from crossing words and using blanks for the rest. The solver returns every word that fits that exact pattern.",
-      },
-      {
-        question: "Do I need to know the clue's theme?",
-        answer:
-          "No. The solver works purely from the answer's length and known letters, so it finds every fitting word regardless of the world or theme.",
-      },
-      {
-        question: "Is it free?",
-        answer:
-          "Yes — completely free, with no sign-up or download. It runs instantly in your browser.",
-      },
-      {
-        question: "What if I only know the length?",
-        answer:
-          "Enter that many blanks and the solver lists every word of that length. Add even one crossing letter to narrow the results sharply.",
-      },
-      {
-        question: "Which characters mean 'blank'?",
-        answer: "Use ?, _ or . for any unknown square — they all work the same way.",
-      },
-    ],
-    related: [
-      "seven-little-words-solver",
-      "wheel-of-fortune-solver",
-      "crossword-solver",
-      "pattern-solver",
-    ],
-    imagePrompts: [
-      "A warm editorial illustration of a themed crossword grid with a few highlighted crossing letters guiding a word into place, cream background, honey-amber and ink-navy palette, literary puzzle style.",
-      "A cozy scene of a phone showing a CodyCross world with a partly filled answer row, soft light, minimal literary aesthetic.",
-    ],
-  },
-  "seven-little-words-solver": {
-    slug: "seven-little-words-solver",
-    metaTitle: "7 Little Words Solver — Answers by Length & Letters | AllWordTools.com",
-    metaDescription:
-      "Free 7 Little Words Solver. Enter the answer length and any letters you have to instantly find the word that fits the clue. Fast, free and no sign-up.",
-    eyebrow: "Puzzle Game Solvers",
-    heading: "7 Little Words Solver",
-    subheading:
-      "Enter the exact length of the answer and any letters you've already placed, and instantly find every word that fits the 7 Little Words clue.",
-    updated: "July 10, 2026",
-    readingMinutes: 6,
-    intro: [
-      "7 Little Words gives you a clue and a set of letter tiles to combine into an answer of a known length — and that length is the key that unlocks the puzzle. The AllWordTools.com 7 Little Words Solver puts it to work: enter the number of letters in the answer plus any letters you've already placed, and it instantly lists every word that fits.",
-      "Each of the seven answers in a round tells you exactly how many letters it contains, and the tiles you've already dropped into place give you known letters at specific positions. Feed both of those clues into the solver and it narrows a huge dictionary down to the words that match your answer's shape precisely.",
-      "It's fast, free and runs entirely in your browser on any device, with no downloads or sign-up.",
-    ],
-    howToTitle: "How to use the 7 Little Words Solver",
-    howToSteps: [
-      {
-        title: "Note the length",
-        detail: "Check how many letters the answer has — 7 Little Words always tells you.",
-      },
-      {
-        title: "Enter the pattern",
-        detail:
-          "Type one square per letter, filling in any tiles you've placed and using ? _ or . for blanks.",
-      },
-      {
-        title: "Solve",
-        detail: "Press Find words and every word matching that length and known letters appears.",
-      },
-      { title: "Match the clue", detail: "Pick the word that fits the clue and tap it to copy." },
-    ],
-    sections: [
-      {
-        heading: "Let the answer length do the work",
-        paragraphs: [
-          "The defining feature of 7 Little Words is that every answer's length is given up front. Entering the exact number of blanks immediately limits the results to words of that length, which is often enough to make the answer obvious once you read the clue.",
-          "If you've already dropped a tile or two into the answer, add those letters in their positions. Known letters combine with the length to shrink the list further, turning a broad search into a short, clue-friendly shortlist.",
-        ],
-      },
-      {
-        heading: "Why use a 7 Little Words solver?",
-        paragraphs: [
-          "One tough clue can stall a whole round, and a solver keeps the momentum going without spending a hint. It's also a smart learning aid — matching clues to the words that fit a length sharpens your solving instincts over time.",
-          "Everything runs privately in your browser with nothing to install. Enter the length, add what you know, and find the answer in seconds.",
-        ],
-      },
-    ],
-    examples: [
-      {
-        input: "pattern: ??????? (7)",
-        output: "mystery, gateway, harvest, journey",
-        note: "The known length alone produces a clue-ready shortlist.",
-      },
-      {
-        input: "pattern: c????y",
-        output: "comedy, cavity, colony, county",
-        note: "A first and last letter narrow a six-letter answer fast.",
-      },
-      {
-        input: "pattern: ?a?ce",
-        output: "dance, lance, farce, ounce",
-        note: "Add placed tiles to shrink the list to the likely answer.",
-      },
-    ],
-    tips: [
-      "Always match the number of blanks to the answer length shown in the game.",
-      "Add any tiles you've already placed as known letters.",
-      "Read the clue alongside the shortlist — the answer usually jumps out.",
-      "Use ? _ or . for blanks; they all mean 'any letter'.",
-      "Tap any result to copy it.",
-    ],
-    faqs: [
-      {
-        question: "How does the 7 Little Words Solver work?",
-        answer:
-          "Enter one blank per letter of the answer's known length, filling in any tiles you've already placed. The solver returns every word of that exact shape so you can match it to the clue.",
-      },
-      {
-        question: "Do I enter the letter tiles?",
-        answer:
-          "You enter the letters you've already placed in the answer, in their positions. The solver then finds words of the right length that fit those letters.",
-      },
-      {
-        question: "Is it free?",
-        answer:
-          "Yes — completely free, with no sign-up or download. It runs instantly in your browser.",
-      },
-      {
-        question: "What if I only know the length?",
-        answer:
-          "Enter that many blanks. The solver lists every word of that length, and the clue usually makes the answer clear.",
-      },
-      {
-        question: "Which symbols mean 'blank'?",
-        answer: "Use ?, _ or . for any unknown square — they work identically.",
-      },
-    ],
-    related: ["codycross-solver", "wheel-of-fortune-solver", "crossword-solver", "pattern-solver"],
-    imagePrompts: [
-      "A warm editorial illustration of seven letter-tile groups assembling into answer rows of set lengths, cream background, honey-amber and ink-navy palette, literary puzzle style.",
-      "A cozy scene of a phone showing a 7 Little Words round with tiles and clues, soft light, minimal literary aesthetic.",
-    ],
-  },
-  "wheel-of-fortune-solver": {
-    slug: "wheel-of-fortune-solver",
-    metaTitle: "Wheel of Fortune Solver — Answers From Revealed Letters | AllWordTools.com",
-    metaDescription:
-      "Free Wheel of Fortune Solver. Enter a word with the letters already called and instantly find every match. Solve the board one word at a time. No sign-up.",
-    eyebrow: "Puzzle Game Solvers",
-    heading: "Wheel of Fortune Solver",
-    subheading:
-      "Enter one word of the puzzle with the letters revealed so far, and instantly see every word that fits — solving the board one word at a time.",
-    updated: "July 10, 2026",
-    readingMinutes: 6,
-    intro: [
-      "Wheel of Fortune puzzles hinge on filling in the blanks as letters get called, and there's a magic moment when a half-revealed word suddenly clicks. The AllWordTools.com Wheel of Fortune Solver helps you reach that moment sooner: enter a single word from the board with the letters already showing, and it instantly lists every word that fits the pattern.",
-      "Puzzle boards are made of several words, so the solver works one word at a time. Take the word you're closest to guessing, type a blank for each hidden square and fill in the letters that have been called, and the solver reveals every candidate — often narrowing a long board to an obvious phrase.",
-      "It's fast, free and runs entirely in your browser on any device, with no downloads or sign-up.",
-    ],
-    howToTitle: "How to use the Wheel of Fortune Solver",
-    howToSteps: [
-      { title: "Pick a word", detail: "Choose one word on the board you want to crack." },
-      {
-        title: "Enter the pattern",
-        detail:
-          "Type one square per letter — fill in the revealed letters and use ? _ or . for the blanks.",
-      },
-      { title: "Solve", detail: "Press Solve word and every matching word appears instantly." },
-      {
-        title: "Read the phrase",
-        detail:
-          "Use the candidates to piece together the full puzzle, and tap any word to copy it.",
-      },
-    ],
-    sections: [
-      {
-        heading: "Solve the board one word at a time",
-        paragraphs: [
-          "A Wheel of Fortune board is a phrase split across several words, and each word has a fixed length with some letters already revealed. Enter the pattern for a single word — known letters in their positions, blanks for the rest — and the solver returns every word that fits.",
-          "Working word by word is the fastest way to unlock a phrase. Solve the easiest word first, and the letters it shares with the category or with common phrases often make the neighbouring words fall into place.",
-        ],
-      },
-      {
-        heading: "Why use a Wheel of Fortune solver?",
-        paragraphs: [
-          "Whether you're playing along with the show, tackling the mobile game or running a party round, a solver turns a frustrating stall into a quick win. It's also a fun way to sharpen your pattern recognition for common letters and phrases.",
-          "Everything runs privately in your browser with nothing to install. Enter the letters you can see, and let the solver reveal the rest.",
-        ],
-      },
-    ],
-    examples: [
-      {
-        input: "pattern: ?o?tune",
-        output: "fortune",
-        note: "Two called letters can be enough to reveal a word.",
-      },
-      {
-        input: "pattern: w?e?l",
-        output: "wheel, whelp",
-        note: "A short word with a couple of letters narrows fast.",
-      },
-      {
-        input: "pattern: ?u???e",
-        output: "puzzle, bundle, muscle, subtle",
-        note: "More blanks give a longer list — fill in a letter to shorten it.",
-      },
-    ],
-    tips: [
-      "Solve the board one word at a time for the fastest results.",
-      "Match the number of blanks to each word's length exactly.",
-      "Fill in every called letter in its correct position.",
-      "Use ? _ or . for blanks — they all mean 'any letter'.",
-      "Tap any result to copy it.",
-    ],
-    faqs: [
-      {
-        question: "How does the Wheel of Fortune Solver work?",
-        answer:
-          "Enter one word from the board with the letters already revealed, using blanks for the hidden squares. The solver returns every word that fits that exact pattern.",
-      },
-      {
-        question: "Can it solve a whole phrase at once?",
-        answer:
-          "It solves one word at a time. Crack each word in turn and the candidates make the full phrase easy to piece together.",
-      },
-      {
-        question: "Is it free?",
-        answer:
-          "Yes — completely free, with no sign-up or download. It runs instantly in your browser.",
-      },
-      {
-        question: "What if only one letter is revealed?",
-        answer:
-          "Enter that letter in position and blanks for the rest. You'll get every word of that length with the letter in place — solve more of the board to narrow it.",
-      },
-      {
-        question: "Which symbols mean 'blank'?",
-        answer: "Use ?, _ or . for any unknown square — they all behave the same.",
-      },
-    ],
-    related: [
-      "codycross-solver",
-      "seven-little-words-solver",
-      "crossword-solver",
-      "pattern-solver",
-    ],
-    imagePrompts: [
-      "A warm editorial illustration of a spinning game-show wheel beside a board of revealed and blank letter tiles forming a phrase, cream background, honey-amber and ink-navy palette, literary game style.",
-      "A cozy scene of a TV screen or phone showing a Wheel of Fortune board with some letters revealed, soft light, minimal literary aesthetic.",
-    ],
-  },
-  "random-letter-generator": {
-    slug: "random-letter-generator",
-    metaTitle: "Random Letter Generator — Pick Random Letters A–Z | AllWordTools.com",
-    metaDescription:
-      "Free Random Letter Generator. Pick one or many random letters — all letters, vowels only or consonants only, upper or lowercase, with or without repeats.",
-    eyebrow: "Random Generators",
-    heading: "Random Letter Generator",
-    subheading:
-      "Generate one random letter or a whole run of them — choose all letters, vowels only or consonants only, in upper or lowercase, with or without repeats.",
-    updated: "July 10, 2026",
-    readingMinutes: 5,
-    intro: [
-      "A random letter generator is a simple but surprisingly useful tool: it picks letters from the alphabet completely at random, so you never have to. Whether you need a single starting letter for a word game, a bag of tiles for a classroom activity or a quick, unbiased pick, the AllWordTools.com Random Letter Generator hands you a fresh result the moment you click.",
-      "You can choose the full alphabet, vowels only or consonants only, switch between uppercase and lowercase, and decide whether letters may repeat. That makes it just as handy for phonics drills as it is for party games and creative prompts.",
-      "It's fast, free and runs entirely in your browser on any device — no downloads and no sign-up.",
-    ],
-    howToTitle: "How to use the Random Letter Generator",
-    howToSteps: [
-      {
-        title: "Choose how many",
-        detail: "Enter the number of letters you want, from a single pick up to a hundred.",
-      },
-      {
-        title: "Pick a letter set",
-        detail: "Select all letters, vowels only or consonants only to match your activity.",
-      },
-      {
-        title: "Set your options",
-        detail: "Toggle lowercase and 'no repeats' depending on what you need.",
-      },
-      { title: "Generate", detail: "Press Generate letters and copy the result with one tap." },
-    ],
-    sections: [
-      {
-        heading: "What you can do with random letters",
-        paragraphs: [
-          "Random letters are the spark behind countless games and lessons. Use a single letter to start a round of Scattergories, Word Chain or a name-place-animal game. Generate a run of letters to build a rack for a homemade word puzzle, or to give students a set of sounds to blend in a phonics exercise.",
-          "Because you can restrict the pool to vowels or consonants, the tool is perfect for targeted teaching — practise vowel sounds on their own, or challenge learners to build words around a tricky consonant.",
-        ],
-      },
-      {
-        heading: "Vowels, consonants and repeats",
-        paragraphs: [
-          "Switching between the full alphabet, vowels only and consonants only lets you tune the difficulty of any activity. The 'no repeats' option guarantees every letter is different, which is ideal when you're dealing a unique set of tiles or drawing names.",
-          "Turn repeats back on when you want a truly independent random pick each time, the way rolling a die gives you a fresh number regardless of what came before.",
-        ],
-      },
-    ],
-    examples: [
-      { input: "1 letter, all", output: "M", note: "A single unbiased pick to start a game." },
-      {
-        input: "7 letters, all, no repeats",
-        output: "R A T E L I S",
-        note: "A full rack of unique tiles.",
-      },
-      {
-        input: "5 letters, vowels only",
-        output: "A E I O U",
-        note: "Great for vowel-sound practice.",
-      },
-    ],
-    tips: [
-      "Use vowels-only or consonants-only mode for focused phonics drills.",
-      "Turn on 'no repeats' when you need a set of unique tiles.",
-      "Generate a single letter for quick word games like Scattergories.",
-      "Switch to lowercase for handwriting and early-reading activities.",
-      "Tap Copy all to paste the letters anywhere.",
-    ],
-    faqs: [
-      {
-        question: "How random are the letters?",
-        answer:
-          "Each letter is chosen independently using your browser's random number generator, giving an even, unbiased pick every time.",
-      },
-      {
-        question: "Can I get only vowels or only consonants?",
-        answer:
-          "Yes. Choose 'vowels only' or 'consonants only' to restrict the pool to exactly those letters.",
-      },
-      {
-        question: "Can letters repeat?",
-        answer:
-          "By default they can. Turn on 'no repeats' to guarantee every letter in the result is different.",
-      },
-      {
-        question: "Is it free?",
-        answer:
-          "Completely free, with no sign-up. It runs instantly in your browser on any device.",
-      },
-    ],
-    related: [
-      "random-word-generator",
-      "random-verb-generator",
-      "word-unscrambler",
-      "letter-counter",
-    ],
-    imagePrompts: [
-      "A warm editorial illustration of alphabet tiles tumbling out of a bag onto a cream surface, honey-amber and ink-navy palette, literary aesthetic.",
-      "A cozy classroom scene with letter cards spread on a desk, soft light, minimal premium style.",
-    ],
-  },
-  "random-sentence-generator": {
-    slug: "random-sentence-generator",
-    metaTitle: "Random Sentence Generator — Instant Sentences for Prompts | AllWordTools.com",
-    metaDescription:
-      "Free Random Sentence Generator. Create fresh, readable random sentences for writing prompts, warm-ups, games and practice. Generate as many as you like.",
-    eyebrow: "Random Generators",
-    heading: "Random Sentence Generator",
-    subheading:
-      "Create fresh, readable sentences at the click of a button — perfect for writing prompts, classroom warm-ups, games and beating the blank page.",
-    updated: "July 10, 2026",
-    readingMinutes: 5,
-    intro: [
-      "The Random Sentence Generator builds complete, grammatical sentences from large banks of subjects, actions, objects and endings, so every result reads naturally and feels fresh. It's the perfect nudge when you need a starting point but don't want to think one up yourself.",
-      "Writers use random sentences to warm up and break through blank-page paralysis, teachers use them as prompts and editing exercises, and players use them for games like sentence-building challenges and improv rounds.",
-      "It's fast, free and runs entirely in your browser — generate one sentence or fifty in a single click.",
-    ],
-    howToTitle: "How to use the Random Sentence Generator",
-    howToSteps: [
-      {
-        title: "Choose how many",
-        detail: "Enter the number of sentences you'd like, from one to fifty.",
-      },
-      { title: "Generate", detail: "Press Generate sentences and a fresh set appears instantly." },
-      { title: "Read and pick", detail: "Skim the results and keep the ones that spark an idea." },
-      {
-        title: "Copy",
-        detail: "Tap any sentence to copy it, or use Copy all to grab the whole set.",
-      },
-    ],
-    sections: [
-      {
-        heading: "Why use a random sentence generator?",
-        paragraphs: [
-          "A random sentence is a wonderful creative catalyst. It gives your mind something concrete to react to — a scene to expand, a character to follow or a mood to match — which is often all it takes to get words flowing. Because each sentence is complete and coherent, it works as a genuine prompt rather than a jumble of words.",
-          "For teachers, random sentences are ready-made material for grammar lessons: ask students to identify the subject and verb, rewrite in a different tense, or turn a statement into a question.",
-        ],
-      },
-      {
-        heading: "Great for games and warm-ups",
-        paragraphs: [
-          "Use random sentences to kick off improv rounds, storytelling games or writing sprints. Generate a batch, pick one at random and challenge yourself or a group to build a paragraph, a scene or a whole story around it.",
-          "They also make excellent typing and handwriting practice, and a fun way to test reading fluency with fresh material every time.",
-        ],
-      },
-    ],
-    examples: [
-      {
-        input: "1 sentence",
-        output: "The curious traveler discovered a hidden garden before the day slipped away.",
-        note: "A ready-made story starter.",
-      },
-      {
-        input: "3 sentences",
-        output: "Three fresh, unrelated sentences",
-        note: "Pick the one that sparks an idea.",
-      },
-      {
-        input: "Warm-up batch",
-        output: "10 sentences",
-        note: "Generate a set and free-write from your favourite.",
-      },
-    ],
-    tips: [
-      "Generate a batch and keep only the sentence that sparks an idea.",
-      "Use a sentence as the first line of a timed writing sprint.",
-      "Ask students to rewrite each sentence in a new tense or voice.",
-      "Pair with the Random Topic Generator for longer prompts.",
-      "Tap Copy all to save the whole set at once.",
-    ],
-    faqs: [
-      {
-        question: "Are the sentences grammatically correct?",
-        answer:
-          "Yes. Each sentence is assembled from matching parts of speech, so the results read as complete, natural sentences.",
-      },
-      {
-        question: "How many can I generate at once?",
-        answer: "Up to fifty at a time — generate as many batches as you like.",
-      },
-      {
-        question: "Are they always different?",
-        answer:
-          "The generator combines large word banks, so you'll see enormous variety and rarely the same sentence twice.",
-      },
-      {
-        question: "Is it free?",
-        answer: "Yes — completely free, with no sign-up, running instantly in your browser.",
-      },
-    ],
-    related: [
-      "random-paragraph-generator",
-      "random-topic-generator",
-      "random-word-generator",
-      "grammar-checker",
-    ],
-    imagePrompts: [
-      "A warm editorial illustration of speech bubbles filled with flowing sentences over an open notebook, cream background, honey-amber and ink-navy palette, literary style.",
-      "A cozy writing desk with a typewriter and scattered sentence cards, soft light, minimal premium aesthetic.",
-    ],
-  },
-  "random-paragraph-generator": {
-    slug: "random-paragraph-generator",
-    metaTitle: "Random Paragraph Generator — Placeholder Text & Prompts | AllWordTools.com",
-    metaDescription:
-      "Free Random Paragraph Generator. Create readable random paragraphs for placeholder text, writing prompts, design mockups and practice. Choose length and count.",
-    eyebrow: "Random Generators",
-    heading: "Random Paragraph Generator",
-    subheading:
-      "Generate readable random paragraphs on demand — set how many paragraphs and how many sentences each, then use them for prompts, placeholder text or practice.",
-    updated: "July 10, 2026",
-    readingMinutes: 5,
-    intro: [
-      "The Random Paragraph Generator strings together fresh, natural sentences into complete paragraphs you can use anywhere. Unlike classic lorem ipsum, the text is real English, so it reads smoothly — ideal when you want placeholder copy that still makes sense, or a longer prompt to write from.",
-      "Designers use it to fill layouts and mockups, writers use it as an extended prompt or warm-up, and teachers use it for reading, editing and comprehension exercises.",
-      "It's fast, free and runs entirely in your browser — choose your paragraph and sentence counts and generate as much as you need.",
-    ],
-    howToTitle: "How to use the Random Paragraph Generator",
-    howToSteps: [
-      {
-        title: "Set the paragraph count",
-        detail: "Choose how many paragraphs you want, from one up to twenty.",
-      },
-      {
-        title: "Set sentences per paragraph",
-        detail: "Pick how long each paragraph should be, from two to twelve sentences.",
-      },
-      { title: "Generate", detail: "Press Generate paragraphs and the text appears instantly." },
-      {
-        title: "Copy",
-        detail: "Use Copy all to grab the whole block for your document or design.",
-      },
-    ],
-    sections: [
-      {
-        heading: "Readable placeholder text",
-        paragraphs: [
-          "When you're designing a page or laying out a document, you need text that shows how real content will look. Random paragraphs of genuine English do this better than nonsense filler because they flow naturally and reveal true line lengths, rhythm and spacing.",
-          "Set the paragraph and sentence counts to match your layout exactly, then paste the result straight into your mockup or draft.",
-        ],
-      },
-      {
-        heading: "Prompts and practice",
-        paragraphs: [
-          "A random paragraph makes an excellent extended writing prompt — read it, then continue the story, respond to it or rewrite it in your own voice. It's also great material for editing practice: hand learners a paragraph and ask them to improve, summarise or restructure it.",
-          "For typing and reading fluency, fresh paragraphs give endless new material so practice never gets stale.",
-        ],
-      },
-    ],
-    examples: [
-      {
-        input: "1 paragraph, 4 sentences",
-        output: "A short, coherent block of text",
-        note: "Perfect for a card or intro mockup.",
-      },
-      {
-        input: "3 paragraphs, 5 sentences",
-        output: "A page-length passage",
-        note: "Ideal placeholder for a layout.",
-      },
-      {
-        input: "Writing prompt",
-        output: "1 paragraph",
-        note: "Continue the story from where it ends.",
-      },
-    ],
-    tips: [
-      "Match the sentence count to the block size you need in your design.",
-      "Use a single paragraph as an extended writing prompt.",
-      "Generate several paragraphs for realistic page mockups.",
-      "Great for editing drills — ask learners to tighten the text.",
-      "Tap Copy all to paste the whole passage at once.",
-    ],
-    faqs: [
-      {
-        question: "How is this different from lorem ipsum?",
-        answer:
-          "This generator produces real, readable English sentences rather than Latin filler, so the text flows naturally while still being random.",
-      },
-      {
-        question: "Can I control the length?",
-        answer:
-          "Yes. Set both the number of paragraphs and the number of sentences in each to get exactly the length you need.",
-      },
-      {
-        question: "Is the text unique?",
-        answer:
-          "The generator draws from large word banks, so results vary widely and rarely repeat.",
-      },
-      {
-        question: "Is it free?",
-        answer: "Yes — completely free, with no sign-up, running instantly in your browser.",
-      },
-    ],
-    related: [
-      "random-sentence-generator",
-      "random-topic-generator",
-      "random-word-generator",
-      "letter-counter",
-    ],
-    imagePrompts: [
-      "A warm editorial illustration of flowing paragraphs filling a page layout with placeholder blocks, cream background, honey-amber and ink-navy palette, literary style.",
-      "A cozy designer's desk with a mockup showing blocks of text, soft light, minimal premium aesthetic.",
-    ],
-  },
-  "random-topic-generator": {
-    slug: "random-topic-generator",
-    metaTitle: "Random Topic Generator — Essay, Debate & Story Prompts | AllWordTools.com",
-    metaDescription:
-      "Free Random Topic Generator. Get random topics and prompts for essays, debates, creative writing, business and science. Pick a category and generate instantly.",
-    eyebrow: "Random Generators",
-    heading: "Random Topic Generator",
-    subheading:
-      "Get instant topics and prompts for essays, debates, journaling and stories — choose a category, from general discussion to creative, business and science.",
-    updated: "July 10, 2026",
-    readingMinutes: 5,
-    intro: [
-      "The Random Topic Generator hands you a fresh idea to write, talk or think about the moment you need one. Choose the kind of topic you want — general discussion, persuasive debate, creative writing, business or science — and it serves up ready-to-use prompts drawn from a hand-picked collection.",
-      "Students use it to break through blank-page paralysis on essays and journal entries, teachers use it to set discussion and debate tasks, and writers use it to find a new angle or a story starter.",
-      "It's fast, free and runs entirely in your browser — generate one topic or a whole list with a single click.",
-    ],
-    howToTitle: "How to use the Random Topic Generator",
-    howToSteps: [
-      {
-        title: "Choose a topic type",
-        detail: "Pick general, persuasive, creative, business or science to match your goal.",
-      },
-      {
-        title: "Choose how many",
-        detail: "Select the number of topics you'd like, from one to twelve.",
-      },
-      { title: "Generate", detail: "Press Generate topics and a fresh set appears instantly." },
-      { title: "Copy", detail: "Tap any topic to copy it, or use Copy all to save the list." },
-    ],
-    sections: [
-      {
-        heading: "Prompts for every purpose",
-        paragraphs: [
-          "Different tasks need different kinds of prompts. The general category offers thoughtful discussion topics, persuasive gives you debatable questions with two clear sides, and creative provides evocative story starters. Business and science focus each list on those subjects, so the topic always fits the assignment.",
-          "Because the collections are curated, every prompt is meaningful and ready to use — no vague or nonsensical suggestions.",
-        ],
-      },
-      {
-        heading: "Beat the blank page",
-        paragraphs: [
-          "The hardest part of writing is often deciding what to write about. A random topic removes that hurdle: generate one, commit to it and start. For journaling, a fresh prompt each day keeps the habit alive; for essays, a debatable question gives you an instant thesis to argue.",
-          "Teachers can generate a batch to assign different topics to different students, or to fill a term's worth of discussion and writing tasks in seconds.",
-        ],
-      },
-    ],
-    examples: [
-      {
-        input: "Persuasive, 1 topic",
-        output: "Should public transport be free?",
-        note: "An instant debate motion with two clear sides.",
-      },
-      {
-        input: "Creative, 1 topic",
-        output: "A door appears in a place it has never been before.",
-        note: "A ready-made story starter.",
-      },
-      {
-        input: "Science, 3 topics",
-        output: "Three subject-specific prompts",
-        note: "Perfect for class discussion or essays.",
-      },
-    ],
-    tips: [
-      "Match the category to your task — persuasive for debates, creative for stories.",
-      "Generate a batch to assign different prompts to a group.",
-      "Use one creative topic as the seed for a timed writing sprint.",
-      "Keep a daily journaling habit with a fresh prompt each morning.",
-      "Tap Copy all to save the whole list.",
-    ],
-    faqs: [
-      {
-        question: "What kinds of topics can I get?",
-        answer:
-          "Choose from general discussion, persuasive/debate, creative writing prompts, business and science — each with its own curated list.",
-      },
-      {
-        question: "Are the topics suitable for students?",
-        answer:
-          "Yes. The prompts are chosen to be classroom-friendly and work well for essays, journals, debates and discussion.",
-      },
-      {
-        question: "How many can I generate?",
-        answer: "Up to twelve at a time, and you can generate as many batches as you like.",
-      },
-      {
-        question: "Is it free?",
-        answer: "Yes — completely free, with no sign-up, running instantly in your browser.",
-      },
-    ],
-    related: [
-      "random-sentence-generator",
-      "random-paragraph-generator",
-      "random-word-generator",
-      "grammar-checker",
-    ],
-    imagePrompts: [
-      "A warm editorial illustration of a glowing lightbulb surrounded by floating topic cards and question marks, cream background, honey-amber and ink-navy palette, literary style.",
-      "A cozy study desk with a notebook of essay prompts and a cup of tea, soft light, minimal premium aesthetic.",
-    ],
-  },
-  "random-verb-generator": {
-    slug: "random-verb-generator",
-    metaTitle: "Random Verb Generator — Random Action Words in Any Tense | AllWordTools.com",
-    metaDescription:
-      "Free Random Verb Generator. Generate random verbs in base, past, third-person or -ing form for grammar practice, writing prompts and vocabulary building.",
-    eyebrow: "Random Generators",
-    heading: "Random Verb Generator",
-    subheading:
-      "Generate random action words in any form — base, past tense, third person or -ing — perfect for grammar practice, sentence building and vocabulary drills.",
-    updated: "July 10, 2026",
-    readingMinutes: 5,
-    intro: [
-      "The Random Verb Generator picks action words at random and can conjugate them into the form you need — base form, third-person singular, simple past or the -ing form. That makes it a genuinely useful teaching and writing tool rather than just a list of words.",
-      "Teachers use it for conjugation and sentence-building exercises, students use it to practise tenses and expand vocabulary, and writers use random verbs to add energy and variety to their sentences.",
-      "It's fast, free and runs entirely in your browser — generate one verb or fifty in a single click.",
-    ],
-    howToTitle: "How to use the Random Verb Generator",
-    howToSteps: [
-      {
-        title: "Choose how many",
-        detail: "Enter the number of verbs you want, from one to fifty.",
-      },
-      { title: "Pick a form", detail: "Select base, third person, past tense or the -ing form." },
-      { title: "Generate", detail: "Press Generate verbs and a fresh set appears instantly." },
-      { title: "Copy", detail: "Tap any verb to copy it, or use Copy all to grab the whole set." },
-    ],
-    sections: [
-      {
-        heading: "Practise tenses and conjugation",
-        paragraphs: [
-          "Choosing a verb form turns this generator into a conjugation trainer. Generate verbs in the past tense to drill irregular forms, in the -ing form to practise continuous tenses, or in the third person to master that tricky final -s. Because the tool handles common irregular verbs correctly, the forms you see are accurate.",
-          "Pair a random verb with a random subject or noun to build endless practice sentences, an approach that works brilliantly for language learners at any level.",
-        ],
-      },
-      {
-        heading: "Fuel stronger writing",
-        paragraphs: [
-          "Strong writing leans on strong verbs. A random verb can nudge you toward a more vivid choice, help you vary your sentence openings, or serve as the seed for a quick writing exercise built around a single action.",
-          "For games, deal each player a random verb and challenge them to use it in a sentence, a story or a round of charades.",
-        ],
-      },
-    ],
-    examples: [
-      {
-        input: "5 verbs, base",
-        output: "explore, gather, inspire, build, imagine",
-        note: "A quick set of vivid action words.",
-      },
-      {
-        input: "5 verbs, past tense",
-        output: "explored, gathered, inspired, built, imagined",
-        note: "Great for past-tense drills.",
-      },
-      {
-        input: "5 verbs, -ing form",
-        output: "exploring, gathering, inspiring, building, imagining",
-        note: "Perfect for continuous-tense practice.",
-      },
-    ],
-    tips: [
-      "Choose a verb form to turn the tool into a conjugation trainer.",
-      "Pair a random verb with a random noun to build practice sentences.",
-      "Use the past-tense mode to drill irregular verbs.",
-      "Deal a verb to each player for a quick charades or storytelling game.",
-      "Tap Copy all to save the whole set.",
-    ],
-    faqs: [
-      {
-        question: "Can I choose the verb tense?",
-        answer:
-          "Yes. Generate verbs in base form, third-person singular, simple past or the -ing form.",
-      },
-      {
-        question: "Does it handle irregular verbs?",
-        answer:
-          "Yes. Common irregular verbs are conjugated correctly, so past forms like 'wrote' and 'sang' appear properly.",
-      },
-      {
-        question: "How many can I generate?",
-        answer: "Up to fifty at a time, and you can generate as many batches as you like.",
-      },
-      {
-        question: "Is it free?",
-        answer: "Yes — completely free, with no sign-up, running instantly in your browser.",
-      },
-    ],
-    related: [
-      "random-word-generator",
-      "random-sentence-generator",
-      "random-topic-generator",
-      "grammar-checker",
-    ],
-    imagePrompts: [
-      "A warm editorial illustration of dynamic action words bursting with motion lines over a notebook, cream background, honey-amber and ink-navy palette, literary style.",
-      "A cozy classroom scene with verb conjugation cards on a desk, soft light, minimal premium aesthetic.",
-    ],
-  },
-  "dog-name-generator": {
-    slug: "dog-name-generator",
-    metaTitle: "Dog Name Generator — Cute, Cool & Unique Dog Names | AllWordTools.com",
-    metaDescription:
-      "Free Dog Name Generator. Get cute, classic, cool and quirky dog names for puppies and rescues. Generate a fresh batch of ideas instantly — no sign-up.",
-    eyebrow: "Name Generators",
-    heading: "Dog Name Generator",
-    subheading:
-      "Find the perfect name for your new dog — from timeless favourites to cute, cool and downright quirky picks, all in one click.",
-    updated: "July 10, 2026",
-    readingMinutes: 4,
-    intro: [
-      "Bringing home a new dog is one of life's great joys, and choosing the right name is part of the fun. The Dog Name Generator gives you a fresh shortlist of ideas every time you click, mixing well-loved classics with cute, playful and food-inspired options.",
-      "Whether you've adopted a tiny puppy or a gentle senior rescue, the perfect name is often the one you didn't know you were looking for. Generate a batch, say them out loud, and see which one your dog seems to answer to.",
-      "It's fast, free and runs entirely in your browser — generate one name or fifty in a single click.",
-    ],
-    howToTitle: "How to use the Dog Name Generator",
-    howToSteps: [
-      {
-        title: "Choose how many",
-        detail: "Enter the number of names you'd like, from one to fifty.",
-      },
-      { title: "Generate", detail: "Press Generate dog names and a fresh set appears instantly." },
-      {
-        title: "Say them out loud",
-        detail: "Read your favourites aloud to hear how they'll sound at the park.",
-      },
-      { title: "Copy", detail: "Tap any name to copy it, or use Copy all to save your shortlist." },
-    ],
-    sections: [
-      {
-        heading: "Names for every kind of dog",
-        paragraphs: [
-          "The generator blends classic, human-style names with cute and quirky options, so you'll find something whether your dog is a dignified companion or a bundle of chaos. Foodie names, nature names and strong, adventurous names all appear in the mix.",
-          "A good dog name is usually easy to say and one or two syllables, which makes recall training simpler. Generate a big batch and keep the ones that roll off the tongue.",
-        ],
-      },
-      {
-        heading: "Tips for choosing the one",
-        paragraphs: [
-          "Test your favourites by calling them across the room — the name that feels natural to shout is often the winner. Avoid names that sound too much like common commands such as 'sit' or 'no', which can confuse training.",
-          "If you share your home, get everyone to vote on the shortlist. A name the whole household loves is a name that'll actually get used.",
-        ],
-      },
-    ],
-    examples: [
-      {
-        input: "8 names",
-        output: "Cooper, Luna, Biscuit, Rocky, Willow, Nugget, Bear, Poppy",
-        note: "A friendly mix of classic and cute.",
-      },
-      { input: "1 name", output: "Waffles", note: "A single quirky pick to consider." },
-      {
-        input: "20 names",
-        output: "A full shortlist",
-        note: "Great for narrowing down with the family.",
-      },
-    ],
-    tips: [
-      "Pick a name that's easy to shout at the park.",
-      "One or two syllables makes recall training easier.",
-      "Avoid names that rhyme with common commands.",
-      "Get the whole household to vote on a shortlist.",
-      "Tap Copy all to save your favourites.",
-    ],
-    faqs: [
-      {
-        question: "What makes a good dog name?",
-        answer:
-          "Short, clear names that are easy to say and don't sound like commands work best for training and everyday calling.",
-      },
-      {
-        question: "Are the names suitable for any breed?",
-        answer:
-          "Yes. The names suit dogs of every size, breed and personality — from tiny puppies to big rescues.",
-      },
-      {
-        question: "How many names can I generate?",
-        answer: "Up to fifty at a time, and you can generate as many fresh batches as you like.",
-      },
-      {
-        question: "Is it free?",
-        answer: "Yes — completely free, with no sign-up, running instantly in your browser.",
-      },
-    ],
-    related: [
-      "cat-name-generator",
-      "character-name-generator",
-      "random-word-generator",
-      "team-name-generator",
-    ],
-    imagePrompts: [
-      "A warm editorial illustration of a happy dog surrounded by floating name tags, cream background, honey-amber and ink-navy palette, literary style.",
-      "A cozy scene of a puppy with a name-tag collar on a soft blanket, minimal premium aesthetic.",
-    ],
-  },
-  "cat-name-generator": {
-    slug: "cat-name-generator",
-    metaTitle: "Cat Name Generator — Cute, Unique & Funny Cat Names | AllWordTools.com",
-    metaDescription:
-      "Free Cat Name Generator. Get cute, elegant, funny and unique cat names for kittens and rescues. Generate a fresh batch of ideas instantly — no sign-up.",
-    eyebrow: "Name Generators",
-    heading: "Cat Name Generator",
-    subheading:
-      "Discover the purr-fect name for your cat — elegant, playful, foodie or mysterious — with a fresh batch of ideas every click.",
-    updated: "July 10, 2026",
-    readingMinutes: 4,
-    intro: [
-      "Cats have big personalities, and their names should match. The Cat Name Generator serves up a fresh shortlist every time, blending elegant classics with cute, funny and food-inspired picks for kittens and grown cats alike.",
-      "From regal and mysterious to downright silly, the right name usually reveals itself the moment you see it. Generate a batch, try them out, and watch which one makes your cat's ears twitch.",
-      "It's fast, free and runs entirely in your browser — generate one name or fifty in a single click.",
-    ],
-    howToTitle: "How to use the Cat Name Generator",
-    howToSteps: [
-      {
-        title: "Choose how many",
-        detail: "Enter the number of names you'd like, from one to fifty.",
-      },
-      { title: "Generate", detail: "Press Generate cat names and a fresh set appears instantly." },
-      {
-        title: "Try them out",
-        detail: "Say your favourites aloud and see how they suit your cat.",
-      },
-      { title: "Copy", detail: "Tap any name to copy it, or use Copy all to save your shortlist." },
-    ],
-    sections: [
-      {
-        heading: "Names for every personality",
-        paragraphs: [
-          "The generator mixes elegant, human-style names with playful and quirky options, plus plenty of food-inspired picks like Mochi and Biscuit. Whether your cat is a graceful lap-warmer or a chaotic zoomie machine, there's a fitting name in the mix.",
-          "Short names with a bright vowel sound tend to catch a cat's attention best, so keep an ear out for the ones that pop.",
-        ],
-      },
-      {
-        heading: "Tips for choosing the one",
-        paragraphs: [
-          "Cats respond to sound more than meaning, so pick a name that's fun to say and easy to repeat at dinner time. Names ending in an 'ee' sound, like Ziggy or Mochi, often get a cat's attention.",
-          "Consider your cat's colour, markings and attitude — a sleek black cat might suit Onyx or Midnight, while a golden fluffball could be Honey or Saffron.",
-        ],
-      },
-    ],
-    examples: [
-      {
-        input: "8 names",
-        output: "Luna, Mochi, Jasper, Cleo, Pumpkin, Loki, Willow, Binx",
-        note: "A blend of elegant and playful.",
-      },
-      { input: "1 name", output: "Marshmallow", note: "A single soft, cute pick." },
-      {
-        input: "20 names",
-        output: "A full shortlist",
-        note: "Perfect for choosing with the family.",
-      },
-    ],
-    tips: [
-      "Short names with bright vowels catch a cat's attention.",
-      "Names ending in an 'ee' sound work especially well.",
-      "Match the name to your cat's colour or attitude.",
-      "Say your favourites aloud before deciding.",
-      "Tap Copy all to save your shortlist.",
-    ],
-    faqs: [
-      {
-        question: "What makes a good cat name?",
-        answer:
-          "Short names with a clear, bright sound work best, since cats respond more to how a name sounds than what it means.",
-      },
-      {
-        question: "Are the names suitable for kittens and adult cats?",
-        answer:
-          "Yes. The names suit cats of every age and personality, from tiny kittens to dignified seniors.",
-      },
-      {
-        question: "How many names can I generate?",
-        answer: "Up to fifty at a time, and you can generate as many fresh batches as you like.",
-      },
-      {
-        question: "Is it free?",
-        answer: "Yes — completely free, with no sign-up, running instantly in your browser.",
-      },
-    ],
-    related: [
-      "dog-name-generator",
-      "character-name-generator",
-      "random-word-generator",
-      "team-name-generator",
-    ],
-    imagePrompts: [
-      "A warm editorial illustration of a curious cat surrounded by floating name tags, cream background, honey-amber and ink-navy palette, literary style.",
-      "A cozy scene of a kitten curled on a cushion with a name tag, minimal premium aesthetic.",
-    ],
-  },
-  "team-name-generator": {
-    slug: "team-name-generator",
-    metaTitle: "Team Name Generator — Cool & Catchy Team Names | AllWordTools.com",
-    metaDescription:
-      "Free Team Name Generator. Get cool, catchy and funny team names for sports, quiz nights, esports and group projects. Generate ideas instantly — no sign-up.",
-    eyebrow: "Name Generators",
-    heading: "Team Name Generator",
-    subheading:
-      "Rally your crew with a bold, catchy team name — perfect for sports squads, quiz nights, esports rosters and group projects.",
-    updated: "July 10, 2026",
-    readingMinutes: 4,
-    intro: [
-      "A great team name builds instant identity and a little friendly intimidation. The Team Name Generator combines punchy adjectives with bold nouns to create names that look great on a jersey, a scoreboard or a group chat.",
-      "Whether you're forming a five-a-side football team, a pub quiz squad, an esports roster or a work project group, this tool gives you a fresh batch of strong, memorable options in a single click.",
-      "It's fast, free and runs entirely in your browser — generate one name or fifty at a time.",
-    ],
-    howToTitle: "How to use the Team Name Generator",
-    howToSteps: [
-      {
-        title: "Choose how many",
-        detail: "Enter the number of names you'd like, from one to fifty.",
-      },
-      { title: "Generate", detail: "Press Generate team names and a fresh set appears instantly." },
-      { title: "Shortlist", detail: "Keep the names that fit your team's vibe and sport." },
-      { title: "Copy", detail: "Tap any name to copy it, or use Copy all to save your list." },
-    ],
-    sections: [
-      {
-        heading: "Names with instant impact",
-        paragraphs: [
-          "The generator pairs strong adjectives like Blazing and Fearless with bold nouns like Titans and Renegades, producing names that sound powerful and roll off the tongue. The result is a shortlist of options that feel ready for the big game.",
-          "The best team names are easy to chant and quick to remember, so lean toward the ones your teammates can shout without tripping over.",
-        ],
-      },
-      {
-        heading: "Make it your own",
-        paragraphs: [
-          "Use a generated name as-is, or swap in a word that reflects your town, colours or in-jokes. Combining the adjective from one result with the noun from another is a great way to land something unique.",
-          "For sports leagues and quizzes, check the name isn't already taken in your competition — then commit and wear it with pride.",
-        ],
-      },
-    ],
-    examples: [
-      {
-        input: "8 names",
-        output:
-          "Blazing Titans, Steel Renegades, Thunder Mavericks, Golden Spartans, Wild Comets, Elite Raptors, Rowdy Cobras, Atomic Chargers",
-        note: "A punchy mix ready for any league.",
-      },
-      { input: "1 name", output: "Fearless Gladiators", note: "A single bold pick." },
-      { input: "20 names", output: "A full shortlist", note: "Great for a team vote." },
-    ],
-    tips: [
-      "Pick a name that's easy to chant on the sidelines.",
-      "Match the vibe to your sport or event.",
-      "Mix parts of two names to make something unique.",
-      "Check the name isn't taken in your league.",
-      "Tap Copy all to save your shortlist.",
-    ],
-    faqs: [
-      {
-        question: "What kinds of teams is this for?",
-        answer:
-          "Any team — sports squads, pub quiz teams, esports rosters, work groups and club competitions all work perfectly.",
-      },
-      {
-        question: "Can I customise the names?",
-        answer:
-          "Absolutely. Use a result as-is or swap in your own word to reflect your colours, town or in-jokes.",
-      },
-      {
-        question: "How many names can I generate?",
-        answer: "Up to fifty at a time, and you can generate as many fresh batches as you like.",
-      },
-      {
-        question: "Is it free?",
-        answer: "Yes — completely free, with no sign-up, running instantly in your browser.",
-      },
-    ],
-    related: [
-      "guild-name-generator",
-      "clan-name-generator",
-      "character-name-generator",
-      "random-word-generator",
-    ],
-    imagePrompts: [
-      "A warm editorial illustration of a team trophy surrounded by bold name banners, cream background, honey-amber and ink-navy palette, literary style.",
-      "A dynamic scene of team jerseys with catchy names on a rack, minimal premium aesthetic.",
-    ],
-  },
-  "guild-name-generator": {
-    slug: "guild-name-generator",
-    metaTitle: "Guild Name Generator — Epic Names for MMOs & RPGs | AllWordTools.com",
-    metaDescription:
-      "Free Guild Name Generator. Get epic, fantasy guild names for MMOs, RPGs and gaming communities. Generate orders, legions and more instantly — no sign-up.",
-    eyebrow: "Name Generators",
-    heading: "Guild Name Generator",
-    subheading:
-      "Forge an epic guild name for your MMO, RPG or gaming community — orders, legions, brotherhoods and more, one click away.",
-    updated: "July 10, 2026",
-    readingMinutes: 4,
-    intro: [
-      "A memorable guild name sets the tone for your whole community. The Guild Name Generator crafts epic, fantasy-flavoured titles — from solemn orders and mighty legions to fierce beast-themed banners — perfect for MMOs, RPGs and gaming groups.",
-      "Whether you're founding a raiding guild, a role-play fellowship or a casual social clan, this tool hands you a fresh batch of grand, lore-friendly names in a single click.",
-      "It's fast, free and runs entirely in your browser — generate one name or fifty at a time.",
-    ],
-    howToTitle: "How to use the Guild Name Generator",
-    howToSteps: [
-      {
-        title: "Choose how many",
-        detail: "Enter the number of names you'd like, from one to fifty.",
-      },
-      {
-        title: "Generate",
-        detail: "Press Generate guild names and a fresh set appears instantly.",
-      },
-      { title: "Shortlist", detail: "Keep the names that match your guild's theme and playstyle." },
-      { title: "Copy", detail: "Tap any name to copy it, or use Copy all to save your list." },
-    ],
-    sections: [
-      {
-        heading: "Epic, lore-friendly titles",
-        paragraphs: [
-          "The generator builds names in two grand styles: structured titles like 'Order of the Phoenix' and 'Legion of the Void', and bold banner names like 'The Crimson Dragons'. Both feel right at home in a fantasy world.",
-          "Names that hint at a theme — fire, shadow, honour, beasts — give your guild an instant identity that new members can rally behind.",
-        ],
-      },
-      {
-        heading: "Build your guild's identity",
-        paragraphs: [
-          "Pick a name that reflects how your guild plays: something noble for a disciplined raiding team, something fierce for a PvP crew, or something mysterious for a role-play group. A strong name pairs perfectly with a matching tag or crest.",
-          "Before you settle, check the name isn't already claimed on your server or platform, then rally your members under the new banner.",
-        ],
-      },
-    ],
-    examples: [
-      {
-        input: "8 names",
-        output:
-          "Order of the Phoenix, The Silent Vipers, Legion of the Void, The Crimson Dragons, Brotherhood of the Dawn, The Iron Guardians, Covenant of Eternal Flame, The Shadow Reapers",
-        note: "A grand mix of two epic styles.",
-      },
-      { input: "1 name", output: "The Golden Griffins", note: "A single bold banner name." },
-      { input: "20 names", output: "A full shortlist", note: "Great for a guild vote." },
-    ],
-    tips: [
-      "Pick a name that hints at your guild's theme.",
-      "Noble names suit raiding, fierce names suit PvP.",
-      "Pair the name with a matching tag or crest.",
-      "Check it isn't taken on your server.",
-      "Tap Copy all to save your shortlist.",
-    ],
-    faqs: [
-      {
-        question: "What games are these names for?",
-        answer:
-          "Any MMO, RPG or online game with guilds — from fantasy raiders to role-play fellowships and casual social groups.",
-      },
-      {
-        question: "Can I customise the names?",
-        answer: "Yes. Use a result as-is or swap in a word that fits your server, lore or theme.",
-      },
-      {
-        question: "How many names can I generate?",
-        answer: "Up to fifty at a time, and you can generate as many fresh batches as you like.",
-      },
-      {
-        question: "Is it free?",
-        answer: "Yes — completely free, with no sign-up, running instantly in your browser.",
-      },
-    ],
-    related: [
-      "clan-name-generator",
-      "team-name-generator",
-      "character-name-generator",
-      "random-word-generator",
-    ],
-    imagePrompts: [
-      "A warm editorial illustration of an ornate guild shield and banner with fantasy crests, cream background, honey-amber and ink-navy palette, literary style.",
-      "A dramatic scene of a guild emblem carved in stone, minimal premium aesthetic.",
-    ],
-  },
-  "clan-name-generator": {
-    slug: "clan-name-generator",
-    metaTitle: "Clan Name Generator — Cool Clan Names for Games | AllWordTools.com",
-    metaDescription:
-      "Free Clan Name Generator. Get fierce, cool clan names for shooters, strategy games and fantasy worlds. Generate strong, memorable ideas instantly — no sign-up.",
-    eyebrow: "Name Generators",
-    heading: "Clan Name Generator",
-    subheading:
-      "Create a fierce, memorable clan name for shooters, strategy games and fantasy worlds — strong single-word and 'Clan' styles in one click.",
-    updated: "July 10, 2026",
-    readingMinutes: 4,
-    intro: [
-      "A sharp clan name strikes fear before the first shot is fired. The Clan Name Generator forges strong, punchy names by fusing bold prefixes and suffixes — think Ironfist, Shadowborne and Stormreaver — ideal for shooters, strategy games and fantasy settings.",
-      "Whether you're building a competitive squad or a fantasy warband, this tool serves up a fresh batch of hard-hitting names in a single click, in both compact single-word and classic 'Clan' styles.",
-      "It's fast, free and runs entirely in your browser — generate one name or fifty at a time.",
-    ],
-    howToTitle: "How to use the Clan Name Generator",
-    howToSteps: [
-      {
-        title: "Choose how many",
-        detail: "Enter the number of names you'd like, from one to fifty.",
-      },
-      { title: "Generate", detail: "Press Generate clan names and a fresh set appears instantly." },
-      { title: "Shortlist", detail: "Keep the names that hit hardest for your squad." },
-      { title: "Copy", detail: "Tap any name to copy it, or use Copy all to save your list." },
-    ],
-    sections: [
-      {
-        heading: "Fierce, punchy names",
-        paragraphs: [
-          "The generator fuses powerful prefixes like Iron, Shadow and Storm with strong suffixes like -fist, -born and -reaver, producing compact names that look great as a clan tag. It also offers the classic 'Clan Ironheart' style for a more traditional feel.",
-          "Short, hard-hitting names are easiest to read on a leaderboard and quickest to shout in voice chat, so lean toward the ones with real punch.",
-        ],
-      },
-      {
-        heading: "Build your clan's identity",
-        paragraphs: [
-          "Pick a name that matches your game and attitude — something aggressive for a competitive shooter squad, or something mythic for a fantasy warband. A single-word name often doubles neatly as a short clan tag.",
-          "Before you lock it in, check the name isn't already taken in your game, then recruit under your new banner.",
-        ],
-      },
-    ],
-    examples: [
-      {
-        input: "8 names",
-        output:
-          "Ironfist, Shadowborne, Stormreaver, Clan Wolffang, Frostbane, Nightwalker, Clan Ashborne, Dragonslayer",
-        note: "A fierce mix of both styles.",
-      },
-      { input: "1 name", output: "Grimwatch", note: "A single hard-hitting pick." },
-      { input: "20 names", output: "A full shortlist", note: "Great for a squad vote." },
-    ],
-    tips: [
-      "Short names work best as clan tags.",
-      "Match the tone to your game and playstyle.",
-      "Aggressive names suit shooters, mythic names suit RPGs.",
-      "Check the name isn't taken in your game.",
-      "Tap Copy all to save your shortlist.",
-    ],
-    faqs: [
-      {
-        question: "What games are these names for?",
-        answer:
-          "Shooters, battle royales, strategy games and fantasy worlds — anywhere you form a clan or squad.",
-      },
-      {
-        question: "Can I use a name as a clan tag?",
-        answer: "Yes. The compact single-word names work especially well as short, readable tags.",
-      },
-      {
-        question: "How many names can I generate?",
-        answer: "Up to fifty at a time, and you can generate as many fresh batches as you like.",
-      },
-      {
-        question: "Is it free?",
-        answer: "Yes — completely free, with no sign-up, running instantly in your browser.",
-      },
-    ],
-    related: [
-      "guild-name-generator",
-      "team-name-generator",
-      "character-name-generator",
-      "random-word-generator",
-    ],
-    imagePrompts: [
-      "A warm editorial illustration of crossed swords and a fierce clan emblem, cream background, honey-amber and ink-navy palette, literary style.",
-      "A dramatic scene of a battle banner with a bold clan sigil, minimal premium aesthetic.",
-    ],
-  },
-  "character-name-generator": {
-    slug: "character-name-generator",
-    metaTitle: "Character Name Generator — Fantasy Names for Stories & D&D | AllWordTools.com",
-    metaDescription:
-      "Free Character Name Generator. Get fantasy character names for novels, D&D campaigns, games and creative writing. Generate hero and villain names instantly.",
-    eyebrow: "Name Generators",
-    heading: "Character Name Generator",
-    subheading:
-      "Name your heroes, villains and side characters with evocative fantasy names for novels, D&D campaigns, games and creative writing.",
-    updated: "July 10, 2026",
-    readingMinutes: 4,
-    intro: [
-      "Every memorable character starts with a memorable name. The Character Name Generator pairs evocative first names with rich, fantasy-flavoured surnames — like Aeric Blackwood and Lyra Stormrider — to give your cast an instant sense of place and personality.",
-      "Whether you're writing a novel, rolling up a D&D character, building a game world or sketching out a short story, this tool hands you a fresh batch of usable names in a single click.",
-      "It's fast, free and runs entirely in your browser — generate one name or fifty at a time.",
-    ],
-    howToTitle: "How to use the Character Name Generator",
-    howToSteps: [
-      {
-        title: "Choose how many",
-        detail: "Enter the number of names you'd like, from one to fifty.",
-      },
-      {
-        title: "Generate",
-        detail: "Press Generate character names and a fresh set appears instantly.",
-      },
-      { title: "Shortlist", detail: "Keep the names that suit your characters and setting." },
-      { title: "Copy", detail: "Tap any name to copy it, or use Copy all to save your cast." },
-    ],
-    sections: [
-      {
-        heading: "Names with instant character",
-        paragraphs: [
-          "The generator combines melodic first names with atmospheric surnames drawn from nature, weather and old-world roots, producing names that hint at backstory and belonging. The result feels at home in high fantasy, but works just as well for grounded fiction.",
-          "A well-chosen name can suggest a character's origin, class or temperament before they say a word — a Frostborn feels different from a Fairwind.",
-        ],
-      },
-      {
-        heading: "Build a whole cast",
-        paragraphs: [
-          "Generate a big batch to name an entire party, family or rival faction at once. Mixing first and last names from different results lets you fine-tune each character until the name clicks.",
-          "For tabletop games, keep a copied list handy so NPCs always have a name ready when your players wander somewhere unexpected.",
-        ],
-      },
-    ],
-    examples: [
-      {
-        input: "8 names",
-        output:
-          "Aeric Blackwood, Lyra Stormrider, Soren Ashford, Elowen Nightshade, Theron Ironheart, Mira Frostborn, Kael Ravenscroft, Wren Silvermane",
-        note: "A ready-made adventuring party.",
-      },
-      { input: "1 name", output: "Darian Dawnbringer", note: "A single heroic pick." },
-      {
-        input: "20 names",
-        output: "A full cast of characters",
-        note: "Perfect for a whole story or campaign.",
-      },
-    ],
-    tips: [
-      "Mix first and last names from different results to fine-tune.",
-      "Let a name hint at the character's origin or class.",
-      "Generate a batch to name a whole party at once.",
-      "Keep a copied list handy for surprise NPCs.",
-      "Tap Copy all to save your cast.",
-    ],
-    faqs: [
-      {
-        question: "What are these names good for?",
-        answer:
-          "Novels, short stories, D&D and tabletop campaigns, video game characters and any creative writing that needs fantasy names.",
-      },
-      {
-        question: "Can I use them for villains too?",
-        answer:
-          "Yes. The names work for heroes, villains and side characters alike — the tone suits a wide range of roles.",
-      },
-      {
-        question: "How many names can I generate?",
-        answer: "Up to fifty at a time, and you can generate as many fresh batches as you like.",
-      },
-      {
-        question: "Is it free?",
-        answer: "Yes — completely free, with no sign-up, running instantly in your browser.",
-      },
-    ],
-    related: [
-      "guild-name-generator",
-      "clan-name-generator",
-      "team-name-generator",
-      "random-word-generator",
-    ],
-    imagePrompts: [
-      "A warm editorial illustration of a masked fantasy character surrounded by floating name scrolls, cream background, honey-amber and ink-navy palette, literary style.",
-      "A cozy writer's desk with a character sheet and quill, minimal premium aesthetic.",
-    ],
-  },
-  "vocabulary-quiz": {
-    slug: "vocabulary-quiz",
-    metaTitle: "Vocabulary Quiz — Free Multiple-Choice Word Test | AllWordTools.com",
-    metaDescription:
-      "Free vocabulary quiz with instant scoring. Test and grow your English vocabulary with multiple-choice definition questions. No sign-up, endlessly replayable.",
-    eyebrow: "Word Quizzes",
-    heading: "Vocabulary Quiz",
-    subheading:
-      "Test your word power with a quick, scored multiple-choice quiz — then retake it as often as you like to grow your vocabulary.",
-    updated: "July 10, 2026",
-    readingMinutes: 5,
-    intro: [
-      "A strong vocabulary makes your writing sharper, your reading faster and your speaking more precise. This vocabulary quiz gives you a fun, low-pressure way to build one: each round serves up a set of words and asks you to pick the correct definition from four choices, scoring you instantly as you go.",
-      "Questions and answer options are reshuffled every attempt, so you can play again and again without memorising the order. It's completely free, runs in your browser and is ideal for students, ESL learners and anyone who loves words.",
-    ],
-    howToTitle: "How to take the vocabulary quiz",
-    howToSteps: [
-      { title: "Read the word", detail: "Each question shows a word and asks what it means." },
-      {
-        title: "Pick a definition",
-        detail: "Choose the answer you think is correct from the four options.",
-      },
-      {
-        title: "Learn as you go",
-        detail: "See instantly whether you were right, with a short explanation.",
-      },
-      {
-        title: "See your score",
-        detail: "Finish the round for your final score, then try again to beat it.",
-      },
-    ],
-    sections: [
-      {
-        heading: "Why quizzing beats passive reading",
-        paragraphs: [
-          "Actively recalling a word's meaning strengthens memory far more than simply reading a definition. Each question forces your brain to retrieve and choose, which is exactly the effort that makes vocabulary stick.",
-          "Because the quiz is short and scored, it's easy to build a daily habit — a few rounds a day compounds into a noticeably richer vocabulary over a few weeks.",
-        ],
-      },
-    ],
-    examples: [
-      {
-        input: "abate",
-        output: "to become less intense or widespread",
-        note: "Definition-style multiple choice.",
-      },
-      {
-        input: "frugal",
-        output: "careful and sparing with money or resources",
-        note: "Distractors are other real definitions.",
-      },
-    ],
-    tips: [
-      "Take a round or two every day for steady progress.",
-      "Note the words you miss and look them up afterwards.",
-      "Read the explanation after each answer to reinforce it.",
-      "Retake the quiz to beat your previous score.",
-    ],
-    faqs: [
-      {
-        question: "Is the vocabulary quiz free?",
-        answer: "Yes, completely free with no sign-up, and it runs instantly in your browser.",
-      },
-      {
-        question: "Does it change each time?",
-        answer: "Yes. The words and answer options are reshuffled on every attempt.",
-      },
-      {
-        question: "Who is it for?",
-        answer: "Students, ESL learners, writers and anyone who wants a bigger vocabulary.",
-      },
-    ],
-    related: ["synonym-quiz", "antonym-quiz", "word-of-the-day", "spelling-quiz"],
-    imagePrompts: [
-      "A warm editorial illustration of a quiz card with a highlighted word and four answer options, cream background, honey-amber and ink-navy palette, literary style.",
-    ],
-  },
-  "daily-word": {
-    slug: "daily-word",
-    metaTitle: "Daily Word — Learn a New English Word Every Day | AllWordTools.com",
-    metaDescription:
-      "A fresh word to learn every day, with meaning, part of speech, pronunciation and an example sentence. Free, no sign-up — grow your vocabulary one word at a time.",
-    eyebrow: "Word Quizzes",
-    heading: "Daily Word",
-    subheading:
-      "One handpicked word every day, complete with its meaning, pronunciation and an example sentence — the simplest way to build your vocabulary.",
-    updated: "July 10, 2026",
-    readingMinutes: 4,
-    intro: [
-      "The easiest way to grow your vocabulary is one word at a time. The Daily Word gives you a single, carefully chosen word each day — with its part of speech, IPA pronunciation, a clear definition and an example sentence — so you can learn it in under a minute.",
-      "The word is selected by the date, so everyone sees the same word on the same day. Want more? Tap Surprise me to draw another word from our collection whenever you like. It's free, runs in your browser and needs no sign-up.",
-    ],
-    howToTitle: "How to use the Daily Word",
-    howToSteps: [
-      {
-        title: "Read today's word",
-        detail: "See the day's word with its part of speech and pronunciation.",
-      },
-      {
-        title: "Learn the meaning",
-        detail: "Read the definition and the example sentence for context.",
-      },
-      { title: "Hear it", detail: "Tap the speaker to hear the word pronounced aloud." },
-      {
-        title: "Want more?",
-        detail: "Tap Surprise me for another word, or copy today's word to save it.",
-      },
-    ],
-    sections: [
-      {
-        heading: "Make it a daily habit",
-        paragraphs: [
-          "Learning sticks best with small, consistent effort. Visiting the Daily Word each morning turns vocabulary building into a painless routine that adds up fast.",
-          "Try using the day's word in a sentence of your own — in a message, a note or out loud. Producing the word yourself cements it far better than just reading it.",
-        ],
-      },
-    ],
-    examples: [
-      {
-        input: "Today",
-        output: "serendipity — the occurrence of happy events by chance",
-        note: "Chosen by the date, same for everyone.",
-      },
-      {
-        input: "Surprise me",
-        output: "A random word from the collection",
-        note: "Draw extra words whenever you like.",
-      },
-    ],
-    tips: [
-      "Check in at the same time each day to build a habit.",
-      "Use the new word in a sentence to remember it.",
-      "Tap the speaker to learn the correct pronunciation.",
-      "Copy the word to add it to your own vocabulary list.",
-    ],
-    faqs: [
-      { question: "Is the Daily Word free?", answer: "Yes, completely free with no sign-up." },
-      {
-        question: "Is it the same for everyone?",
-        answer: "Yes. The word is chosen by the date, so everyone sees the same word each day.",
-      },
-      {
-        question: "Can I see more than one word?",
-        answer: "Yes. Tap Surprise me to draw another word from the collection any time.",
-      },
-    ],
-    related: ["word-of-the-day", "vocabulary-quiz", "synonym-quiz", "dictionary"],
-    imagePrompts: [
-      "A warm editorial illustration of a calendar page with a single highlighted word and a small speaker icon, cream background, honey-amber and ink-navy palette, literary style.",
-    ],
-  },
-  "word-of-the-day": {
-    slug: "word-of-the-day",
-    metaTitle: "Word of the Day — Beautiful New Word Daily with IPA | AllWordTools.com",
-    metaDescription:
-      "Discover a beautiful new word every day with its meaning, IPA pronunciation and an example sentence. Free word of the day, no sign-up, grow your vocabulary daily.",
-    eyebrow: "Word Quizzes",
-    heading: "Word of the Day",
-    subheading:
-      "A beautiful, memorable word each day — with pronunciation, definition and usage — to enrich your vocabulary and your writing.",
-    updated: "July 10, 2026",
-    readingMinutes: 4,
-    intro: [
-      "Some words are simply a joy to know. Word of the Day surfaces one striking, expressive word every day — think serendipity, petrichor or mellifluous — with its part of speech, IPA pronunciation, a clear definition and an example sentence to show it in action.",
-      "The word is chosen by the date, so it's the same for everyone that day, and you can tap Surprise me for another whenever inspiration strikes. It's free, instant and needs no sign-up — a small daily dose of language to make your writing and speech more vivid.",
-    ],
-    howToTitle: "How to use Word of the Day",
-    howToSteps: [
-      {
-        title: "Meet the word",
-        detail: "See today's word with its part of speech and IPA pronunciation.",
-      },
-      {
-        title: "Understand it",
-        detail: "Read the definition and the example sentence for context.",
-      },
-      { title: "Hear it", detail: "Tap the speaker to hear it pronounced." },
-      {
-        title: "Explore more",
-        detail: "Tap Surprise me for another word, or copy the word to save it.",
-      },
-    ],
-    sections: [
-      {
-        heading: "Why a word a day works",
-        paragraphs: [
-          "Expressive vocabulary is what lifts good writing into memorable writing. Learning one well-chosen word a day gradually gives you a richer palette to draw on without any heavy studying.",
-          "The IPA pronunciation and example sentence mean you learn not just what a word means but how to say and use it — the full picture that makes a word truly yours.",
-        ],
-      },
-    ],
-    examples: [
-      {
-        input: "Today",
-        output: "petrichor — the pleasant smell of rain on dry earth",
-        note: "Includes IPA and an example sentence.",
-      },
-      {
-        input: "Surprise me",
-        output: "Another expressive word from the collection",
-        note: "For when one word isn't enough.",
-      },
-    ],
-    tips: [
-      "Say the word aloud using the IPA guide.",
-      "Write your own example sentence to remember it.",
-      "Return daily to keep collecting new words.",
-      "Copy favourites into a personal word journal.",
-    ],
-    faqs: [
-      { question: "Is Word of the Day free?", answer: "Yes, completely free with no sign-up." },
-      {
-        question: "What's the difference from Daily Word?",
-        answer:
-          "Both give a word a day; Word of the Day focuses on especially beautiful, expressive words with full IPA and usage.",
-      },
-      {
-        question: "Can I get more words?",
-        answer: "Yes. Tap Surprise me to draw another word any time.",
-      },
-    ],
-    related: ["daily-word", "vocabulary-quiz", "pronunciation", "dictionary"],
-    imagePrompts: [
-      "A warm editorial illustration of an elegant word card with IPA pronunciation and a quill, cream background, honey-amber and ink-navy palette, literary style.",
-    ],
-  },
-  "spelling-quiz": {
-    slug: "spelling-quiz",
-    metaTitle: "Spelling Quiz — Spot the Correct Spelling | AllWordTools.com",
-    metaDescription:
-      "Free spelling quiz on commonly misspelled English words. Pick the correct spelling from four options, scored instantly. No sign-up, endlessly replayable.",
-    eyebrow: "Word Quizzes",
-    heading: "Spelling Quiz",
-    subheading:
-      "Can you spot the correct spelling? Test yourself on the words people most often get wrong, with instant scoring.",
-    updated: "July 10, 2026",
-    readingMinutes: 5,
-    intro: [
-      "Even confident writers stumble on words like accommodate, definitely and separate. This spelling quiz turns those tricky words into a quick game: each question shows a meaning and four spellings, and you pick the one that's correct.",
-      "The questions focus on the most commonly misspelled English words, reshuffling every attempt so you can practise until the correct forms feel automatic. It's free, instant and perfect for students, writers and anyone polishing their spelling.",
-    ],
-    howToTitle: "How to take the spelling quiz",
-    howToSteps: [
-      { title: "Read the hint", detail: "Each question gives the word's meaning as a clue." },
-      {
-        title: "Choose the spelling",
-        detail: "Pick the correctly spelled option from the four choices.",
-      },
-      {
-        title: "Check instantly",
-        detail: "See at once whether you were right, with the correct spelling shown.",
-      },
-      { title: "Score and repeat", detail: "Finish for your score, then retake it to improve." },
-    ],
-    sections: [
-      {
-        heading: "Learn the words that trip everyone up",
-        paragraphs: [
-          "Most spelling mistakes cluster around a few hundred words with doubled letters, silent letters or unexpected vowels. Drilling those high-frequency offenders gives you the biggest improvement for the least effort.",
-          "Seeing the wrong spellings next to the right one trains your eye to notice the difference — so you'll catch mistakes faster in your own writing.",
-        ],
-      },
-    ],
-    examples: [
-      {
-        input: "accommodate",
-        output: "correct — not 'accomodate'",
-        note: "Double c and double m.",
-      },
-      { input: "definitely", output: "correct — not 'definately'", note: "A classic mix-up." },
-    ],
-    tips: [
-      "Say each word slowly, syllable by syllable.",
-      "Watch for doubled letters and silent letters.",
-      "Note the words you miss and drill them again.",
-      "Retake the quiz until you score full marks.",
-    ],
-    faqs: [
-      {
-        question: "Is the spelling quiz free?",
-        answer: "Yes, completely free with no sign-up, running instantly in your browser.",
-      },
-      {
-        question: "Which words are included?",
-        answer:
-          "The most commonly misspelled English words, so your practice targets real mistakes.",
-      },
-      {
-        question: "Does it change each time?",
-        answer: "Yes. Words and options are reshuffled on every attempt.",
-      },
-    ],
-    related: ["spell-checker", "vocabulary-quiz", "prefix-quiz", "suffix-quiz"],
-    imagePrompts: [
-      "A warm editorial illustration of letter tiles spelling a tricky word with a checkmark, cream background, honey-amber and ink-navy palette, literary style.",
-    ],
-  },
-  "synonym-quiz": {
-    slug: "synonym-quiz",
-    metaTitle: "Synonym Quiz — Match Words to Their Synonyms | AllWordTools.com",
-    metaDescription:
-      "Free synonym quiz with instant scoring. Match each word to its correct synonym and sharpen your feel for shades of meaning. No sign-up, endlessly replayable.",
-    eyebrow: "Word Quizzes",
-    heading: "Synonym Quiz",
-    subheading:
-      "Pick the right synonym for each word and sharpen your sense of meaning — quick, scored and endlessly replayable.",
-    updated: "July 10, 2026",
-    readingMinutes: 4,
-    intro: [
-      "Knowing synonyms lets you write with variety and precision instead of repeating the same words. This synonym quiz tests exactly that skill: each question gives a word and four options, and you choose the one closest in meaning.",
-      "Questions reshuffle every round, so you can play repeatedly to lock the associations in. It's free, runs in your browser and is great for students, writers and ESL learners building a richer, more flexible vocabulary.",
-    ],
-    howToTitle: "How to take the synonym quiz",
-    howToSteps: [
-      { title: "Read the word", detail: "Each question shows a word you need to match." },
-      { title: "Pick the synonym", detail: "Choose the option that means the same thing." },
-      { title: "Learn instantly", detail: "See whether you were right, with a short explanation." },
-      { title: "Score and retry", detail: "Finish for your score, then play again to improve." },
-    ],
-    sections: [
-      {
-        heading: "Why synonyms matter",
-        paragraphs: [
-          "A wide store of synonyms lets you avoid repetition, match the right tone and express fine differences in meaning. It's one of the fastest ways to make your writing sound more polished.",
-          "Practising synonyms also boosts reading comprehension, because you'll recognise more of the words writers use to express the same idea in different ways.",
-        ],
-      },
-    ],
-    examples: [
-      { input: "happy", output: "joyful", note: "Pick the closest match in meaning." },
-      { input: "big", output: "enormous", note: "Distractors are unrelated words." },
-    ],
-    tips: [
-      "Think about the exact shade of meaning, not just a rough match.",
-      "Note new synonyms you learn and reuse them in writing.",
-      "Retake the quiz to reinforce the pairs.",
-      "Pair with the Antonym Quiz for a full workout.",
-    ],
-    faqs: [
-      { question: "Is the synonym quiz free?", answer: "Yes, completely free with no sign-up." },
-      {
-        question: "Does it change each time?",
-        answer: "Yes. Words and answer options reshuffle every attempt.",
-      },
-      {
-        question: "Who is it for?",
-        answer: "Students, writers and ESL learners wanting a richer vocabulary.",
-      },
-    ],
-    related: ["antonym-quiz", "synonym-finder", "vocabulary-quiz", "word-of-the-day"],
-    imagePrompts: [
-      "A warm editorial illustration of two words linked by an equals sign on a quiz card, cream background, honey-amber and ink-navy palette, literary style.",
-    ],
-  },
-  "antonym-quiz": {
-    slug: "antonym-quiz",
-    metaTitle: "Antonym Quiz — Match Words to Their Opposites | AllWordTools.com",
-    metaDescription:
-      "Free antonym quiz with instant scoring. Choose the correct opposite for each word and expand your vocabulary range. No sign-up, endlessly replayable.",
-    eyebrow: "Word Quizzes",
-    heading: "Antonym Quiz",
-    subheading:
-      "Choose the correct opposite for each word and stretch your vocabulary — quick, scored and endlessly replayable.",
-    updated: "July 10, 2026",
-    readingMinutes: 4,
-    intro: [
-      "Understanding opposites is a core vocabulary skill that helps you express contrast and nuance. This antonym quiz puts it to the test: each question gives a word and four options, and you pick the one that means the opposite.",
-      "Questions reshuffle every round for endless practice. It's free, runs in your browser and is ideal for students, ESL learners and writers who want a more expressive, precise vocabulary.",
-    ],
-    howToTitle: "How to take the antonym quiz",
-    howToSteps: [
-      { title: "Read the word", detail: "Each question shows a word to find the opposite of." },
-      { title: "Pick the opposite", detail: "Choose the option with the opposite meaning." },
-      { title: "Learn instantly", detail: "See whether you were right, with a short explanation." },
-      { title: "Score and retry", detail: "Finish for your score, then play again to improve." },
-    ],
-    sections: [
-      {
-        heading: "Why antonyms matter",
-        paragraphs: [
-          "Knowing opposites sharpens your understanding of a word's meaning and gives you the tools to express contrast — essential for argument, description and clear thinking.",
-          "Antonym practice also deepens vocabulary generally, since learning a word and its opposite together makes both easier to remember.",
-        ],
-      },
-    ],
-    examples: [
-      { input: "happy", output: "sad", note: "Pick the true opposite." },
-      { input: "expand", output: "shrink", note: "Distractors are unrelated words." },
-    ],
-    tips: [
-      "Learn words and their opposites together to remember both.",
-      "Watch for near-opposites among the distractors.",
-      "Retake the quiz to reinforce the pairs.",
-      "Pair with the Synonym Quiz for a full workout.",
-    ],
-    faqs: [
-      { question: "Is the antonym quiz free?", answer: "Yes, completely free with no sign-up." },
-      {
-        question: "Does it change each time?",
-        answer: "Yes. Words and answer options reshuffle every attempt.",
-      },
-      {
-        question: "Who is it for?",
-        answer: "Students, writers and ESL learners building a fuller vocabulary.",
-      },
-    ],
-    related: ["synonym-quiz", "antonym-finder", "vocabulary-quiz", "word-of-the-day"],
-    imagePrompts: [
-      "A warm editorial illustration of two opposing words on a quiz card with a contrast symbol, cream background, honey-amber and ink-navy palette, literary style.",
-    ],
-  },
-  "prefix-quiz": {
-    slug: "prefix-quiz",
-    metaTitle: "Prefix Quiz — Learn What Common Prefixes Mean | AllWordTools.com",
-    metaDescription:
-      "Free prefix quiz with instant scoring. Learn the meaning of common English prefixes like un-, re-, pre- and more. No sign-up, endlessly replayable.",
-    eyebrow: "Word Quizzes",
-    heading: "Prefix Quiz",
-    subheading:
-      "Learn the meaning of common prefixes with quick-fire questions — the building blocks that unlock hundreds of words.",
-    updated: "July 10, 2026",
-    readingMinutes: 5,
-    intro: [
-      "Prefixes are small word parts added to the start of a word that change its meaning — like un-, re-, pre- and anti-. Learn a handful and you can decode and build hundreds of words. This prefix quiz tests your knowledge one prefix at a time, with an example word as a hint.",
-      "Questions reshuffle every round so you can practise until each prefix is second nature. It's free, runs in your browser and is perfect for students, ESL learners and anyone strengthening their word-building skills.",
-    ],
-    howToTitle: "How to take the prefix quiz",
-    howToSteps: [
-      { title: "Read the prefix", detail: "Each question shows a prefix and an example word." },
-      { title: "Pick the meaning", detail: "Choose what the prefix means from the four options." },
-      { title: "Learn instantly", detail: "See whether you were right, with a short explanation." },
-      { title: "Score and retry", detail: "Finish for your score, then play again to improve." },
-    ],
-    sections: [
-      {
-        heading: "Why prefixes unlock vocabulary",
-        paragraphs: [
-          "Once you know that un- means 'not', re- means 'again' and pre- means 'before', you can work out the meaning of countless words you've never seen — a huge shortcut for reading and exams.",
-          "Prefix knowledge also improves your spelling and writing, because you understand how words are constructed rather than memorising each one in isolation.",
-        ],
-      },
-    ],
-    examples: [
-      { input: "re-", output: "again / back", note: "Example: rewrite." },
-      { input: "anti-", output: "against / opposing", note: "Example: antivirus." },
-    ],
-    tips: [
-      "Learn the example word alongside each prefix.",
-      "Look for prefixes in new words you read.",
-      "Retake the quiz to lock in the meanings.",
-      "Pair with the Suffix Quiz for full word-building skills.",
-    ],
-    faqs: [
-      { question: "Is the prefix quiz free?", answer: "Yes, completely free with no sign-up." },
-      {
-        question: "Does it change each time?",
-        answer: "Yes. Prefixes and answer options reshuffle every attempt.",
-      },
-      {
-        question: "Who is it for?",
-        answer: "Students, ESL learners and anyone improving their vocabulary and spelling.",
-      },
-    ],
-    related: ["suffix-quiz", "vocabulary-quiz", "spelling-quiz", "word-of-the-day"],
-    imagePrompts: [
-      "A warm editorial illustration of a word split into a highlighted prefix and root, cream background, honey-amber and ink-navy palette, literary style.",
-    ],
-  },
-  "suffix-quiz": {
-    slug: "suffix-quiz",
-    metaTitle: "Suffix Quiz — Learn What Common Suffixes Mean | AllWordTools.com",
-    metaDescription:
-      "Free suffix quiz with instant scoring. Learn the meaning of common English suffixes like -less, -ful, -able and more. No sign-up, endlessly replayable.",
-    eyebrow: "Word Quizzes",
-    heading: "Suffix Quiz",
-    subheading:
-      "Master common suffixes and how they change word meaning — quick-fire questions with instant scoring.",
-    updated: "July 10, 2026",
-    readingMinutes: 5,
-    intro: [
-      "Suffixes are word parts added to the end of a word that change its meaning or part of speech — like -less, -ful, -able and -ness. Knowing them helps you understand and build a huge range of words. This suffix quiz tests your knowledge one suffix at a time, with an example word as a hint.",
-      "Questions reshuffle every round for endless practice. It's free, runs in your browser and is ideal for students, ESL learners and anyone sharpening their word-building skills.",
-    ],
-    howToTitle: "How to take the suffix quiz",
-    howToSteps: [
-      { title: "Read the suffix", detail: "Each question shows a suffix and an example word." },
-      { title: "Pick the meaning", detail: "Choose what the suffix means from the four options." },
-      { title: "Learn instantly", detail: "See whether you were right, with a short explanation." },
-      { title: "Score and retry", detail: "Finish for your score, then play again to improve." },
-    ],
-    sections: [
-      {
-        heading: "Why suffixes matter",
-        paragraphs: [
-          "Suffixes often change a word's part of speech — turning 'care' into 'careful' or 'careless' — so understanding them helps you use words correctly and expand your vocabulary quickly.",
-          "Recognising suffixes also boosts reading and spelling, because you can decode unfamiliar words by their parts rather than guessing.",
-        ],
-      },
-    ],
-    examples: [
-      { input: "-less", output: "without", note: "Example: hopeless." },
-      { input: "-able", output: "capable of being", note: "Example: readable." },
-    ],
-    tips: [
-      "Learn the example word alongside each suffix.",
-      "Notice how suffixes change a word's part of speech.",
-      "Retake the quiz to lock in the meanings.",
-      "Pair with the Prefix Quiz for full word-building skills.",
-    ],
-    faqs: [
-      { question: "Is the suffix quiz free?", answer: "Yes, completely free with no sign-up." },
-      {
-        question: "Does it change each time?",
-        answer: "Yes. Suffixes and answer options reshuffle every attempt.",
-      },
-      {
-        question: "Who is it for?",
-        answer: "Students, ESL learners and anyone improving their vocabulary and spelling.",
-      },
-    ],
-    related: ["prefix-quiz", "vocabulary-quiz", "spelling-quiz", "word-of-the-day"],
-    imagePrompts: [
-      "A warm editorial illustration of a word split into a root and a highlighted suffix, cream background, honey-amber and ink-navy palette, literary style.",
-    ],
-  },
-  "ai-word-explainer": {
-    slug: "ai-word-explainer",
-    metaTitle: "AI Word Explainer — Comprehensive Word Meanings, Etymology & Context | AllWordTools.com",
-    metaDescription:
-      "Free AI Word Explainer powered by Gemini. Get clear definitions, etymology, phonetic pronunciation, register nuances, and natural usage examples for any English word.",
-    eyebrow: "AI Tools",
-    heading: "AI Word Explainer",
-    subheading:
-      "Unlock deep linguistic clarity. Break down any complex, archaic, technical, or nuanced English word into plain-English definitions, etymology, connotations, and real-world examples.",
-    updated: "August 2026",
-    readingMinutes: 8,
-    intro: [
-      "Traditional dictionaries give you brief, rigid definitions, but they often leave you wondering how a word actually feels and functions in modern conversation or scholarly prose. The AI Word Explainer transforms word lookup into an intuitive, multi-dimensional learning experience. Powered by advanced Gemini AI, it analyses any word or phrase you enter and delivers a comprehensive breakdown that includes plain-English definitions, phonetic pronunciation guides, grammatical roles, subtle emotional connotations, and historical roots.",
-      "Whether you are deciphering archaic literature, mastering high-level academic vocabulary for the GRE, SAT, or IELTS, or encountering industry-specific jargon in business and technology, this tool unpacks every nuance. Instead of wading through dense dictionary abbreviations, you receive conversational explanations tailored to illuminate exactly when, why, and how a word should be used.",
-      "The tool is completely free, instant, and runs seamlessly in your browser on desktop, tablet, and mobile devices without requiring any login or subscription. Pair it with our [Dictionary](dictionary) and [Word Meaning](word-meaning) tools to elevate your language mastery effortlessly."
-    ],
-    howToTitle: "How to use the AI Word Explainer",
-    howToSteps: [
-      {
-        title: "Enter your target word or phrase",
-        detail: "Type any English word, idiom, compound term, or technical jargon into the search input box."
-      },
-      {
-        title: "Select your desired detail level",
-        detail: "Optionally specify if you want a simplified breakdown, a conversational explanation, or an in-depth academic analysis."
-      },
-      {
-        title: "Generate AI explanation",
-        detail: "Click the Explain button to let Gemini AI analyze the word across multiple linguistic dimensions in real time."
-      },
-      {
-        title: "Explore definitions, origins, and usage",
-        detail: "Review the clear definitions, phonetic guidance, origin history, register context, and realistic example sentences."
-      }
-    ],
-    sections: [
-      {
-        heading: "Beyond traditional dictionaries: contextual intelligence",
-        paragraphs: [
-          "Static dictionaries often provide circular definitions that require looking up three additional words just to understand the first one. The AI Word Explainer overcomes this barrier by synthesizing natural, lucid explanations that meet you at your comprehension level. It contextualizes the term within contemporary English, contrasting formal literary applications with casual spoken dialogue.",
-          "Moreover, the tool highlights connotative weight—distinguishing between words that share similar denotative meanings but convey vastly different tones. For instance, while 'frugal', 'thrifty', and 'stingy' all describe careful spending, the AI explainer clarifies why 'frugal' conveys prudence while 'stingy' carries negative social judgment."
-        ]
-      },
-      {
-        heading: "Etymology, morphology, and linguistic building blocks",
-        paragraphs: [
-          "Understanding a word's historical journey cements it in long-term memory. The AI Word Explainer breaks down Greek, Latin, Germanic, or Romance language roots, prefixes, and suffixes. By revealing how a word like 'circumspect' derives from the Latin 'circum' (around) and 'specere' (to look), it equips you to deduce the meanings of dozens of related terms.",
-          "This morphological insight makes the tool an essential study companion for competitive exams and language enthusiasts who wish to build a robust, interconnected vocabulary web rather than memorizing isolated flashcard definitions."
-        ]
-      },
-      {
-        heading: "Practical use cases across education, writing, and business",
-        paragraphs: [
-          "Students preparing for standardized tests like the SAT, ACT, GRE, GMAT, TOEFL, and IELTS can rapidly deconstruct esoteric reading comprehension terms and learn how to deploy them accurately in essays.",
-          "Non-native English speakers (ESL/EFL learners) benefit from clear explanations of idioms, prepositions, and cultural nuances that standard translation apps often misinterpret. Writers and content creators can quickly verify whether a chosen word fits the exact emotional cadence and stylistic register of their narrative.",
-          "Professionals and researchers can paste unfamiliar terminology from legal briefs, medical papers, or technical documentation to obtain an accessible, executive-level summary without sacrificing semantic precision."
-        ]
-      },
-      {
-        heading: "Connected learning on AllWordTools.com",
-        paragraphs: [
-          "Language learning works best when tools complement each other. After exploring a word with the AI Word Explainer, find richer descriptive alternatives using our [Synonym Finder](synonym-finder) and [Antonym Finder](antonym-finder).",
-          "You can also generate practice contexts with the [AI Sentence Generator](ai-sentence-generator), verify correct phonetic transcription with the [IPA Converter](ipa-converter), or test your mastery with the [Vocabulary Quiz](vocabulary-quiz)."
-        ]
-      }
-    ],
-    examples: [
-      {
-        input: "Word: 'Serendipity'",
-        output: "Meaning: Finding valuable or agreeable things not sought for; happy accidental discovery. Origin: Coined by Horace Walpole in 1754 from the Persian fairy tale 'The Three Princes of Serendip'. Connotation: Positive, whimsical, poetic.",
-        note: "Provides definition, etymological history, emotional connotation, and practical sample sentence."
-      },
-      {
-        input: "Word: 'Ubiquitous'",
-        output: "Meaning: Present, appearing, or found everywhere simultaneously. Pronunciation: /juːˈbɪk.wɪ.təs/ (yoo-BIK-wih-tus). Register: Formal/Academic. Common Collocations: 'ubiquitous presence', 'ubiquitous smartphone'.",
-        note: "Highlights formal register, phonetic pronunciation, and common noun pairings."
-      },
-      {
-        input: "Word: 'Gaslighting'",
-        output: "Meaning: A form of psychological manipulation where someone makes a person question their own reality, memory, or sanity. Origin: Derived from the 1938 British play and 1944 film 'Gaslight'. Register: Modern psychological & colloquial.",
-        note: "Explains contemporary colloquial and psychological usage with historical cultural origin."
-      }
-    ],
-    tips: [
-      "Ask for comparisons between two similar words (e.g., 'affect vs. effect' or 'empathy vs. sympathy') for crystal-clear distinctions.",
-      "Specify your target context, such as 'Explain this word for a legal contract' or 'Explain this word to a 10-year-old'.",
-      "Pay attention to the collocations section to learn which verbs and adjectives naturally pair with your target word.",
-      "Check the register guidance so you never use overly formal jargon in casual speech or colloquial slang in formal essays.",
-      "Combine your word discovery with our [AI Flashcards](ai-flashcards) tool to create instant study decks for spaced repetition."
-    ],
-    faqs: [
-      {
-        question: "How does the AI Word Explainer differ from a standard online dictionary?",
-        answer: "Unlike traditional dictionaries that provide static, rigid definitions and cryptic abbreviations, the AI Word Explainer uses Gemini AI to deliver conversational, highly contextual breakdowns. It explains connotative nuances, historical roots, real-life collocations, register guidelines, and tailored example sentences that fit modern communication."
-      },
-      {
-        question: "Can the AI Word Explainer handle modern internet slang, idioms, and technical jargon?",
-        answer: "Yes. Because the underlying AI model is trained on a vast corpus of modern literature, web content, academic journals, and colloquial speech, it accurately unpacks trending internet slang, regional idioms, and specialized jargon from fields like computer science, finance, and medicine."
-      },
-      {
-        question: "Can I request explanations at different comprehension levels, such as for a child or an academic?",
-        answer: "Absolutely. You can tailor your search or prompt to request simplified explanations (e.g., 'explain like I am five'), intermediate conversational overviews, or deep academic analyses complete with etymological and morphological deconstructions."
-      },
-      {
-        question: "How accurate are the etymological breakdowns and root word histories?",
-        answer: "The AI Word Explainer provides highly reliable etymological traces back to Latin, Greek, Old English, Sanskrit, French, and Germanic roots. It explains how historical prefix and suffix combinations evolved into modern definitions, aiding memory retention."
-      },
-      {
-        question: "Does the tool provide guidance on pronunciation and phonetic spelling?",
-        answer: "Yes, the AI Word Explainer includes easy-to-read phonetic respellings and International Phonetic Alphabet (IPA) guidance so you can pronounce unfamiliar words confidently in public speaking and conversation."
-      },
-      {
-        question: "Is this tool suitable for competitive exam preparation like GRE, SAT, TOEFL, or IELTS?",
-        answer: "Definitely. Millions of students use it to master high-frequency academic vocabulary. Seeing words explained in context with nuanced synonyms, collocations, and tone indicators dramatically accelerates reading comprehension and verbal reasoning scores."
-      },
-      {
-        question: "Can it explain how a word's meaning changes across different professional industries?",
-        answer: "Yes. Words like 'yield', 'derivative', 'protocol', or 'equity' have vastly different definitions in finance, chemistry, computer networking, and law. The tool can highlight multi-disciplinary meanings and clarify domain-specific usage."
-      },
-      {
-        question: "Does the AI Word Explainer detect subtle emotional connotations and tone?",
-        answer: "Yes. It specifically categorizes whether a term carries positive, negative, neutral, formal, pejorative, humorous, or sarcastic connotations, ensuring you choose the exact right word for your intended message."
-      },
-      {
-        question: "Is there any limit on how many words I can search or explain?",
-        answer: "No, the AI Word Explainer on AllWordTools.com is 100% free with unlimited queries. You can look up as many words, idioms, and phrases as you need without any paywalls or daily caps."
-      },
-      {
-        question: "Are my word searches stored or shared publicly?",
-        answer: "No. Your queries are processed securely and privately in real time. We do not store personal lookup logs or share your search history with third parties."
-      }
-    ],
-    related: [
-      "dictionary",
-      "word-meaning",
-      "pronunciation",
-      "ipa-converter",
-      "word-origin",
-      "synonym-finder",
-      "antonym-finder",
       "ai-sentence-generator",
-      "ai-vocabulary-builder",
-      "ai-flashcards"
-    ],
-    imagePrompts: [
-      "A glowing holographic brain illuminating ancient and modern letter glyphs, futuristic educational interface, soft amber and navy palette, minimalist 3D vector styling.",
-      "An open antique leather-bound dictionary emitting digital light particles connecting to a modern tablet screen, warm library ambiance, high-detail illustration.",
-      "Clean UI infographic demonstrating word roots, prefixes, and suffixes branching like a tree, modern vector art, vibrant accent colors.",
-      "Friendly AI robot scholar pointing to floating typography words with definitions and pronunciation guides, clean vector art.",
-      "Abstract language network diagram showing interconnected nodes of synonyms, etymology, and contextual definitions, premium modern aesthetic."
-    ]
-  },
-  "ai-sentence-generator": {
-    slug: "ai-sentence-generator",
-    metaTitle: "AI Sentence Generator — Natural, Contextual & Creative Sentences | AllWordTools.com",
-    metaDescription:
-      "Free AI Sentence Generator powered by Gemini. Create grammatically perfect, natural-sounding sentences for any word, topic, tone, or grammar rule in seconds.",
-    eyebrow: "AI Tools",
-    heading: "AI Sentence Generator",
-    subheading:
-      "Generate natural, context-rich, and grammatically flawless sentences for any vocabulary word, grammar rule, or creative prompt with Gemini AI.",
-    updated: "August 2026",
-    readingMinutes: 8,
-    intro: [
-      "Memorizing a word's definition is only half the battle—true language fluency comes from seeing and using words in dynamic, natural sentences. The AI Sentence Generator bridges the gap between passive vocabulary and active mastery. Powered by Google Gemini AI, this versatile tool crafts grammatically impeccable, context-rich sentences tailored to your exact vocabulary word, thematic topic, desired tone, or sentence structure.",
-      "Whether you are an ESL learner mastering tricky prepositions, a teacher preparing classroom exercises, a student polishing an essay, or a creative writer exploring dialogue variations, this tool delivers instant, tailored sentences. You can generate simple, compound, complex, or interrogative sentences across diverse registers from formal academic prose to friendly conversational banter.",
-      "Everything runs instantly and free in your web browser with no sign-ups or software installation. Pair it with our [Grammar Checker](grammar-checker) and [Passive Voice Checker](passive-voice-checker) for a comprehensive writing workflow."
-    ],
-    howToTitle: "How to use the AI Sentence Generator",
-    howToSteps: [
-      {
-        title: "Enter your target word or topic",
-        detail: "Input the vocabulary word, phrase, or thematic concept you want included in the sentences."
-      },
-      {
-        title: "Customize tone and complexity (optional)",
-        detail: "Specify your preferred style (e.g., academic, business, conversational, poetic) and sentence structure (simple, compound, or complex)."
-      },
-      {
-        title: "Click Generate Sentences",
-        detail: "The AI processes your parameters and produces a curated list of natural, grammatically sound example sentences."
-      },
-      {
-        title: "Copy and utilize in your work",
-        detail: "Read the generated examples, study how the word functions grammatically, and click to copy your favorite sentences directly."
-      }
-    ],
-    sections: [
-      {
-        heading: "Mastering contextual vocabulary and syntax",
-        paragraphs: [
-          "English words frequently shift their meaning depending on the surrounding syntax and prepositions. A word like 'account' behaves differently in 'account for', 'on account of', and 'take into account'. The AI Sentence Generator illustrates these subtle syntactic relationships by generating varied sentence models that showcase the target word in multiple grammatical functions (as a noun, verb, or adjective).",
-          "By observing how words seamlessly integrate into realistic scenarios, language learners develop intuitive grammatical instincts rather than relying on rote memorization."
-        ]
-      },
-      {
-        heading: "Customizable tones for every writing requirement",
-        paragraphs: [
-          "One of the standout strengths of the AI Sentence Generator is stylistic versatility. You can adjust the generation parameters to match any communication channel:",
-          "• Professional & Corporate: Clean, persuasive sentences suitable for executive summaries, client emails, resumes, and business presentations.",
-          "• Academic & Scholarly: Objective, evidence-based sentence structures featuring formal transitions and precise scholarly vocabulary for essays, research papers, and theses.",
-          "• Creative & Literary: Evocative sentences rich in sensory detail, figurative language, metaphor, and varied cadence for novels, poems, and short stories.",
-          "• Casual & Conversational: Natural dialogue and idiomatic phrasing for everyday speaking practice and social media."
-        ]
-      },
-      {
-        heading: "Educational applications for teachers and students",
-        paragraphs: [
-          "Educators can generate dozens of differentiated reading comprehension sentences, fill-in-the-blank quiz items, and dictation exercises in seconds. Instead of spending hours authoring worksheets, teachers can produce level-appropriate examples tailored to elementary, middle school, high school, or university curricula.",
-          "For students, generating sample sentences for weekly vocabulary lists ensures they understand correct collocation and tense agreement before submitting graded assignments."
-        ]
-      },
-      {
-        heading: "Integrated language tools on AllWordTools.com",
-        paragraphs: [
-          "Elevate your sentence craft by combining this tool with other writing aids on our platform. Check syntactic clarity with the [Active Voice Converter](active-voice-converter), explore rhythmic variations with our [Rhyming Words](rhyming-words) tool, or polish grammar and punctuation with the [Punctuation Checker](punctuation-checker)."
-        ]
-      }
-    ],
-    examples: [
-      {
-        input: "Word: 'Resilient' | Tone: 'Business/Inspirational'",
-        output: "Despite significant supply chain disruptions, the startup developed a resilient distribution network that sustained record quarterly growth.",
-        note: "Demonstrates high-level corporate register and natural business vocabulary."
-      },
-      {
-        input: "Word: 'Ephemeral' | Tone: 'Creative/Poetic'",
-        output: "The morning mist over the valley was ephemeral, vanishing entirely as the golden sun breached the mountain ridge.",
-        note: "Highlights evocative imagery and literary sentence structure."
-      },
-      {
-        input: "Word: 'Mitigate' | Structure: 'Complex Sentence with Subordinate Clause'",
-        output: "Although the city council anticipated heavy monsoon rains, they implemented new drainage protocols to mitigate the risk of flash flooding.",
-        note: "Illustrates subordinating conjunctions and formal problem-solution syntax."
-      }
-    ],
-    tips: [
-      "Input multiple words separated by commas (e.g., 'innovation, sustainability, future') to generate cohesive sentences connecting all concepts.",
-      "Specify sentence length constraints such as 'short simple sentences' for beginner readers or 'complex multi-clause sentences' for advanced writing.",
-      "Request specific grammatical structures like conditional sentences ('If... then...'), interrogative questions, or imperative commands.",
-      "Use generated sentences as writing prompts to practice expanding single ideas into full paragraphs with our [Random Paragraph Generator](random-paragraph-generator).",
-      "Always check how the target word functions as different parts of speech across the generated examples."
-    ],
-    faqs: [
-      {
-        question: "What types of sentences can the AI Sentence Generator produce?",
-        answer: "The AI Sentence Generator can create simple, compound, complex, and compound-complex sentences across declarative, interrogative, exclamatory, and imperative moods. You can also customize tone, register, and length."
-      },
-      {
-        question: "Can I specify the grammatical structure or verb tense of the output sentences?",
-        answer: "Yes. You can instruct the generator to produce sentences in specific tenses (e.g., past perfect, future continuous) or using specific structures like passive voice, subjunctive mood, or conditional clauses."
-      },
-      {
-        question: "How does this tool help non-native English (ESL) learners?",
-        answer: "ESL learners often struggle with natural word order, phrasal verbs, and preposition pairings. By generating multiple authentic examples for any challenging word, the tool illustrates how native speakers naturally construct sentences."
-      },
-      {
-        question: "Can I generate sentences tailored for professional emails and business documents?",
-        answer: "Absolutely. Simply select or specify a business or professional tone, and the generator will produce polished, executive-level sentences suitable for emails, reports, proposals, and presentations."
-      },
-      {
-        question: "Can I ask the AI to include multiple vocabulary words in a single sentence?",
-        answer: "Yes. You can enter two, three, or more words, and the AI will craft coherent, contextually meaningful sentences that seamlessly link all specified vocabulary items."
-      },
-      {
-        question: "Does the generator support creative and literary writing styles?",
-        answer: "Yes. You can request poetic, descriptive, dramatic, or dialogue-driven sentences featuring sensory details, metaphors, alliteration, and dynamic rhythm for creative storytelling."
-      },
-      {
-        question: "How does the AI ensure the output sentences are grammatically correct?",
-        answer: "The tool utilizes Google Gemini's advanced natural language model, which is trained on billions of grammatically structured English texts, ensuring precise subject-verb agreement, punctuation, and syntax."
-      },
-      {
-        question: "Can teachers use this tool to design classroom worksheets and tests?",
-        answer: "Yes, educators frequently use our AI Sentence Generator to quickly assemble reading comprehension passages, fill-in-the-blank quizzes, and grammar identification drills for students of all grade levels."
-      },
-      {
-        question: "Is there any limit to how many sentences I can generate per session?",
-        answer: "No. AllWordTools.com provides completely free, unlimited sentence generation without any daily quotas, paywalls, or account requirements."
-      },
-      {
-        question: "Are the generated sentences original and safe to publish?",
-        answer: "Yes, the sentences are generated dynamically and freshly for your prompt, making them original and completely safe to use in essays, articles, books, and commercial projects."
-      }
-    ],
-    related: [
-      "example-sentences",
-      "random-sentence-generator",
-      "grammar-checker",
-      "active-voice-converter",
-      "passive-voice-checker",
       "ai-word-explainer",
-      "ai-example-generator",
-      "ai-story-generator",
-      "collocation-finder",
-      "random-paragraph-generator"
+      "example-sentences"
     ],
     imagePrompts: [
-      "A glowing pen writing luminous calligraphy sentences across a digital glass parchment, vibrant teal and honey lighting, modern 3D render.",
-      "Isometric illustration of interconnected sentence blocks forming a bridge of words, clean modern vector styling, educational theme.",
-      "Minimalist flat vector design showing words arranging themselves into clean, elegant typography lines, soft shadows, warm aesthetic.",
-      "A friendly robot teacher assembling building blocks made of letters and sentences on a futuristic interactive board.",
-      "Creative writer workspace with floating sentence bubbles in varied font weights, notebook, laptop, warm amber coffee cup."
-    ]
-  },
-  "ai-example-generator": {
-    slug: "ai-example-generator",
-    metaTitle: "AI Example Generator — Real-World Scenarios, Analogies & Proofs | AllWordTools.com",
-    metaDescription:
-      "Free AI Example Generator powered by Gemini. Generate clear real-world examples, practical analogies, case studies, and illustrations for any concept, rule, or word.",
-    eyebrow: "AI Tools",
-    heading: "AI Example Generator",
-    subheading:
-      "Transform abstract concepts, grammar rules, scientific theories, and business ideas into vivid real-world examples, analogies, and case studies instantly.",
-    updated: "August 2026",
-    readingMinutes: 8,
-    intro: [
-      "The human brain is wired to understand the world through concrete examples. When faced with dense academic theories, complex grammatical structures, philosophical abstractions, or corporate frameworks, abstract definitions often fail to stick. The AI Example Generator illuminates difficult ideas by generating vivid, tangible, real-world examples, intuitive analogies, counter-examples, and scenario-based illustrations in seconds.",
-      "Powered by Gemini AI, this tool deconstructs complex topics into relatable everyday scenarios tailored to your audience. Whether you need to explain 'opportunity cost' to a middle school student, illustrate 'dramatic irony' for a literature class, or demonstrate 'asynchronous processing' for a software presentation, our generator produces lucid, engaging examples on demand.",
-      "The tool is free, fast, and accessible directly in your web browser with zero sign-up requirements. Complement it with our [AI Word Explainer](ai-word-explainer) and [Example Sentences](example-sentences) for an all-in-one learning toolkit."
-    ],
-    howToTitle: "How to use the AI Example Generator",
-    howToSteps: [
-      {
-        title: "Input your concept, term, or rule",
-        detail: "Enter the abstract topic, grammar rule, business concept, or scientific principle you want illustrated."
-      },
-      {
-        title: "Specify audience or context (optional)",
-        detail: "Choose your target demographic (e.g., elementary student, college seminar, corporate team, general public)."
-      },
-      {
-        title: "Click Generate Examples",
-        detail: "The AI analyzes the core mechanics of the concept and synthesizes clear, multi-faceted real-world examples."
-      },
-      {
-        title: "Review analogies and scenarios",
-        detail: "Examine practical case studies, positive illustrations, and clarifying analogies to incorporate into your lessons or writing."
-      }
-    ],
-    sections: [
-      {
-        heading: "The cognitive power of concrete examples",
-        paragraphs: [
-          "Educational psychology confirms that learners retain information up to four times more effectively when abstract principles are anchored to concrete mental models (a technique known as 'dual coding'). Telling someone that 'cognitive dissonance' is 'the mental discomfort experienced by a person holding conflicting beliefs' is informative, but giving the example of a health-conscious person who continues to smoke while rationalizing that 'it relieves stress' makes the concept instantly unforgettable.",
-          "The AI Example Generator crafts these multi-layered scenarios automatically, providing both positive examples (how the principle works) and negative counter-examples (what it is not), preventing common conceptual misconceptions."
-        ]
-      },
-      {
-        heading: "Versatile generation across diverse disciplines",
-        paragraphs: [
-          "Our tool adapts across virtually any academic, creative, or professional field:",
-          "• Language & Grammar: Clear illustrations of tricky grammatical concepts like the subjunctive mood, dangling modifiers, Oxford commas, and passive voice rewrites.",
-          "• Literary Devices: Engaging narrative snippets showcasing dramatic irony, allegory, pathetic fallacy, foreshadowing, and oxymorons in action.",
-          "• Economics & Business: Practical marketplace scenarios explaining supply elasticity, diminishing marginal utility, network effects, and return on investment.",
-          "• Science & Technology: Relatable everyday analogies demystifying quantum superposition, entropy, machine learning neural networks, and cellular osmosis."
-        ]
-      },
-      {
-        heading: "Empowering educators, content creators, and presenters",
-        paragraphs: [
-          "Teachers and trainers often spend countless hours brainstorming fresh examples to engage their classrooms. With this tool, educators can generate customized, culturally relevant examples that resonate with students of specific age groups and backgrounds.",
-          "Keynote speakers, copywriters, and technical communicators use the generator to convert dry data and abstract corporate jargon into memorable, persuasive metaphors that keep audiences engaged."
-        ]
-      },
-      {
-        heading: "Connected resources on AllWordTools.com",
-        paragraphs: [
-          "Explore how examples integrate into broader language mastery. Use our [Collocation Finder](collocation-finder) to discover common word pairings, test conceptual grasp with the [AI Quiz Generator](ai-quiz-generator), or explore phrase origins in our [Phrases Dictionary](phrases-dictionary)."
-        ]
-      }
-    ],
-    examples: [
-      {
-        input: "Concept: 'Sunk Cost Fallacy' | Audience: 'General Public'",
-        output: "Example: Continuing to sit through a boring, 3-hour movie at the cinema simply because you paid $15 for the ticket, even though staying wastes your time and leaving would allow you to enjoy a better evening.",
-        note: "Provides an instantly relatable consumer scenario explaining economic irrationality."
-      },
-      {
-        input: "Concept: 'Dramatic Irony' | Context: 'Literature Class'",
-        output: "Example: In Shakespeare's 'Romeo and Juliet', the audience knows Juliet is merely under the effect of a sleeping potion, but Romeo genuinely believes she is dead and drinks poison. The audience's superior knowledge creates tragic tension.",
-        note: "Clarifies literary technique with a classic, universally recognized cultural reference."
-      },
-      {
-        input: "Concept: 'Subjunctive Mood' | Focus: 'Grammar Instruction'",
-        output: "Example: 'If I were the CEO, I would implement four-day workweeks.' (Correct subjunctive using 'were' instead of 'was' to express a hypothetical, counter-to-fact situation).",
-        note: "Highlights grammatical rule with explicit syntactical justification."
-      }
-    ],
-    tips: [
-      "Include the prompt phrase 'Give me an analogy comparing [Concept] to [Everyday Object]' for crystal-clear visual explanations.",
-      "Request both a positive example and a contrasting non-example to ensure crystal-clear conceptual boundaries.",
-      "Specify your target audience (e.g., 'explain to a 7-year-old child' or 'explain for a medical board presentation').",
-      "Use generated examples as introductory hooks for essays, blog posts, and public speaking speeches.",
-      "Pair with our [AI Flashcards](ai-flashcards) tool to create study cards featuring the concept on the front and real-world examples on the back."
-    ],
-    faqs: [
-      {
-        question: "What types of concepts or topics can the AI Example Generator explain?",
-        answer: "The AI Example Generator can produce examples for virtually any topic, including grammar rules, literary devices, philosophical paradoxes, economic theories, scientific principles, software concepts, and business models."
-      },
-      {
-        question: "How does providing concrete examples improve comprehension and memory retention?",
-        answer: "Concrete examples activate episodic and visual memory pathways (dual coding theory), allowing learners to anchor abstract, theoretical concepts to tangible, familiar real-world experiences."
-      },
-      {
-        question: "Can I request analogies that compare complex ideas to everyday activities?",
-        answer: "Yes. You can explicitly request metaphors or analogies—such as comparing computer RAM to a physical office desk or comparing cellular osmosis to a crowded subway car."
-      },
-      {
-        question: "Can the generator produce workplace and business case study examples?",
-        answer: "Absolutely. The tool can craft realistic corporate case studies illustrating marketing strategies, negotiation tactics, leadership dilemmas, project management bottlenecks, and financial risk mitigation."
-      },
-      {
-        question: "Can educators use this tool to create differentiated teaching materials?",
-        answer: "Yes. Teachers can tailor prompts to generate examples suitable for elementary school, middle school, high school, undergraduate, or professional executive training levels."
-      },
-      {
-        question: "How does the tool handle literary and rhetorical devices?",
-        answer: "It creates vivid, contextual narrative snippets illustrating devices like dramatic irony, metonymy, oxymorons, litotes, synecdoche, and allegorical symbolism in action."
-      },
-      {
-        question: "Can it generate both positive examples and counter-examples?",
-        answer: "Yes. You can ask for 'correct vs. incorrect' examples or 'what it is vs. what it is not', which is particularly helpful for clarifying easily confused grammar and legal rules."
-      },
-      {
-        question: "How detailed or specific should my concept input be?",
-        answer: "You can input a single term (e.g., 'Cognitive Dissonance') or a specific custom scenario (e.g., 'Explain marginal revenue in the context of an artisanal bakery'). More specific prompts yield more customized examples."
-      },
-      {
-        question: "Is there any cost or limit on generating examples?",
-        answer: "No, the AI Example Generator on AllWordTools.com is 100% free with unlimited access for all users."
-      },
-      {
-        question: "Can I use the generated examples in published textbooks, articles, or courses?",
-        answer: "Yes, all content generated by the tool is original and royalty-free, making it completely safe for commercial, educational, and editorial publishing."
-      }
-    ],
-    related: [
-      "example-sentences",
-      "ai-word-explainer",
-      "ai-sentence-generator",
-      "ai-story-generator",
-      "ai-flashcards",
-      "ai-quiz-generator",
-      "word-meaning",
-      "phrases-dictionary",
-      "random-topic-generator",
-      "collocation-finder"
-    ],
-    imagePrompts: [
-      "A glowing lightbulb breaking down into colorful puzzle pieces of real-world objects, modern 3D vector illustration, vibrant honey and navy palette.",
-      "An educator presenting floating holographic diagrams illustrating abstract concepts to curious students, clean modern tech aesthetic.",
-      "Minimalist flat vector infographic showing a bridge connecting an abstract equation to a tangible real-world fruit basket, soft ambient lighting.",
-      "A futuristic laboratory with glass screens displaying comparative analogies and real-world case studies in clear typography.",
-      "Artistic concept illustration of dual coding: half the screen showing abstract geometric lines, the other half showing realistic colorful scenery."
-    ]
-  },
-  "ai-story-generator": {
-    slug: "ai-story-generator",
-    metaTitle: "AI Story Generator — Creative Short Stories & Plot Prompts | AllWordTools.com",
-    metaDescription:
-      "Free AI Story Generator powered by Gemini. Create captivating short stories, narrative outlines, and creative fiction across any genre, theme, or character prompt.",
-    eyebrow: "AI Tools",
-    heading: "AI Story Generator",
-    subheading:
-      "Transform ideas, prompts, characters, and vocabulary lists into captivating, beautifully written short stories across sci-fi, fantasy, mystery, romance, and more.",
-    updated: "August 2026",
-    readingMinutes: 9,
-    intro: [
-      "Storytelling is the most powerful medium of human connection and creative expression. Yet staring at a blank page when writer's block strikes can be daunting. The AI Story Generator ignites your creative spark by transforming brief premises, character descriptions, plot twists, or vocabulary words into polished, engaging short stories with compelling narrative arcs, vivid sensory descriptions, and realistic dialogue.",
-      "Powered by Gemini AI, this creative assistant masters multiple fiction genres—from cyberpunk sci-fi and epic high fantasy to cozy murder mysteries, poignant historical dramas, contemporary romance, and suspenseful thrillers. Whether you are an author plotting your next chapter, a parent crafting custom bedtime stories for your children, or a teacher creating engaging reading comprehension texts, our tool brings imagination to life in seconds.",
-      "Enjoy unlimited, instant story generation completely free in your web browser. Pair your storytelling adventures with our [Character Name Generator](character-name-generator) and [Random Topic Generator](random-topic-generator) for endless world-building inspiration."
-    ],
-    howToTitle: "How to use the AI Story Generator",
-    howToSteps: [
-      {
-        title: "Enter your story prompt or premise",
-        detail: "Provide a plot idea, character description, setting, or target vocabulary words you want featured in the narrative."
-      },
-      {
-        title: "Select your genre and tone",
-        detail: "Choose from science fiction, fantasy, mystery, romance, thriller, horror, adventure, comedy, or children's bedtime story."
-      },
-      {
-        title: "Click Generate Story",
-        detail: "The AI crafts a cohesive narrative complete with an engaging exposition, rising action, climax, and resolution."
-      },
-      {
-        title: "Read, edit, and expand",
-        detail: "Enjoy the completed story, copy it with one click, or use it as a foundation to expand into larger chapters and scripts."
-      }
-    ],
-    sections: [
-      {
-        heading: "Crafting structured narratives with three-act arcs",
-        paragraphs: [
-          "A great story is more than a sequence of random events; it requires structural momentum, stakes, and emotional resonance. The AI Story Generator builds stories around classical three-act narrative principles: introducing protagonists with distinct motivations, introducing inciting incidents, escalating conflict through rising action, and delivering a satisfying thematic climax and resolution.",
-          "The tool carefully maintains point-of-view consistency (first-person 'I', third-person limited, or third-person omniscient) and balances descriptive exposition with dynamic, character-revealing dialogue."
-        ]
-      },
-      {
-        heading: "Multi-genre world-building and stylistic range",
-        paragraphs: [
-          "Every genre possesses its own linguistic atmosphere and pacing conventions, which the AI navigates seamlessly:",
-          "• Sci-Fi & Cyberpunk: High-tech atmospheric world-building, neon aesthetic descriptions, futuristic terminology, and philosophical questions of artificial consciousness.",
-          "• Fantasy & Myth: Enchanting kingdoms, mystical lore, ancient prophecies, mythical creatures, and heroic quests filled with magic and peril.",
-          "• Mystery & Detective: Intriguing clues, red herrings, deduction, atmospheric shadows, and clever investigative plot twists.",
-          "• Children's & Bedtime: Gentle, whimsical adventures, heartwarming morals, friendly animal characters, and comforting, reassuring endings.",
-          "• Thriller & Horror: Fast-paced suspense, ticking-clock tension, eerie psychological atmosphere, and gripping cliffhangers."
-        ]
-      },
-      {
-        heading: "Educational and pedagogical benefits of AI storytelling",
-        paragraphs: [
-          "Teachers and parents frequently use the AI Story Generator to teach creative writing techniques, demonstrate 'show, don't tell' descriptive prose, and illustrate character development arcs. By including weekly vocabulary words in the prompt, educators can produce custom reading passages where new words appear naturally in gripping narrative contexts, reinforcing student comprehension.",
-          "Aspiring novelists use generated stories to overcome writer's block, test dialogue ideas, explore alternative plot branches, and generate quick story outlines."
-        ]
-      },
-      {
-        heading: "Connected creative suite on AllWordTools.com",
-        paragraphs: [
-          "Supercharge your writing with complementary tools on our site. Name your protagonists and villains with our [Character Name Generator](character-name-generator) and [Demon Name Generator](demon-name-generator).",
-          "Polish your dialogue and rhythm with our [AI Poem Generator](ai-poem-generator) and [Grammar Checker](grammar-checker)."
-        ]
-      }
-    ],
-    examples: [
-      {
-        input: "Genre: Sci-Fi | Prompt: 'A lone botanist discovers a bioluminescent flower on an abandoned space station.'",
-        output: "Story Excerpt: Dr. Aris leaned closer to the cracked hydroponic glass. In the dead heart of Sector 4, where the reactor had gone cold a century ago, a solitary indigo petal pulsed with soft, rhythmic light—breathing in the vacuum like a dormant star...",
-        note: "Demonstrates atmospheric world-building, sensory details, and immediate narrative hook."
-      },
-      {
-        input: "Genre: Cozy Mystery | Prompt: 'A missing heirloom tea set in an old Victorian bookshop.'",
-        output: "Story Excerpt: Clara dusted the cedar shelves of the antiquarian shop, only to find the velvet-lined mahogany case ajar. The Queen Anne silver teapot was gone, leaving behind only a faint scent of bergamot and a single gold-tipped fountain pen...",
-        note: "Highlights classic detective mystery tropes, tactile imagery, and subtle clues."
-      },
-      {
-        input: "Genre: Children's Story | Prompt: 'A clumsy little dragon who accidentally breathes bubbles instead of fire.'",
-        output: "Story Excerpt: Barnaby tried his very best to roar like his big brothers. He puffed out his scaly green chest, took a deep breath, and sneezed. Pop! Pop! Pop! Instead of smoke, a cascade of shimmering pink bubbles floated across the cave...",
-        note: "Features whimsical, heartwarming tone with gentle humor for young readers."
-      }
-    ],
-    tips: [
-      "Specify your desired Point of View (e.g., 'Write in first-person perspective as an elderly detective').",
-      "Include a key plot twist in your prompt (e.g., 'Include an unexpected ending where the AI was the true founder').",
-      "Feed in a list of 5-10 vocabulary words to create a custom story that incorporates every single target term naturally.",
-      "Ask for a specific mood or pacing, such as 'fast-paced suspense with short sentences' or 'slow, lyrical, descriptive prose'.",
-      "Use our [Random Sentence Generator](random-sentence-generator) to pick an opening line, then feed it into the AI Story Generator to see where the narrative leads."
-    ],
-    faqs: [
-      {
-        question: "What fiction genres can the AI Story Generator write in?",
-        answer: "The AI Story Generator can write in virtually any genre, including Science Fiction, Fantasy, Mystery, Thriller, Horror, Romance, Historical Fiction, Adventure, Comedy, Dystopian, Fairy Tales, and Children's Bedtime Stories."
-      },
-      {
-        question: "Can I specify custom characters, settings, and plot twists?",
-        answer: "Yes. You can provide detailed character names, personality traits, unique settings, specific conflicts, and preferred endings in your prompt. The AI will weave all elements into a cohesive narrative."
-      },
-      {
-        question: "Who owns the copyright to the stories generated by the tool?",
-        answer: "You retain full rights to the stories generated on AllWordTools.com. You can freely edit, expand, publish, print, and monetize the generated fiction in books, blogs, podcasts, or scripts."
-      },
-      {
-        question: "Can the tool generate stories suitable for young children and bedtime reading?",
-        answer: "Yes. Simply select 'Children's Bedtime Story' or specify a young age range, and the AI will craft gentle, heartwarming tales with friendly themes, positive morals, and comforting conclusions."
-      },
-      {
-        question: "How long are the generated stories?",
-        answer: "Generated stories typically range from 300 to 800 words per output, providing a complete short story with a beginning, middle, and end. You can also prompt the AI to write concise flash fiction or expansive multi-scene chapters."
-      },
-      {
-        question: "Can I use this tool to include specific vocabulary words for classroom reading practice?",
-        answer: "Yes, teachers frequently input a list of weekly spelling or vocabulary words, and the AI seamlessly embeds all target words into a captivating, context-rich story for students."
-      },
-      {
-        question: "Can I request specific narrative perspectives like first-person ('I') or second-person ('You')?",
-        answer: "Yes. You can specify first-person ('I'), second-person ('You' / Choose-Your-Own-Adventure style), third-person limited, or third-person omniscient viewpoints."
-      },
-      {
-        question: "How can writers use this tool to overcome writer's block?",
-        answer: "Authors use the AI Story Generator to brainstorm dialogue, explore 'what if' plot alternatives, generate backstory vignettes for secondary characters, or unblock stuck scenes by seeing fresh narrative pathways."
-      },
-      {
-        question: "Does the AI Story Generator maintain logical plot consistency?",
-        answer: "Yes. The underlying Gemini AI model tracks character motivations, temporal sequencing, and thematic continuity throughout the narrative arc to deliver satisfying, coherent conclusions."
-      },
-      {
-        question: "Is there any cost to generate stories?",
-        answer: "No, the AI Story Generator on AllWordTools.com is 100% free with unlimited story generations and no login required."
-      }
-    ],
-    related: [
-      "character-name-generator",
-      "demon-name-generator",
-      "alien-name-generator",
-      "witch-name-generator",
-      "knight-name-generator",
-      "vampire-name-generator",
-      "robot-name-generator",
-      "ai-poem-generator",
-      "random-topic-generator",
-      "random-paragraph-generator"
-    ],
-    imagePrompts: [
-      "An open magical storybook with glowing miniature 3D castles, spaceships, and fantasy forests floating above the pages, warm golden and deep navy tones.",
-      "A cozy vintage writer's desk illuminated by a warm lamp, with holographic story characters stepping out of a typewriter paper ribbon.",
-      "An ethereal nebula galaxy swirling around an open leather journal, creative storytelling concept, high-detail digital painting.",
-      "Cute cartoon dragon and rabbit reading a glowing storybook under a canopy of twinkling stars, charming children's book illustration.",
-      "Cyberpunk author writing on a floating neon interface in a rainy futuristic city, atmospheric cinematic lighting."
-    ]
-  },
-  "ai-poem-generator": {
-    slug: "ai-poem-generator",
-    metaTitle: "AI Poem Generator — Rhyming Poetry, Sonnets, Haikus & Free Verse | AllWordTools.com",
-    metaDescription:
-      "Free AI Poem Generator powered by Gemini. Create beautiful rhyming poems, Shakespearean sonnets, haikus, limericks, and free verse on any theme, emotion, or name.",
-    eyebrow: "AI Tools",
-    heading: "AI Poem Generator",
-    subheading:
-      "Craft evocative, rhythmically balanced poetry across sonnets, haikus, limericks, ballads, and free verse on any theme, emotion, or special occasion with Gemini AI.",
-    updated: "August 2026",
-    readingMinutes: 8,
-    intro: [
-      "Poetry captures human emotion and imagination through meter, metaphor, rhyme, and lyrical cadence. Whether you want to write a heartfelt anniversary sonnet, an introspective free verse piece, a witty five-line limerick, a traditional Japanese haiku, or a romantic ballad, the AI Poem Generator turns your sentiments and ideas into evocative verse in seconds.",
-      "Powered by Google Gemini AI, this poetic assistant understands classical meter (such as iambic pentameter), intricate rhyme schemes (AABB, ABAB, ABBA, AABBA), syllable structures, and sensory figurative language. You can input personal names, specific memories, seasonal imagery, or abstract emotions, and the AI will weave them into rhythmic, poignant stanzas that resonate deeply.",
-      "The tool is free, instant, and runs directly in your browser without any sign-up or subscription. Pair it with our [Rhyming Words](rhyming-words), [Syllable Counter](syllable-counter), and [Alliteration Generator](alliteration-generator) for a complete poet's toolkit."
-    ],
-    howToTitle: "How to use the AI Poem Generator",
-    howToSteps: [
-      {
-        title: "Enter your poem theme or topic",
-        detail: "Input the subject of your poem (e.g., love, nature, autumn, friendship, grief, space exploration, or a person's name)."
-      },
-      {
-        title: "Choose your poetic form",
-        detail: "Select from rhyming stanzas, Shakespearean sonnet, Petrarchan sonnet, haiku, limerick, ballad, acrostic, or free verse."
-      },
-      {
-        title: "Select the mood and tone",
-        detail: "Set the emotional atmosphere—romantic, melancholic, inspirational, humorous, mystical, nostalgic, or celebratory."
-      },
-      {
-        title: "Generate and refine your poem",
-        detail: "Click Generate Poem to receive your custom verse instantly. Copy the poem or tweak parameters to explore fresh variations."
-      }
-    ],
-    sections: [
-      {
-        heading: "Mastering classical poetic forms and meter",
-        paragraphs: [
-          "Different poetic structures evoke distinct rhythmic emotions. The AI Poem Generator is trained across classical and modern poetic architectures:",
-          "• Sonnets: 14-line masterpieces with strict iambic pentameter and traditional rhyme schemes (Shakespearean ABAB CDCD EFEF GG or Petrarchan ABBAABBA CDECDE) featuring a thematic 'volta' or turn.",
-          "• Haikus: Traditional 3-line Japanese nature verses adhering to the strict 5-7-5 syllable structure, capturing a singular fleeting moment of beauty.",
-          "• Limericks: Playful, lighthearted 5-line verses with an energetic AABBA rhyme scheme and anapestic rhythm.",
-          "• Ballads: Storytelling verses arranged in quatrains (ABCB or ABAB) with alternating four-stress and three-stress lines, ideal for epic tales and songs.",
-          "• Free Verse: Modern poetry unconstrained by rigid meter or rhyme, focusing instead on organic cadence, evocative imagery, line breaks, and emotional resonance.",
-          "• Acrostics: Creative poems where the first letter of each line spells out a chosen name or word vertically."
-        ]
-      },
-      {
-        heading: "Sensory figurative language and emotional depth",
-        paragraphs: [
-          "Great poetry relies on visceral imagery, metaphor, simile, assonance, and personification. The AI Poem Generator avoids clichés by weaving fresh, evocative metaphors that paint vivid pictures in the reader's mind—comparing time to retreating ocean tides, love to an unyielding lighthouse beacon, or morning frost to delicate lace.",
-          "This depth makes the generated poetry ideal for personalized greeting cards, wedding vows, eulogies, toasts, social media captions, and anniversary letters."
-        ]
-      },
-      {
-        heading: "Songwriting and lyrical brainstorming",
-        paragraphs: [
-          "Musicians and songwriters frequently use the AI Poem Generator to break creative block when drafting song lyrics. By specifying verse-chorus structures and musical moods (e.g., indie folk, pop anthem, blues, hip-hop rhythm), lyricists can discover unexpected rhymes and cadence hooks to build upon in the recording studio."
-        ]
-      },
-      {
-        heading: "Connected poetry tools on AllWordTools.com",
-        paragraphs: [
-          "Perfect every line with our dedicated suite of poetic aids. Check line meters and syllable counts using our [Syllable Counter](syllable-counter). Find near and perfect rhymes with the [Rhyming Words](rhyming-words) tool, and craft rhythmic phrases with the [Assonance Finder](assonance-finder) and [Alliteration Generator](alliteration-generator)."
-        ]
-      }
-    ],
-    examples: [
-      {
-        input: "Form: Haiku | Theme: 'First Snowfall in the Forest'",
-        output: "Silent whispers fall, / White lace blankets sleeping pines, / Winter breathes anew.",
-        note: "Follows strict 5-7-5 syllable structure with vivid seasonal nature imagery."
-      },
-      {
-        input: "Form: Limerick | Theme: 'A Bookworm named Ned'",
-        output: "There once was a scholar named Ned, / Who read every book in his bed. / With towers of prose, / Balanced right on his nose, / 'I\'ll sleep when I\'m finished!' he said.",
-        note: "Demonstrates classic AABBA rhyme scheme, bouncy anapestic rhythm, and humorous twist."
-      },
-      {
-        input: "Form: Shakespearean Sonnet | Theme: 'The Passage of Time and Enduring Love'",
-        output: "When golden leaves from autumn branches fall, / And shadows lengthen in the fading light, / I hear the whispering winds of winter call, / Yet in thy gentle gaze my world stays bright... / (14 lines culminating in a rhyming couplet: 'For time may conquer mountains, stars, and sea, / Yet leaves untouched the love I bear for thee.')",
-        note: "Maintains iambic pentameter, ABAB CDCD EFEF GG rhyme scheme, and emotional volta."
-      }
-    ],
-    tips: [
-      "Provide specific personal details in the prompt (e.g., 'Include references to seaside walks in Maine and drinking Earl Grey tea').",
-      "Experiment with different poetic forms to see how the same emotion expresses itself in a concise haiku versus an expansive sonnet.",
-      "Check syllable accuracy and rhythm on any individual line with our [Syllable Counter](syllable-counter).",
-      "For songwriting, prompt the AI to include a repeating 4-line chorus between verses.",
-      "Use our [Rhyming Words](rhyming-words) tool to find alternative end-rhymes if you want to personalize the generated stanzas further."
-    ],
-    faqs: [
-      {
-        question: "What poetic forms and structures can the AI Poem Generator create?",
-        answer: "The AI Poem Generator supports rhyming stanzas (AABB, ABAB, ABCB), Shakespearean and Petrarchan sonnets, 5-7-5 haikus, 5-line limericks, narrative ballads, acrostic name poems, villanelles, and modern free verse."
-      },
-      {
-        question: "How does the AI ensure proper rhythm, meter, and syllable counts?",
-        answer: "Gemini AI is trained on hundreds of thousands of classical and contemporary poems, enabling it to accurately track poetic meter (such as iambic pentameter and trochaic tetrameter) and match strict syllable constraints for haikus and limericks."
-      },
-      {
-        question: "Can I generate personalized poems for birthdays, weddings, or anniversaries?",
-        answer: "Yes. You can input personal names, shared memories, anniversary milestones, inside jokes, or specific qualities of your loved one, and the AI will craft a heartfelt, customized poem for the occasion."
-      },
-      {
-        question: "Can the tool write free verse poetry without traditional rhyming schemes?",
-        answer: "Yes. Selecting 'Free Verse' instructs the AI to focus on organic cadence, evocative imagery, enjambment, and deep emotional resonance rather than rigid end-rhymes."
-      },
-      {
-        question: "Can songwriters use this tool to brainstorm song lyrics?",
-        answer: "Absolutely. Many musicians use the generator to brainstorm lyrical hooks, rhyming couplets, verses, and choruses across genres like indie rock, folk, pop, hip-hop, and country."
-      },
-      {
-        question: "Can I generate acrostic poems for a specific name or word?",
-        answer: "Yes. Simply choose the 'Acrostic' option and enter any name or word (e.g., 'EMILY' or 'SUMMER'), and the AI will write a poem where each line begins with the corresponding letter."
-      },
-      {
-        question: "Is the generated poetry original and free to publish?",
-        answer: "Yes. All poems generated on AllWordTools.com are generated dynamically and are 100% royalty-free. You can publish them in poetry books, greeting cards, blogs, or social media with full ownership."
-      },
-      {
-        question: "How do I specify the emotional tone of the poem?",
-        answer: "You can specify any tone in your prompt, such as romantic, melancholic, inspirational, humorous, nostalgic, mystical, triumphant, or philosophical."
-      },
-      {
-        question: "Can literature teachers use this tool in classroom poetry units?",
-        answer: "Yes, educators frequently use it to demonstrate how different rhyme schemes, meters, and figurative devices (metaphor, alliteration, personification) transform a single theme across various poetic forms."
-      },
-      {
-        question: "Is there any limit to how many poems I can generate?",
-        answer: "No, our AI Poem Generator is completely free with unlimited generations, no subscriptions, and no sign-up required."
-      }
-    ],
-    related: [
-      "rhyming-words",
-      "syllable-counter",
-      "alliteration-generator",
-      "assonance-finder",
-      "tongue-twister-generator",
-      "ai-story-generator",
-      "ai-word-explainer",
-      "synonym-finder",
-      "random-word-generator",
-      "random-topic-generator"
-    ],
-    imagePrompts: [
-      "An antique ink quill writing glowing golden poetic verses across an open parchment under moonlight, romantic ethereal ambiance, 3D render.",
-      "A delicate cherry blossom branch with petals transforming into floating calligraphy letters in the wind, Japanese zen aesthetic, soft watercolor art.",
-      "A glowing sonnet manuscript surrounded by violin strings, autumn leaves, and candlelight, warm literary flat-lay photography styling.",
-      "Abstract visual representation of poetic meter: pulsating rhythm waves harmonizing with musical notes and rhyming word tiles.",
-      "Minimalist vector illustration of a poet's silhouette looking up at a starlit constellation of floating verses, deep navy and warm honey palette."
-    ]
-  },
-  "ai-vocabulary-builder": {
-    slug: "ai-vocabulary-builder",
-    metaTitle: "AI Vocabulary Builder — Curated Word Lists, CEFR & Exam Prep | AllWordTools.com",
-    metaDescription:
-      "Free AI Vocabulary Builder powered by Gemini. Generate custom themed word lists with definitions, phonetics, collocations, and examples for GRE, SAT, IELTS, & CEFR.",
-    eyebrow: "AI Tools",
-    heading: "AI Vocabulary Builder",
-    subheading:
-      "Accelerate language acquisition. Generate curated, high-impact vocabulary lists with definitions, IPA pronunciation, collocations, and contextual examples with Gemini AI.",
-    updated: "August 2026",
-    readingMinutes: 9,
-    intro: [
-      "A rich, precise vocabulary is the foundation of powerful communication, critical thinking, and academic success. Yet memorizing random, disconnected word lists is inefficient and quickly forgotten. The AI Vocabulary Builder revolutionizes language learning by curating high-yield, themed vocabulary clusters tailored to your specific topic, professional domain, standardized test, or CEFR language proficiency level (A1 through C2).",
-      "Powered by Gemini AI, this educational tool enriches every single vocabulary word with its phonetic transcription (IPA), grammatical category, concise plain-English definition, common collocations, and natural example sentences. Whether you are preparing for the GRE, SAT, TOEFL, or IELTS, mastering medical or legal terminology, or building thematic word banks for creative writing, our builder structures your learning for maximum retention.",
-      "Completely free, fast, and responsive across all devices without requiring account creation. Pair it with our [AI Flashcards](ai-flashcards) and [Vocabulary Quiz](vocabulary-quiz) to test and solidify your active recall."
-    ],
-    howToTitle: "How to use the AI Vocabulary Builder",
-    howToSteps: [
-      {
-        title: "Choose your topic, exam, or domain",
-        detail: "Input your target subject (e.g., GRE Advanced Words, Business Negotiations, Medical Terminology, Environmental Science, or Fiction Writing)."
-      },
-      {
-        title: "Set your target proficiency level",
-        detail: "Select your desired difficulty from Beginner (A1-A2), Intermediate (B1-B2), Advanced (C1-C2), or Exam Master."
-      },
-      {
-        title: "Generate curated word list",
-        detail: "Click Generate Vocabulary to receive a structured table of high-frequency words complete with meanings, collocations, and examples."
-      },
-      {
-        title: "Practice, export, and memorize",
-        detail: "Review the comprehensive list, copy words for study sheets, or import them directly into flashcards for spaced repetition review."
-      }
-    ],
-    sections: [
-      {
-        heading: "The science of themed semantic clustering",
-        paragraphs: [
-          "Cognitive linguistics shows that words learned in thematic clusters (semantic networks) are integrated into long-term memory significantly faster than unrelated words. When you learn words related to 'decision-making' (such as 'deliberate', 'equivocate', 'vacillate', 'adjudicate', and 'resolve') together, your brain builds mental pathways that connect their subtle distinctions.",
-          "The AI Vocabulary Builder harnesses this associative power, grouping words logically so you not only learn what a word means, but also how it compares and contrasts with related terms in the same domain."
-        ]
-      },
-      {
-        heading: "Standardized test preparation: GRE, SAT, TOEFL, and IELTS",
-        paragraphs: [
-          "Standardized exam verbal sections test your ability to discern subtle nuances in dense academic passages. Our tool generates targeted high-frequency vocabulary banks for:",
-          "• GRE & GMAT: Esoteric, high-level vocabulary tested in text completion and sentence equivalence (e.g., 'laconic', 'garrulous', 'obsequious', 'ephemeral').",
-          "• SAT & ACT: Evidence-based reading vocabulary focusing on words with multiple context-dependent meanings.",
-          "• IELTS & TOEFL: Lexical resource enhancement covering high-band academic writing topics (urbanization, technological ethics, global economics, biodiversity)."
-        ]
-      },
-      {
-        heading: "Professional and industry-specific terminology",
-        paragraphs: [
-          "Professionals entering new industries often face a steep terminology learning curve. You can generate custom vocabulary packages for:",
-          "• Legal & Compliance: 'indemnify', 'force majeure', 'fiduciary', 'jurisprudence', 'tort'.",
-          "• Healthcare & Medicine: 'etiology', 'pathogenesis', 'prognosis', 'benign', 'idiopathic'.",
-          "• Technology & AI: 'heuristic', 'scalability', 'latency', 'parameterization', 'deterministic'.",
-          "• Finance & Investment: 'amortization', 'liquidity', 'arbitrage', 'leverage', 'solvency'."
-        ]
-      },
-      {
-        heading: "Integrated learning ecosystem on AllWordTools.com",
-        paragraphs: [
-          "Transform your generated vocabulary lists into active mastery. Test your retention with our interactive [Vocabulary Quiz](vocabulary-quiz), deepen your understanding with the [AI Word Explainer](ai-word-explainer), explore word origins with [Word Origin (Etymology)](word-origin), and convert terms into study decks with [AI Flashcards](ai-flashcards)."
-        ]
-      }
-    ],
-    examples: [
-      {
-        input: "Topic: 'GRE Advanced Vocabulary' | Focus: 'Words related to Speech & Silence'",
-        output: "1. Laconic (adj.) - Using very few words; concise. | Collocation: 'laconic reply' | Example: 'His laconic summary captured the essence of the 50-page report.' | 2. Garrulous (adj.) - Excessively talkative. | 3. Reticent (adj.) - Reserved.",
-        note: "Provides high-yield exam words grouped by contrasting semantic themes with collocations."
-      },
-      {
-        input: "Topic: 'Sustainable Energy & Environment' | Level: 'C1 Advanced'",
-        output: "1. Decarbonization (n.) - Reduction of carbon dioxide emissions. | 2. Anthropogenic (adj.) - Originating in human activity. | 3. Intermittency (n.) - Stopping and starting at intervals.",
-        note: "Features contemporary academic and scientific terminology for essays and research."
-      },
-      {
-        input: "Topic: 'Creative Writing: Mood & Atmosphere' | Level: 'Intermediate'",
-        output: "1. Somber (adj.) - Dark or gloomy. | 2. Luminous (adj.) - Full of or shedding light. | 3. Eerie (adj.) - Strange and frightening.",
-        note: "Curates sensory descriptive adjectives for novel and short story writing."
-      }
-    ],
-    tips: [
-      "Specify your exact target exam band (e.g., 'Generate Band 8.0 vocabulary for IELTS Academic Writing Task 2').",
-      "Review generated collocations carefully—knowing which prepositions follow a word is crucial for natural writing.",
-      "Limit each study session to 10-15 words so you can practice using each in a custom sentence generated by our [AI Sentence Generator](ai-sentence-generator).",
-      "Use our [Daily Word](daily-word) and [Word of the Day](word-of-the-day) tools to build a consistent daily learning habit.",
-      "Convert your generated vocabulary lists into flashcard decks with [AI Flashcards](ai-flashcards) for spaced repetition."
-    ],
-    faqs: [
-      {
-        question: "How does the AI Vocabulary Builder select and organize words?",
-        answer: "The tool utilizes Gemini AI to group words into thematic semantic clusters based on your chosen topic, domain, or target exam. Each entry includes grammatical class, plain-English definitions, phonetic guidance, collocations, and contextual example sentences."
-      },
-      {
-        question: "Can I generate vocabulary lists specifically for exams like GRE, SAT, IELTS, or TOEFL?",
-        answer: "Yes. You can specify your target exam, and the AI will generate high-frequency, high-yield words commonly tested in reading comprehension, text completion, and essay writing sections."
-      },
-      {
-        question: "Can I generate industry-specific vocabulary for medicine, law, tech, or business?",
-        answer: "Absolutely. You can request vocabulary tailored to specialized fields such as corporate finance, criminal law, clinical medicine, computer programming, architecture, or environmental science."
-      },
-      {
-        question: "How does this tool align with CEFR language proficiency levels (A1 to C2)?",
-        answer: "You can select your target CEFR level from A1/A2 (Beginner), B1/B2 (Intermediate), to C1/C2 (Advanced/Proficient), and the AI will calibrate word complexity, definitions, and sentence examples accordingly."
-      },
-      {
-        question: "Does the tool provide collocations for each vocabulary word?",
-        answer: "Yes. Each word entry highlights natural word pairings (collocations), showing you how verbs, adjectives, and prepositions naturally combine with the target term in native English."
-      },
-      {
-        question: "Can teachers use this tool to build weekly classroom vocabulary curriculum?",
-        answer: "Yes. Educators regularly use the AI Vocabulary Builder to generate weekly thematic word packages, student worksheets, spelling lists, and quiz materials in seconds."
-      },
-      {
-        question: "What is the best way to memorize the words generated by this tool?",
-        answer: "We recommend combining themed list generation with active recall. Import your words into our [AI Flashcards](ai-flashcards) tool, practice using them in the [AI Sentence Generator](ai-sentence-generator), and test yourself with our [Vocabulary Quiz](vocabulary-quiz)."
-      },
-      {
-        question: "What is the difference between active and passive vocabulary?",
-        answer: "Passive vocabulary consists of words you recognize when reading or listening, while active vocabulary consists of words you can spontaneously deploy when speaking and writing. This tool provides collocations and usage examples specifically designed to move words into your active vocabulary."
-      },
-      {
-        question: "How many words can be generated in a single query?",
-        answer: "A standard generation produces 10 to 20 comprehensive, high-yield vocabulary entries per run. You can run unlimited generations to build extensive, multi-unit study guides."
-      },
-      {
-        question: "Is the AI Vocabulary Builder free to use?",
-        answer: "Yes, the AI Vocabulary Builder is 100% free with unlimited generations, no paywalls, and no account registration required."
-      }
-    ],
-    related: [
-      "ai-flashcards",
-      "vocabulary-quiz",
-      "ai-word-explainer",
-      "ai-sentence-generator",
-      "daily-word",
-      "word-of-the-day",
-      "dictionary",
-      "word-meaning",
-      "synonym-finder",
-      "ai-quiz-generator"
-    ],
-    imagePrompts: [
-      "A futuristic digital library with glowing holographic word cards sorting themselves into organized thematic knowledge pillars, soft honey and cyan lighting.",
-      "An open graduation cap resting beside an illuminated tablet displaying interconnected vocabulary nodes and phonetic symbols, modern vector style.",
-      "Clean UI dashboard showing a vocabulary mastery progress bar, word cards with IPA transcriptions and definitions, minimalist flat design.",
-      "A student studying with a friendly AI assistant organizing floating lexical cards into structured exam prep folders, warm ambient lighting.",
-      "Abstract linguistic tree with branches representing vocabulary themes (Science, Arts, Business, Literature), leaves made of glowing letter tiles."
-    ]
-  },
-  "ai-quiz-generator": {
-    slug: "ai-quiz-generator",
-    metaTitle: "AI Quiz Generator — Multiple Choice, True/False & Fill-in-the-Blank | AllWordTools.com",
-    metaDescription:
-      "Free AI Quiz Generator powered by Gemini. Create custom multiple-choice quizzes, reading comprehension tests, and vocabulary assessments with answer keys in seconds.",
-    eyebrow: "AI Tools",
-    heading: "AI Quiz Generator",
-    subheading:
-      "Instantly create custom multiple-choice quizzes, reading comprehension tests, and vocabulary assessments on any topic with answer keys and explanations.",
-    updated: "August 2026",
-    readingMinutes: 8,
-    intro: [
-      "Testing your knowledge through retrieval practice is the single most effective study strategy discovered by cognitive science. Yet authoring high-quality quiz questions with plausible distractors, balanced difficulty, and thorough explanations takes hours of tedious manual effort. The AI Quiz Generator automates test creation, generating customized multiple-choice questions (MCQs), fill-in-the-blank drills, and true/false assessments on any topic, reading passage, or word list in seconds.",
-      "Powered by Google Gemini AI, this versatile assessment generator crafts realistic, pedagogically sound questions complete with detailed answer keys and explanations explaining why the correct answer is right and why each distractor is incorrect. Whether you are a teacher building classroom quizzes, a student prepping for exams, or a trivia enthusiast hosting game night, our tool delivers instant, tailored evaluations.",
-      "Completely free and accessible directly in your web browser with no sign-ups or downloads. Pair it with our [AI Flashcards](ai-flashcards) and [Vocabulary Quiz](vocabulary-quiz) for a comprehensive study workflow."
-    ],
-    howToTitle: "How to use the AI Quiz Generator",
-    howToSteps: [
-      {
-        title: "Enter your quiz topic, text, or word list",
-        detail: "Input any subject (e.g., World History, Shakespeare's Hamlet, Cellular Respiration, English Grammar, or a pasted reading passage)."
-      },
-      {
-        title: "Choose question format and difficulty",
-        detail: "Select Multiple Choice, True/False, or Fill-in-the-Blank, and set your difficulty level (Beginner, Intermediate, Advanced)."
-      },
-      {
-        title: "Click Generate Quiz",
-        detail: "The AI creates a balanced set of questions with plausible options, designated correct answers, and thorough explanations."
-      },
-      {
-        title: "Take the quiz or export for students",
-        detail: "Test yourself interactively on the site, or copy the questions and answer key to print as a classroom handout."
-      }
-    ],
-    sections: [
-      {
-        heading: "The science of active recall and the testing effect",
-        paragraphs: [
-          "Decades of psychological research demonstrate 'the testing effect'—the phenomenon where actively retrieving information from memory produces stronger, longer-lasting neural connections than passive re-reading or highlighting. Taking practice quizzes forces the brain to reconstruct knowledge pathways, revealing knowledge gaps and cementing facts in long-term memory.",
-          "The AI Quiz Generator enables students to test themselves immediately after reading a chapter or learning new vocabulary, transforming passive study sessions into active, high-yield retrieval practice."
-        ]
-      },
-      {
-        heading: "Intelligent distractors and pedagogical balance",
-        paragraphs: [
-          "Poorly designed multiple-choice questions often feature obvious or absurd incorrect options (distractors), making them too easy and pedagogically useless. The AI Quiz Generator solves this by generating smart, plausible distractors based on common student misconceptions, near-synonyms, and closely related historical dates or scientific concepts.",
-          "Every quiz includes comprehensive answer explanations that clarify the exact reasoning behind the correct choice, turning wrong guesses into valuable learning moments."
-        ]
-      },
-      {
-        heading: "Applications for teachers, self-learners, and trivia lovers",
-        paragraphs: [
-          "• Educators & Tutors: Assemble weekly pop quizzes, reading comprehension tests, homework assignments, and exam review sheets in seconds without starting from scratch.",
-          "• University & High School Students: Paste lecture notes, textbook summaries, or study guides to generate custom practice tests before midterms and finals.",
-          "• Language Learners: Generate grammar and vocabulary recall drills tailored to specific CEFR proficiency levels.",
-          "• Trivia Hosts & Quiz Nights: Create entertaining, multi-round trivia games covering pop culture, science, geography, literature, and history."
-        ]
-      },
-      {
-        heading: "Connected quiz and learning tools on AllWordTools.com",
-        paragraphs: [
-          "Complement your testing routine with our suite of learning tools. Test specific language skills with our [Spelling Quiz](spelling-quiz), [Synonym Quiz](synonym-quiz), [Antonym Quiz](antonym-quiz), [Prefix Quiz](prefix-quiz), and [Suffix Quiz](suffix-quiz)."
-        ]
-      }
-    ],
-    examples: [
-      {
-        input: "Topic: 'English Grammar — Subject-Verb Agreement' | Format: 'Multiple Choice'",
-        output: "Question: Which sentence demonstrates correct subject-verb agreement? A) The committee meets every Tuesday. B) The committee meet every Tuesday. Correct: A. Explanation: Collective nouns acting as a single unit take singular verbs.",
-        note: "Demonstrates high-quality grammar assessment with clear explanations for all options."
-      },
-      {
-        input: "Topic: 'Reading Comprehension' | Source: 'Passage on Photosynthesis'",
-        output: "Question: What is the primary role of chlorophyll? A) To absorb light energy and excite electrons B) To convert glucose into ATP. Correct: A. Explanation: Chlorophyll absorbs solar photons to energize electrons.",
-        note: "Highlights passage-based reading comprehension and scientific accuracy."
-      },
-      {
-        input: "Topic: 'Literary Devices' | Format: 'Identify the Device'",
-        output: "Question: 'The wind whispered through the pines.' What device is used? A) Personification B) Hyperbole. Correct: A. Explanation: Attributing human actions to nature is personification.",
-        note: "Tests core literary analysis skills with classic distractor options."
-      }
-    ],
-    tips: [
-      "Paste your own study notes or textbook excerpts into the prompt to generate highly targeted comprehension questions.",
-      "Specify question quantity and format (e.g., 'Generate 5 multiple-choice questions and 5 true/false questions').",
-      "Ask for varying difficulty levels (e.g., 'Include 2 easy warm-up questions, 5 intermediate questions, and 3 advanced challenge questions').",
-      "Review the explanation after answering each question to understand why distractors are incorrect.",
-      "Combine quiz generation with our [AI Flashcards](ai-flashcards) tool to review missed questions until you achieve 100% mastery."
-    ],
-    faqs: [
-      {
-        question: "What types of quiz questions can the AI Quiz Generator create?",
-        answer: "The AI Quiz Generator can create Multiple Choice Questions (MCQs), True/False questions, Fill-in-the-Blank exercises, and matching questions across any academic or general topic."
-      },
-      {
-        question: "Can I paste a custom reading passage or article to generate comprehension questions?",
-        answer: "Yes. You can paste custom articles, book chapters, essays, or lecture notes, and the AI will analyze the text to generate accurate reading comprehension questions based solely on the provided material."
-      },
-      {
-        question: "How does the AI create realistic and challenging distractor choices?",
-        answer: "The AI analyzes common cognitive misconceptions, related terminology, and logical alternatives to construct plausible distractors, ensuring the quiz provides a meaningful test of knowledge rather than obvious guesses."
-      },
-      {
-        question: "Does the generated quiz include an answer key with explanations?",
-        answer: "Yes. Every quiz includes a complete answer key along with comprehensive explanations explaining why the correct choice is accurate and why the alternative options are incorrect."
-      },
-      {
-        question: "Can I adjust the difficulty level of the quiz for different grade levels?",
-        answer: "Yes. You can specify whether the quiz is intended for elementary school, middle school, high school, undergraduate university students, or professional certification candidates."
-      },
-      {
-        question: "Can teachers copy and print the generated quizzes for classroom use?",
-        answer: "Absolutely. Teachers can easily copy the questions and answer key with one click to paste into Google Docs, Microsoft Word, or school learning management systems (LMS) for printable handouts and online tests."
-      },
-      {
-        question: "How many questions can be generated in a single session?",
-        answer: "A standard run generates 5 to 10 comprehensive questions per prompt. You can generate multiple rounds to assemble full 50-to-100-question practice exams."
-      },
-      {
-        question: "Can I create trivia night quizzes on history, pop culture, movies, or sports?",
-        answer: "Yes! The tool is widely used by trivia hosts to generate fun, competitive trivia rounds on movies, 80s music, geography, world history, science, video games, and literature."
-      },
-      {
-        question: "Are the generated questions unique on every run?",
-        answer: "Yes, Gemini AI synthesizes fresh questions on every generation, so you can generate multiple distinct quizzes on the exact same topic without repeating questions."
-      },
-      {
-        question: "Is the AI Quiz Generator completely free to use?",
-        answer: "Yes, the AI Quiz Generator on AllWordTools.com is 100% free with unlimited access and no registration required."
-      }
-    ],
-    related: [
-      "vocabulary-quiz",
-      "spelling-quiz",
-      "synonym-quiz",
-      "antonym-quiz",
-      "prefix-quiz",
-      "suffix-quiz",
-      "ai-flashcards",
-      "ai-vocabulary-builder",
-      "ai-word-explainer",
-      "ai-example-generator"
-    ],
-    imagePrompts: [
-      "A glowing quiz sheet with glowing green checkmarks, floating holographic answer options (A, B, C, D), vibrant honey and cyan tech styling.",
-      "An interactive digital exam screen displaying a multiple-choice question with instant feedback animations, clean modern vector art.",
-      "A student holding a tablet with a 100% test score surrounded by celebratory confetti, clean flat vector illustration.",
-      "A futuristic classroom where floating quiz modules test students with colorful interactive buttons, warm ambient lighting.",
-      "Minimalist flat vector icon of a clipboard with checkmarks, stopwatch, and brain gears, modern educational design."
-    ]
-  },
-  "ai-flashcards": {
-    slug: "ai-flashcards",
-    metaTitle: "AI Flashcards — Spaced Repetition Study Decks & Memory Cards | AllWordTools.com",
-    metaDescription:
-      "Free AI Flashcards generator powered by Gemini. Create two-sided study flashcards for vocabulary, exams, languages, and science with active recall mnemonics.",
-    eyebrow: "AI Tools",
-    heading: "AI Flashcards",
-    subheading:
-      "Create interactive two-sided study flashcards for any subject, vocabulary list, or exam topic. Master active recall and spaced repetition with Gemini AI.",
-    updated: "August 2026",
-    readingMinutes: 8,
-    intro: [
-      "Flashcards remain the gold standard for active recall and spaced repetition learning, helping millions of students and professionals commit dense information to long-term memory. However, formatting individual study cards by hand is time-consuming and tedious. AI Flashcards automates deck creation, transforming any topic, article, vocabulary bank, or study guide into clean, high-retention two-sided study cards in seconds.",
-      "Powered by Google Gemini AI, each card features a clear, focused prompt or term on the front and a concise, structured answer on the back—complete with definitions, bulleted key facts, mnemonic memory devices, and contextual usage examples. Whether you are learning a foreign language, preparing for medical or legal board exams, or reviewing history facts, our tool provides an instant interactive study deck.",
-      "Study interactively right in your browser or copy cards into study apps like Anki and Quizlet. The tool is 100% free with unlimited deck generation. Pair it with our [AI Vocabulary Builder](ai-vocabulary-builder) and [AI Quiz Generator](ai-quiz-generator) for a complete mastery system."
-    ],
-    howToTitle: "How to use AI Flashcards",
-    howToSteps: [
-      {
-        title: "Enter your study topic, text, or word list",
-        detail: "Input any subject (e.g., Spanish Subjunctive, Organic Chemistry Functional Groups, US Constitution Amendments, or GRE Vocabulary)."
-      },
-      {
-        title: "Choose your card format",
-        detail: "Select whether you want Term & Definition, Question & Answer, Concept & Application, or Language Translation cards."
-      },
-      {
-        title: "Generate your flashcard deck",
-        detail: "Click Generate Flashcards to receive a structured set of cards formatted with front prompts and detailed back answers."
-      },
-      {
-        title: "Flip, study, and test active recall",
-        detail: "Flip through cards interactively to test your recall, mark mastered items, or copy the deck for your favorite flashcard app."
-      }
-    ],
-    sections: [
-      {
-        heading: "The cognitive science of active recall and spaced repetition",
-        paragraphs: [
-          "Active recall requires your brain to actively retrieve a concept from memory before flipping the card to check the answer. This retrieval effort stimulates neuroplasticity and strengthens synaptic connections far more effectively than passive reviewing.",
-          "When combined with spaced repetition (reviewing cards at increasing intervals: 1 day, 3 days, 1 week, 1 month), forgetting curves are flattened, allowing learners to retain thousands of complex facts and vocabulary terms permanently with minimal daily study time."
-        ]
-      },
-      {
-        heading: "Structured card architecture: Front vs. Back",
-        paragraphs: [
-          "Effective flashcards follow the 'minimum information principle'—each card should test a single atomic concept to avoid cognitive overload. AI Flashcards designs cards following this principle:",
-          "• Front (The Cue): A precise question, vocabulary term, historical date, or formula prompt.",
-          "• Back (The Retrieval Target): A clean, concise answer highlighted with key terms in bold, accompanied by an illustrative example sentence or a clever mnemonic device to anchor memory."
-        ]
-      },
-      {
-        heading: "Versatile study decks across multiple subjects",
-        paragraphs: [
-          "• Language Acquisition: Foreign vocabulary, phrasal verbs, idioms, verb conjugations, and false friends with pronunciation guidance.",
-          "• Medical & Nursing: Pharmacology drug classes, anatomical structures, disease etiologies, and clinical diagnostic criteria.",
-          "• Law & Bar Exam: Constitutional amendments, landmark Supreme Court cases, legal doctrines, and statutory definitions.",
-          "• STEM & Coding: Calculus formulas, physics laws, chemical reaction pathways, data structures, and algorithm time complexities.",
-          "• History & Humanities: Chronological timelines, treaty provisions, philosophical schools of thought, and art history movements."
-        ]
-      },
-      {
-        heading: "Connected study resources on AllWordTools.com",
-        paragraphs: [
-          "Amplify your exam preparation by integrating flashcards with our other learning tools. Generate foundational word lists with the [AI Vocabulary Builder](ai-vocabulary-builder), test retention with the [AI Quiz Generator](ai-quiz-generator), and look up nuanced word definitions in our [Dictionary](dictionary)."
-        ]
-      }
-    ],
-    examples: [
-      {
-        input: "Subject: 'GRE Vocabulary' | Term: 'Ephemeral'",
-        output: "FRONT: Ephemeral (adj.) | BACK: • Definition: Lasting for a short time; fleeting. • Synonyms: Transient, evanescent. • Example: 'The cherry blossoms were ephemeral.' • Mnemonic: Sounds like 'e-funeral' — life is short!",
-        note: "Provides definition, synonyms, contextual sentence, and a memorable mnemonic device."
-      },
-      {
-        input: "Subject: 'US History' | Topic: 'Constitutional Amendments'",
-        output: "FRONT: Fourth Amendment rights? | BACK: • Protection against unreasonable searches and seizures. • Warrant requirement based on probable cause. • Key Case: Mapp v. Ohio (1961).",
-        note: "Structures key constitutional provisions alongside landmark legal precedent."
-      },
-      {
-        input: "Subject: 'Spanish Language' | Focus: 'Subjunctive Trigger'",
-        output: "FRONT: Es necesario que... | BACK: • Meaning: 'It is necessary that...' • Rule: Triggers subjunctive mood. • Example: 'Es necesario que estudies para el examen.'",
-        note: "Clarifies grammar rules, trigger phrases, and natural bilingual examples."
-      }
-    ],
-    tips: [
-      "Say the answer out loud or write it down before flipping the card to ensure genuine active recall rather than false recognition.",
-      "Separate cards into two piles: 'Mastered' and 'Review Again' to focus study time on your weakest areas.",
-      "Request mnemonic memory tricks in your prompt (e.g., 'Include a funny mnemonic device on the back of each card').",
-      "Keep study sessions short and frequent (15 to 20 minutes daily) for optimal spaced repetition benefits.",
-      "Export generated flashcards directly into tools like Anki, Quizlet, or Notion for cross-device mobile studying."
-    ],
-    faqs: [
-      {
-        question: "How does the AI Flashcards tool help improve study efficiency and memory retention?",
-        answer: "The tool structures knowledge into atomic, two-sided cards optimized for active recall and spaced repetition. By forcing your brain to retrieve answers before flipping, it strengthens neural pathways and prevents the forgetting curve."
-      },
-      {
-        question: "What subjects and topics can I generate flashcards for?",
-        answer: "You can generate flashcards for any subject, including vocabulary, foreign languages, medicine, nursing, law, history, biology, chemistry, physics, computer science, literature, and standardized test prep (GRE, SAT, MCAT, LSAT, IELTS)."
-      },
-      {
-        question: "How are the front and back of each flashcard structured?",
-        answer: "The front features a clear prompt, question, or vocabulary word. The back provides a concise definition or answer, key bullet points, an example sentence, and often a mnemonic memory device to anchor recall."
-      },
-      {
-        question: "Can I use AI Flashcards for foreign language learning?",
-        answer: "Yes! You can generate language decks for Spanish, French, German, Italian, Japanese, Chinese, and more—featuring target vocabulary, English translations, phonetic pronunciations, and example usage."
-      },
-      {
-        question: "Can the AI include mnemonic memory tricks on the cards?",
-        answer: "Yes. You can prompt the AI to include creative, humorous, or visual mnemonics on the back of cards, making abstract or tricky words far easier to remember."
-      },
-      {
-        question: "Can I study the flashcards interactively directly on AllWordTools.com?",
-        answer: "Yes, you can click to flip cards, navigate through your deck, and test your active recall interactively right in your browser on desktop, tablet, or phone."
-      },
-      {
-        question: "Can I export or copy the flashcards into apps like Anki or Quizlet?",
-        answer: "Yes. You can copy the generated card text in standard tab-separated or comma-separated formats to easily import entire decks into Anki, Quizlet, RemNote, or Notion."
-      },
-      {
-        question: "How many flashcards are generated per session?",
-        answer: "A single generation typically creates 10 to 15 high-yield flashcards. You can generate multiple batches to build comprehensive, multi-chapter study decks."
-      },
-      {
-        question: "Can university, medical, or law students use this for dense terminology?",
-        answer: "Absolutely. Many medical, law, and engineering students use our AI Flashcards tool to break down dense textbooks, statutes, and pharmaceutical names into digestible, reviewable study cards."
-      },
-      {
-        question: "Is the AI Flashcards tool free to use?",
-        answer: "Yes, AI Flashcards on AllWordTools.com is 100% free with unlimited card generation, no subscription fees, and no sign-up required."
-      }
-    ],
-    related: [
-      "ai-vocabulary-builder",
-      "ai-quiz-generator",
-      "vocabulary-quiz",
-      "ai-word-explainer",
-      "ai-example-generator",
-      "daily-word",
-      "word-of-the-day",
-      "dictionary",
-      "word-meaning",
-      "synonym-finder"
-    ],
-    imagePrompts: [
-      "A glowing 3D study flashcard flipping in mid-air with luminous text particles, sleek modern tech aesthetic, vibrant honey and deep navy background.",
-      "An organized stack of digital flashcards with colorful subject tabs (Vocabulary, Science, History) floating above a clean modern tablet.",
-      "A student happily tapping an interactive digital flashcard deck on a smartphone screen, clean flat vector illustration.",
-      "Isometric illustration of brain neurons connecting as flashcards flip from question to answer, educational neuroscience concept.",
-      "Minimalist flat vector icon of two-sided study cards with checkmarks and stars, modern UI design system styling."
+      "A glowing comma and semicolon illuminated like neon signs above a sleek digital keyboard, modern minimalist tech art.",
+      "An open book with glowing punctuation marks (commas, apostrophes, em-dashes) organizing words into harmonious rhythms.",
+      "Clean UI screenshot of a punctuation check report showing comma splice alerts and one-click fix buttons.",
+      "Minimalist vector illustration comparing ambiguous unpunctuated text with crystal-clear punctuated sentences.",
+      "A writer adjusting floating holographic punctuation marks in mid-air above a desk, warm golden lighting."
     ]
   }
 };
