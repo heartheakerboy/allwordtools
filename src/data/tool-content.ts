@@ -286,9 +286,9 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "crossword-solver": {
     slug: "crossword-solver",
-    metaTitle: "Crossword Solver — Fill Any Pattern From Known Letters | AllWordTools.com",
+    metaTitle: "Crossword Solver & Clue Finder — Dictionary Wildcard Search | AllWordTools.com",
     metaDescription:
-      "Free Crossword Solver. Enter the word length and any known letters as a pattern to instantly find every word that fits your crossword grid.",
+      "Free Crossword Solver with missing letter wildcards (?, *). Solve cryptic crosswords, quick crossword clues, and word puzzles instantly.",
     eyebrow: "Word Solvers",
     heading: "Crossword Solver",
     subheading:
@@ -409,9 +409,9 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "anagram-solver": {
     slug: "anagram-solver",
-    metaTitle: "Anagram Solver — Find Every Anagram of Your Letters | AllWordTools.com",
+    metaTitle: "Anagram Solver — Solve 2 Words, Multiple Words & Anagrams | AllWordTools.com",
     metaDescription:
-      "Free Anagram Solver that finds every word made from your exact letters, plus two-word anagrams. Supports wildcards for Scrabble, jumbles and puzzles. Instant results.",
+      "Free Anagram Solver that unscrambles single words, 2 words, multi-word anagrams, and letters with blanks and wildcards instantly.",
     eyebrow: "Word Solvers",
     heading: "Anagram Solver",
     subheading:
@@ -768,9 +768,9 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "words-ending-with": {
     slug: "words-ending-with",
-    metaTitle: "Words Ending With — Find Every Word by Suffix | AllWordTools.com",
+    metaTitle: "Words Ending With — Word Ending Finder & Suffix Rhymes | AllWordTools.com",
     metaDescription:
-      "Free Words Ending With finder. Enter any letters and list every English word that ends with them — perfect for rhymes, suffixes, crosswords and word games.",
+      "Find all words ending with specific letters, suffixes, or sounds. Filter by length and letter tiles for Scrabble, Words With Friends, and rhymes.",
     eyebrow: "Letter Tools",
     heading: "Words Ending With",
     subheading:
@@ -1531,9 +1531,9 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "syllable-counter": {
     slug: "syllable-counter",
-    metaTitle: "Syllable Counter — Count Syllables in Words & Text | AllWordTools.com",
+    metaTitle: "Syllable Counter — Count Syllables & Syllable Breakdown Online | AllWordTools.com",
     metaDescription:
-      "Free Syllable Counter. Instantly count syllables in any word, line or verse with a per-word breakdown — perfect for haiku, poetry, lyrics and readability.",
+      "Free online Syllable Counter that accurately counts syllables, breaks words into syllables, and calculates readability scores instantly.",
     eyebrow: "Writing Tools",
     heading: "Syllable Counter",
     subheading:
@@ -2567,9 +2567,9 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "missing-letters-finder": {
     slug: "missing-letters-finder",
-    metaTitle: "Missing Letters Finder — Fill in Blanks & Incomplete Words | AllWordTools.com",
+    metaTitle: "Missing Letters Finder — Fill in Missing Letters & Words Solver | AllWordTools.com",
     metaDescription:
-      "Solve words with missing letters and blank tiles. Enter known letters and use ? for unknowns to instantly complete crosswords and puzzle words.",
+      "Free Missing Letters Finder to solve words with missing letters, blanks, and wildcards. Instantly find words with missing letters for puzzles & crosswords.",
     eyebrow: "Advanced Solvers",
     heading: "Missing Letters Finder",
     subheading:
@@ -2668,9 +2668,9 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "letter-rearranger": {
     slug: "letter-rearranger",
-    metaTitle: "Letter Rearranger — Rearrange, Sort & Unscramble Letters | AllWordTools.com",
+    metaTitle: "Letter Rearranger — Word Unscrambler & Make Words from Letters | AllWordTools.com",
     metaDescription:
-      "Rearrange any set of letters to find all possible words. Instant letter sorter and scrambler for word games, anagrams, and vocabulary puzzles.",
+      "Rearrange letters into all possible words instantly. Powerful letter solver, anagram unscrambler, and word maker with length and wildcard filters.",
     eyebrow: "Advanced Solvers",
     heading: "Letter Rearranger",
     subheading:
@@ -3220,9 +3220,9 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "repeated-letter-finder": {
     slug: "repeated-letter-finder",
-    metaTitle: "Repeated Letter Finder — Find Repeated Letters in Words | AllWordTools.com",
+    metaTitle: "Repeated Letter Finder — Words with Repeated & Double Letters | AllWordTools.com",
     metaDescription:
-      "Free Repeated Letter Finder that reveals which letters repeat inside a word or phrase, with counts and highlights. Great for spelling, puzzles and word games.",
+      "Free Repeated Letter Finder to find words with repeated letters, double letters, and letter counts. Instantly analyze and solve repeated letter words.",
     eyebrow: "Text Analysis",
     heading: "Repeated Letter Finder",
     subheading:
@@ -4710,9 +4710,9 @@ export const toolContent: Record<string, ToolContent> = {
 ,
   "ai-word-explainer": {
     slug: "ai-word-explainer",
-    metaTitle: "AI Word Explainer — Meanings, Context, Etymology & Synonyms | AllWordTools.com",
+    metaTitle: "AI Word Explainer — Instant Meaning, Synonyms, Origin & Examples | AllWordTools.com",
     metaDescription:
-      "Understand any word deeply with instant AI explanations. Get clear definitions, real-world context examples, etymology, nuances, and pronunciation.",
+      "Free AI Word Explainer that breaks down any word with clear definitions, pronunciation, synonyms, antonyms, real-world examples, and etymology.",
     eyebrow: "AI Tools",
     heading: "AI Word Explainer",
     subheading:
@@ -5939,9 +5939,9 @@ export const toolContent: Record<string, ToolContent> = {
 
   "codycross-solver": {
     slug: "codycross-solver",
-    metaTitle: "CodyCross Solver — Clue Answers, Planet Puzzles & Solutions | AllWordTools.com",
+    metaTitle: "CodyCross Solver & Cheat — Find CodyCross Answers & Clues Online | AllWordTools.com",
     metaDescription:
-      "Instant CodyCross clue solver and answer finder. Search by clue keywords, letter length, or known patterns to solve any planet or group level.",
+      "Free CodyCross Solver and answer helper. Search our complete CodyCross database by group, world, clue or letters to solve any puzzle instantly.",
     eyebrow: "Puzzle Solvers",
     heading: "CodyCross Solver & Answer Finder",
     subheading:
@@ -6087,9 +6087,9 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "assonance-finder": {
     slug: "assonance-finder",
-    metaTitle: "Assonance Finder — Find Matching Vowel Rhymes & Poetic Cadence | AllWordTools.com",
+    metaTitle: "Assonance Finder & Generator — Find Vowel Rhymes & Poetry Assonance | AllWordTools.com",
     metaDescription:
-      "Discover harmonious vowel sounds and slant rhymes for poetry, lyrics, and creative writing. Search by phonetic vowel sound and syllable count.",
+      "Free Assonance Finder that identifies repeated vowel sounds and vowel rhyme patterns in words, poetry, lyrics, and phrases.",
     eyebrow: "Literary & Rhyme Tools",
     heading: "Assonance Finder & Generator",
     subheading:
@@ -6389,9 +6389,9 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "wordscapes-solver": {
     slug: "wordscapes-solver",
-    metaTitle: "Wordscapes Solver — Unscramble Letter Wheels & Find Bonus Words | AllWordTools.com",
+    metaTitle: "Wordscapes Solver & Cheat — Unscramble All Wordscapes Answers | AllWordTools.com",
     metaDescription:
-      "Crack any Wordscapes level instantly. Unscramble circular letter wheels, organize words by length (3 to 7 letters), and reveal hidden bonus coins.",
+      "Free Wordscapes solver and anagram unscrambler. Enter your letter circle tiles to find every word, bonus word, and level solution instantly.",
     eyebrow: "Puzzle Solvers",
     heading: "Wordscapes Solver & Letter Unscrambler",
     subheading:
@@ -6688,9 +6688,9 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "clan-name-generator": {
     slug: "clan-name-generator",
-    metaTitle: "Clan Name Generator — Cool, Badass & Gaming Clan Names | AllWordTools.com",
+    metaTitle: "Clan Name Generator — Cool Clan Names & 4-Letter Tags | AllWordTools.com",
     metaDescription:
-      "Free Clan Name Generator. Generate cool, badass, fantasy, competitive, and 4-letter clan tag names for CoD, Fortnite, Clash of Clans, and RPGs.",
+      "Generate cool, unique, and badass clan names for gaming, esports, and guilds. Includes 4-letter clan tags, aesthetic styles, and instant copy.",
     eyebrow: "Name Generators",
     heading: "Clan Name Generator",
     subheading:
@@ -6982,6 +6982,2528 @@ export const toolContent: Record<string, ToolContent> = {
       "Minimalist flat vector icon of a graduation cap, clipboard with checkmarks, and glowing lightbulb.",
       "Futuristic study room with holographic vocabulary quiz modules displaying word definitions and scores."
     ]
-  }
+  },
+
+  "seven-little-words-solver": {
+  "slug": "seven-little-words-solver",
+  "metaTitle": "7 Little Words Solver & Daily Answers — Instant Clue Cheat | AllWordTools.com",
+  "metaDescription": "Free 7 Little Words solver and daily puzzle answer cheat. Search by clue or tile count to find today's 7 Little Words solutions instantly.",
+  "eyebrow": "Puzzle Solvers",
+  "heading": "7 Little Words Solver",
+  "subheading": "Solve any 7 Little Words puzzle by clue, answer letter count, or letter tile chunks with instant answers.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 6,
+  "intro": [
+    "7 Little Words is a beloved daily puzzle where players match 7 clues to 7 words using a bank of 20 letter tiles (typically 2-3 letter chunks). When you're stuck on a tricky clue or can't see how the remaining tiles assemble, our 7 Little Words Solver provides the instant breakthrough you need.",
+    "You can search by the exact clue, filter by the known letter count of the solution, or enter the tile combinations available on your board. The solver searches through a vast database of verified 7 Little Words puzzles and general dictionary word forms to deliver exact answers in seconds.",
+    "The tool is 100% free, mobile-friendly, and requires no downloads or account sign-ups. Keep your daily winning streak alive effortlessly!"
+  ],
+  "howToTitle": "How to use the 7 Little Words Solver",
+  "howToSteps": [
+    {
+      "title": "Enter the clue",
+      "detail": "Type keywords or the full clue phrase into the search box."
+    },
+    {
+      "title": "Specify word length",
+      "detail": "Optionally select the number of letters in the mystery word to narrow down matches."
+    },
+    {
+      "title": "Add tile chunks",
+      "detail": "Enter the 2- or 3-letter tiles available on your board to filter possible assemblies."
+    },
+    {
+      "title": "Get instant answers",
+      "detail": "Click Solve to view matching answers with matching tile breakdowns highlighted."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Mastering 7 Little Words Strategy",
+      "paragraphs": [
+        "To solve 7 Little Words efficiently without hints, start with the longest words or clues with obvious synonyms. Identifying suffixes like -ING, -TION, -ED, or -LY among the tile chunks immediately narrows down candidate tiles.",
+        "Cross-referencing tile count with clue definitions allows you to eliminate unlikely chunk pairings quickly. Our solver mirrors this algorithmic deduction, showing you exactly how chunks combine."
+      ]
+    },
+    {
+      "heading": "Daily Answers and Archive Support",
+      "paragraphs": [
+        "Whether you are playing the daily puzzle, bonus puzzles, or working through archived packs, our solver is continuously updated with verified solution keys across all difficulty levels."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Clue: 'Coming through' (7 letters)",
+      "output": "PASSING",
+      "note": "Combines tiles PAS + SING."
+    },
+    {
+      "input": "Clue: 'Do company work' (7 letters)",
+      "output": "OPERATE",
+      "note": "Combines tiles OP + ER + ATE."
+    },
+    {
+      "input": "Clue: 'Refuse specialist' (9 letters)",
+      "output": "GARBAGEMAN",
+      "note": "Common occupation clue."
+    }
+  ],
+  "tips": [
+    "Scan the tile bank for common prefixes (UN-, RE-, PRE-) and suffixes (-ING, -EST).",
+    "Solve the shortest and most direct definition clues first to clear tiles from the board.",
+    "Count remaining tiles to ensure your candidate word doesn't leave unusable 2-letter fragments.",
+    "Use the letter count filter in our solver to instantly cut down possibilities."
+  ],
+  "faqs": [
+    {
+      "question": "How does 7 Little Words work?",
+      "answer": "Each puzzle consists of 7 clues, 7 mystery words, and 20 letter chunks. You combine the chunks to form words matching the clues."
+    },
+    {
+      "question": "Can I search by clue phrase?",
+      "answer": "Yes, enter any part of the clue into the search box to find matching solution words."
+    },
+    {
+      "question": "Is this 7 Little Words solver free?",
+      "answer": "Yes, our solver is completely free with unlimited searches and daily updates."
+    },
+    {
+      "question": "Does it support daily bonus puzzles?",
+      "answer": "Yes, the database includes daily puzzles, daily bonus puzzles, and historical packs."
+    }
+  ],
+  "related": [
+    "codycross-solver",
+    "crossword-solver",
+    "wordscapes-solver",
+    "word-cookies-solver"
+  ],
+  "imagePrompts": [
+    "Letter tile chunks floating into organized 7 Little Words answers, clean modern UI design.",
+    "Daily puzzle solver interface showing 7 clues and solved tile combinations."
+  ]
+},
+
+  "team-name-generator": {
+  "slug": "team-name-generator",
+  "metaTitle": "Team Name Generator — Cool, Funny & Creative Team Names | AllWordTools.com",
+  "metaDescription": "Generate thousands of cool, funny, creative, and professional team names for sports, work, pub trivia, esports, and gaming. Instant copy & filters.",
+  "eyebrow": "Name Generators",
+  "heading": "Team Name Generator",
+  "subheading": "Create standout team names for sports leagues, office projects, pub trivia, fantasy sports, and esports squads.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 5,
+  "intro": [
+    "A great team name builds camaraderie, strikes fear into your opponents, and makes every victory sweeter. Whether you need a hilarious pub quiz team name, a competitive esports squad title, a fantasy football identity, or an inspiring corporate workgroup name, our Team Name Generator delivers instant inspiration.",
+    "Filter by category—including sports, funny, cool, corporate, gaming, and trivia—or enter custom keywords to generate customized names tailored to your team's vibe and personality.",
+    "With one-click copying and endless variations, finding the perfect identity for your squad has never been easier."
+  ],
+  "howToTitle": "How to use the Team Name Generator",
+  "howToSteps": [
+    {
+      "title": "Select a category",
+      "detail": "Choose from Sports, Esports, Trivia, Funny, Corporate, or Badass styles."
+    },
+    {
+      "title": "Add keywords (optional)",
+      "detail": "Type a word or inside joke you want included in the team names."
+    },
+    {
+      "title": "Generate names",
+      "detail": "Click Generate to get a fresh batch of creative, themed team names."
+    },
+    {
+      "title": "Copy your favorite",
+      "detail": "Click on any name to copy it instantly to your clipboard."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "What Makes a Memorable Team Name?",
+      "paragraphs": [
+        "The best team names combine alliteration, wordplay, and strong imagery. For competitive teams, names that evoke speed, power, or resilience (like 'Apex Predators' or 'Velocity Vanguard') establish a fierce presence.",
+        "For casual and social teams, humorous puns or pop culture references (like 'Quizzy McQuizface' or 'Victorious Secret') break the ice and keep spirits high."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Category: Pub Trivia",
+      "output": "The Quizzards of Oz, Let's Get Quizzical, Smarty Pants",
+      "note": "Funny trivia team names."
+    },
+    {
+      "input": "Category: Esports",
+      "output": "Shadow Protocol, Cyber Vipers, Nexus Dynasty",
+      "note": "Competitive gaming tags."
+    },
+    {
+      "input": "Category: Work/Corporate",
+      "output": "Synergy Squad, The Milestone Mavericks, Data Dynamos",
+      "note": "Professional team titles."
+    }
+  ],
+  "tips": [
+    "Use alliteration (e.g. 'Pixel Pioneers') to make names catchy and easy to remember.",
+    "Keep it appropriate for your league or workplace setting.",
+    "Vote on a top 3 shortlist with your teammates before making the final choice."
+  ],
+  "faqs": [
+    {
+      "question": "Is the Team Name Generator free to use?",
+      "answer": "Yes, our team name generator is 100% free with unlimited name generations."
+    },
+    {
+      "question": "Can I include my own keywords?",
+      "answer": "Yes, enter any keyword, mascot name, or city to generate customized team names."
+    },
+    {
+      "question": "What categories are available?",
+      "answer": "Categories include Sports, Esports, Trivia, Funny, Corporate, Fantasy Leagues, and Badass."
+    }
+  ],
+  "related": [
+    "clan-name-generator",
+    "guild-name-generator",
+    "character-name-generator",
+    "robot-name-generator"
+  ],
+  "imagePrompts": [
+    "Vibrant team esports and sports logos with dynamic emblems and typography.",
+    "Group of friends celebrating trivia victory with a glowing team banner."
+  ]
+},
+
+  "robot-name-generator": {
+  "slug": "robot-name-generator",
+  "metaTitle": "Robot Name Generator — Cool, Sci-Fi & Android Robot Names | AllWordTools.com",
+  "metaDescription": "Generate cool, futuristic robot names, android designations, AI titles, and droid codenames for sci-fi stories, games, and OC characters.",
+  "eyebrow": "Name Generators",
+  "heading": "Robot Name Generator",
+  "subheading": "Create futuristic robotic codenames, android designations, AI model names, and cyborg aliases in seconds.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 5,
+  "intro": [
+    "Looking for the perfect sci-fi name for a robot companion, evil AI overlord, battle mech, or cybernetic android? The AllWordTools.com Robot Name Generator produces futuristic designations, acronyms, industrial serial numbers, and stylish character names suitable for sci-fi novels, RPGs, and game development.",
+    "From friendly domestic droids to battle-hardened war mechs, our generator creates names with authentic technological sound and sci-fi flair.",
+    "Completely free with unlimited generation and instant copying."
+  ],
+  "howToTitle": "How to use the Robot Name Generator",
+  "howToSteps": [
+    {
+      "title": "Select a robot archetype",
+      "detail": "Pick Android, Battle Mech, AI Assistant, Industrial Unit, or Cybernetic."
+    },
+    {
+      "title": "Set name format",
+      "detail": "Choose between full fictional names, alphanumeric acronyms, or model codenames."
+    },
+    {
+      "title": "Generate names",
+      "detail": "Press Generate to produce a list of authentic sci-fi robot names."
+    },
+    {
+      "title": "Copy and use",
+      "detail": "Click any name to copy it instantly for your story, game, or character sheet."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Types of Robot and AI Names",
+      "paragraphs": [
+        "Sci-fi naming conventions typically fall into three buckets: Acronym designations (e.g., A.T.L.A.S., C.O.R.E.), alphanumeric model numbers (e.g., Unit-734, Cyber-9), and humanized android names (e.g., Nova, Echo, Vector).",
+        "Matching your robot's name to its in-universe function creates deep world-building and character identity."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Type: Battle Mech",
+      "output": "Aegis-9, Iron Titan, V.O.R.T.E.X.-7, Dreadnought MK-IV",
+      "note": "Heavy combat robotic units."
+    },
+    {
+      "input": "Type: Android Companion",
+      "output": "Echo, Cipher, Spark-E, Ada Prime",
+      "note": "Intelligent companion droids."
+    },
+    {
+      "input": "Type: AI System",
+      "output": "OmniMind, Nexus Core, Chronos Intelligence",
+      "note": "Superintelligent mainframe AIs."
+    }
+  ],
+  "tips": [
+    "Combine an evocative prefix with a Roman numeral or model digit for authentic military mech names.",
+    "Backronyms (like P.R.O.T.O.) give fictional technologies depth and backstory.",
+    "Shorter, softer names suit friendly helper bots and personal AI assistants."
+  ],
+  "faqs": [
+    {
+      "question": "Can I use generated robot names in commercial games or books?",
+      "answer": "Yes, all generated names are royalty-free and available for your creative projects."
+    },
+    {
+      "question": "Can I generate acronym names?",
+      "answer": "Yes, the generator includes designated acronym and serial-number modes."
+    }
+  ],
+  "related": [
+    "alien-name-generator",
+    "clan-name-generator",
+    "team-name-generator",
+    "character-name-generator"
+  ],
+  "imagePrompts": [
+    "Futuristic glowing android face with holographic model designation HUD.",
+    "Concept art of a sci-fi battle robot standing in a cyberpunk laboratory."
+  ]
+},
+
+  "opposite-words": {
+  "slug": "opposite-words",
+  "metaTitle": "Opposite Words Finder — Antonyms Dictionary & Search Online | AllWordTools.com",
+  "metaDescription": "Free Opposite Words finder and antonym dictionary. Search any word to find direct opposites, contrasting terms, and antonym pairs instantly.",
+  "eyebrow": "Word Analysis",
+  "heading": "Opposite Words Finder",
+  "subheading": "Find direct opposites, complementary antonyms, and contrasting expressions for any English word.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 5,
+  "intro": [
+    "Finding the exact opposite of a word enriches your writing, sharpens contrast, and helps you express nuanced ideas clearly. Our Opposite Words Finder provides instant antonyms grouped by exact shade of meaning and part of speech.",
+    "Whether you're writing an essay, preparing for an English vocabulary exam (SAT, GRE, TOEFL), or looking for a contrasting metaphor, this tool queries a comprehensive linguistic database to return accurate opposite words immediately.",
+    "Free, clean, and mobile-friendly with no ads blocking your workflow."
+  ],
+  "howToTitle": "How to find opposite words",
+  "howToSteps": [
+    {
+      "title": "Enter a word",
+      "detail": "Type the word you want to find the opposite for in the search bar."
+    },
+    {
+      "title": "Search opposites",
+      "detail": "Click Find Opposites to query the antonym database."
+    },
+    {
+      "title": "Filter by context",
+      "detail": "Review opposites grouped by definition context (e.g., cold vs. hot, cold vs. friendly)."
+    },
+    {
+      "title": "Copy and learn",
+      "detail": "Click any word to copy or view its detailed definition."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Understanding Types of Antonyms",
+      "paragraphs": [
+        "Not all opposites work the same way. Binary antonyms (dead vs. alive) have no middle ground. Gradable antonyms (hot vs. cold) exist on a continuous spectrum (warm, lukewarm, cool). Relational antonyms (buy vs. sell, teacher vs. student) describe complementary perspectives.",
+        "Our tool helps you choose the right opposite depending on the exact degree of contrast your sentence requires."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Word: Generous",
+      "output": "Stingy, selfish, greedy, miserly",
+      "note": "Antonyms for character traits."
+    },
+    {
+      "input": "Word: Ancient",
+      "output": "Modern, contemporary, recent, new",
+      "note": "Time and era opposites."
+    },
+    {
+      "input": "Word: Complex",
+      "output": "Simple, basic, elementary, straightforward",
+      "note": "Clarity and structure opposites."
+    }
+  ],
+  "tips": [
+    "Check the part of speech to ensure your chosen antonym matches the grammar of your sentence.",
+    "Consider gradable opposites if you want subtle rather than extreme contrast."
+  ],
+  "faqs": [
+    {
+      "question": "What is an opposite word called?",
+      "answer": "An opposite word is called an antonym."
+    },
+    {
+      "question": "Is this opposite word dictionary free?",
+      "answer": "Yes, it is 100% free with no limits."
+    }
+  ],
+  "related": [
+    "antonym-finder",
+    "synonym-finder",
+    "similar-words",
+    "word-meaning"
+  ],
+  "imagePrompts": [
+    "Visual balance scale contrasting sun and moon, fire and ice, representing opposite concepts.",
+    "Minimalist dual-tone typography illustrating contrasting antonym words."
+  ]
+},
+
+  "similar-words": {
+  "slug": "similar-words",
+  "metaTitle": "Similar Word Finder & Generator — Related & Contextual Words | AllWordTools.com",
+  "metaDescription": "Find words with similar meanings, semantic associations, and related concepts to enrich your writing and expand your vocabulary. Free online tool.",
+  "eyebrow": "Word Analysis",
+  "heading": "Similar Word Finder",
+  "subheading": "Discover words with similar meanings, thematic connections, and stylistic alternatives for better writing.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 5,
+  "intro": [
+    "Avoiding repetitive vocabulary and finding the exact right nuance can make or break a piece of writing. The Similar Word Finder goes beyond basic synonyms by analyzing semantic similarity, contextual associations, and stylistic alternatives.",
+    "Enter any word or topic to explore a rich web of related words, helping you find stronger verbs, evocative adjectives, and domain-specific terminology.",
+    "Instant, free, and designed for writers, students, researchers, and poets."
+  ],
+  "howToTitle": "How to use the Similar Word Finder",
+  "howToSteps": [
+    {
+      "title": "Input a base word",
+      "detail": "Enter the word you want to find similar alternatives for."
+    },
+    {
+      "title": "Click Find Similar",
+      "detail": "Generate semantically related words and near-synonyms."
+    },
+    {
+      "title": "Explore categories",
+      "detail": "Browse words grouped by tone, formality, and nuance."
+    },
+    {
+      "title": "Select your word",
+      "detail": "Copy the word that fits your exact sentence context."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Why Context Matters for Similar Words",
+      "paragraphs": [
+        "Two words can have similar definitions but completely different emotional connotations or formality levels. For example, 'meticulous' and 'picky' describe attention to detail, but one sounds professional while the other sounds critical.",
+        "Our tool helps you evaluate tone and register so your writing resonates accurately with your audience."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Word: Fast",
+      "output": "Rapid, swift, brisk, expeditious, fleet",
+      "note": "Speed adjectives ranked by formality."
+    },
+    {
+      "input": "Word: Happy",
+      "output": "Joyful, ecstatic, content, elated, buoyant",
+      "note": "Emotional states."
+    }
+  ],
+  "tips": [
+    "Use formal similar words for academic papers and conversational ones for fiction.",
+    "Pair with our Collocation Finder to check how words naturally pair."
+  ],
+  "faqs": [
+    {
+      "question": "How does this differ from a regular thesaurus?",
+      "answer": "It includes conceptual and associative terms alongside strict synonyms to spark creative thinking."
+    }
+  ],
+  "related": [
+    "synonym-finder",
+    "opposite-words",
+    "collocation-finder",
+    "ai-word-explainer"
+  ],
+  "imagePrompts": [
+    "Mind map of interconnected glowing words branching out from a central concept.",
+    "Clean digital thesaurus interface with semantic similarity scores."
+  ]
+},
+
+  "collocation-finder": {
+  "slug": "collocation-finder",
+  "metaTitle": "Collocation Finder — Common Word Combinations & Natural Phrases | AllWordTools.com",
+  "metaDescription": "Discover common word collocations, natural phrase combinations, and preposition pairings used by native English speakers. Free online lookup.",
+  "eyebrow": "Text Analysis",
+  "heading": "Collocation Finder",
+  "subheading": "Search how words naturally combine in English sentences with verified collocations and examples.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 5,
+  "intro": [
+    "In English, certain words naturally pair together—for example, we say 'make a decision' (not 'do a decision') and 'heavy rain' (not 'strong rain'). These natural partnerships are called collocations.",
+    "Our Collocation Finder helps ESL learners, translators, and writers discover authentic word combinations, verb-noun pairings, and preposition usages.",
+    "Instant, comprehensive, and supported by real-world usage data."
+  ],
+  "howToTitle": "How to use the Collocation Finder",
+  "howToSteps": [
+    {
+      "title": "Enter a keyword",
+      "detail": "Type a noun, verb, or adjective you want to investigate."
+    },
+    {
+      "title": "Choose collocation type",
+      "detail": "Filter by Verb + Noun, Adjective + Noun, Noun + Preposition, etc."
+    },
+    {
+      "title": "Review pairings",
+      "detail": "See frequent natural combinations with example sentences."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "The Importance of Collocations in Natural Fluency",
+      "paragraphs": [
+        "Grammatically correct sentences can still sound awkward to native speakers if unnatural collocations are used. Learning collocations improves natural flow and prevents common translation errors."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Word: Decision",
+      "output": "Make a decision, reach a decision, reverse a decision, crucial decision",
+      "note": "Common verb and adjective collocations."
+    },
+    {
+      "input": "Word: Coffee",
+      "output": "Brew coffee, strong coffee, instant coffee, sip coffee",
+      "note": "Everyday beverage pairings."
+    }
+  ],
+  "tips": [
+    "Memorize words in collocation chunks rather than isolated definitions."
+  ],
+  "faqs": [
+    {
+      "question": "What is a collocation?",
+      "answer": "A collocation is a pair or group of words that habitually co-occur more frequently than expected by chance."
+    }
+  ],
+  "related": [
+    "phrases-dictionary",
+    "example-sentences",
+    "similar-words",
+    "grammar-checker"
+  ],
+  "imagePrompts": [
+    "Two puzzle pieces fitting together with words written on them representing collocations."
+  ]
+},
+
+  "word-ladder-solver": {
+  "slug": "word-ladder-solver",
+  "metaTitle": "Word Ladder Solver — Step-by-Step Word Transformation Finder | AllWordTools.com",
+  "metaDescription": "Solve word ladders and step puzzles by changing one letter at a time. Find the shortest valid word path between any start and target word.",
+  "eyebrow": "Puzzle Solvers",
+  "heading": "Word Ladder Solver",
+  "subheading": "Transform one word into another by changing a single letter per step using the shortest path.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 5,
+  "intro": [
+    "Invented by Lewis Carroll in 1877, a Word Ladder (also known as Doublets or Word-Links) challenges players to turn a starting word into a target word by changing exactly one letter at each step, with every intermediate step forming a valid dictionary word.",
+    "Our Word Ladder Solver uses graph search algorithms to compute the optimal, shortest solution path between any two words of equal length.",
+    "Free, instant, and guaranteed to find the minimum steps possible."
+  ],
+  "howToTitle": "How to use the Word Ladder Solver",
+  "howToSteps": [
+    {
+      "title": "Enter start word",
+      "detail": "Type your starting word (e.g., COLD)."
+    },
+    {
+      "title": "Enter end word",
+      "detail": "Type your destination word of equal length (e.g., WARM)."
+    },
+    {
+      "title": "Click Solve Ladder",
+      "detail": "Calculate the fastest step-by-step word progression."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Word Ladder Solving Algorithm",
+      "paragraphs": [
+        "Finding the shortest path in a word ladder involves treating the English dictionary as a graph where words differing by one letter share an edge. Our solver implements Breadth-First Search (BFS) to guarantee the shortest possible ladder."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "COLD to WARM",
+      "output": "COLD → CORD → CARD → WARD → WARM (4 steps)",
+      "note": "Classic 4-letter ladder puzzle."
+    },
+    {
+      "input": "CAT to DOG",
+      "output": "CAT → COT → DOT → DOG (3 steps)",
+      "note": "Short 3-letter ladder."
+    }
+  ],
+  "tips": [
+    "Focus on changing vowels first to access larger word clusters."
+  ],
+  "faqs": [
+    {
+      "question": "Must both words have the same length?",
+      "answer": "Yes, standard word ladder rules require all words in the sequence to have identical letter counts."
+    }
+  ],
+  "related": [
+    "wordscapes-solver",
+    "crossword-solver",
+    "anagram-solver",
+    "boggle-solver"
+  ],
+  "imagePrompts": [
+    "Ladder made of glowing letter tiles connecting two distinct words."
+  ]
+},
+
+  "codycross-answers": {
+  "slug": "codycross-answers",
+  "metaTitle": "CodyCross Answers & Solutions — All Worlds, Groups & Packs | AllWordTools.com",
+  "metaDescription": "Complete CodyCross answer directory and solution finder. Browse answers by Planet, World, Group, and Phase with instant search and clues.",
+  "eyebrow": "Puzzle Solvers",
+  "heading": "CodyCross Answers Directory",
+  "subheading": "Search all CodyCross levels, groups, and worlds with full clue definitions and verified answers.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 6,
+  "intro": [
+    "CodyCross: A General Knowledge Crossword Game takes players on a cosmic adventure through themed worlds. When you encounter a cryptic trivia question or miss a letter, our CodyCross Answers directory provides complete verified solutions.",
+    "Browse by World (Planet Earth, Under the Sea, Inventions, Medieval Times, etc.), Group, and Puzzle Phase, or use the quick search bar to find answers by clue.",
+    "100% free with all levels updated."
+  ],
+  "howToTitle": "How to find CodyCross answers",
+  "howToSteps": [
+    {
+      "title": "Select your world",
+      "detail": "Choose the theme world you are currently playing in."
+    },
+    {
+      "title": "Choose group & puzzle",
+      "detail": "Select the specific Group (e.g. Group 20) and Puzzle number."
+    },
+    {
+      "title": "View full board solution",
+      "detail": "See all across clues and the hidden vertical secret word revealed."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "How CodyCross Puzzles Are Structured",
+      "paragraphs": [
+        "Each CodyCross level contains horizontal trivia clues. As you fill in correct answers, vertical letters unlock across the board to reveal a special secret password."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "World: Planet Earth, Group 1, Puzzle 1",
+      "output": "All verified clue answers & secret word",
+      "note": "Introductory puzzle pack."
+    }
+  ],
+  "tips": [
+    "Solve horizontal clues with letters intersecting the secret column first."
+  ],
+  "faqs": [
+    {
+      "question": "Are all CodyCross answers included?",
+      "answer": "Yes, our directory covers standard worlds, weekly challenges, and special events."
+    }
+  ],
+  "related": [
+    "codycross-solver",
+    "crossword-solver",
+    "seven-little-words-solver",
+    "wheel-of-fortune-solver"
+  ],
+  "imagePrompts": [
+    "CodyCross alien character solving a futuristic crossword grid in space."
+  ]
+},
+
+  "wheel-of-fortune-solver": {
+  "slug": "wheel-of-fortune-solver",
+  "metaTitle": "Wheel of Fortune Solver — Solve Puzzle Boards & Proper Names | AllWordTools.com",
+  "metaDescription": "Free Wheel of Fortune puzzle board solver. Enter known letters, pattern lengths, and categories (Proper Name, Landmark, Phrase) to solve any board.",
+  "eyebrow": "Puzzle Solvers",
+  "heading": "Wheel of Fortune Solver",
+  "subheading": "Crack any Wheel of Fortune puzzle board with letter patterns, word length filters, and category clues.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 6,
+  "intro": [
+    "Wheel of Fortune is America's favorite TV game show puzzle. When you are watching at home or playing the mobile game, our Wheel of Fortune Solver helps you decipher the board before the contestants do!",
+    "Enter the blank board pattern with known letters, separate words by spaces, and optionally choose the category (Phrase, Proper Name, Landmark, Around the House, Before & After). The solver matches against known show solutions and linguistic phrase templates.",
+    "Free, instant, and mobile-optimized."
+  ],
+  "howToTitle": "How to use the Wheel of Fortune Solver",
+  "howToSteps": [
+    {
+      "title": "Enter the letter pattern",
+      "detail": "Use letters you see and ? for hidden blank tiles. Use spaces between words."
+    },
+    {
+      "title": "Exclude called letters",
+      "detail": "Add letters that were already guessed and ruled out."
+    },
+    {
+      "title": "Select Category",
+      "detail": "Choose the puzzle category for high-precision matching."
+    },
+    {
+      "title": "Solve the board",
+      "detail": "View matching phrases ranked by probability."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Common Wheel of Fortune Categories",
+      "paragraphs": [
+        "Puzzles in categories like 'Proper Name', 'Phrase', 'Living Thing', or 'Thing' follow specific English syntactical rhythms. Our solver accounts for multi-word phrase patterns to find the exact TV puzzle match."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Pattern: P???ER N??E (Category: Proper Name)",
+      "output": "PROPER NAME",
+      "note": "Multi-word pattern solver."
+    },
+    {
+      "input": "Pattern: W???L OF F??T??E",
+      "output": "WHEEL OF FORTUNE",
+      "note": "Title phrase match."
+    }
+  ],
+  "tips": [
+    "Call common consonants R, S, T, L, N, E first in bonus rounds."
+  ],
+  "faqs": [
+    {
+      "question": "Can it solve multi-word phrases?",
+      "answer": "Yes, just place a space between words in your search pattern."
+    }
+  ],
+  "related": [
+    "hangman-solver",
+    "codycross-solver",
+    "crossword-solver",
+    "missing-letters-finder"
+  ],
+  "imagePrompts": [
+    "Wheel of Fortune style glowing letter board with revealed vowels and consonants."
+  ]
+},
+
+  "word-cookies-solver": {
+  "slug": "word-cookies-solver",
+  "metaTitle": "Word Cookies Solver & Cheat — Unscramble All Word Cookie Answers | AllWordTools.com",
+  "metaDescription": "Free Word Cookies solver. Unscramble baking pan letters into all valid words and special words to beat every Word Cookies level instantly.",
+  "eyebrow": "Puzzle Solvers",
+  "heading": "Word Cookies Solver",
+  "subheading": "Unscramble your letter tray into all valid cookies, secret words, and bonus baker answers.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 5,
+  "intro": [
+    "Word Cookies is an addictive word scramble game by BitMango where players serve up delicious cookies by connecting letters on a baking pan. When you're missing that last 4-letter or 5-letter cookie to clear the chef level, our solver has you covered.",
+    "Enter your pan letters and see all valid words grouped by length, complete with bonus words that award extra points.",
+    "Free, clean, and lightning fast on all smartphones."
+  ],
+  "howToTitle": "How to use the Word Cookies Solver",
+  "howToSteps": [
+    {
+      "title": "Enter your letters",
+      "detail": "Type the letters visible on your cookie pan."
+    },
+    {
+      "title": "Filter by word length",
+      "detail": "Check the blank cookie slots on your screen to match word lengths."
+    },
+    {
+      "title": "Solve words",
+      "detail": "View all playable words organized from longest to shortest."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Earning Extra Points with Bonus Cookies",
+      "paragraphs": [
+        "Every Word Cookies level has hidden 'bonus words' that aren't on the main plate but reward you with extra coins when discovered. Our solver lists all valid dictionary anagrams so you never leave coins on the table."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Letters: B A K E R",
+      "output": "BAKER, BARK, BEAK, BARE, BAKE, BRAE, BEAR...",
+      "note": "5-letter chef level."
+    }
+  ],
+  "tips": [
+    "Look for short 3-letter base words first, then attach plurals (-S) or past tense (-ED)."
+  ],
+  "faqs": [
+    {
+      "question": "Does this include bonus words?",
+      "answer": "Yes, all possible valid words are returned."
+    }
+  ],
+  "related": [
+    "wordscapes-solver",
+    "text-twist-solver",
+    "word-unscrambler",
+    "anagram-solver"
+  ],
+  "imagePrompts": [
+    "Cookie tray with gingerbread letter tiles spelling out words in a cozy bakery."
+  ]
+},
+
+  "random-paragraph-generator": {
+  "slug": "random-paragraph-generator",
+  "metaTitle": "Random Paragraph Generator — Free Creative Writing & Placeholder Text | AllWordTools.com",
+  "metaDescription": "Generate random, coherent paragraphs for writing prompts, reading practice, filler text, and creative inspiration. Customize length and style.",
+  "eyebrow": "Random Generators",
+  "heading": "Random Paragraph Generator",
+  "subheading": "Create random paragraphs of creative fiction, descriptive scenes, or realistic placeholder text instantly.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 4,
+  "intro": [
+    "Need a creative writing prompt, realistic placeholder text for web design, typing test material, or reading comprehension practice? The AllWordTools.com Random Paragraph Generator generates grammatically rich, interesting paragraphs on demand.",
+    "Unlike boring 'Lorem Ipsum' dummy text, our generated paragraphs contain real English prose across descriptive, narrative, sci-fi, and everyday themes.",
+    "100% free with one-click copying and custom paragraph count options."
+  ],
+  "howToTitle": "How to generate random paragraphs",
+  "howToSteps": [
+    {
+      "title": "Select paragraph count",
+      "detail": "Choose how many paragraphs you want to create (1 to 10)."
+    },
+    {
+      "title": "Pick a style",
+      "detail": "Select Creative Fiction, Narrative, Descriptive, or Informative."
+    },
+    {
+      "title": "Click Generate",
+      "detail": "Instantly receive fresh, readable paragraphs."
+    },
+    {
+      "title": "Copy text",
+      "detail": "Copy the output directly to your clipboard."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Uses for Random Paragraphs",
+      "paragraphs": [
+        "Writers use random paragraphs to overcome writer's block by using a random passage as a story starter. Designers use real-text paragraphs to test typography layouts, and language learners practice reading fluency."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Count: 1, Style: Descriptive",
+      "output": "The old lighthouse stood resilient against the crashing Atlantic tide...",
+      "note": "Atmospheric creative prose."
+    }
+  ],
+  "tips": [
+    "Use random paragraphs as a 5-minute daily creative writing warmup."
+  ],
+  "faqs": [
+    {
+      "question": "Is the text copyright-free?",
+      "answer": "Yes, all generated text is free to use for personal and commercial projects."
+    }
+  ],
+  "related": [
+    "random-sentence-generator",
+    "random-word-generator",
+    "ai-story-generator",
+    "ai-poem-generator"
+  ],
+  "imagePrompts": [
+    "Open book with glowing creative prose floating off the pages in golden light."
+  ]
+},
+
+  "random-letter-generator": {
+  "slug": "random-letter-generator",
+  "metaTitle": "Random Letter Generator — Pick Random Letters with No Repeats | AllWordTools.com",
+  "metaDescription": "Generate random letters from the alphabet (A-Z) with custom quantity, casing, and repeat options for games, classroom, and sampling.",
+  "eyebrow": "Random Generators",
+  "heading": "Random Letter Generator",
+  "subheading": "Pick truly random letters from the English alphabet with custom filters for vowels, consonants, and uniqueness.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 4,
+  "intro": [
+    "The Random Letter Generator is an essential utility for classroom games (like Scattergories or Stop the Bus), spelling bees, probability experiments, and creative brainstorming.",
+    "Select the exact number of letters, choose uppercase or lowercase, allow or prevent duplicates, or restrict generation to vowels or consonants only.",
+    "Free, instant, and runs entirely in your browser."
+  ],
+  "howToTitle": "How to generate random letters",
+  "howToSteps": [
+    {
+      "title": "Set quantity",
+      "detail": "Choose how many letters you need (from 1 to 26)."
+    },
+    {
+      "title": "Configure options",
+      "detail": "Toggle duplicate prevention, uppercase/lowercase, or vowel/consonant filters."
+    },
+    {
+      "title": "Generate letters",
+      "detail": "Click Generate to display random alphabet letters instantly."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "True Randomness for Board Games",
+      "paragraphs": [
+        "Our generator uses cryptographically secure random number generators (CSPRNG) to guarantee fair, unbiased letter selection for competitive games."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Count: 5, Unique: True",
+      "output": "M, K, R, B, W",
+      "note": "5 distinct consonants/vowels."
+    }
+  ],
+  "tips": [
+    "Turn on 'No Repeats' for word games like Scattergories."
+  ],
+  "faqs": [
+    {
+      "question": "Can I generate only vowels?",
+      "answer": "Yes, you can filter for vowels only (A, E, I, O, U) or consonants only."
+    }
+  ],
+  "related": [
+    "random-word-generator",
+    "letter-counter",
+    "vowel-counter",
+    "consonant-counter"
+  ],
+  "imagePrompts": [
+    "3D wooden alphabet dice tumbling in the air with illuminated letters."
+  ]
+},
+
+  "alliteration-generator": {
+  "slug": "alliteration-generator",
+  "metaTitle": "Alliteration Generator — Create Catchy Alliterative Phrases | AllWordTools.com",
+  "metaDescription": "Generate catchy alliterations, tongue-twisting phrases, and brand names with matching initial consonant sounds. Free online tool.",
+  "eyebrow": "Creative Writing",
+  "heading": "Alliteration Generator",
+  "subheading": "Create poetic phrases, catchy brand slogans, and literary expressions with matching consonant sounds.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 5,
+  "intro": [
+    "Alliteration is the repetition of the same initial consonant sound in a series of words (e.g. 'Peter Piper picked a peck of pickled peppers'). It is widely used in poetry, advertising, song lyrics, and superhero names (Peter Parker, Bruce Banner).",
+    "Our Alliteration Generator pairs adjectives, verbs, and nouns that start with your chosen sound to produce catchy, memorable phrases.",
+    "Free, fast, and inspiring for poets, copywriters, and marketers."
+  ],
+  "howToTitle": "How to create alliterations",
+  "howToSteps": [
+    {
+      "title": "Choose a letter",
+      "detail": "Pick the starting letter or consonant sound you want to build upon."
+    },
+    {
+      "title": "Select phrase length",
+      "detail": "Choose between 2-word, 3-word, or full-sentence alliterations."
+    },
+    {
+      "title": "Generate & explore",
+      "detail": "Receive a list of catchy alliterative combinations."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "The Power of Alliteration in Marketing and Poetry",
+      "paragraphs": [
+        "Human memory naturally latches onto rhythm and sound repetition. Brands like Coca-Cola, PayPal, and Best Buy use alliteration because it is 40% easier for customers to recall."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Letter: S",
+      "output": "Silent shadows softly slip, Silver stars shine bright",
+      "note": "Poetic alliteration."
+    },
+    {
+      "input": "Letter: B",
+      "output": "Brave bold bears build bridges",
+      "note": "Consonant repetition."
+    }
+  ],
+  "tips": [
+    "Focus on matching sound, not just spelling (e.g., 'Circle' sounds like 'S', not 'C')."
+  ],
+  "faqs": [
+    {
+      "question": "What is alliteration vs assonance?",
+      "answer": "Alliteration repeats initial consonant sounds, while assonance repeats internal vowel sounds."
+    }
+  ],
+  "related": [
+    "assonance-finder",
+    "tongue-twister-generator",
+    "rhyming-words",
+    "ai-poem-generator"
+  ],
+  "imagePrompts": [
+    "Artistic typography with swirling stylized letters repeating in a rhythmic wave."
+  ]
+},
+
+  "cat-name-generator": {
+  "slug": "cat-name-generator",
+  "metaTitle": "Cat Name Generator — Cute, Unique & Funny Names for Cats & Kittens | AllWordTools.com",
+  "metaDescription": "Generate thousands of cute, aesthetic, funny, and unique cat names by gender, breed personality, and theme. Instant copy & filters.",
+  "eyebrow": "Name Generators",
+  "heading": "Cat Name Generator",
+  "subheading": "Discover the perfect name for your new kitten or cat based on color, personality, and style.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 5,
+  "intro": [
+    "Welcoming a new feline friend into your home? The Cat Name Generator helps you discover hundreds of adorable, regal, funny, and unique cat names tailored to your kitten's personality, coat color, and gender.",
+    "Browse names inspired by food, mythology, celestial bodies, and classic pop culture.",
+    "100% free with instant one-click copying."
+  ],
+  "howToTitle": "How to find cat names",
+  "howToSteps": [
+    {
+      "title": "Choose gender",
+      "detail": "Select Male, Female, or Gender-Neutral."
+    },
+    {
+      "title": "Pick a theme",
+      "detail": "Filter by Cute, Aesthetic, Mythological, Food-inspired, or Badass."
+    },
+    {
+      "title": "Generate names",
+      "detail": "Click Generate to see dozens of tailored cat names."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Choosing a Name Your Cat Will Recognize",
+      "paragraphs": [
+        "Feline behaviorists suggest that cats respond best to 1- or 2-syllable names ending with a high-frequency vowel sound (like 'Mochi', 'Cleo', or 'Luna')."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Theme: Food, Gender: Female",
+      "output": "Mochi, Pepper, Cannoli, Biscuit, Waffles",
+      "note": "Cute food names."
+    },
+    {
+      "input": "Theme: Mythological",
+      "output": "Loki, Apollo, Freya, Athena, Zeus",
+      "note": "Epic names."
+    }
+  ],
+  "tips": [
+    "Test the name out loud for a few days to see if your cat responds to its tone."
+  ],
+  "faqs": [
+    {
+      "question": "Are cat names grouped by color?",
+      "answer": "Yes, you can filter for black cats, orange cats, white cats, and tabby cats."
+    }
+  ],
+  "related": [
+    "dog-name-generator",
+    "clan-name-generator",
+    "character-name-generator",
+    "team-name-generator"
+  ],
+  "imagePrompts": [
+    "Cute ginger kitten playing with a golden yarn ball on a cozy woolen blanket."
+  ]
+},
+
+  "dog-name-generator": {
+  "slug": "dog-name-generator",
+  "metaTitle": "Dog Name Generator — Cute, Strong & Unique Names for Dogs & Puppies | AllWordTools.com",
+  "metaDescription": "Find the perfect puppy name with our dog name generator. Filter by personality, size, gender, and cool themes for all dog breeds.",
+  "eyebrow": "Name Generators",
+  "heading": "Dog Name Generator",
+  "subheading": "Find memorable, easy-to-train dog names for your new puppy or rescue dog.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 5,
+  "intro": [
+    "Naming your dog is one of the most exciting parts of bringing a new pet home. The Dog Name Generator helps you discover strong, friendly, humorous, and timeless dog names suited for any breed.",
+    "Filter by gender, size (small, medium, giant), and style (tough, royal, nature-inspired, funny).",
+    "Free and easy to use on any device."
+  ],
+  "howToTitle": "How to generate dog names",
+  "howToSteps": [
+    {
+      "title": "Select dog gender",
+      "detail": "Pick Male, Female, or Unisex."
+    },
+    {
+      "title": "Select vibe or size",
+      "detail": "Choose Tough, Classic, Nature, or Funny."
+    },
+    {
+      "title": "Generate and save",
+      "detail": "Generate a list and save your top favorites."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Tips for Training-Friendly Dog Names",
+      "paragraphs": [
+        "Short two-syllable names with distinct consonants (like 'Bella', 'Cooper', or 'Rocky') are easiest for dogs to distinguish from everyday household speech and training commands."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Gender: Male, Style: Strong",
+      "output": "Titan, Bear, Thor, Maverick, Diesel",
+      "note": "Powerful dog names."
+    },
+    {
+      "input": "Gender: Female, Style: Sweet",
+      "output": "Daisy, Willow, Honey, Luna, Rosie",
+      "note": "Classic puppy names."
+    }
+  ],
+  "tips": [
+    "Avoid names that sound like commands (e.g. 'Bo' sounds like 'No', 'Fletch' sounds like 'Fetch')."
+  ],
+  "faqs": [
+    {
+      "question": "Is the Dog Name Generator free?",
+      "answer": "Yes, it is completely free to generate unlimited dog names."
+    }
+  ],
+  "related": [
+    "cat-name-generator",
+    "character-name-generator",
+    "team-name-generator",
+    "clan-name-generator"
+  ],
+  "imagePrompts": [
+    "Happy golden retriever puppy sitting in a green sunny park wearing a red collar."
+  ]
+},
+
+  "guild-name-generator": {
+  "slug": "guild-name-generator",
+  "metaTitle": "Guild Name Generator — Cool Guild Names with Keywords & Tags | AllWordTools.com",
+  "metaDescription": "Generate epic, medieval, fantasy, and competitive guild names with custom keywords for MMOs, RPGs, and gaming clans. Free online tool.",
+  "eyebrow": "Name Generators",
+  "heading": "Guild Name Generator",
+  "subheading": "Create legendary guild and alliance names for World of Warcraft, FFXIV, Lost Ark, Elder Scrolls, and MMOs.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 5,
+  "intro": [
+    "Lead your gaming guild to glory with an imposing, lore-friendly, or hilarious guild name! Our Guild Name Generator combines fantasy prefixes, heraldic titles, and competitive gaming terminology.",
+    "Filter by genre: Fantasy Medieval, Sci-Fi Alliance, Dark Syndicate, Competitive PvP, or Casual Social.",
+    "Free with instant copy and keyword customization."
+  ],
+  "howToTitle": "How to use the Guild Name Generator",
+  "howToSteps": [
+    {
+      "title": "Select a genre",
+      "detail": "Choose Fantasy, Cyberpunk, Medieval, or Competitive."
+    },
+    {
+      "title": "Add a keyword (optional)",
+      "detail": "Enter an element, beast, or realm name."
+    },
+    {
+      "title": "Generate guild names",
+      "detail": "View instant options for guild titles and acronym tags."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "What Makes a Great MMO Guild Name?",
+      "paragraphs": [
+        "A great guild name conveys status and purpose. PvP guilds often favor aggressive verbs and shadows ('Vengeance', 'Crimson Vanguard'), while raid guilds favor mastery and eternity ('Immortal', 'Epoch', 'Aeterna')."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Genre: Fantasy",
+      "output": "The Silver Hand, Dragonfire Covenant, Astral Vanguard",
+      "note": "Epic fantasy guilds."
+    },
+    {
+      "input": "Genre: Dark Syndicate",
+      "output": "Shadow Syndicate, Bloodmoon Eclipse, Void Walkers",
+      "note": "Rogue & PvP alliances."
+    }
+  ],
+  "tips": [
+    "Check in-game character length limits before finalizing your guild registration."
+  ],
+  "faqs": [
+    {
+      "question": "Can I enter my own keywords?",
+      "answer": "Yes, incorporate your server, game realm, or mascot into the generated names."
+    }
+  ],
+  "related": [
+    "clan-name-generator",
+    "team-name-generator",
+    "character-name-generator",
+    "knight-name-generator"
+  ],
+  "imagePrompts": [
+    "Majestic medieval heraldic banner with crossed swords, dragon crest, and gold filigree."
+  ]
+},
+
+  "character-name-generator": {
+  "slug": "character-name-generator",
+  "metaTitle": "Character Name Generator — Unique Names for Stories, RPGs & Fiction | AllWordTools.com",
+  "metaDescription": "Generate unique character first and last names for fantasy novels, fiction writing, D&D campaigns, and tabletop RPGs. Instant inspiration.",
+  "eyebrow": "Name Generators",
+  "heading": "Character Name Generator",
+  "subheading": "Generate immersive names for fictional characters, novel protagonists, antagonists, and RPG campaigns.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 5,
+  "intro": [
+    "Finding the right name gives a character life, history, and voice. Our Character Name Generator creates authentic first and last names across diverse genres: Realistic Modern, Epic Fantasy, Historical, Cyberpunk, and Sci-Fi.",
+    "Perfect for novelists, screenwriters, Dungeons & Dragons dungeon masters, and game developers.",
+    "Free with unlimited creative variations."
+  ],
+  "howToTitle": "How to generate character names",
+  "howToSteps": [
+    {
+      "title": "Choose a setting",
+      "detail": "Select Modern, Fantasy, Victorian, Sci-Fi, or Medieval."
+    },
+    {
+      "title": "Select gender",
+      "detail": "Choose Male, Female, or Non-Binary."
+    },
+    {
+      "title": "Generate names",
+      "detail": "View balanced first names, surnames, and noble titles."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Crafting Believable Fictional Names",
+      "paragraphs": [
+        "A character's name should reflect their background, social status, and personality traits without being overly distracting. Our tool balances exotic phonetics with readability."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Genre: Fantasy",
+      "output": "Eldrin Blackwood, Lysandra Dawnseeker, Thorne Valerius",
+      "note": "Epic fantasy heroes."
+    },
+    {
+      "input": "Genre: Modern",
+      "output": "Julian Vance, Clara Montgomery, Ethan Walker",
+      "note": "Contemporary fiction names."
+    }
+  ],
+  "tips": [
+    "Avoid giving major characters names that start with the same letter to prevent reader confusion."
+  ],
+  "faqs": [
+    {
+      "question": "Are these names safe to use in published books?",
+      "answer": "Yes, all generated character names are 100% royalty-free for your commercial and creative works."
+    }
+  ],
+  "related": [
+    "knight-name-generator",
+    "witch-name-generator",
+    "alien-name-generator",
+    "demon-name-generator"
+  ],
+  "imagePrompts": [
+    "Fantasy adventurer character sheet with quill pen, parchment, and character portrait."
+  ]
+},
+
+  "demon-name-generator": {
+  "slug": "demon-name-generator",
+  "metaTitle": "Demon Name Generator — Dark, Infernal & Occult Names | AllWordTools.com",
+  "metaDescription": "Generate sinister, terrifying, and dark demon names for D&D, fantasy novels, video games, and occult villains. Free generator.",
+  "eyebrow": "Name Generators",
+  "heading": "Demon Name Generator",
+  "subheading": "Create terrifying infernal names, demonic titles, and underworld overlord aliases.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 4,
+  "intro": [
+    "Writing a dark fantasy story, D&D campaign, or horror screenplay? The Demon Name Generator crafts ominous, infernal names drawing from ancient mythological tongues, guttural phonetics, and abyssal lore.",
+    "Free, instant, and terrifyingly atmospheric."
+  ],
+  "howToTitle": "How to generate demon names",
+  "howToSteps": [
+    {
+      "title": "Select demon rank",
+      "detail": "Choose Lesser Fiend, Archdemon, Abyssal Lord, or Shadow Demon."
+    },
+    {
+      "title": "Generate names",
+      "detail": "Receive dozens of dark, guttural names with sinister titles."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Anatomy of an Abyssal Name",
+      "paragraphs": [
+        "Demonic naming conventions often incorporate sharp consonants (Z, K, X, TH), apostrophes, and menacing epithets like 'the Soulrender' or 'Lord of Embers'."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Rank: Archdemon",
+      "output": "Malakor the Defiler, Azazoth, Vexarion Bloodthorn",
+      "note": "High-tier fiends."
+    }
+  ],
+  "tips": [
+    "Pair a guttural first name with an evocative title for maximum dread."
+  ],
+  "faqs": [
+    {
+      "question": "Can I use these for D&D bosses?",
+      "answer": "Yes, perfect for fiends, warlocks, and underworld deities."
+    }
+  ],
+  "related": [
+    "vampire-name-generator",
+    "witch-name-generator",
+    "character-name-generator",
+    "alien-name-generator"
+  ],
+  "imagePrompts": [
+    "Demonic entity emerging from crimson smoke with glowing horns and dark aura."
+  ]
+},
+
+  "alien-name-generator": {
+  "slug": "alien-name-generator",
+  "metaTitle": "Alien Name Generator — Sci-Fi Species, Planets & Extraterrestrial Names | AllWordTools.com",
+  "metaDescription": "Generate exotic, otherworldly alien names, extraterrestrial species titles, and sci-fi character names for stories and games.",
+  "eyebrow": "Name Generators",
+  "heading": "Alien Name Generator",
+  "subheading": "Generate exotic extraterrestrial names, alien race designations, and interstellar character identities.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 4,
+  "intro": [
+    "Create truly extraterrestrial names with unique phonetic rhythms for sci-fi fiction, space operas, stellar strategy games, and tabletop adventures.",
+    "Filter between insectoid, reptilian, ethereal, and humanoid alien naming structures."
+  ],
+  "howToTitle": "How to use the Alien Name Generator",
+  "howToSteps": [
+    {
+      "title": "Select alien style",
+      "detail": "Pick Ethereal, Cyber-Organic, Guttural, or Regal alien phonetics."
+    },
+    {
+      "title": "Click Generate",
+      "detail": "Get unique sci-fi names instantly."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Designing Extraterrestrial Languages",
+      "paragraphs": [
+        "Alien names reflect planetary biology and culture, from melodic resonant vowels to clicking consonants."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Style: Ethereal",
+      "output": "Xylarion, Zephyra-9, Vael'kor, Thraxis",
+      "note": "Sci-fi extraterrestrial names."
+    }
+  ],
+  "tips": [
+    "Use apostrophes sparingly to denote glottal stops in extraterrestrial speech."
+  ],
+  "faqs": [
+    {
+      "question": "Is this tool free?",
+      "answer": "Yes, 100% free with unlimited generation."
+    }
+  ],
+  "related": [
+    "robot-name-generator",
+    "character-name-generator",
+    "demon-name-generator",
+    "team-name-generator"
+  ],
+  "imagePrompts": [
+    "Futuristic alien cityscape with towering bio-luminescent spires under two moons."
+  ]
+},
+
+  "witch-name-generator": {
+  "slug": "witch-name-generator",
+  "metaTitle": "Witch Name Generator — Magical, Pagan & Coven Names | AllWordTools.com",
+  "metaDescription": "Generate enchanting, dark, and mystical witch names, pagan titles, and coven aliases for fantasy writing and RPGs.",
+  "eyebrow": "Name Generators",
+  "heading": "Witch Name Generator",
+  "subheading": "Discover mystical, herbal, and arcane names for witches, sorceresses, and coven leaders.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 4,
+  "intro": [
+    "Find enchanting names inspired by nature, folklore, astrology, and dark magic for fantasy heroines, villains, and pagan characters."
+  ],
+  "howToTitle": "How to generate witch names",
+  "howToSteps": [
+    {
+      "title": "Choose a tradition",
+      "detail": "Select Green Witch, Dark Sorceress, Celestial Witch, or Folk Healer."
+    },
+    {
+      "title": "Generate names",
+      "detail": "Receive enchanting first names and botanical surnames."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Folklore Witch Naming Traditions",
+      "paragraphs": [
+        "Witch names often combine archaic first names with botanical or celestial surnames (Nightshade, Ravenwood)."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Style: Green Witch",
+      "output": "Rowan Nightshade, Morwenna Thorne, Hazel Blackthorn",
+      "note": "Herbal botanical names."
+    }
+  ],
+  "tips": [
+    "Incorporate lunar and plant-based elements for authentic witch lore."
+  ],
+  "faqs": [
+    {
+      "question": "Can I use these for D&D spellcasters?",
+      "answer": "Yes, ideal for warlocks, sorcerers, and druids."
+    }
+  ],
+  "related": [
+    "vampire-name-generator",
+    "demon-name-generator",
+    "knight-name-generator",
+    "character-name-generator"
+  ],
+  "imagePrompts": [
+    "Mystical witch brewing glowing purple potions in an enchanted forest cottage."
+  ]
+},
+
+  "knight-name-generator": {
+  "slug": "knight-name-generator",
+  "metaTitle": "Knight Name Generator — Noble, Medieval & Paladin Titles | AllWordTools.com",
+  "metaDescription": "Generate noble knight names, chivalric titles, and medieval warrior names for Arthurian legends, D&D paladins, and historical fiction.",
+  "eyebrow": "Name Generators",
+  "heading": "Knight Name Generator",
+  "subheading": "Create noble medieval knight names with chivalric honorifics, titles, and house names.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 4,
+  "intro": [
+    "Create legendary knights, crusaders, and paladins with authentic medieval titles ('Sir Galahad the Valiant', 'Lady Brienne of the Oak')."
+  ],
+  "howToTitle": "How to generate knight names",
+  "howToSteps": [
+    {
+      "title": "Select gender & allegiance",
+      "detail": "Choose Male, Female, Crusader, or Dark Knight."
+    },
+    {
+      "title": "Generate titles",
+      "detail": "Receive complete noble names with epithets."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Chivalric Epithets and House Names",
+      "paragraphs": [
+        "Medieval knights were known as much by their deeds ('the Brave', 'the Lionheart') as their birth names."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Allegiance: Chivalric",
+      "output": "Sir Cedric of Valoria, Dame Elenor the Steadfast",
+      "note": "Noble medieval knights."
+    }
+  ],
+  "tips": [
+    "Add 'the Bold' or 'of [Homeland]' to give knights instant pedigree."
+  ],
+  "faqs": [
+    {
+      "question": "Is this suitable for historical fiction?",
+      "answer": "Yes, names are inspired by Anglo-Norman and medieval chivalric history."
+    }
+  ],
+  "related": [
+    "guild-name-generator",
+    "character-name-generator",
+    "clan-name-generator",
+    "witch-name-generator"
+  ],
+  "imagePrompts": [
+    "Noble knight in polished silver plate armor holding a glowing broadsword before a castle."
+  ]
+},
+
+  "vampire-name-generator": {
+  "slug": "vampire-name-generator",
+  "metaTitle": "Vampire Name Generator — Gothic, Aristocratic & Ancient Vampire Names | AllWordTools.com",
+  "metaDescription": "Generate aristocratic, gothic, and ancient vampire names and bloodline titles for fiction, RPGs, and dark fantasy.",
+  "eyebrow": "Name Generators",
+  "heading": "Vampire Name Generator",
+  "subheading": "Generate elegant gothic names, vampire lord titles, and immortal bloodline dynasties.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 4,
+  "intro": [
+    "Discover sophisticated, dark, and romantic vampire names inspired by Victorian gothic literature, Eastern European nobility, and modern urban fantasy."
+  ],
+  "howToTitle": "How to generate vampire names",
+  "howToSteps": [
+    {
+      "title": "Select era",
+      "detail": "Choose Victorian Gothic, Ancient Elder, or Modern Day."
+    },
+    {
+      "title": "Generate names",
+      "detail": "View elegant names with noble surnames."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Gothic and Aristocratic Allure",
+      "paragraphs": [
+        "Vampire names balance elegance and danger, blending aristocratic heritage with dark, timeless aesthetics."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Era: Victorian Gothic",
+      "output": "Lord Alistair Von Drake, Countess Carmilla De Clare",
+      "note": "Aristocratic gothic vampires."
+    }
+  ],
+  "tips": [
+    "Eastern European prefixes like 'Von' and 'De' add aristocratic historical weight."
+  ],
+  "faqs": [
+    {
+      "question": "Can I use these for Vampire: The Masquerade?",
+      "answer": "Yes, great for clans across all sects."
+    }
+  ],
+  "related": [
+    "witch-name-generator",
+    "demon-name-generator",
+    "character-name-generator",
+    "clan-name-generator"
+  ],
+  "imagePrompts": [
+    "Aristocratic vampire holding a goblet of red wine in a candlelit gothic manor."
+  ]
+},
+
+  "daily-word": {
+  "slug": "daily-word",
+  "metaTitle": "Daily Word — Discover a Fascinating New Word Every Day | AllWordTools.com",
+  "metaDescription": "Expand your vocabulary daily with curated rare words, clear definitions, etymology, and example sentences. Free daily word learning.",
+  "eyebrow": "Vocabulary & Learning",
+  "heading": "Daily Word",
+  "subheading": "A daily dose of linguistic discovery with beautiful, rare, and sophisticated English words.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 4,
+  "intro": [
+    "Build a powerful vocabulary one day at a time. Every day we feature a hand-picked word with its pronunciation, root origin, definition, and practical usage examples."
+  ],
+  "howToTitle": "How to use Daily Word",
+  "howToSteps": [
+    {
+      "title": "Check the word of today",
+      "detail": "Read today's featured word and its pronunciation."
+    },
+    {
+      "title": "Learn meaning & origin",
+      "detail": "Discover the historical Latin, Greek, or Old English etymology."
+    },
+    {
+      "title": "See sentence examples",
+      "detail": "Understand how to use the word naturally in conversation."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "The Power of Incremental Learning",
+      "paragraphs": [
+        "Learning just one new word every day adds 365 sophisticated words to your lexicon every year."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Today's Word: Petrichor",
+      "output": "Noun: The pleasant, earthy scent produced when rain falls on dry soil.",
+      "note": "Sensory nature word."
+    }
+  ],
+  "tips": [
+    "Try using today's word in a conversation or email before the day ends."
+  ],
+  "faqs": [
+    {
+      "question": "When does the daily word update?",
+      "answer": "The word updates automatically at midnight every day."
+    }
+  ],
+  "related": [
+    "word-of-the-day",
+    "vocabulary-quiz",
+    "ai-word-explainer",
+    "word-meaning"
+  ],
+  "imagePrompts": [
+    "Calendar page displaying a glowing calligraphy word with definitions and floral accents."
+  ]
+},
+
+  "word-of-the-day": {
+  "slug": "word-of-the-day",
+  "metaTitle": "Word of the Day — Expand Vocabulary Daily with Definitions & Audio | AllWordTools.com",
+  "metaDescription": "Learn a new word every day with audio pronunciation, precise definitions, synonyms, and etymology. Free Word of the Day tool.",
+  "eyebrow": "Vocabulary & Learning",
+  "heading": "Word of the Day",
+  "subheading": "Enrich your speaking and writing with a new vocabulary word every single day.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 4,
+  "intro": [
+    "Never stop learning. Our Word of the Day delivers curated academic, literary, and expressive words to elevate your communication skills."
+  ],
+  "howToTitle": "How to learn with Word of the Day",
+  "howToSteps": [
+    {
+      "title": "Listen to pronunciation",
+      "detail": "Hear accurate audio pronunciation."
+    },
+    {
+      "title": "Review definitions",
+      "detail": "Study primary and secondary meanings."
+    },
+    {
+      "title": "Practice in sentences",
+      "detail": "Review contextual usage examples."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Why Expanding Vocabulary Matters",
+      "paragraphs": [
+        "A wider vocabulary allows you to think more clearly and express complex thoughts with precision."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Word: Serendipity",
+      "output": "The occurrence of finding valuable or agreeable things not sought for.",
+      "note": "Classic literary word."
+    }
+  ],
+  "tips": [
+    "Bookmark this page to check your new word with your morning coffee."
+  ],
+  "faqs": [
+    {
+      "question": "Is audio pronunciation available?",
+      "answer": "Yes, listen with our integrated crystal-clear audio player."
+    }
+  ],
+  "related": [
+    "daily-word",
+    "ai-word-explainer",
+    "vocabulary-quiz",
+    "pronunciation"
+  ],
+  "imagePrompts": [
+    "Elegant open dictionary illuminated by warm morning sunlight."
+  ]
+},
+
+  "spelling-quiz": {
+  "slug": "spelling-quiz",
+  "metaTitle": "Spelling Quiz — Test & Improve Your English Spelling Online | AllWordTools.com",
+  "metaDescription": "Take free interactive spelling quizzes to master commonly misspelled words, silent letters, and tricky spelling rules. Instant scoring & explanations.",
+  "eyebrow": "Word Quizzes",
+  "heading": "Spelling Quiz",
+  "subheading": "Challenge yourself with tricky English spelling tests and eliminate common spelling mistakes.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 5,
+  "intro": [
+    "English spelling is notoriously irregular with silent letters, double consonants, and borrowed foreign roots. Our interactive Spelling Quiz helps you identify your weak spots and master tricky words."
+  ],
+  "howToTitle": "How to take the Spelling Quiz",
+  "howToSteps": [
+    {
+      "title": "Select difficulty",
+      "detail": "Choose Beginner, Intermediate, or Advanced."
+    },
+    {
+      "title": "Identify the correct spelling",
+      "detail": "Select the correctly spelled word from four tricky options."
+    },
+    {
+      "title": "Review explanations",
+      "detail": "Learn the spelling rule and memory tricks behind every word."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Mastering Commonly Misspelled Words",
+      "paragraphs": [
+        "Words like 'definitely', 'accommodate', 'embarrass', and 'maintenance' trip up even experienced writers. Active testing cements the correct letter patterns."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Question: Which is correct?",
+      "output": "A) Accommodate (Correct) B) Acommodate C) Accomodate",
+      "note": "Double C and double M rule."
+    }
+  ],
+  "tips": [
+    "Break difficult words into syllables to check for double letters."
+  ],
+  "faqs": [
+    {
+      "question": "Is the spelling quiz free?",
+      "answer": "Yes, 100% free with unlimited retries."
+    }
+  ],
+  "related": [
+    "vocabulary-quiz",
+    "spell-checker",
+    "synonym-quiz",
+    "antonym-quiz"
+  ],
+  "imagePrompts": [
+    "Classroom spelling bee podium with a glowing golden trophy."
+  ]
+},
+
+  "synonym-quiz": {
+  "slug": "synonym-quiz",
+  "metaTitle": "Synonym Quiz — Test Your Knowledge of Words with Similar Meanings | AllWordTools.com",
+  "metaDescription": "Test your vocabulary with our free Synonym Quiz. Match words with their closest synonyms and learn subtle shades of meaning. Instant score.",
+  "eyebrow": "Word Quizzes",
+  "heading": "Synonym Quiz",
+  "subheading": "Challenge your vocabulary by matching words with their exact synonyms and shades of meaning.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 5,
+  "intro": [
+    "Can you distinguish between words that mean roughly the same thing versus exact stylistic matches? Our Synonym Quiz sharpens your language skills with interactive multiple-choice questions."
+  ],
+  "howToTitle": "How to take the Synonym Quiz",
+  "howToSteps": [
+    {
+      "title": "Read the prompt word",
+      "detail": "Look at the target word and sentence context."
+    },
+    {
+      "title": "Pick the closest synonym",
+      "detail": "Choose the option that best preserves the sentence's meaning."
+    },
+    {
+      "title": "Get your score",
+      "detail": "See instant feedback and definitions."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Why Synonym Testing Boosts Test Scores",
+      "paragraphs": [
+        "Standardized tests like GRE, SAT, and IELTS rely heavily on synonym recognition. Practicing with multiple-choice drills builds rapid recall."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Word: Candor",
+      "output": "Synonym: Frankness / Honesty",
+      "note": "High-frequency SAT vocabulary."
+    }
+  ],
+  "tips": [
+    "Eliminate distractors that are antonyms before guessing."
+  ],
+  "faqs": [
+    {
+      "question": "How many questions are in a quiz round?",
+      "answer": "Each round features 10 targeted vocabulary questions."
+    }
+  ],
+  "related": [
+    "synonym-finder",
+    "antonym-quiz",
+    "vocabulary-quiz",
+    "similar-words"
+  ],
+  "imagePrompts": [
+    "Multiple choice quiz cards with green checkmarks on synonym pairs."
+  ]
+},
+
+  "antonym-quiz": {
+  "slug": "antonym-quiz",
+  "metaTitle": "Antonym Quiz — Test Your Knowledge of Opposite Words | AllWordTools.com",
+  "metaDescription": "Take our free Antonym Quiz to test your mastery of opposite words and contrasting vocabulary. Instant feedback and explanations.",
+  "eyebrow": "Word Quizzes",
+  "heading": "Antonym Quiz",
+  "subheading": "Test how well you know opposite words with quick, engaging multiple-choice challenges.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 5,
+  "intro": [
+    "Finding the exact opposite of complex words requires deep semantic knowledge. Put your skills to the test with our free, interactive Antonym Quiz."
+  ],
+  "howToTitle": "How to take the Antonym Quiz",
+  "howToSteps": [
+    {
+      "title": "Review the target word",
+      "detail": "Analyze the prompt word and its part of speech."
+    },
+    {
+      "title": "Select the true opposite",
+      "detail": "Pick the word that represents the direct opposite meaning."
+    },
+    {
+      "title": "Learn from mistakes",
+      "detail": "Read concise explanations for any incorrect answers."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "The Cognitive Value of Antonym Drills",
+      "paragraphs": [
+        "Understanding what a word DOES NOT mean is just as powerful for language mastery as knowing its dictionary definition."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Word: Ephemeral",
+      "output": "Antonym: Permanent / Eternal",
+      "note": "Transient vs. enduring."
+    }
+  ],
+  "tips": [
+    "Watch out for synonyms masquerading as tricky answer choices."
+  ],
+  "faqs": [
+    {
+      "question": "Is this quiz helpful for GRE verbal prep?",
+      "answer": "Yes, antonyms and analogies are fundamental for advanced verbal aptitude."
+    }
+  ],
+  "related": [
+    "antonym-finder",
+    "opposite-words",
+    "synonym-quiz",
+    "vocabulary-quiz"
+  ],
+  "imagePrompts": [
+    "Yin-yang inspired typography contrasting opposing concept words."
+  ]
+},
+
+  "prefix-quiz": {
+  "slug": "prefix-quiz",
+  "metaTitle": "Prefix Quiz — Test Your Knowledge of English Word Prefixes | AllWordTools.com",
+  "metaDescription": "Test your understanding of Latin, Greek, and Old English prefixes (un-, pre-, re-, anti-, sub-). Free interactive prefix test.",
+  "eyebrow": "Word Quizzes",
+  "heading": "Prefix Quiz",
+  "subheading": "Master root word structures by testing your knowledge of English prefixes and their meanings.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 5,
+  "intro": [
+    "Prefixes are letter groups placed at the beginning of words to modify their meaning (e.g. 'un-' for not, 'bene-' for good, 'mal-' for bad). Knowing prefixes allows you to deduce the meaning of thousands of unfamiliar words."
+  ],
+  "howToTitle": "How to take the Prefix Quiz",
+  "howToSteps": [
+    {
+      "title": "Analyze the prefix",
+      "detail": "Look at the prefix and sample root word."
+    },
+    {
+      "title": "Choose the correct meaning",
+      "detail": "Select the definition corresponding to the prefix."
+    },
+    {
+      "title": "Check your score",
+      "detail": "Review full etymology breakdowns."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Why Word Morphology Unlocks Fast Reading",
+      "paragraphs": [
+        "Over 60% of English vocabulary derives from Latin and Greek prefixes and roots. Learning 20 key prefixes unlocks hundreds of new words."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Prefix: Retro-",
+      "output": "Meaning: Backward / Behind (e.g., Retrospective)",
+      "note": "Latin origin prefix."
+    }
+  ],
+  "tips": [
+    "Associate prefixes with words you already know (e.g., 'Submarine' → 'Sub' means 'Under')."
+  ],
+  "faqs": [
+    {
+      "question": "Are both Latin and Greek prefixes tested?",
+      "answer": "Yes, questions cover both classical roots and common Germanic prefixes."
+    }
+  ],
+  "related": [
+    "suffix-quiz",
+    "vocabulary-quiz",
+    "spelling-quiz",
+    "word-origin"
+  ],
+  "imagePrompts": [
+    "Building blocks of letters snapping together with prefix highlights."
+  ]
+},
+
+  "suffix-quiz": {
+  "slug": "suffix-quiz",
+  "metaTitle": "Suffix Quiz — Test Your Knowledge of Word Endings & Suffixes | AllWordTools.com",
+  "metaDescription": "Test your knowledge of English suffixes (-tion, -able, -ful, -ize, -ous) and parts of speech with our free interactive quiz.",
+  "eyebrow": "Word Quizzes",
+  "heading": "Suffix Quiz",
+  "subheading": "Learn how word endings change parts of speech and meaning with our interactive suffix test.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 5,
+  "intro": [
+    "Suffixes attach to the ends of words, changing nouns into adjectives (-ful), verbs into nouns (-tion), or adjectives into adverbs (-ly). Test your suffix mastery with our free interactive quiz."
+  ],
+  "howToTitle": "How to take the Suffix Quiz",
+  "howToSteps": [
+    {
+      "title": "Examine the word ending",
+      "detail": "Look at the highlighted suffix."
+    },
+    {
+      "title": "Select part of speech / meaning",
+      "detail": "Pick the correct grammatical transformation."
+    },
+    {
+      "title": "Score & learn",
+      "detail": "Review feedback on spelling rule changes (e.g., dropping the 'e')."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Grammar Rules for Suffixes",
+      "paragraphs": [
+        "Adding suffixes often triggers spelling shifts, such as changing 'y' to 'i' in 'happiness'. Our quiz covers both meaning and spelling rules."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Suffix: -phobia",
+      "output": "Meaning: Extreme or irrational fear of something",
+      "note": "Greek noun suffix."
+    }
+  ],
+  "tips": [
+    "Notice whether a suffix turns a word into a noun, verb, adjective, or adverb."
+  ],
+  "faqs": [
+    {
+      "question": "Is this quiz suitable for students?",
+      "answer": "Yes, great for middle school, high school, and ESL language students."
+    }
+  ],
+  "related": [
+    "prefix-quiz",
+    "words-ending-with",
+    "vocabulary-quiz",
+    "spelling-quiz"
+  ],
+  "imagePrompts": [
+    "Word ending puzzle pieces joining to form complete words."
+  ]
+},
+
+  "strands-solver": {
+  "slug": "strands-solver",
+  "metaTitle": "Strands Solver & Cheat — Solve NYT Strands Puzzle Today | AllWordTools.com",
+  "metaDescription": "Free NYT Strands solver and hint helper. Enter letter grid and theme clues to find all themed words and the spangram instantly.",
+  "eyebrow": "Puzzle Solvers",
+  "heading": "Strands Solver",
+  "subheading": "Find all themed words and the mystery Spangram for the New York Times Strands word game.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 5,
+  "intro": [
+    "NYT Strands is the popular daily word search game where letters connect in all directions to fill the entire board around a unifying theme. When you're missing a theme word or need to locate the Spangram, our Strands Solver provides instant answers."
+  ],
+  "howToTitle": "How to use the Strands Solver",
+  "howToSteps": [
+    {
+      "title": "Enter the letter grid",
+      "detail": "Type or upload today's 6x8 Strands letter grid."
+    },
+    {
+      "title": "Enter the theme clue",
+      "detail": "Add today's theme hint for contextual matching."
+    },
+    {
+      "title": "Find the Spangram & words",
+      "detail": "View the Spangram path and all theme words highlighted on the board."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "What is the Spangram?",
+      "paragraphs": [
+        "The Spangram is the master word that touches opposite sides of the board and describes the central puzzle theme."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Theme: In the Kitchen",
+      "output": "SPATULA, BLENDER, WHISK, SPANGRAM: COOKWARE",
+      "note": "Sample Strands solution."
+    }
+  ],
+  "tips": [
+    "Locate the Spangram first as it cuts the board in half and isolates remaining words."
+  ],
+  "faqs": [
+    {
+      "question": "Does it show the path of words?",
+      "answer": "Yes, letter connections are visually mapped out on the grid."
+    }
+  ],
+  "related": [
+    "boggle-solver",
+    "wordscapes-solver",
+    "crossword-solver",
+    "wordle-solver"
+  ],
+  "imagePrompts": [
+    "Glowing trail of connected letters navigating across a modern word grid."
+  ]
+},
+
+  "cvc-word-generator": {
+  "slug": "cvc-word-generator",
+  "metaTitle": "CVC Word Generator — Consonant-Vowel-Consonant Words for Phonics | AllWordTools.com",
+  "metaDescription": "Generate decodable CVC words (cat, dog, sun, pin) for early readers, phonics lessons, and kindergarten spelling practice. Free printable lists.",
+  "eyebrow": "Learning & Phonics",
+  "heading": "CVC Word Generator",
+  "subheading": "Generate simple Consonant-Vowel-Consonant words for early reading, phonics, and kindergarten spelling.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 4,
+  "intro": [
+    "CVC words (Consonant-Vowel-Consonant) like CAT, BED, PIN, DOG, and SUN are the foundational building blocks of early literacy. Our generator creates custom CVC word lists filtered by vowel sound (Short A, E, I, O, U) for teachers, parents, and young readers."
+  ],
+  "howToTitle": "How to generate CVC words",
+  "howToSteps": [
+    {
+      "title": "Select a vowel sound",
+      "detail": "Choose Short A, E, I, O, U, or All Vowels."
+    },
+    {
+      "title": "Select word count",
+      "detail": "Pick how many decodable words you need."
+    },
+    {
+      "title": "Generate & print",
+      "detail": "Receive clean, printable CVC word cards."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Why CVC Words Are Critical for Phonics",
+      "paragraphs": [
+        "CVC words follow predictable phonetic decoding rules, allowing children to blend individual letter sounds into words with confidence."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Vowel: Short A",
+      "output": "Cat, bat, map, tag, pan, jam",
+      "note": "Early phonics word list."
+    }
+  ],
+  "tips": [
+    "Use flashcards with rhyming CVC word families (e.g. -at family: cat, hat, mat, rat)."
+  ],
+  "faqs": [
+    {
+      "question": "Can teachers use this for classroom activities?",
+      "answer": "Yes, free to generate and print unlimited phonics word sheets."
+    }
+  ],
+  "related": [
+    "sight-word-generator",
+    "vowel-counter",
+    "consonant-counter",
+    "rhyming-words"
+  ],
+  "imagePrompts": [
+    "Colorful wooden letter blocks spelling out C-A-T on a preschool reading rug."
+  ]
+},
+
+  "sight-word-generator": {
+  "slug": "sight-word-generator",
+  "metaTitle": "Sight Word Generator — Dolch & Fry Sight Words for Early Readers | AllWordTools.com",
+  "metaDescription": "Generate sight word lists based on Dolch and Fry frequency levels (Pre-K to 3rd Grade). Free interactive flashcard and word list generator.",
+  "eyebrow": "Learning & Phonics",
+  "heading": "Sight Word Generator",
+  "subheading": "Practice high-frequency Dolch and Fry sight words to build reading speed and comprehension.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 4,
+  "intro": [
+    "Sight words are high-frequency words (like 'the', 'and', 'said', 'where') that children must recognize instantly without sounding them out. Our Sight Word Generator generates practice lists by grade level."
+  ],
+  "howToTitle": "How to use the Sight Word Generator",
+  "howToSteps": [
+    {
+      "title": "Select grade level",
+      "detail": "Pick Pre-K, Kindergarten, 1st Grade, 2nd Grade, or 3rd Grade."
+    },
+    {
+      "title": "Choose word list",
+      "detail": "Select Dolch Sight Words or Fry 100-1000 Words."
+    },
+    {
+      "title": "Generate practice list",
+      "detail": "View and practice high-frequency reading words."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Dolch vs. Fry Word Lists",
+      "paragraphs": [
+        "Dolch words focus on the 220 most common service words, while Fry expands to the 1,000 most common words found in modern reading materials."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Level: Kindergarten",
+      "output": "He, was, that, she, on, they, but, at, with",
+      "note": "Essential kindergarten reading vocabulary."
+    }
+  ],
+  "tips": [
+    "Practice 5 to 10 sight words at a time until recognition is automatic."
+  ],
+  "faqs": [
+    {
+      "question": "Are these aligned with common reading curriculums?",
+      "answer": "Yes, fully aligned with standard Dolch and Fry literacy standards."
+    }
+  ],
+  "related": [
+    "cvc-word-generator",
+    "vocabulary-quiz",
+    "spelling-quiz",
+    "random-word-generator"
+  ],
+  "imagePrompts": [
+    "Elementary reading classroom with colorful flashcards of sight words."
+  ]
+},
+
+  "riddle-generator": {
+  "slug": "riddle-generator",
+  "metaTitle": "Riddle Generator — Fun, Hard & Brain-Teaser Riddles with Answers | AllWordTools.com",
+  "metaDescription": "Generate fun, clever, and challenging riddles with answers for kids, adults, parties, and classroom games. Instant reveal button.",
+  "eyebrow": "Word Games & Fun",
+  "heading": "Riddle Generator",
+  "subheading": "Challenge your mind with witty riddles, wordplay puzzles, and brain-teasers.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 4,
+  "intro": [
+    "Looking for clever riddles for a party, classroom warmup, D&D dungeon puzzle, or family game night? Our Riddle Generator serves up thousands of witty, classic, and challenging riddles with hidden answers."
+  ],
+  "howToTitle": "How to use the Riddle Generator",
+  "howToSteps": [
+    {
+      "title": "Select riddle difficulty",
+      "detail": "Choose Easy (Kids), Medium, Hard, or Clever Wordplay."
+    },
+    {
+      "title": "Generate a riddle",
+      "detail": "Read the riddle prompt and test your deduction skills."
+    },
+    {
+      "title": "Reveal the answer",
+      "detail": "Click 'Show Answer' to check your solution."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "The Logic of Riddles",
+      "paragraphs": [
+        "Riddles exercise cognitive flexibility by using double meanings, metaphors, and lateral thinking to hide the answer in plain sight."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Riddle: 'What has keys but no locks?'",
+      "output": "Answer: A piano",
+      "note": "Classic lateral thinking riddle."
+    }
+  ],
+  "tips": [
+    "Think about metaphorical meanings when literal interpretations don't make sense."
+  ],
+  "faqs": [
+    {
+      "question": "Are the answers hidden until clicked?",
+      "answer": "Yes, answers are masked with an interactive reveal button."
+    }
+  ],
+  "related": [
+    "random-paragraph-generator",
+    "ai-story-generator",
+    "word-cookies-solver",
+    "vocabulary-quiz"
+  ],
+  "imagePrompts": [
+    "Glowing mystery question mark hovering above an antique wooden puzzle box."
+  ]
+},
+
+  "random-sentence-generator": {
+  "slug": "random-sentence-generator",
+  "metaTitle": "Random Sentence Generator — Free Creative Writing & Grammar Prompts | AllWordTools.com",
+  "metaDescription": "Generate random, grammatically correct sentences for typing practice, story inspiration, and English learning. Free instant generator.",
+  "eyebrow": "Random Generators",
+  "heading": "Random Sentence Generator",
+  "subheading": "Create coherent, grammatically diverse random sentences for writing inspiration and typing drills.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 4,
+  "intro": [
+    "The Random Sentence Generator produces grammatically sound, unique sentences across diverse structures (simple, compound, complex) on demand."
+  ],
+  "howToTitle": "How to generate random sentences",
+  "howToSteps": [
+    {
+      "title": "Select count",
+      "detail": "Choose 1 to 20 sentences."
+    },
+    {
+      "title": "Generate sentences",
+      "detail": "Receive instant, natural English sentences."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Applications for Random Sentences",
+      "paragraphs": [
+        "Useful for typing tests, linguistic grammar analysis, memory drills, and starting lines for flash fiction."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Count: 1",
+      "output": "The old grandfather clock chimed midnight just as the train pulled into the empty station.",
+      "note": "Narrative starter sentence."
+    }
+  ],
+  "tips": [
+    "Use random sentences as prompt starters for daily journaling."
+  ],
+  "faqs": [
+    {
+      "question": "Are the sentences grammatically correct?",
+      "answer": "Yes, all sentences follow standard English grammatical rules."
+    }
+  ],
+  "related": [
+    "random-paragraph-generator",
+    "random-word-generator",
+    "ai-sentence-generator",
+    "example-sentences"
+  ],
+  "imagePrompts": [
+    "Typewriter typing out unique sentences on vintage cream paper."
+  ]
+},
+
+  "random-topic-generator": {
+  "slug": "random-topic-generator",
+  "metaTitle": "Random Topic Generator — Discussion Prompts & Essay Ideas | AllWordTools.com",
+  "metaDescription": "Generate interesting random topics for essays, debates, conversation starters, and public speaking. Free online topic picker.",
+  "eyebrow": "Random Generators",
+  "heading": "Random Topic Generator",
+  "subheading": "Find fascinating discussion topics, debate themes, speech ideas, and essay prompts.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 4,
+  "intro": [
+    "Stuck on what to write, debate, or talk about? Our Random Topic Generator produces engaging ideas across technology, philosophy, culture, science, and casual social conversation."
+  ],
+  "howToTitle": "How to generate topics",
+  "howToSteps": [
+    {
+      "title": "Select category",
+      "detail": "Choose Debate, Essay, Public Speaking, or Icebreakers."
+    },
+    {
+      "title": "Generate topics",
+      "detail": "Get thought-provoking discussion prompts."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Sparking Great Conversations",
+      "paragraphs": [
+        "A good topic presents open-ended questions that invite multiple viewpoints and personal experiences."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Category: Technology",
+      "output": "Will artificial intelligence change human creativity for the better or worse?",
+      "note": "Engaging debate topic."
+    }
+  ],
+  "tips": [
+    "Use for English speaking practice or toastmaster speech drills."
+  ],
+  "faqs": [
+    {
+      "question": "Is this tool free for teachers?",
+      "answer": "Yes, free for classroom debates and speaking clubs."
+    }
+  ],
+  "related": [
+    "random-paragraph-generator",
+    "random-sentence-generator",
+    "vocabulary-quiz",
+    "ai-story-generator"
+  ],
+  "imagePrompts": [
+    "Two people in animated conversation over coffee with idea lightbulbs floating above."
+  ]
+},
+
+  "random-verb-generator": {
+  "slug": "random-verb-generator",
+  "metaTitle": "Random Verb Generator — Action Words & Tense Conjugations | AllWordTools.com",
+  "metaDescription": "Generate random verbs (action, linking, transitive) with past, present, and future tenses for writing drills and ESL practice. Free tool.",
+  "eyebrow": "Random Generators",
+  "heading": "Random Verb Generator",
+  "subheading": "Generate dynamic action verbs and irregular verb forms for writing exercises and English grammar practice.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 4,
+  "intro": [
+    "Verbs drive action and energy in writing. The Random Verb Generator provides high-impact verbs with full tense conjugations to improve vocabulary and break repetitive writing habits."
+  ],
+  "howToTitle": "How to generate random verbs",
+  "howToSteps": [
+    {
+      "title": "Choose verb type",
+      "detail": "Select Action Verbs, Irregular Verbs, or All Verbs."
+    },
+    {
+      "title": "Set quantity",
+      "detail": "Choose how many verbs to generate."
+    },
+    {
+      "title": "View tenses",
+      "detail": "See Base Form, Past Tense, and Past Participle."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Energizing Prose with Strong Verbs",
+      "paragraphs": [
+        "Replacing weak verb + adverb combinations (e.g. 'walked quickly') with single dynamic verbs ('strode', 'sprinted') instantly improves prose quality."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Type: Irregular",
+      "output": "Sing (Sang, Sung), Drive (Drove, Driven), Freeze (Froze, Frozen)",
+      "note": "Three forms of irregular verbs."
+    }
+  ],
+  "tips": [
+    "Use strong action verbs to replace passive voice constructions."
+  ],
+  "faqs": [
+    {
+      "question": "Does it show past tense forms?",
+      "answer": "Yes, displays full past and participle conjugations."
+    }
+  ],
+  "related": [
+    "active-voice-converter",
+    "random-word-generator",
+    "example-sentences",
+    "grammar-checker"
+  ],
+  "imagePrompts": [
+    "Dynamic motion trails illustrating action verbs like leap, soar, and sprint."
+  ]
+},
+
+  "tongue-twister-generator": {
+  "slug": "tongue-twister-generator",
+  "metaTitle": "Tongue Twister Generator — Hard, Funny & Speech Therapy Twisters | AllWordTools.com",
+  "metaDescription": "Generate difficult, funny, and classic tongue twisters for speech clarity, articulation drills, actors, and vocal warmups. Free generator.",
+  "eyebrow": "Word Games & Fun",
+  "heading": "Tongue Twister Generator",
+  "subheading": "Practice articulation, vocal warmups, and pronunciation with classic and challenging tongue twisters.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 4,
+  "intro": [
+    "Tongue twisters are sequences of words that are difficult to pronounce quickly due to rapid phonetic shifts. Used by actors, singers, and speech therapists, our generator provides articulation exercises for all skill levels."
+  ],
+  "howToTitle": "How to use the Tongue Twister Generator",
+  "howToSteps": [
+    {
+      "title": "Select difficulty",
+      "detail": "Choose Beginner, Intermediate, or Extreme."
+    },
+    {
+      "title": "Practice out loud",
+      "detail": "Say the tongue twister slowly 3 times, then speed up!"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Vocal Warmup Benefits",
+      "paragraphs": [
+        "Tongue twisters strengthen the lips, tongue, and jaw muscles, improving overall speech diction and public speaking clarity."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Difficulty: Classic",
+      "output": "She sells seashells by the seashore.",
+      "note": "Sibilant consonant drill."
+    }
+  ],
+  "tips": [
+    "Start slowly focusing on clean enunciation before increasing speed."
+  ],
+  "faqs": [
+    {
+      "question": "Are these good for ESL learners?",
+      "answer": "Yes, excellent for mastering challenging English phonetic contrasts like P/B, S/SH, and TH."
+    }
+  ],
+  "related": [
+    "alliteration-generator",
+    "pronunciation",
+    "ipa-converter",
+    "rhyming-words"
+  ],
+  "imagePrompts": [
+    "Illustrated comic of a tongue twisting playfully around giant alphabet letters."
+  ]
+},
+
+  "example-sentences": {
+  "slug": "example-sentences",
+  "metaTitle": "Example Sentences Generator — Real Usage Examples for Any Word | AllWordTools.com",
+  "metaDescription": "Find verified example sentences for any English word. See how words are used naturally in real-world contexts, literature, and news. Free lookup.",
+  "eyebrow": "Text Analysis",
+  "heading": "Example Sentences Generator",
+  "subheading": "See how any English word is used in natural, authentic sentences across diverse contexts.",
+  "updated": "July 10, 2026",
+  "readingMinutes": 4,
+  "intro": [
+    "Reading a definition alone often isn't enough to understand how a word works in practice. The Example Sentences Generator retrieves authentic sentences demonstrating real-world grammar, tone, and collocation."
+  ],
+  "howToTitle": "How to find example sentences",
+  "howToSteps": [
+    {
+      "title": "Enter a word",
+      "detail": "Type the target word in the search box."
+    },
+    {
+      "title": "Browse sentences",
+      "detail": "Review sentences demonstrating various parts of speech and contexts."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Contextual Learning",
+      "paragraphs": [
+        "Seeing words in multiple distinct sentences helps cement their grammatical patterns and idiomatic usage in long-term memory."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "input": "Word: Resilient",
+      "output": "The local economy proved resilient despite global supply chain challenges.",
+      "note": "Modern business context."
+    }
+  ],
+  "tips": [
+    "Notice prepositions that follow the word in sentences."
+  ],
+  "faqs": [
+    {
+      "question": "Are the sentences grammatically verified?",
+      "answer": "Yes, all examples are sourced from curated linguistic corpora."
+    }
+  ],
+  "related": [
+    "collocation-finder",
+    "word-meaning",
+    "ai-word-explainer",
+    "phrases-dictionary"
+  ],
+  "imagePrompts": [
+    "Highlighted sentences in a modern digital reading app interface."
+  ]
+},
 
 };
