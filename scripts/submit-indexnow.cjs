@@ -24,6 +24,20 @@ function generateAllUrls() {
     urls.add(BASE_URL + prefix + '/about');
     urls.add(BASE_URL + prefix + '/learn');
     urls.add(BASE_URL + prefix + '/contact');
+    urls.add(BASE_URL + prefix + '/blog');
+
+    // Blog articles
+    const blogSlugs = [
+      'how-to-win-at-wordle-every-day',
+      'score-more-in-scrabble-and-words-with-friends',
+      'active-vs-passive-voice-explained',
+      'build-your-english-vocabulary-smart-way',
+      'how-word-unscramblers-and-anagram-solvers-work',
+      'creative-writing-with-ai-tools'
+    ];
+    for (const bSlug of blogSlugs) {
+      urls.add(`${BASE_URL}${prefix}/blog/${bSlug}`);
+    }
 
     // Categories
     for (const cat of categories) {
