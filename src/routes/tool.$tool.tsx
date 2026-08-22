@@ -17,6 +17,7 @@ import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { ToolRelatedSections } from "@/components/site/ToolRelatedSections";
 import { TrustedReferences } from "@/components/site/TrustedReferences";
+import { getToolReferences } from "@/lib/external-links";
 import { DiscoverMore } from "@/components/site/DiscoverMore";
 import { KeywordClusters, BottomCta } from "@/components/site/LinkSections";
 import { WordUnscrambler } from "@/components/tools/WordUnscrambler";
