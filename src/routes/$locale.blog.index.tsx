@@ -1,8 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { buildLocaleHead } from "@/i18n/seo";
-import { BlogPage, TITLE, DESCRIPTION } from "./blog";
+import { BlogPage, TITLE, DESCRIPTION } from "./blog.index";
 
-export const Route = createFileRoute("/$locale/blog")({
+export const Route = createFileRoute("/$locale/blog/")({
   head: ({ params }) =>
     buildLocaleHead({
       path: "/blog",

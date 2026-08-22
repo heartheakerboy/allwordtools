@@ -1,5 +1,5 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
-import { blogPostHead, BlogPostPage } from "./blog.$slug";
+import { blogPostHead, BlogPostView } from "./blog.$slug";
 import { getBlogPost } from "@/data/blog-posts";
 
 export const Route = createFileRoute("/$locale/blog/$slug")({
@@ -9,5 +9,11 @@ export const Route = createFileRoute("/$locale/blog/$slug")({
     return { slug: params.slug };
   },
   head: ({ params }) => blogPostHead(params.slug, params.locale),
-  component: BlogPostPage,
+  component: LocaleBlogPostPage,
 });
+
+function LocaleBlogPostPage() {
+  const { slug } = Route.useLoaderData();
+  return <BlogPostView slug={slug} />;
+}
+

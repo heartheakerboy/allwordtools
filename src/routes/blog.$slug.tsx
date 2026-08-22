@@ -97,11 +97,15 @@ export const Route = createFileRoute("/blog/$slug")({
     return { slug: params.slug };
   },
   head: ({ params }) => blogPostHead(params.slug, DEFAULT_LOCALE),
-  component: BlogPostPage,
+  component: RootBlogPostPage,
 });
 
-export function BlogPostPage() {
+function RootBlogPostPage() {
   const { slug } = Route.useLoaderData();
+  return <BlogPostView slug={slug} />;
+}
+
+export function BlogPostView({ slug }: { slug: string }) {
   const post = getBlogPost(slug)!;
   const { locale } = useI18n();
   const isDefault = locale === DEFAULT_LOCALE;

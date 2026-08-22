@@ -11,7 +11,7 @@ export const TITLE = `Blog — Word Game Tips, Vocabulary & Writing Guides — $
 export const DESCRIPTION =
   "In-depth guides, strategy breakdowns, and practical tips for word games, vocabulary building, active writing, and AI tools from the AllWordTools team.";
 
-export const Route = createFileRoute("/blog")({
+export const Route = createFileRoute("/blog/")({
   head: () =>
     buildLocaleHead({
       path: "/blog",

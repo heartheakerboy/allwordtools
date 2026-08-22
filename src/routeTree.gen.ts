@@ -19,10 +19,10 @@ import { Route as DmcaRouteImport } from './routes/dmca'
 import { Route as DisclaimerRouteImport } from './routes/disclaimer'
 import { Route as CookiePolicyRouteImport } from './routes/cookie-policy'
 import { Route as ContactRouteImport } from './routes/contact'
-import { Route as BlogRouteImport } from './routes/blog'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as LocaleRouteImport } from './routes/$locale'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as BlogIndexRouteImport } from './routes/blog.index'
 import { Route as LocaleIndexRouteImport } from './routes/$locale.index'
 import { Route as ToolToolRouteImport } from './routes/tool.$tool'
 import { Route as SitemapLocaleRouteImport } from './routes/sitemap/$locale'
@@ -36,8 +36,8 @@ import { Route as LocaleDmcaRouteImport } from './routes/$locale.dmca'
 import { Route as LocaleDisclaimerRouteImport } from './routes/$locale.disclaimer'
 import { Route as LocaleCookiePolicyRouteImport } from './routes/$locale.cookie-policy'
 import { Route as LocaleContactRouteImport } from './routes/$locale.contact'
-import { Route as LocaleBlogRouteImport } from './routes/$locale.blog'
 import { Route as LocaleAboutRouteImport } from './routes/$locale.about'
+import { Route as LocaleBlogIndexRouteImport } from './routes/$locale.blog.index'
 import { Route as LocaleToolToolRouteImport } from './routes/$locale.tool.$tool'
 import { Route as LocaleCategoryCategoryRouteImport } from './routes/$locale.category.$category'
 import { Route as LocaleBlogSlugRouteImport } from './routes/$locale.blog.$slug'
@@ -92,11 +92,6 @@ const ContactRoute = ContactRouteImport.update({
   path: '/contact',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BlogRoute = BlogRouteImport.update({
-  id: '/blog',
-  path: '/blog',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const AboutRoute = AboutRouteImport.update({
   id: '/about',
   path: '/about',
@@ -110,6 +105,11 @@ const LocaleRoute = LocaleRouteImport.update({
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogIndexRoute = BlogIndexRouteImport.update({
+  id: '/blog/',
+  path: '/blog/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const LocaleIndexRoute = LocaleIndexRouteImport.update({
@@ -133,9 +133,9 @@ const CategoryCategoryRoute = CategoryCategoryRouteImport.update({
   getParentRoute: () => rootRouteImport,
 } as any)
 const BlogSlugRoute = BlogSlugRouteImport.update({
-  id: '/$slug',
-  path: '/$slug',
-  getParentRoute: () => BlogRoute,
+  id: '/blog/$slug',
+  path: '/blog/$slug',
+  getParentRoute: () => rootRouteImport,
 } as any)
 const LocaleToolsRoute = LocaleToolsRouteImport.update({
   id: '/tools',
@@ -177,14 +177,14 @@ const LocaleContactRoute = LocaleContactRouteImport.update({
   path: '/contact',
   getParentRoute: () => LocaleRoute,
 } as any)
-const LocaleBlogRoute = LocaleBlogRouteImport.update({
-  id: '/blog',
-  path: '/blog',
-  getParentRoute: () => LocaleRoute,
-} as any)
 const LocaleAboutRoute = LocaleAboutRouteImport.update({
   id: '/about',
   path: '/about',
+  getParentRoute: () => LocaleRoute,
+} as any)
+const LocaleBlogIndexRoute = LocaleBlogIndexRouteImport.update({
+  id: '/blog/',
+  path: '/blog/',
   getParentRoute: () => LocaleRoute,
 } as any)
 const LocaleToolToolRoute = LocaleToolToolRouteImport.update({
@@ -198,16 +198,15 @@ const LocaleCategoryCategoryRoute = LocaleCategoryCategoryRouteImport.update({
   getParentRoute: () => LocaleRoute,
 } as any)
 const LocaleBlogSlugRoute = LocaleBlogSlugRouteImport.update({
-  id: '/$slug',
-  path: '/$slug',
-  getParentRoute: () => LocaleBlogRoute,
+  id: '/blog/$slug',
+  path: '/blog/$slug',
+  getParentRoute: () => LocaleRoute,
 } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/$locale': typeof LocaleRouteWithChildren
   '/about': typeof AboutRoute
-  '/blog': typeof BlogRouteWithChildren
   '/contact': typeof ContactRoute
   '/cookie-policy': typeof CookiePolicyRoute
   '/disclaimer': typeof DisclaimerRoute
@@ -219,7 +218,6 @@ export interface FileRoutesByFullPath {
   '/terms': typeof TermsRoute
   '/tools': typeof ToolsRoute
   '/$locale/about': typeof LocaleAboutRoute
-  '/$locale/blog': typeof LocaleBlogRouteWithChildren
   '/$locale/contact': typeof LocaleContactRoute
   '/$locale/cookie-policy': typeof LocaleCookiePolicyRoute
   '/$locale/disclaimer': typeof LocaleDisclaimerRoute
@@ -233,14 +231,15 @@ export interface FileRoutesByFullPath {
   '/sitemap/$locale': typeof SitemapLocaleRoute
   '/tool/$tool': typeof ToolToolRoute
   '/$locale/': typeof LocaleIndexRoute
+  '/blog/': typeof BlogIndexRoute
   '/$locale/blog/$slug': typeof LocaleBlogSlugRoute
   '/$locale/category/$category': typeof LocaleCategoryCategoryRoute
   '/$locale/tool/$tool': typeof LocaleToolToolRoute
+  '/$locale/blog/': typeof LocaleBlogIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
-  '/blog': typeof BlogRouteWithChildren
   '/contact': typeof ContactRoute
   '/cookie-policy': typeof CookiePolicyRoute
   '/disclaimer': typeof DisclaimerRoute
@@ -252,7 +251,6 @@ export interface FileRoutesByTo {
   '/terms': typeof TermsRoute
   '/tools': typeof ToolsRoute
   '/$locale/about': typeof LocaleAboutRoute
-  '/$locale/blog': typeof LocaleBlogRouteWithChildren
   '/$locale/contact': typeof LocaleContactRoute
   '/$locale/cookie-policy': typeof LocaleCookiePolicyRoute
   '/$locale/disclaimer': typeof LocaleDisclaimerRoute
@@ -266,16 +264,17 @@ export interface FileRoutesByTo {
   '/sitemap/$locale': typeof SitemapLocaleRoute
   '/tool/$tool': typeof ToolToolRoute
   '/$locale': typeof LocaleIndexRoute
+  '/blog': typeof BlogIndexRoute
   '/$locale/blog/$slug': typeof LocaleBlogSlugRoute
   '/$locale/category/$category': typeof LocaleCategoryCategoryRoute
   '/$locale/tool/$tool': typeof LocaleToolToolRoute
+  '/$locale/blog': typeof LocaleBlogIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/$locale': typeof LocaleRouteWithChildren
   '/about': typeof AboutRoute
-  '/blog': typeof BlogRouteWithChildren
   '/contact': typeof ContactRoute
   '/cookie-policy': typeof CookiePolicyRoute
   '/disclaimer': typeof DisclaimerRoute
@@ -287,7 +286,6 @@ export interface FileRoutesById {
   '/terms': typeof TermsRoute
   '/tools': typeof ToolsRoute
   '/$locale/about': typeof LocaleAboutRoute
-  '/$locale/blog': typeof LocaleBlogRouteWithChildren
   '/$locale/contact': typeof LocaleContactRoute
   '/$locale/cookie-policy': typeof LocaleCookiePolicyRoute
   '/$locale/disclaimer': typeof LocaleDisclaimerRoute
@@ -301,9 +299,11 @@ export interface FileRoutesById {
   '/sitemap/$locale': typeof SitemapLocaleRoute
   '/tool/$tool': typeof ToolToolRoute
   '/$locale/': typeof LocaleIndexRoute
+  '/blog/': typeof BlogIndexRoute
   '/$locale/blog/$slug': typeof LocaleBlogSlugRoute
   '/$locale/category/$category': typeof LocaleCategoryCategoryRoute
   '/$locale/tool/$tool': typeof LocaleToolToolRoute
+  '/$locale/blog/': typeof LocaleBlogIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -311,7 +311,6 @@ export interface FileRouteTypes {
     | '/'
     | '/$locale'
     | '/about'
-    | '/blog'
     | '/contact'
     | '/cookie-policy'
     | '/disclaimer'
@@ -323,7 +322,6 @@ export interface FileRouteTypes {
     | '/terms'
     | '/tools'
     | '/$locale/about'
-    | '/$locale/blog'
     | '/$locale/contact'
     | '/$locale/cookie-policy'
     | '/$locale/disclaimer'
@@ -337,14 +335,15 @@ export interface FileRouteTypes {
     | '/sitemap/$locale'
     | '/tool/$tool'
     | '/$locale/'
+    | '/blog/'
     | '/$locale/blog/$slug'
     | '/$locale/category/$category'
     | '/$locale/tool/$tool'
+    | '/$locale/blog/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/about'
-    | '/blog'
     | '/contact'
     | '/cookie-policy'
     | '/disclaimer'
@@ -356,7 +355,6 @@ export interface FileRouteTypes {
     | '/terms'
     | '/tools'
     | '/$locale/about'
-    | '/$locale/blog'
     | '/$locale/contact'
     | '/$locale/cookie-policy'
     | '/$locale/disclaimer'
@@ -370,15 +368,16 @@ export interface FileRouteTypes {
     | '/sitemap/$locale'
     | '/tool/$tool'
     | '/$locale'
+    | '/blog'
     | '/$locale/blog/$slug'
     | '/$locale/category/$category'
     | '/$locale/tool/$tool'
+    | '/$locale/blog'
   id:
     | '__root__'
     | '/'
     | '/$locale'
     | '/about'
-    | '/blog'
     | '/contact'
     | '/cookie-policy'
     | '/disclaimer'
@@ -390,7 +389,6 @@ export interface FileRouteTypes {
     | '/terms'
     | '/tools'
     | '/$locale/about'
-    | '/$locale/blog'
     | '/$locale/contact'
     | '/$locale/cookie-policy'
     | '/$locale/disclaimer'
@@ -404,16 +402,17 @@ export interface FileRouteTypes {
     | '/sitemap/$locale'
     | '/tool/$tool'
     | '/$locale/'
+    | '/blog/'
     | '/$locale/blog/$slug'
     | '/$locale/category/$category'
     | '/$locale/tool/$tool'
+    | '/$locale/blog/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   LocaleRoute: typeof LocaleRouteWithChildren
   AboutRoute: typeof AboutRoute
-  BlogRoute: typeof BlogRouteWithChildren
   ContactRoute: typeof ContactRoute
   CookiePolicyRoute: typeof CookiePolicyRoute
   DisclaimerRoute: typeof DisclaimerRoute
@@ -424,9 +423,11 @@ export interface RootRouteChildren {
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   TermsRoute: typeof TermsRoute
   ToolsRoute: typeof ToolsRoute
+  BlogSlugRoute: typeof BlogSlugRoute
   CategoryCategoryRoute: typeof CategoryCategoryRoute
   SitemapLocaleRoute: typeof SitemapLocaleRoute
   ToolToolRoute: typeof ToolToolRoute
+  BlogIndexRoute: typeof BlogIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -501,13 +502,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ContactRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blog': {
-      id: '/blog'
-      path: '/blog'
-      fullPath: '/blog'
-      preLoaderRoute: typeof BlogRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/about': {
       id: '/about'
       path: '/about'
@@ -527,6 +521,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog/': {
+      id: '/blog/'
+      path: '/blog'
+      fullPath: '/blog/'
+      preLoaderRoute: typeof BlogIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/$locale/': {
@@ -559,10 +560,10 @@ declare module '@tanstack/react-router' {
     }
     '/blog/$slug': {
       id: '/blog/$slug'
-      path: '/$slug'
+      path: '/blog/$slug'
       fullPath: '/blog/$slug'
       preLoaderRoute: typeof BlogSlugRouteImport
-      parentRoute: typeof BlogRoute
+      parentRoute: typeof rootRouteImport
     }
     '/$locale/tools': {
       id: '/$locale/tools'
@@ -620,18 +621,18 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LocaleContactRouteImport
       parentRoute: typeof LocaleRoute
     }
-    '/$locale/blog': {
-      id: '/$locale/blog'
-      path: '/blog'
-      fullPath: '/$locale/blog'
-      preLoaderRoute: typeof LocaleBlogRouteImport
-      parentRoute: typeof LocaleRoute
-    }
     '/$locale/about': {
       id: '/$locale/about'
       path: '/about'
       fullPath: '/$locale/about'
       preLoaderRoute: typeof LocaleAboutRouteImport
+      parentRoute: typeof LocaleRoute
+    }
+    '/$locale/blog/': {
+      id: '/$locale/blog/'
+      path: '/blog'
+      fullPath: '/$locale/blog/'
+      preLoaderRoute: typeof LocaleBlogIndexRouteImport
       parentRoute: typeof LocaleRoute
     }
     '/$locale/tool/$tool': {
@@ -650,29 +651,16 @@ declare module '@tanstack/react-router' {
     }
     '/$locale/blog/$slug': {
       id: '/$locale/blog/$slug'
-      path: '/$slug'
+      path: '/blog/$slug'
       fullPath: '/$locale/blog/$slug'
       preLoaderRoute: typeof LocaleBlogSlugRouteImport
-      parentRoute: typeof LocaleBlogRoute
+      parentRoute: typeof LocaleRoute
     }
   }
 }
 
-interface LocaleBlogRouteChildren {
-  LocaleBlogSlugRoute: typeof LocaleBlogSlugRoute
-}
-
-const LocaleBlogRouteChildren: LocaleBlogRouteChildren = {
-  LocaleBlogSlugRoute: LocaleBlogSlugRoute,
-}
-
-const LocaleBlogRouteWithChildren = LocaleBlogRoute._addFileChildren(
-  LocaleBlogRouteChildren,
-)
-
 interface LocaleRouteChildren {
   LocaleAboutRoute: typeof LocaleAboutRoute
-  LocaleBlogRoute: typeof LocaleBlogRouteWithChildren
   LocaleContactRoute: typeof LocaleContactRoute
   LocaleCookiePolicyRoute: typeof LocaleCookiePolicyRoute
   LocaleDisclaimerRoute: typeof LocaleDisclaimerRoute
@@ -682,13 +670,14 @@ interface LocaleRouteChildren {
   LocaleTermsRoute: typeof LocaleTermsRoute
   LocaleToolsRoute: typeof LocaleToolsRoute
   LocaleIndexRoute: typeof LocaleIndexRoute
+  LocaleBlogSlugRoute: typeof LocaleBlogSlugRoute
   LocaleCategoryCategoryRoute: typeof LocaleCategoryCategoryRoute
   LocaleToolToolRoute: typeof LocaleToolToolRoute
+  LocaleBlogIndexRoute: typeof LocaleBlogIndexRoute
 }
 
 const LocaleRouteChildren: LocaleRouteChildren = {
   LocaleAboutRoute: LocaleAboutRoute,
-  LocaleBlogRoute: LocaleBlogRouteWithChildren,
   LocaleContactRoute: LocaleContactRoute,
   LocaleCookiePolicyRoute: LocaleCookiePolicyRoute,
   LocaleDisclaimerRoute: LocaleDisclaimerRoute,
@@ -698,28 +687,19 @@ const LocaleRouteChildren: LocaleRouteChildren = {
   LocaleTermsRoute: LocaleTermsRoute,
   LocaleToolsRoute: LocaleToolsRoute,
   LocaleIndexRoute: LocaleIndexRoute,
+  LocaleBlogSlugRoute: LocaleBlogSlugRoute,
   LocaleCategoryCategoryRoute: LocaleCategoryCategoryRoute,
   LocaleToolToolRoute: LocaleToolToolRoute,
+  LocaleBlogIndexRoute: LocaleBlogIndexRoute,
 }
 
 const LocaleRouteWithChildren =
   LocaleRoute._addFileChildren(LocaleRouteChildren)
 
-interface BlogRouteChildren {
-  BlogSlugRoute: typeof BlogSlugRoute
-}
-
-const BlogRouteChildren: BlogRouteChildren = {
-  BlogSlugRoute: BlogSlugRoute,
-}
-
-const BlogRouteWithChildren = BlogRoute._addFileChildren(BlogRouteChildren)
-
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   LocaleRoute: LocaleRouteWithChildren,
   AboutRoute: AboutRoute,
-  BlogRoute: BlogRouteWithChildren,
   ContactRoute: ContactRoute,
   CookiePolicyRoute: CookiePolicyRoute,
   DisclaimerRoute: DisclaimerRoute,
@@ -730,9 +710,11 @@ const rootRouteChildren: RootRouteChildren = {
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   TermsRoute: TermsRoute,
   ToolsRoute: ToolsRoute,
+  BlogSlugRoute: BlogSlugRoute,
   CategoryCategoryRoute: CategoryCategoryRoute,
   SitemapLocaleRoute: SitemapLocaleRoute,
   ToolToolRoute: ToolToolRoute,
+  BlogIndexRoute: BlogIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
