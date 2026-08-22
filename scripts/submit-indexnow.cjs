@@ -50,24 +50,32 @@ async function submitToIndexNow() {
     urlList: urlList
   };
 
-  try {
-    console.log('Submitting to https://api.indexnow.org/indexnow ...');
-    const res = await fetch('https://api.indexnow.org/indexnow', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json; charset=utf-8'
-      },
-      body: JSON.stringify(payload)
-    });
+  const endpoints = [
+    'https://www.bing.com/indexnow',
+    'https://api.indexnow.org/indexnow',
+    'https://yandex.com/indexnow'
+  ];
 
-    if (res.status === 200 || res.status === 202) {
-      console.log(`✅ Success! IndexNow returned HTTP ${res.status}. All ${urlList.length} URLs submitted to Bing & Yandex for instant indexing!`);
-    } else {
-      const text = await res.text();
-      console.log(`⚠️ IndexNow returned HTTP ${res.status}: ${text}`);
+  for (const endpoint of endpoints) {
+    try {
+      console.log(`Submitting ${urlList.length} URLs to ${endpoint} ...`);
+      const res = await fetch(endpoint, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json; charset=utf-8'
+        },
+        body: JSON.stringify(payload)
+      });
+
+      if (res.status === 200 || res.status === 202) {
+        console.log(`✅ Success! [${endpoint}] returned HTTP ${res.status}. URLs accepted for instant indexing!`);
+      } else {
+        const text = await res.text();
+        console.log(`⚠️ [${endpoint}] returned HTTP ${res.status}: ${text || 'Pending verification'}`);
+      }
+    } catch (err) {
+      console.error(`❌ Error submitting to ${endpoint}:`, err.message);
     }
-  } catch (err) {
-    console.error('❌ Error submitting to IndexNow:', err.message);
   }
 }
 
